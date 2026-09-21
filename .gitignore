@@ -1,0 +1,45 @@
+# Python and editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+
+# Large or generated research artifacts; keep directory instructions.
+/data/raw/*
+!/data/raw/README.md
+/data/candidates/*
+!/data/candidates/README.md
+/data/labeled/*
+!/data/labeled/README.md
+/dft/jobs/*
+!/dft/jobs/README.md
+/models/*
+!/models/README.md
+/experiments/*
+!/experiments/README.md
+/results/metrics/*
+!/results/metrics/README.md
+/results/figures/*
+!/results/figures/README.md
+
+# Model binaries and simulation trajectories
+*.pt
+*.pth
+*.ckpt
+*.traj
+*.dump
+*.log
+/tmp/
