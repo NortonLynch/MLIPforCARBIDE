@@ -1,0 +1,18 @@
+{
+  "verified_utc": "2026-09-22T07:50:21.350861+00:00",
+  "archive_sha256": "b332b90e1bad4ec6ee5ab0ea246a83cc395b141b9095498919d52130afb69a1d",
+  "archive_bytes": 28945679,
+  "archive_members": 453,
+  "content_files_verified": 452,
+  "remaining_production_tasks": 144,
+  "local_completed_excluded": 18,
+  "shell_syntax_and_executable_permissions": "passed",
+  "related_unit_tests": {
+    "passed": 41,
+    "method": "CPU synthetic integration and mock Slurm submission; no actual HPC job submitted"
+  },
+  "cleanup_targets_absent": true,
+  "local_md_stopped": true,
+  "hpc_md_execution": "pending_user_submission",
+  "physical_validation": false
+}

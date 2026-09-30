@@ -1,54 +1,60 @@
 # 极端碳化物 Foundation MLIP
 
-研究预训练机器学习原子间势（MLIP）在极端碳化物构型中的可靠性边界，以及用少量密度泛函理论（DFT）标注数据进行适配的效率。
+研究预训练机器学习原子间势在碳化物高温与熔化相关构型中的可靠性边界，以及用少量主动选择的 DFT 数据扩展可靠范围的效率。
 
-**核心问题：模型何时失效？哪些构型值得标注？修复模型需要多少 DFT 数据？**
+**核心问题：模型何时失效？哪些构型值得标注？修复模型需要多少 DFT 数据？** 当前实际主线为 ZrC + MACE-MH-1（`omat_pbe`），MD 由 ASE 驱动。
 
-当前状态：项目结构、实验设计草案与流程图已建立；尚未执行 DFT、分子动力学（MD）、模型下载或训练。配置中的模型名称是候选方案，具体版本、权重和适配接口仍需核实。
+## 当前进度 · 2026-09-30
 
-![项目研究流程](docs/figures/project-overview-v2.png)
+**首轮 162/162 组 MD 已数值完成，候选池与选样序列已准备；当前停在 18 个真实 MD 构型的 DFT k 网格比较。** 6000 K 是采样温度上限，尚不是经过 DFT 验证的可靠温度边界。
 
-## 从这里开始
+| 环节 | 当前状态 |
+| --- | --- |
+| 环境与前期 DFT | 本地/集群 MACE 验收、PBE.64 烟雾测试、11 项收敛检查及 3 项补测已完成 |
+| 首轮 MD | 8/64/216 原子各 54 组；每组 5 ps 预定平衡段 + 10 ps 采样段 |
+| 候选与选择 | 32,400 帧索引；2,160 个 64 原子候选；18 个校准 POSCAR；6 条分层 Random/SOAP+FPS 序列 |
+| 当前 DFT | 固定 600 eV，18 构型 × 6³/7³ = 36 项输入与 cnall 提交包已准备；本地未发现回传结果 |
+| 标签与模型适配 | 正式 DFT 标签、零样本误差地图、研究性微调/从头训练及迭代主动学习尚未完成 |
 
-- [原始项目描述](AI4S_carbide_foundation_MLIP_project_summary.md)
-- [图解：项目在做什么](docs/project-guide.md)
-- [实验设计与里程碑](docs/experiment-plan.md)
-- [数据约定与复现要求](docs/data-protocol.md)
-- [ZrC 最小验证配置](configs/experiments/zrc_mvp.json)
+本次复核 972 个生产文件、324 个审核文件、18 份校准 POSCAR 及 DFT 压缩包，均与保存的校验值一致。最后一批已归档计算记录为 2026-09-24；本次更新不表示新增计算完成。
+
+- [当前任务与进度](docs/project-status.md)：统一进度入口、待办与结论边界。
+- [工作区与版本管理说明](docs/workspace-guide.md)：当前目录、历史记录、Git 与本地数据的区别。
+- [当前 DFT 任务](dft/jobs/05_md_kmesh600/README.md)：36 项输入、提交与回传规则。
+- [候选池与选择方案](docs/candidate-selection-20260924.md)：来源隔离、选择规则及实际标注预算。
+
+## 研究流程
+
+![项目研究流程（研究设计示意，非结果图）](docs/figures/project-overview-v2.png)
+
+先在固定权重下采样，用 DFT 能量、力、应力与结构/动力学诊断建立可靠性地图；再在相同数据预算下比较 Random 与 SOAP+FPS、微调与同架构从头训练，最后用新轨迹和独立参考检验边界扩展。
+
+首轮覆盖 300/1500/3000/4500/5250/6000 K、0.95/1.00/1.05 倍初始体积、MD 种子 17/42/2026。初始晶格常数 4.7 Å 尚非 DFT 平衡值；定体积高温轨迹不直接代表常压熔化。数值稳定、热平衡、相态和物理准确性需分别判断。
+
+后续拟比较 20/50/100/200 个训练构型预算。两策略、三个选样种子在 N=200 时需 552 个唯一训练侧构型，并非总共只标注 200 帧；协议校准、验证、测试与参考计算另计。HfC/TaC、其他基础模型与更大预算属于后续扩展。
 
 ## 项目结构
 
-```text
-MaterialModel/
-├── AI4S_carbide_foundation_MLIP_project_summary.md  原始构想
-├── configs/experiments/   版本化的实验设计与预算
-├── data/
-│   ├── raw/              原始结构与输入资料
-│   ├── candidates/       候选 MD 构型池
-│   ├── labeled/          清洗后的 DFT 标注构型
-│   └── splits/           训练/验证/测试构型 ID 清单
-├── dft/
-│   ├── templates/        经验证的计算输入模板
-│   └── jobs/             DFT 作业与原始输出
-├── src/carbide_mlip/     后续流程代码的模块位置
-├── scripts/              后续命令行入口与作业提交脚本
-├── models/               模型权重、检查点及来源记录
-├── experiments/          单次运行记录与配置快照
-├── results/
-│   ├── metrics/          可追溯的评估指标
-│   └── figures/          由真实结果生成的图表
-├── notebooks/            探索性分析
-└── docs/                 研究说明与概念示意图
-```
+| 目录 | 内容 |
+| --- | --- |
+| `configs/` | 实验配置、模型身份与初始结构；执行快照不充当实时进度 |
+| `scripts/`、`tests/` | MD 调度/审核、DFT 准备、候选选择及 CPU 测试 |
+| `experiments/` | 本地运行记录与轨迹，主要产物仅保存在本地 |
+| `hpc/` | 集群结果索引、历史提交来源、审核证据；生产数据和 tgz 仅保存在本地 |
+| `data/candidates/`、`data/splits/` | 候选与选样记录、冻结来源；完整结构池/SOAP 数组仅保存在本地 |
+| `dft/jobs/`、`dft/structures/`、`dft/reviews/` | 计算输入、18 个校准结构、DFT 审核；POTCAR/原始输出仅保存在本地 |
+| `models/` | 基础权重与未来训练检查点；Git 保留来源说明 |
+| `src/carbide_mlip/` | 模块化接口的预留位置，当前尚未实现 |
+| `results/`、`notebooks/` | 正式指标、论文图表与探索分析的预留位置 |
+| `docs/` | 研究设计、最新状态与带日期的历史记录 |
 
-大型数据、模型权重和计算输出默认不进入 Git；目录说明、实验配置与代码进入版本控制。详见各目录 README 和 `.gitignore`。
+Git 保存代码、输入、配置、选样清单和轻量证据。**从 GitHub 克隆不会获得模型权重、原始 MD/DFT 输出、赝势或完整任务压缩包**；部分重算入口依赖这些本地数据。参见[数据范围与恢复说明](docs/workspace-guide.md)。
 
-## 第一阶段范围
+## 主要文档
 
-以 ZrC 为起点，完成三个候选基础模型的零样本评估，再用约 100–200 个适配用 DFT 构型开展 MACE 微调，对比 Random 和 SOAP+FPS，并加入同架构从头训练对照。独立验证与测试数据需要单独预留预算，不能全部消耗在训练构型上。
+- [原始构想](AI4S_carbide_foundation_MLIP_project_summary.md)、[项目图解](docs/project-guide.md)、[实验设计](docs/experiment-plan.md)
+- [DFT–MACE 路线](docs/dft-mace-roadmap.md)、[DFT 标注标准](docs/dft-labeling-standard.md)、[数据约定](docs/data-protocol.md)
+- [脚本入口与测试](scripts/README.md)、[Windows 环境](docs/windows-environments.md)、[HPC 结果归档](hpc/README.md)
+- [11 项收敛审核](dft/reviews/convergence-2026-09-21.md)、[3 项补测审核](dft/reviews/confirmation-2026-09-21.md)
 
-模型可靠性由 DFT 能量、力、应力误差与结构、扩散、MD 稳定性共同判断；不能只依据平均误差得出结论。4500–6000 K 是目标高温采样区间，相态需要验证。
-
-## 当前下一步
-
-确认计算资源、DFT 软件与参数收敛设置；锁定模型权重版本及使用条件；生成首批 ZrC 结构并验证数据和评估流程。研究方案中的温度网格、可靠性阈值和模拟时长尚待确定。
+当前下一步是审核 36 项 DFT 回传结果，确定网格和协议，再落实验证/测试预算与模型可靠性判据，开始正式标注及零样本评估。本地首轮 MD 保持停止；旧提交说明仅供追溯。

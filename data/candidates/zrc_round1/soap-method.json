@@ -1,0 +1,30 @@
+{
+  "constructor": {
+    "species": [
+      "C",
+      "Zr"
+    ],
+    "periodic": true,
+    "r_cut": 6.0,
+    "n_max": 6,
+    "l_max": 4,
+    "sigma": 0.5,
+    "average": "off",
+    "dtype": "float64"
+  },
+  "local_normalization": "unit L2 for every atom",
+  "global_aggregation": "concatenate C mean, C population standard deviation, Zr mean, Zr population standard deviation; final unit L2",
+  "metric": "Euclidean on normalized global vectors; custom aggregation, not a fitted SOAP kernel",
+  "vector_dimensions": 1560,
+  "fitted_scaler": null,
+  "scope": "geometry-only; no DFT labels, no uncertainty estimate",
+  "software": {
+    "numpy": "2.5.3",
+    "ase": "3.29.0",
+    "dscribe": "2.1.2",
+    "scipy": "1.18.1"
+  },
+  "python": "3.12.14 | packaged by conda-forge | (main, Sep  2 2026, 23:18:20) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "input_sha256": "1c6afba8625c845cb8a5703baf83f8b9bf6e3a0b2da4e9569704bbab0740f5d5"
+}

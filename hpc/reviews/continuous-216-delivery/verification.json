@@ -1,0 +1,18 @@
+{
+  "verified_utc": "2026-09-23T07:04:39.872874+00:00",
+  "bundle_bytes": 30053011,
+  "sha256": "a8faba0c17bd9c56cb8df1ebe85da1bcd228a09d678a11c8d77948ad747d349d",
+  "task_count": 54,
+  "content_files_verified": 234,
+  "archive_members": 235,
+  "numeric_gates_reverified": [
+    "warm_216",
+    "high_216"
+  ],
+  "restart_failure_preserved": true,
+  "old_submission_archive_unchanged": true,
+  "new_continuous_protocol_tests_passed": 6,
+  "local_gpu_calculations_started": false,
+  "real_hpc_submission_performed": false,
+  "all_related_cpu_and_mock_tests_passed": 47
+}

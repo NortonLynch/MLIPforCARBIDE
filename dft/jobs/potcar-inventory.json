@@ -1,0 +1,250 @@
+{
+  "source_directory": "dft/psudopotential/potpaw_PBE.64",
+  "source_release": "potpaw_PBE.64",
+  "source_archive": {
+    "path": "dft/potpaw_PBE.64.tgz",
+    "sha256": "16e2c03f20bec437d7e7c32f969901fa8264d74b2782c57617147c15147ec253"
+  },
+  "protocol_id": "zrc-pbe64-zrsv-c-v2-proposed",
+  "source_note": "User-supplied potpaw archive; per-potential dates are not the library release date. Portal authenticity not independently verified.",
+  "potentials": [
+    {
+      "name": "Zr_sv",
+      "element": "Zr",
+      "title": "PAW_PBE Zr_sv 04Jan2005",
+      "lexch": "PE",
+      "enmax_eV": 229.898,
+      "zval": 12.0,
+      "source_path": "dft/psudopotential/potpaw_PBE.64/Zr_sv/POTCAR",
+      "source_sha256": "e3d75732e64ed47e733ef12202d7082321f6b043dd450e16fe03b686b180cdc0",
+      "decompressed_sha256": "e3d75732e64ed47e733ef12202d7082321f6b043dd450e16fe03b686b180cdc0",
+      "bytes": 234711,
+      "embedded_sha256": "25aed69cb10325f9d37c5c68912b61a17387d1f8e4f1d804860ffa10c8a4bf76"
+    },
+    {
+      "name": "C",
+      "element": "C",
+      "title": "PAW_PBE C 08Apr2002",
+      "lexch": "PE",
+      "enmax_eV": 400.0,
+      "zval": 4.0,
+      "source_path": "dft/psudopotential/potpaw_PBE.64/C/POTCAR",
+      "source_sha256": "e324f39f282d3fd6b99a7bff390f4b2441edd3dd3eac607d1f1c01376f3d0dc0",
+      "decompressed_sha256": "e324f39f282d3fd6b99a7bff390f4b2441edd3dd3eac607d1f1c01376f3d0dc0",
+      "bytes": 207583,
+      "embedded_sha256": "253f7b50bb8d59471dbedb8285d89021f4a42ed1a2c5d38a03a736e69125dd95"
+    }
+  ],
+  "job_count": 24,
+  "jobs": [
+    {
+      "path": "00_smoke/zrc8",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "01_convergence/encut_520_k8",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 520.0
+    },
+    {
+      "path": "01_convergence/encut_600_k8",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "01_convergence/encut_700_k8",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 700.0
+    },
+    {
+      "path": "01_convergence/encut_800_k8",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 800.0
+    },
+    {
+      "path": "01_convergence/encut_800_k4",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 800.0
+    },
+    {
+      "path": "01_convergence/encut_800_k6",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 800.0
+    },
+    {
+      "path": "01_convergence/encut_800_k10",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 800.0
+    },
+    {
+      "path": "01_convergence/sigma_0.05",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 800.0
+    },
+    {
+      "path": "01_convergence/sigma_0.20",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 800.0
+    },
+    {
+      "path": "01_convergence/ediff_1e-8",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 800.0
+    },
+    {
+      "path": "01_convergence/spin_check",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "02_relax/zrc8",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "03_supercell_check/zrc64_k2",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "03_supercell_check/zrc64_k3",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "03_supercell_check/zrc64_k4",
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "04_atomic_references/Zr_spin0",
+      "species": [
+        "Zr"
+      ],
+      "sha256": "e3d75732e64ed47e733ef12202d7082321f6b043dd450e16fe03b686b180cdc0",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "04_atomic_references/Zr_spin2",
+      "species": [
+        "Zr"
+      ],
+      "sha256": "e3d75732e64ed47e733ef12202d7082321f6b043dd450e16fe03b686b180cdc0",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "04_atomic_references/Zr_spin4",
+      "species": [
+        "Zr"
+      ],
+      "sha256": "e3d75732e64ed47e733ef12202d7082321f6b043dd450e16fe03b686b180cdc0",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "04_atomic_references/Zr_spin2_box20",
+      "species": [
+        "Zr"
+      ],
+      "sha256": "e3d75732e64ed47e733ef12202d7082321f6b043dd450e16fe03b686b180cdc0",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "04_atomic_references/C_spin0",
+      "species": [
+        "C"
+      ],
+      "sha256": "e324f39f282d3fd6b99a7bff390f4b2441edd3dd3eac607d1f1c01376f3d0dc0",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "04_atomic_references/C_spin2",
+      "species": [
+        "C"
+      ],
+      "sha256": "e324f39f282d3fd6b99a7bff390f4b2441edd3dd3eac607d1f1c01376f3d0dc0",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "04_atomic_references/C_spin4",
+      "species": [
+        "C"
+      ],
+      "sha256": "e324f39f282d3fd6b99a7bff390f4b2441edd3dd3eac607d1f1c01376f3d0dc0",
+      "encut_eV": 600.0
+    },
+    {
+      "path": "04_atomic_references/C_spin2_box20",
+      "species": [
+        "C"
+      ],
+      "sha256": "e324f39f282d3fd6b99a7bff390f4b2441edd3dd3eac607d1f1c01376f3d0dc0",
+      "encut_eV": 600.0
+    }
+  ],
+  "vasp_executed": false
+}

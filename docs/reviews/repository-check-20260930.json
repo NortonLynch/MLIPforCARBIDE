@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-30",
+  "scope": "Repository publication checks; no new research calculations",
+  "staged_files_before_report": 721,
+  "staged_total_bytes": 12359301,
+  "parsed_json_files": 302,
+  "parsed_python_files": 36,
+  "bash_syntax_files": 10,
+  "byte_preserved_files": 673,
+  "entry_document_links_checked": true,
+  "credential_pattern_scan": "no matches",
+  "cpu_tests": {
+    "total": 49,
+    "passed": 47,
+    "skipped": 2,
+    "skip_reason": "Retired collector-only script removed during prior cleanup",
+    "real_GPU_or_cluster_calculation": false
+  },
+  "preserved_artifacts": {
+    "MD_jobs": 162,
+    "production_files": 972,
+    "review_files": 324,
+    "calibration_POSCARs": 18,
+    "DFT_bundle_checked": true
+  },
+  "issues": [],
+  "passed": true
+}

@@ -1,0 +1,13 @@
+{
+  "pid": 16906,
+  "updated_utc": "2026-09-22T08:08:10.552175+00:00",
+  "active": {
+    "gate": "high_64",
+    "phase": "precision_and_NVE"
+  },
+  "segment": "/WORK/gongqianm_work/MaterialModel-HPC/zrc-round1-remaining/outputs/validation/64/restart/zrc64_T6000_v100_s17/resumed",
+  "step": 200,
+  "steps": 200,
+  "time_fs": 100.0,
+  "duration_fs": 100.0
+}

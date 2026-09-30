@@ -1,0 +1,41 @@
+{
+  "job_id": "15325225",
+  "review_status": "environment_and_six_structure_static_agreement_passed",
+  "evidence_sha256": {
+    "gpu-15325225.json": "cbf8d4f8b908040bc9d6901fb9ceacd6f7e54b72ffbcbd048683a1e01b01f1ef",
+    "mace-check-15325225.out": "7d3283ed17c0c3d83dec66e9cc7c4f0e4959cc89291610052ead5815b05a6127"
+  },
+  "checks": [
+    "stdout JSON exactly matches standalone JSON",
+    "model hash matches workspace model",
+    "all six expected references present and finite summary metrics",
+    "all reported energy differences independently recalculated from packaged reference values"
+  ],
+  "limits": "Force/stress differences are reported by the checked script; complete predicted arrays were not exported, so their differences cannot be independently recomputed from these outputs.",
+  "versions": {
+    "torch": "2.5.1+cu118",
+    "mace-torch": "0.3.16",
+    "ase": "3.29.0",
+    "numpy": "1.26.4",
+    "e3nn": "0.4.4",
+    "matscipy": "1.1.1",
+    "scipy": "1.13.1"
+  },
+  "maxima": {
+    "absolute_energy_delta_meV_atom": 0.0019073486328125,
+    "force_delta_rms_eV_A": 3.4419071808574784e-06,
+    "force_delta_max_component_eV_A": 1.2393934326393463e-05,
+    "stress_delta_max_GPa": 5.4612443150281904e-05
+  },
+  "summed_single_point_seconds": 25.314663514494896,
+  "torch_peak_allocated_MiB": 1855.00732421875,
+  "screen_context": {
+    "force_rms_eV_A": 0.001,
+    "force_max_component_eV_A": 0.003,
+    "stress_GPa": 0.01,
+    "scope": "Existing dtype-comparison thresholds provide scale only; this cross-platform check does not replace full float32/float64 relative-energy or NVE gates."
+  },
+  "md_nve_restart_validated_on_hpc": false,
+  "physical_validated": false,
+  "new_jobs_started": false
+}

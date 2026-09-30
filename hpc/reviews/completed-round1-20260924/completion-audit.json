@@ -1,0 +1,26 @@
+{
+  "audit_date": "2026-09-24",
+  "production_passed": 162,
+  "pilot_passed": 162,
+  "local_gates_passed": 6,
+  "production_by_origin": {
+    "local": 18,
+    "HPC8_64": 90,
+    "HPC216_continuous": 54
+  },
+  "production_by_atoms": {
+    "8": 54,
+    "64": 54,
+    "216": 54
+  },
+  "equilibration_total_ps": 810,
+  "sampling_total_ps": 1620,
+  "sampling_frames_including_t0": 32562,
+  "restart_equivalence_certified_for_216": false,
+  "216_method": "54 fresh uninterrupted same-process 5+10 ps branches; no partial production resume",
+  "physical_validated": false,
+  "equilibration_established": false,
+  "DFT_protocol_certified": false,
+  "model_sha256": "a522eb7f59c7879963d41586528f4980baf33e086c94aa92e3eafdeccad3be47",
+  "all_review_hashes_rechecked": true
+}

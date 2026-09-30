@@ -1,0 +1,25 @@
+stage,path,natoms,ENCUT_eV,kmesh,ISMEAR,SIGMA_eV,ISPIN,purpose
+0,00_smoke/zrc8,8,600,4x4x4,0,0.1,1,"Check executable, POTCAR and parsing; not a converged label"
+1,01_convergence/encut_520_k8,8,520,8x8x8,0,0.1,1,ENCUT convergence at fixed geometry and k mesh
+1,01_convergence/encut_600_k8,8,600,8x8x8,0,0.1,1,ENCUT convergence at fixed geometry and k mesh
+1,01_convergence/encut_700_k8,8,700,8x8x8,0,0.1,1,ENCUT convergence at fixed geometry and k mesh
+1,01_convergence/encut_800_k8,8,800,8x8x8,0,0.1,1,ENCUT convergence at fixed geometry and k mesh
+1,01_convergence/encut_800_k4,8,800,4x4x4,0,0.1,1,k-point convergence at fixed geometry and ENCUT=800
+1,01_convergence/encut_800_k6,8,800,6x6x6,0,0.1,1,k-point convergence at fixed geometry and ENCUT=800
+1,01_convergence/encut_800_k10,8,800,10x10x10,0,0.1,1,k-point convergence at fixed geometry and ENCUT=800
+1,01_convergence/sigma_0.05,8,800,10x10x10,0,0.05,1,Gaussian width sensitivity at ENCUT=800 and k=10
+1,01_convergence/sigma_0.20,8,800,10x10x10,0,0.2,1,Gaussian width sensitivity at ENCUT=800 and k=10
+1,01_convergence/ediff_1e-8,8,800,10x10x10,0,0.1,1,SCF tolerance sensitivity relative to encut_800_k10
+1,01_convergence/spin_check,8,600,8x8x8,0,0.1,2,Check nonmagnetic bulk assumption against encut_600_k8
+2,02_relax/zrc8,8,600,8x8x8,0,0.1,1,Relax cubic crystal after choosing converged protocol; provisional 600 eV
+3,03_supercell_check/zrc64_k2,64,600,2x2x2,0,0.1,1,"64-atom distorted solid single point; k convergence, NOT a liquid frame"
+3,03_supercell_check/zrc64_k3,64,600,3x3x3,0,0.1,1,"64-atom distorted solid single point; k convergence, NOT a liquid frame"
+3,03_supercell_check/zrc64_k4,64,600,4x4x4,0,0.1,1,"64-atom distorted solid single point; k convergence, NOT a liquid frame"
+4,04_atomic_references/Zr_spin0,1,600,1x1x1,0,0.01,2,Optional isolated-atom spin scan; do not assume ground state from one run
+4,04_atomic_references/Zr_spin2,1,600,1x1x1,0,0.01,2,Optional isolated-atom spin scan; do not assume ground state from one run
+4,04_atomic_references/Zr_spin4,1,600,1x1x1,0,0.01,2,Optional isolated-atom spin scan; do not assume ground state from one run
+4,04_atomic_references/Zr_spin2_box20,1,600,1x1x1,0,0.01,2,Optional box check for spin=2; repeat for another spin if it wins
+4,04_atomic_references/C_spin0,1,600,1x1x1,0,0.01,2,Optional isolated-atom spin scan; do not assume ground state from one run
+4,04_atomic_references/C_spin2,1,600,1x1x1,0,0.01,2,Optional isolated-atom spin scan; do not assume ground state from one run
+4,04_atomic_references/C_spin4,1,600,1x1x1,0,0.01,2,Optional isolated-atom spin scan; do not assume ground state from one run
+4,04_atomic_references/C_spin2_box20,1,600,1x1x1,0,0.01,2,Optional box check for spin=2; repeat for another spin if it wins

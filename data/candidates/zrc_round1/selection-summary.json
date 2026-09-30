@@ -1,0 +1,24 @@
+{
+  "calibration_count": 18,
+  "temperature_volume_states": 18,
+  "future_sequences": 6,
+  "each_sequence_length": 200,
+  "budgets": [
+    20,
+    50,
+    100,
+    200
+  ],
+  "reference_frame": "zrc64_T0300_v100_s17_f0085",
+  "input_candidate_count": 2160,
+  "SOAP_shape": [
+    2160,
+    1560
+  ],
+  "scan_summary_sha256": "c1ada929436942694ad0420f211ae332ca47f301f46bc990e87717dc8f8b78c4",
+  "method_sha256": "5d2a980ad9a07b03b35aa1865a21b07555fcde9d081c7173d0df9e1daba948db",
+  "SOAP_file_sha256": "86af099d0e0b1128a10dc0df8a8efc7f63a63d668c80aef5d312fe16aaefcb8f",
+  "frozen_split_sha256": "686286e950d7fdeb26a0a5027afe629a17fb9e6358c9e8717d50da3fb6582fee",
+  "calibration_manifest_sha256": "ffb62fdd1a6e640a3b15fd52d897b44c5c255653c1ea3c24d3c5f6c8af63cc3f",
+  "source_code_sha256": "1b1e2c901b8aedb6e5d2d382500e9db875290c5d2888e22e67b916f645ed763e"
+}

@@ -1,0 +1,29 @@
+# VASP 6.3.2; proposed settings, convergence not yet established.
+# Numerical Gaussian smearing, not an electronic temperature.
+SYSTEM = 02_relax_zrc8
+GGA = PE
+PREC = Accurate
+ENCUT = 600
+EDIFF = 1E-7
+ALGO = Normal
+NELM = 200
+NELMIN = 4
+ISTART = 0
+ICHARG = 2
+ISPIN = 1
+ISMEAR = 0
+SIGMA = 0.1
+LREAL = .FALSE.
+LASPH = .TRUE.
+ADDGRID = .FALSE.
+LMAXMIX = 4
+ISYM = 2
+NSW = 100
+IBRION = 2
+ISIF = 3
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+NWRITE = 2
+EDIFFG = -0.005
+POTIM = 0.3
+PSTRESS = 0

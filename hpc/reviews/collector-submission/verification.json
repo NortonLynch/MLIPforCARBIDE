@@ -1,0 +1,7 @@
+{
+  "mock_tests_passed": 2,
+  "original_archive_unchanged": true,
+  "original_archive_sha256": "b332b90e1bad4ec6ee5ab0ea246a83cc395b141b9095498919d52130afb69a1d",
+  "recovery_script_sha256": "6a93091bb70a9c2550335241553c9f63d33ddcb75f0e3a41a747902fdbee3c53",
+  "real_hpc_submission_performed": false
+}

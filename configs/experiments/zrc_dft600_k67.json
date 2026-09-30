@@ -1,0 +1,48 @@
+{
+  "id": "zrc-pbe64-zrsv-c-600-k67-calibration-20260924",
+  "status": "inputs_prepared_not_submitted",
+  "selection_authority": "User explicitly chose fixed ENCUT=600 eV and k6/k7 for every calibration structure",
+  "VASP_version": "6.3.2",
+  "functional": "PBE",
+  "POTCAR_release": "potpaw_PBE.64",
+  "POTCAR_names": [
+    "Zr_sv",
+    "C"
+  ],
+  "ENCUT_eV": 600,
+  "ENCUT_convergence_certified": false,
+  "kmeshes": [
+    [
+      6,
+      6,
+      6
+    ],
+    [
+      7,
+      7,
+      7
+    ]
+  ],
+  "kmesh_centering": "Gamma",
+  "structure_count": 18,
+  "tasks": 36,
+  "relative_energy_reference_structure": "01_zrc64_T0300_v100_s17_f0085",
+  "energy_observable": "TOTEN force-consistent free energy, relative to fixed same-composition reference per kmesh",
+  "tolerances": {
+    "relative_energy_meV_atom": 1,
+    "force_component_RMS_eV_A": 0.01,
+    "force_component_max_eV_A": 0.03,
+    "stress_component_max_GPa": 0.1
+  },
+  "partition": "cnall",
+  "nodes_per_task": 1,
+  "MPI_ranks_per_task": 56,
+  "default_max_concurrent_tasks": 4,
+  "job_directory": "dft/jobs/05_md_kmesh600",
+  "archive": "hpc/zrc-dft600-k67.tgz",
+  "submission_entry": "submit_all.sh",
+  "DFT_submitted": false,
+  "kmesh_selected": null,
+  "production_protocol_certified": false,
+  "additional_calculations_automatically_allowed": false
+}

@@ -1,0 +1,125 @@
+{
+  "created_utc": "2026-09-21T13:37:29.121907+00:00",
+  "purpose": "cold_structure_inference_feasibility_not_MD_or_physical_validation",
+  "model": "MACE-MH-1",
+  "head": "omat_pbe",
+  "dtype": "float32",
+  "model_sha256": "a522eb7f59c7879963d41586528f4980baf33e086c94aa92e3eafdeccad3be47",
+  "cutoff_A": 6.0,
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "device_total_MiB": 8150.5625,
+  "versions": {
+    "mace-torch": "0.3.16",
+    "torch": "2.13.0+cu132",
+    "ase": "3.29.0",
+    "matscipy": "1.2.0"
+  },
+  "timing": "2 warm-up calls then 5 changed-position E/F/stress calls; CUDA synchronized; no MD integration or file output in timer",
+  "memory": "PyTorch allocated/reserved only; excludes other applications and some CUDA/driver memory",
+  "boxes": [
+    {
+      "atoms": 8,
+      "repeat_conventional": [
+        1,
+        1,
+        1
+      ],
+      "box_length_A": 4.7,
+      "ideal_periodic_replication": {
+        "energy_eV_atom": -9.711851119995117,
+        "energy_difference_from_8_atom_meV_atom": 0.0,
+        "max_abs_force_eV_A": 4.585679391766462e-07,
+        "max_stress_difference_from_8_atom_GPa": 0.0
+      },
+      "status": "passed",
+      "measured_call_seconds": [
+        0.0319777000695467,
+        0.031335600186139345,
+        0.03331919992342591,
+        0.03791740024462342,
+        0.033748600166291
+      ],
+      "median_call_seconds": 0.03331919992342591,
+      "peak_allocated_MiB": 192.17919921875,
+      "peak_reserved_MiB": 218.0
+    },
+    {
+      "atoms": 64,
+      "repeat_conventional": [
+        2,
+        2,
+        2
+      ],
+      "box_length_A": 9.4,
+      "ideal_periodic_replication": {
+        "energy_eV_atom": -9.711847305297852,
+        "energy_difference_from_8_atom_meV_atom": 0.003814697265625,
+        "max_abs_force_eV_A": 9.426847100257874e-06,
+        "max_stress_difference_from_8_atom_GPa": 2.448513805575203e-05
+      },
+      "status": "passed",
+      "measured_call_seconds": [
+        0.055416100192815065,
+        0.051824900321662426,
+        0.052401399705559015,
+        0.052445400040596724,
+        0.052386799827218056
+      ],
+      "median_call_seconds": 0.052401399705559015,
+      "peak_allocated_MiB": 659.47021484375,
+      "peak_reserved_MiB": 714.0
+    },
+    {
+      "atoms": 216,
+      "repeat_conventional": [
+        3,
+        3,
+        3
+      ],
+      "box_length_A": 14.100000000000001,
+      "ideal_periodic_replication": {
+        "energy_eV_atom": -9.711864330150464,
+        "energy_difference_from_8_atom_meV_atom": -0.013210155346499164,
+        "max_abs_force_eV_A": 8.22456058813259e-06,
+        "max_stress_difference_from_8_atom_GPa": 8.248288213508204e-05
+      },
+      "status": "passed",
+      "measured_call_seconds": [
+        0.1393009996972978,
+        0.14039460010826588,
+        0.13917260011658072,
+        0.1386302998289466,
+        0.13921500043943524
+      ],
+      "median_call_seconds": 0.13921500043943524,
+      "peak_allocated_MiB": 1913.55419921875,
+      "peak_reserved_MiB": 2286.0
+    },
+    {
+      "atoms": 512,
+      "repeat_conventional": [
+        4,
+        4,
+        4
+      ],
+      "box_length_A": 18.8,
+      "ideal_periodic_replication": {
+        "energy_eV_atom": -9.711816787719727,
+        "energy_difference_from_8_atom_meV_atom": 0.034332275390625,
+        "max_abs_force_eV_A": 1.5034267562441528e-05,
+        "max_stress_difference_from_8_atom_GPa": 2.0260507881175727e-05
+      },
+      "status": "passed",
+      "measured_call_seconds": [
+        0.31533179990947247,
+        0.31783750001341105,
+        0.3116910997778177,
+        0.3214899003505707,
+        0.3155318000353873
+      ],
+      "median_call_seconds": 0.3155318000353873,
+      "peak_allocated_MiB": 4351.89453125,
+      "peak_reserved_MiB": 5242.0
+    }
+  ]
+}

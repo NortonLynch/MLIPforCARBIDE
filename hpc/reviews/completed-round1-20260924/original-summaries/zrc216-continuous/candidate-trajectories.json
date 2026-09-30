@@ -1,0 +1,326 @@
+[
+  {
+    "job_id": "zrc216_T0300_v100_s17",
+    "source_group": "zrc216_v100_s17_heating",
+    "frames": "outputs/production/zrc216_T0300_v100_s17/run-0001/jobs/zrc216_T0300_v100_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T0300_v100_s42",
+    "source_group": "zrc216_v100_s42_heating",
+    "frames": "outputs/production/zrc216_T0300_v100_s42/run-0001/jobs/zrc216_T0300_v100_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T0300_v100_s2026",
+    "source_group": "zrc216_v100_s2026_heating",
+    "frames": "outputs/production/zrc216_T0300_v100_s2026/run-0001/jobs/zrc216_T0300_v100_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T0300_v095_s17",
+    "source_group": "zrc216_v095_s17_heating",
+    "frames": "outputs/production/zrc216_T0300_v095_s17/run-0001/jobs/zrc216_T0300_v095_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T0300_v095_s42",
+    "source_group": "zrc216_v095_s42_heating",
+    "frames": "outputs/production/zrc216_T0300_v095_s42/run-0001/jobs/zrc216_T0300_v095_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T0300_v095_s2026",
+    "source_group": "zrc216_v095_s2026_heating",
+    "frames": "outputs/production/zrc216_T0300_v095_s2026/run-0001/jobs/zrc216_T0300_v095_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T0300_v105_s17",
+    "source_group": "zrc216_v105_s17_heating",
+    "frames": "outputs/production/zrc216_T0300_v105_s17/run-0001/jobs/zrc216_T0300_v105_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T0300_v105_s42",
+    "source_group": "zrc216_v105_s42_heating",
+    "frames": "outputs/production/zrc216_T0300_v105_s42/run-0001/jobs/zrc216_T0300_v105_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T0300_v105_s2026",
+    "source_group": "zrc216_v105_s2026_heating",
+    "frames": "outputs/production/zrc216_T0300_v105_s2026/run-0001/jobs/zrc216_T0300_v105_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T1500_v100_s17",
+    "source_group": "zrc216_v100_s17_heating",
+    "frames": "outputs/production/zrc216_T1500_v100_s17/run-0001/jobs/zrc216_T1500_v100_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T1500_v100_s42",
+    "source_group": "zrc216_v100_s42_heating",
+    "frames": "outputs/production/zrc216_T1500_v100_s42/run-0001/jobs/zrc216_T1500_v100_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T1500_v100_s2026",
+    "source_group": "zrc216_v100_s2026_heating",
+    "frames": "outputs/production/zrc216_T1500_v100_s2026/run-0001/jobs/zrc216_T1500_v100_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T1500_v095_s17",
+    "source_group": "zrc216_v095_s17_heating",
+    "frames": "outputs/production/zrc216_T1500_v095_s17/run-0001/jobs/zrc216_T1500_v095_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T1500_v095_s42",
+    "source_group": "zrc216_v095_s42_heating",
+    "frames": "outputs/production/zrc216_T1500_v095_s42/run-0001/jobs/zrc216_T1500_v095_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T1500_v095_s2026",
+    "source_group": "zrc216_v095_s2026_heating",
+    "frames": "outputs/production/zrc216_T1500_v095_s2026/run-0001/jobs/zrc216_T1500_v095_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T1500_v105_s17",
+    "source_group": "zrc216_v105_s17_heating",
+    "frames": "outputs/production/zrc216_T1500_v105_s17/run-0001/jobs/zrc216_T1500_v105_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T1500_v105_s42",
+    "source_group": "zrc216_v105_s42_heating",
+    "frames": "outputs/production/zrc216_T1500_v105_s42/run-0001/jobs/zrc216_T1500_v105_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T1500_v105_s2026",
+    "source_group": "zrc216_v105_s2026_heating",
+    "frames": "outputs/production/zrc216_T1500_v105_s2026/run-0001/jobs/zrc216_T1500_v105_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T3000_v100_s17",
+    "source_group": "zrc216_v100_s17_heating",
+    "frames": "outputs/production/zrc216_T3000_v100_s17/run-0001/jobs/zrc216_T3000_v100_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T3000_v100_s42",
+    "source_group": "zrc216_v100_s42_heating",
+    "frames": "outputs/production/zrc216_T3000_v100_s42/run-0001/jobs/zrc216_T3000_v100_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T3000_v100_s2026",
+    "source_group": "zrc216_v100_s2026_heating",
+    "frames": "outputs/production/zrc216_T3000_v100_s2026/run-0001/jobs/zrc216_T3000_v100_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T3000_v095_s17",
+    "source_group": "zrc216_v095_s17_heating",
+    "frames": "outputs/production/zrc216_T3000_v095_s17/run-0001/jobs/zrc216_T3000_v095_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T3000_v095_s42",
+    "source_group": "zrc216_v095_s42_heating",
+    "frames": "outputs/production/zrc216_T3000_v095_s42/run-0001/jobs/zrc216_T3000_v095_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T3000_v095_s2026",
+    "source_group": "zrc216_v095_s2026_heating",
+    "frames": "outputs/production/zrc216_T3000_v095_s2026/run-0001/jobs/zrc216_T3000_v095_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T3000_v105_s17",
+    "source_group": "zrc216_v105_s17_heating",
+    "frames": "outputs/production/zrc216_T3000_v105_s17/run-0001/jobs/zrc216_T3000_v105_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T3000_v105_s42",
+    "source_group": "zrc216_v105_s42_heating",
+    "frames": "outputs/production/zrc216_T3000_v105_s42/run-0001/jobs/zrc216_T3000_v105_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T3000_v105_s2026",
+    "source_group": "zrc216_v105_s2026_heating",
+    "frames": "outputs/production/zrc216_T3000_v105_s2026/run-0001/jobs/zrc216_T3000_v105_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T4500_v100_s17",
+    "source_group": "zrc216_v100_s17_heating",
+    "frames": "outputs/production/zrc216_T4500_v100_s17/run-0001/jobs/zrc216_T4500_v100_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T4500_v100_s42",
+    "source_group": "zrc216_v100_s42_heating",
+    "frames": "outputs/production/zrc216_T4500_v100_s42/run-0001/jobs/zrc216_T4500_v100_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T4500_v100_s2026",
+    "source_group": "zrc216_v100_s2026_heating",
+    "frames": "outputs/production/zrc216_T4500_v100_s2026/run-0001/jobs/zrc216_T4500_v100_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T4500_v095_s17",
+    "source_group": "zrc216_v095_s17_heating",
+    "frames": "outputs/production/zrc216_T4500_v095_s17/run-0001/jobs/zrc216_T4500_v095_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T4500_v095_s42",
+    "source_group": "zrc216_v095_s42_heating",
+    "frames": "outputs/production/zrc216_T4500_v095_s42/run-0001/jobs/zrc216_T4500_v095_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T4500_v095_s2026",
+    "source_group": "zrc216_v095_s2026_heating",
+    "frames": "outputs/production/zrc216_T4500_v095_s2026/run-0001/jobs/zrc216_T4500_v095_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T4500_v105_s17",
+    "source_group": "zrc216_v105_s17_heating",
+    "frames": "outputs/production/zrc216_T4500_v105_s17/run-0001/jobs/zrc216_T4500_v105_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T4500_v105_s42",
+    "source_group": "zrc216_v105_s42_heating",
+    "frames": "outputs/production/zrc216_T4500_v105_s42/run-0001/jobs/zrc216_T4500_v105_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T4500_v105_s2026",
+    "source_group": "zrc216_v105_s2026_heating",
+    "frames": "outputs/production/zrc216_T4500_v105_s2026/run-0001/jobs/zrc216_T4500_v105_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T5250_v100_s17",
+    "source_group": "zrc216_v100_s17_heating",
+    "frames": "outputs/production/zrc216_T5250_v100_s17/run-0001/jobs/zrc216_T5250_v100_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T5250_v100_s42",
+    "source_group": "zrc216_v100_s42_heating",
+    "frames": "outputs/production/zrc216_T5250_v100_s42/run-0001/jobs/zrc216_T5250_v100_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T5250_v100_s2026",
+    "source_group": "zrc216_v100_s2026_heating",
+    "frames": "outputs/production/zrc216_T5250_v100_s2026/run-0001/jobs/zrc216_T5250_v100_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T5250_v095_s17",
+    "source_group": "zrc216_v095_s17_heating",
+    "frames": "outputs/production/zrc216_T5250_v095_s17/run-0001/jobs/zrc216_T5250_v095_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T5250_v095_s42",
+    "source_group": "zrc216_v095_s42_heating",
+    "frames": "outputs/production/zrc216_T5250_v095_s42/run-0001/jobs/zrc216_T5250_v095_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T5250_v095_s2026",
+    "source_group": "zrc216_v095_s2026_heating",
+    "frames": "outputs/production/zrc216_T5250_v095_s2026/run-0001/jobs/zrc216_T5250_v095_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T5250_v105_s17",
+    "source_group": "zrc216_v105_s17_heating",
+    "frames": "outputs/production/zrc216_T5250_v105_s17/run-0001/jobs/zrc216_T5250_v105_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T5250_v105_s42",
+    "source_group": "zrc216_v105_s42_heating",
+    "frames": "outputs/production/zrc216_T5250_v105_s42/run-0001/jobs/zrc216_T5250_v105_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T5250_v105_s2026",
+    "source_group": "zrc216_v105_s2026_heating",
+    "frames": "outputs/production/zrc216_T5250_v105_s2026/run-0001/jobs/zrc216_T5250_v105_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T6000_v100_s17",
+    "source_group": "zrc216_v100_s17_heating",
+    "frames": "outputs/production/zrc216_T6000_v100_s17/run-0001/jobs/zrc216_T6000_v100_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T6000_v100_s42",
+    "source_group": "zrc216_v100_s42_heating",
+    "frames": "outputs/production/zrc216_T6000_v100_s42/run-0001/jobs/zrc216_T6000_v100_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T6000_v100_s2026",
+    "source_group": "zrc216_v100_s2026_heating",
+    "frames": "outputs/production/zrc216_T6000_v100_s2026/run-0001/jobs/zrc216_T6000_v100_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T6000_v095_s17",
+    "source_group": "zrc216_v095_s17_heating",
+    "frames": "outputs/production/zrc216_T6000_v095_s17/run-0001/jobs/zrc216_T6000_v095_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T6000_v095_s42",
+    "source_group": "zrc216_v095_s42_heating",
+    "frames": "outputs/production/zrc216_T6000_v095_s42/run-0001/jobs/zrc216_T6000_v095_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T6000_v095_s2026",
+    "source_group": "zrc216_v095_s2026_heating",
+    "frames": "outputs/production/zrc216_T6000_v095_s2026/run-0001/jobs/zrc216_T6000_v095_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T6000_v105_s17",
+    "source_group": "zrc216_v105_s17_heating",
+    "frames": "outputs/production/zrc216_T6000_v105_s17/run-0001/jobs/zrc216_T6000_v105_s17/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T6000_v105_s42",
+    "source_group": "zrc216_v105_s42_heating",
+    "frames": "outputs/production/zrc216_T6000_v105_s42/run-0001/jobs/zrc216_T6000_v105_s42/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc216_T6000_v105_s2026",
+    "source_group": "zrc216_v105_s2026_heating",
+    "frames": "outputs/production/zrc216_T6000_v105_s2026/run-0001/jobs/zrc216_T6000_v105_s2026/production/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  }
+]

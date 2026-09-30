@@ -1,0 +1,74 @@
+{
+  "id": "zrc-label-numerical-accuracy-v1",
+  "date": "2026-09-21",
+  "status": "historical_absolute_energy_budget_new_relative_energy_calibration_proposed",
+  "scope": "Numerical DFT convergence, not PBE physical accuracy or ML prediction accuracy",
+  "tolerances": {
+    "energy_meV_atom": 1,
+    "force_component_RMS_eV_A": 0.01,
+    "force_component_max_eV_A": 0.03,
+    "stress_component_max_GPa": 0.1
+  },
+  "comparison_rule": "All four criteria per configuration; compare final candidate directly with jointly tighter ENCUT and k mesh",
+  "energy_label": "free_energy_TOTEN_eV_per_cell",
+  "auxiliary_energies": [
+    "energy_without_entropy",
+    "energy_sigma_to_zero"
+  ],
+  "stress_units": "eV/angstrom^3",
+  "stress_sign": "positive_tension",
+  "stress_voigt_order": [
+    "xx",
+    "yy",
+    "zz",
+    "yz",
+    "xz",
+    "xy"
+  ],
+  "pending_validation": [
+    "multi_configuration_relative_energy_force_stress_calibration",
+    "actual_labeling_supercell_kmesh",
+    "representative_high_temperature_and_volume_extremes"
+  ],
+  "production_labels_authorized": false,
+  "review": "dft/reviews/confirmation-2026-09-21.json",
+  "documentation": "docs/dft-labeling-standard.md",
+  "reference_qualification": {
+    "900_eV_k14": "SCF_converged_but_PSMAXN_warning_requires_resolution_before_reference_use",
+    "800_eV_k12_vs_900_eV_k14": "stress_numeric_difference_0.120301453_GPa_exceeds_0.1",
+    "800_eV_k10_vs_900_eV_k14": "numeric_tolerances_pass_but_small_stress_margin_and_reference_warning",
+    "next_jobs": [
+      "01c_reference_check/encut_850_k14",
+      "01c_reference_check/encut_850_k16"
+    ],
+    "next_reference_rule": "No unresolved physical warning and all criteria for 800k14-vs-850k14, 850k14-vs-850k16, and 800k14-vs-850k16",
+    "850_eV_warning_free_guaranteed": false,
+    "official_warning_reference": "https://vasp.at/forum/viewtopic.php?p=26126",
+    "next_jobs_status": "optional_strict_reference_checks_not_required_next_step"
+  },
+  "historical_candidate": {
+    "ENCUT_eV": 800,
+    "kmesh_8_atom": [
+      14,
+      14,
+      14
+    ],
+    "EDIFF_eV_per_cell": 1e-07,
+    "ISMEAR": 0,
+    "SIGMA_eV": 0.1,
+    "ISPIN_bulk": 1,
+    "selection_status": "conservative_candidate_not_finally_certified"
+  },
+  "candidate": {
+    "ENCUT_eV": 600,
+    "kmesh_8_atom": null,
+    "EDIFF_eV_per_cell": 1e-07,
+    "ISMEAR": 0,
+    "SIGMA_eV": 0.1,
+    "ISPIN_bulk": 1,
+    "selection_status": "literature_supported_candidate_requires_representative_validation"
+  },
+  "tolerance_scope": "Historical absolute-energy audit; see separate v2 proposal for relative-energy calibration. Old audit outcomes are unchanged.",
+  "literature_reassessment": "docs/dft-cutoff-literature-review.md",
+  "proposed_calibration": "configs/experiments/zrc_dft_literature_proposal.json"
+}

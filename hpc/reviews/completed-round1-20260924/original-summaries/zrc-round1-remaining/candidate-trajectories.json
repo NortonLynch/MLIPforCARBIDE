@@ -1,0 +1,542 @@
+[
+  {
+    "job_id": "zrc8_T1500_v100_s17",
+    "source_group": "zrc8_v100_s17_heating",
+    "frames": "outputs/production/zrc8_T1500_v100_s17/jobs/zrc8_T1500_v100_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T1500_v100_s42",
+    "source_group": "zrc8_v100_s42_heating",
+    "frames": "outputs/production/zrc8_T1500_v100_s42/jobs/zrc8_T1500_v100_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T1500_v100_s2026",
+    "source_group": "zrc8_v100_s2026_heating",
+    "frames": "outputs/production/zrc8_T1500_v100_s2026/jobs/zrc8_T1500_v100_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T1500_v095_s17",
+    "source_group": "zrc8_v095_s17_heating",
+    "frames": "outputs/production/zrc8_T1500_v095_s17/jobs/zrc8_T1500_v095_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T1500_v095_s42",
+    "source_group": "zrc8_v095_s42_heating",
+    "frames": "outputs/production/zrc8_T1500_v095_s42/jobs/zrc8_T1500_v095_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T1500_v095_s2026",
+    "source_group": "zrc8_v095_s2026_heating",
+    "frames": "outputs/production/zrc8_T1500_v095_s2026/jobs/zrc8_T1500_v095_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T1500_v105_s17",
+    "source_group": "zrc8_v105_s17_heating",
+    "frames": "outputs/production/zrc8_T1500_v105_s17/jobs/zrc8_T1500_v105_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T1500_v105_s42",
+    "source_group": "zrc8_v105_s42_heating",
+    "frames": "outputs/production/zrc8_T1500_v105_s42/jobs/zrc8_T1500_v105_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T1500_v105_s2026",
+    "source_group": "zrc8_v105_s2026_heating",
+    "frames": "outputs/production/zrc8_T1500_v105_s2026/jobs/zrc8_T1500_v105_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T1500_v100_s17",
+    "source_group": "zrc64_v100_s17_heating",
+    "frames": "outputs/production/zrc64_T1500_v100_s17/jobs/zrc64_T1500_v100_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T1500_v100_s42",
+    "source_group": "zrc64_v100_s42_heating",
+    "frames": "outputs/production/zrc64_T1500_v100_s42/jobs/zrc64_T1500_v100_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T1500_v100_s2026",
+    "source_group": "zrc64_v100_s2026_heating",
+    "frames": "outputs/production/zrc64_T1500_v100_s2026/jobs/zrc64_T1500_v100_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T1500_v095_s17",
+    "source_group": "zrc64_v095_s17_heating",
+    "frames": "outputs/production/zrc64_T1500_v095_s17/jobs/zrc64_T1500_v095_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T1500_v095_s42",
+    "source_group": "zrc64_v095_s42_heating",
+    "frames": "outputs/production/zrc64_T1500_v095_s42/jobs/zrc64_T1500_v095_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T1500_v095_s2026",
+    "source_group": "zrc64_v095_s2026_heating",
+    "frames": "outputs/production/zrc64_T1500_v095_s2026/jobs/zrc64_T1500_v095_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T1500_v105_s17",
+    "source_group": "zrc64_v105_s17_heating",
+    "frames": "outputs/production/zrc64_T1500_v105_s17/jobs/zrc64_T1500_v105_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T1500_v105_s42",
+    "source_group": "zrc64_v105_s42_heating",
+    "frames": "outputs/production/zrc64_T1500_v105_s42/jobs/zrc64_T1500_v105_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T1500_v105_s2026",
+    "source_group": "zrc64_v105_s2026_heating",
+    "frames": "outputs/production/zrc64_T1500_v105_s2026/jobs/zrc64_T1500_v105_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T3000_v100_s17",
+    "source_group": "zrc8_v100_s17_heating",
+    "frames": "outputs/production/zrc8_T3000_v100_s17/jobs/zrc8_T3000_v100_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T3000_v100_s42",
+    "source_group": "zrc8_v100_s42_heating",
+    "frames": "outputs/production/zrc8_T3000_v100_s42/jobs/zrc8_T3000_v100_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T3000_v100_s2026",
+    "source_group": "zrc8_v100_s2026_heating",
+    "frames": "outputs/production/zrc8_T3000_v100_s2026/jobs/zrc8_T3000_v100_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T3000_v095_s17",
+    "source_group": "zrc8_v095_s17_heating",
+    "frames": "outputs/production/zrc8_T3000_v095_s17/jobs/zrc8_T3000_v095_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T3000_v095_s42",
+    "source_group": "zrc8_v095_s42_heating",
+    "frames": "outputs/production/zrc8_T3000_v095_s42/jobs/zrc8_T3000_v095_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T3000_v095_s2026",
+    "source_group": "zrc8_v095_s2026_heating",
+    "frames": "outputs/production/zrc8_T3000_v095_s2026/jobs/zrc8_T3000_v095_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T3000_v105_s17",
+    "source_group": "zrc8_v105_s17_heating",
+    "frames": "outputs/production/zrc8_T3000_v105_s17/jobs/zrc8_T3000_v105_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T3000_v105_s42",
+    "source_group": "zrc8_v105_s42_heating",
+    "frames": "outputs/production/zrc8_T3000_v105_s42/jobs/zrc8_T3000_v105_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T3000_v105_s2026",
+    "source_group": "zrc8_v105_s2026_heating",
+    "frames": "outputs/production/zrc8_T3000_v105_s2026/jobs/zrc8_T3000_v105_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T3000_v100_s17",
+    "source_group": "zrc64_v100_s17_heating",
+    "frames": "outputs/production/zrc64_T3000_v100_s17/jobs/zrc64_T3000_v100_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T3000_v100_s42",
+    "source_group": "zrc64_v100_s42_heating",
+    "frames": "outputs/production/zrc64_T3000_v100_s42/jobs/zrc64_T3000_v100_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T3000_v100_s2026",
+    "source_group": "zrc64_v100_s2026_heating",
+    "frames": "outputs/production/zrc64_T3000_v100_s2026/jobs/zrc64_T3000_v100_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T3000_v095_s17",
+    "source_group": "zrc64_v095_s17_heating",
+    "frames": "outputs/production/zrc64_T3000_v095_s17/jobs/zrc64_T3000_v095_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T3000_v095_s42",
+    "source_group": "zrc64_v095_s42_heating",
+    "frames": "outputs/production/zrc64_T3000_v095_s42/jobs/zrc64_T3000_v095_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T3000_v095_s2026",
+    "source_group": "zrc64_v095_s2026_heating",
+    "frames": "outputs/production/zrc64_T3000_v095_s2026/jobs/zrc64_T3000_v095_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T3000_v105_s17",
+    "source_group": "zrc64_v105_s17_heating",
+    "frames": "outputs/production/zrc64_T3000_v105_s17/jobs/zrc64_T3000_v105_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T3000_v105_s42",
+    "source_group": "zrc64_v105_s42_heating",
+    "frames": "outputs/production/zrc64_T3000_v105_s42/jobs/zrc64_T3000_v105_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T3000_v105_s2026",
+    "source_group": "zrc64_v105_s2026_heating",
+    "frames": "outputs/production/zrc64_T3000_v105_s2026/jobs/zrc64_T3000_v105_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T4500_v100_s17",
+    "source_group": "zrc8_v100_s17_heating",
+    "frames": "outputs/production/zrc8_T4500_v100_s17/jobs/zrc8_T4500_v100_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T4500_v100_s42",
+    "source_group": "zrc8_v100_s42_heating",
+    "frames": "outputs/production/zrc8_T4500_v100_s42/jobs/zrc8_T4500_v100_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T4500_v100_s2026",
+    "source_group": "zrc8_v100_s2026_heating",
+    "frames": "outputs/production/zrc8_T4500_v100_s2026/jobs/zrc8_T4500_v100_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T4500_v095_s17",
+    "source_group": "zrc8_v095_s17_heating",
+    "frames": "outputs/production/zrc8_T4500_v095_s17/jobs/zrc8_T4500_v095_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T4500_v095_s42",
+    "source_group": "zrc8_v095_s42_heating",
+    "frames": "outputs/production/zrc8_T4500_v095_s42/jobs/zrc8_T4500_v095_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T4500_v095_s2026",
+    "source_group": "zrc8_v095_s2026_heating",
+    "frames": "outputs/production/zrc8_T4500_v095_s2026/jobs/zrc8_T4500_v095_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T4500_v105_s17",
+    "source_group": "zrc8_v105_s17_heating",
+    "frames": "outputs/production/zrc8_T4500_v105_s17/jobs/zrc8_T4500_v105_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T4500_v105_s42",
+    "source_group": "zrc8_v105_s42_heating",
+    "frames": "outputs/production/zrc8_T4500_v105_s42/jobs/zrc8_T4500_v105_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T4500_v105_s2026",
+    "source_group": "zrc8_v105_s2026_heating",
+    "frames": "outputs/production/zrc8_T4500_v105_s2026/jobs/zrc8_T4500_v105_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T4500_v100_s17",
+    "source_group": "zrc64_v100_s17_heating",
+    "frames": "outputs/production/zrc64_T4500_v100_s17/jobs/zrc64_T4500_v100_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T4500_v100_s42",
+    "source_group": "zrc64_v100_s42_heating",
+    "frames": "outputs/production/zrc64_T4500_v100_s42/jobs/zrc64_T4500_v100_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T4500_v100_s2026",
+    "source_group": "zrc64_v100_s2026_heating",
+    "frames": "outputs/production/zrc64_T4500_v100_s2026/jobs/zrc64_T4500_v100_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T4500_v095_s17",
+    "source_group": "zrc64_v095_s17_heating",
+    "frames": "outputs/production/zrc64_T4500_v095_s17/jobs/zrc64_T4500_v095_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T4500_v095_s42",
+    "source_group": "zrc64_v095_s42_heating",
+    "frames": "outputs/production/zrc64_T4500_v095_s42/jobs/zrc64_T4500_v095_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T4500_v095_s2026",
+    "source_group": "zrc64_v095_s2026_heating",
+    "frames": "outputs/production/zrc64_T4500_v095_s2026/jobs/zrc64_T4500_v095_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T4500_v105_s17",
+    "source_group": "zrc64_v105_s17_heating",
+    "frames": "outputs/production/zrc64_T4500_v105_s17/jobs/zrc64_T4500_v105_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T4500_v105_s42",
+    "source_group": "zrc64_v105_s42_heating",
+    "frames": "outputs/production/zrc64_T4500_v105_s42/jobs/zrc64_T4500_v105_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T4500_v105_s2026",
+    "source_group": "zrc64_v105_s2026_heating",
+    "frames": "outputs/production/zrc64_T4500_v105_s2026/jobs/zrc64_T4500_v105_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T5250_v100_s17",
+    "source_group": "zrc8_v100_s17_heating",
+    "frames": "outputs/production/zrc8_T5250_v100_s17/jobs/zrc8_T5250_v100_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T5250_v100_s42",
+    "source_group": "zrc8_v100_s42_heating",
+    "frames": "outputs/production/zrc8_T5250_v100_s42/jobs/zrc8_T5250_v100_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T5250_v100_s2026",
+    "source_group": "zrc8_v100_s2026_heating",
+    "frames": "outputs/production/zrc8_T5250_v100_s2026/jobs/zrc8_T5250_v100_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T5250_v095_s17",
+    "source_group": "zrc8_v095_s17_heating",
+    "frames": "outputs/production/zrc8_T5250_v095_s17/jobs/zrc8_T5250_v095_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T5250_v095_s42",
+    "source_group": "zrc8_v095_s42_heating",
+    "frames": "outputs/production/zrc8_T5250_v095_s42/jobs/zrc8_T5250_v095_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T5250_v095_s2026",
+    "source_group": "zrc8_v095_s2026_heating",
+    "frames": "outputs/production/zrc8_T5250_v095_s2026/jobs/zrc8_T5250_v095_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T5250_v105_s17",
+    "source_group": "zrc8_v105_s17_heating",
+    "frames": "outputs/production/zrc8_T5250_v105_s17/jobs/zrc8_T5250_v105_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T5250_v105_s42",
+    "source_group": "zrc8_v105_s42_heating",
+    "frames": "outputs/production/zrc8_T5250_v105_s42/jobs/zrc8_T5250_v105_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T5250_v105_s2026",
+    "source_group": "zrc8_v105_s2026_heating",
+    "frames": "outputs/production/zrc8_T5250_v105_s2026/jobs/zrc8_T5250_v105_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T5250_v100_s17",
+    "source_group": "zrc64_v100_s17_heating",
+    "frames": "outputs/production/zrc64_T5250_v100_s17/jobs/zrc64_T5250_v100_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T5250_v100_s42",
+    "source_group": "zrc64_v100_s42_heating",
+    "frames": "outputs/production/zrc64_T5250_v100_s42/jobs/zrc64_T5250_v100_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T5250_v100_s2026",
+    "source_group": "zrc64_v100_s2026_heating",
+    "frames": "outputs/production/zrc64_T5250_v100_s2026/jobs/zrc64_T5250_v100_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T5250_v095_s17",
+    "source_group": "zrc64_v095_s17_heating",
+    "frames": "outputs/production/zrc64_T5250_v095_s17/jobs/zrc64_T5250_v095_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T5250_v095_s42",
+    "source_group": "zrc64_v095_s42_heating",
+    "frames": "outputs/production/zrc64_T5250_v095_s42/jobs/zrc64_T5250_v095_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T5250_v095_s2026",
+    "source_group": "zrc64_v095_s2026_heating",
+    "frames": "outputs/production/zrc64_T5250_v095_s2026/jobs/zrc64_T5250_v095_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T5250_v105_s17",
+    "source_group": "zrc64_v105_s17_heating",
+    "frames": "outputs/production/zrc64_T5250_v105_s17/jobs/zrc64_T5250_v105_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T5250_v105_s42",
+    "source_group": "zrc64_v105_s42_heating",
+    "frames": "outputs/production/zrc64_T5250_v105_s42/jobs/zrc64_T5250_v105_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T5250_v105_s2026",
+    "source_group": "zrc64_v105_s2026_heating",
+    "frames": "outputs/production/zrc64_T5250_v105_s2026/jobs/zrc64_T5250_v105_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T6000_v100_s17",
+    "source_group": "zrc8_v100_s17_heating",
+    "frames": "outputs/production/zrc8_T6000_v100_s17/jobs/zrc8_T6000_v100_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T6000_v100_s42",
+    "source_group": "zrc8_v100_s42_heating",
+    "frames": "outputs/production/zrc8_T6000_v100_s42/jobs/zrc8_T6000_v100_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T6000_v100_s2026",
+    "source_group": "zrc8_v100_s2026_heating",
+    "frames": "outputs/production/zrc8_T6000_v100_s2026/jobs/zrc8_T6000_v100_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T6000_v095_s17",
+    "source_group": "zrc8_v095_s17_heating",
+    "frames": "outputs/production/zrc8_T6000_v095_s17/jobs/zrc8_T6000_v095_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T6000_v095_s42",
+    "source_group": "zrc8_v095_s42_heating",
+    "frames": "outputs/production/zrc8_T6000_v095_s42/jobs/zrc8_T6000_v095_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T6000_v095_s2026",
+    "source_group": "zrc8_v095_s2026_heating",
+    "frames": "outputs/production/zrc8_T6000_v095_s2026/jobs/zrc8_T6000_v095_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T6000_v105_s17",
+    "source_group": "zrc8_v105_s17_heating",
+    "frames": "outputs/production/zrc8_T6000_v105_s17/jobs/zrc8_T6000_v105_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T6000_v105_s42",
+    "source_group": "zrc8_v105_s42_heating",
+    "frames": "outputs/production/zrc8_T6000_v105_s42/jobs/zrc8_T6000_v105_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc8_T6000_v105_s2026",
+    "source_group": "zrc8_v105_s2026_heating",
+    "frames": "outputs/production/zrc8_T6000_v105_s2026/jobs/zrc8_T6000_v105_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T6000_v100_s17",
+    "source_group": "zrc64_v100_s17_heating",
+    "frames": "outputs/production/zrc64_T6000_v100_s17/jobs/zrc64_T6000_v100_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T6000_v100_s42",
+    "source_group": "zrc64_v100_s42_heating",
+    "frames": "outputs/production/zrc64_T6000_v100_s42/jobs/zrc64_T6000_v100_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T6000_v100_s2026",
+    "source_group": "zrc64_v100_s2026_heating",
+    "frames": "outputs/production/zrc64_T6000_v100_s2026/jobs/zrc64_T6000_v100_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T6000_v095_s17",
+    "source_group": "zrc64_v095_s17_heating",
+    "frames": "outputs/production/zrc64_T6000_v095_s17/jobs/zrc64_T6000_v095_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T6000_v095_s42",
+    "source_group": "zrc64_v095_s42_heating",
+    "frames": "outputs/production/zrc64_T6000_v095_s42/jobs/zrc64_T6000_v095_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T6000_v095_s2026",
+    "source_group": "zrc64_v095_s2026_heating",
+    "frames": "outputs/production/zrc64_T6000_v095_s2026/jobs/zrc64_T6000_v095_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T6000_v105_s17",
+    "source_group": "zrc64_v105_s17_heating",
+    "frames": "outputs/production/zrc64_T6000_v105_s17/jobs/zrc64_T6000_v105_s17/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T6000_v105_s42",
+    "source_group": "zrc64_v105_s42_heating",
+    "frames": "outputs/production/zrc64_T6000_v105_s42/jobs/zrc64_T6000_v105_s42/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  },
+  {
+    "job_id": "zrc64_T6000_v105_s2026",
+    "source_group": "zrc64_v105_s2026_heating",
+    "frames": "outputs/production/zrc64_T6000_v105_s2026/jobs/zrc64_T6000_v105_s2026/production/attempt-01/sampling/frames.extxyz",
+    "label_source": "MACE_prediction_NOT_DFT"
+  }
+]

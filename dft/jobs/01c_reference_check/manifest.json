@@ -1,0 +1,141 @@
+{
+  "protocol_id": "zrc-pbe64-zrsv-c-v2-proposed",
+  "status": "input_validated_calculation_pending",
+  "expected_job_count": 2,
+  "based_on_review": "dft/reviews/confirmation-2026-09-21.json",
+  "jobs": [
+    {
+      "path": "01c_reference_check/encut_850_k14",
+      "stage": 1,
+      "purpose": "Check 850 eV reference for PSMAXN warning and cutoff/kmesh/joint convergence",
+      "source_group": "distorted8",
+      "structure_kind": "constructed_not_thermalized",
+      "natoms": 8,
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "counts": [
+        4,
+        4
+      ],
+      "recommended_potentials": [
+        "Zr_sv",
+        "C"
+      ],
+      "kmesh": [
+        14,
+        14,
+        14
+      ],
+      "incar": {
+        "SYSTEM": "01c_reference_check_encut_850_k14",
+        "GGA": "PE",
+        "PREC": "Accurate",
+        "ENCUT": 850,
+        "EDIFF": "1E-7",
+        "ALGO": "Normal",
+        "NELM": 200,
+        "NELMIN": 4,
+        "ISTART": 0,
+        "ICHARG": 2,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "LREAL": ".FALSE.",
+        "LASPH": ".TRUE.",
+        "ADDGRID": ".FALSE.",
+        "LMAXMIX": 4,
+        "ISYM": 0,
+        "NSW": 0,
+        "IBRION": -1,
+        "ISIF": 2,
+        "LWAVE": ".FALSE.",
+        "LCHARG": ".FALSE.",
+        "NWRITE": 2
+      },
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "min_periodic_distance_A": 2.2364282326201472,
+      "label_status": "not_calculated",
+      "dataset_split": "unassigned",
+      "input_status": "validated_ready_for_reference_check",
+      "potcar_sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "potcar_metadata": "POTCAR.meta.json",
+      "protocol_id": "zrc-pbe64-zrsv-c-v2-proposed",
+      "potcar_release": "potpaw_PBE.64",
+      "validation_status": "input_validated_calculation_pending",
+      "dataset_eligible": false,
+      "accuracy_standard": "zrc-label-numerical-accuracy-v1",
+      "submission_ready": true,
+      "based_on_review": "dft/reviews/confirmation-2026-09-21.json"
+    },
+    {
+      "path": "01c_reference_check/encut_850_k16",
+      "stage": 1,
+      "purpose": "Check 850 eV reference for PSMAXN warning and cutoff/kmesh/joint convergence",
+      "source_group": "distorted8",
+      "structure_kind": "constructed_not_thermalized",
+      "natoms": 8,
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "counts": [
+        4,
+        4
+      ],
+      "recommended_potentials": [
+        "Zr_sv",
+        "C"
+      ],
+      "kmesh": [
+        16,
+        16,
+        16
+      ],
+      "incar": {
+        "SYSTEM": "01c_reference_check_encut_850_k16",
+        "GGA": "PE",
+        "PREC": "Accurate",
+        "ENCUT": 850,
+        "EDIFF": "1E-7",
+        "ALGO": "Normal",
+        "NELM": 200,
+        "NELMIN": 4,
+        "ISTART": 0,
+        "ICHARG": 2,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "LREAL": ".FALSE.",
+        "LASPH": ".TRUE.",
+        "ADDGRID": ".FALSE.",
+        "LMAXMIX": 4,
+        "ISYM": 0,
+        "NSW": 0,
+        "IBRION": -1,
+        "ISIF": 2,
+        "LWAVE": ".FALSE.",
+        "LCHARG": ".FALSE.",
+        "NWRITE": 2
+      },
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "min_periodic_distance_A": 2.2364282326201472,
+      "label_status": "not_calculated",
+      "dataset_split": "unassigned",
+      "input_status": "validated_ready_for_reference_check",
+      "potcar_sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "potcar_metadata": "POTCAR.meta.json",
+      "protocol_id": "zrc-pbe64-zrsv-c-v2-proposed",
+      "potcar_release": "potpaw_PBE.64",
+      "validation_status": "input_validated_calculation_pending",
+      "dataset_eligible": false,
+      "accuracy_standard": "zrc-label-numerical-accuracy-v1",
+      "submission_ready": true,
+      "based_on_review": "dft/reviews/confirmation-2026-09-21.json"
+    }
+  ],
+  "execution_priority": "optional_after_literature_reassessment",
+  "required_next_step": false,
+  "literature_review": "docs/dft-cutoff-literature-review.md"
+}

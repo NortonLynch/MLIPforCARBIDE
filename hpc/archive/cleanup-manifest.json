@@ -1,0 +1,290 @@
+{
+  "created_utc": "2026-09-22T07:46:47.337576+00:00",
+  "remove_targets": [
+    "hpc/zrc-ase-v100-setup",
+    "hpc/zrc-ase-v100-setup.tgz",
+    "hpc/zrc-ase-v100-setup.tgz.sha256",
+    "hpc/zrc-ase-v100-fix1.tgz",
+    "hpc/zrc-ase-v100-fix1.tgz.sha256",
+    "tmp/environment-checks",
+    "tmp/hpc-manual",
+    "tmp/mace-install-report.json",
+    "tmp/mace-train-help.txt",
+    "tmp/mace-training-check.log",
+    "tmp/finalize_deployment.py",
+    "hpc/reviews/20260922-install-failure"
+  ],
+  "files": [
+    {
+      "path": "hpc/zrc-ase-v100-setup/check.slurm",
+      "bytes": 1018,
+      "sha256": "b5012ab93b15a7c5e7c5e816da40403583bdd63eaec298e3ef8eb99b373edebd"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/check_gpu.py",
+      "bytes": 5323,
+      "sha256": "b3e1c4d34d477f553d594b682f2bc64535a57760401bac9090df2c61eb619e35"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/constraints.txt",
+      "bytes": 164,
+      "sha256": "f176e0a9ca4f33911840596f778307b5f1b29ee7293c1c0ecc6a6ebfca549d46"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/gpu-15316769.json",
+      "bytes": 789,
+      "sha256": "7f156dc8869ee0de3b82d63adfb90c17667f7412820fa8b1d7c1ad45d12e6359"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/gpu-15325225.json",
+      "bytes": 3518,
+      "sha256": "cbf8d4f8b908040bc9d6901fb9ceacd6f7e54b72ffbcbd048683a1e01b01f1ef"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/install-20260922T060311Z.log",
+      "bytes": 30117,
+      "sha256": "fc3f8b3d45d38fd6b0cc0872ba919db187cb44c234a089f318cfd7aeb75c1e81"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/install.sh",
+      "bytes": 2467,
+      "sha256": "3d3cad494863cbd64754ac5a8e4f69e9e3f379c8ac3bae5a8c849e8a68ccbe60"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/login-probe.txt",
+      "bytes": 8911,
+      "sha256": "d420e95789d8a68e08fe5c052dfa16a155b84fdf71a8818c2d425fb65642246f"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/mace-check-15316769.out",
+      "bytes": 1199,
+      "sha256": "86935f103ef09cb4a00dc7b63903b362b221663a7cb021462d532413292cb040"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/mace-check-15325225.out",
+      "bytes": 6258,
+      "sha256": "7d3283ed17c0c3d83dec66e9cc7c4f0e4959cc89291610052ead5815b05a6127"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/node-check-15315112.out",
+      "bytes": 10406,
+      "sha256": "101ea25f9897d01e3311fa6fd15a06c0a39ab4017c7560c9b8a093c45bbebd25"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/probe.sh",
+      "bytes": 597,
+      "sha256": "56f1fcea8b62b0cb55e5a193135c4b678df21ca8fe582f0269fe2461267d4720"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/probe.slurm",
+      "bytes": 431,
+      "sha256": "1edc524cfe56dd5014418b14f20d881a09d40fb5638ec03ab99bd8f59ba3b0f0"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/README.md",
+      "bytes": 9108,
+      "sha256": "c1fded00596c296791aa211d74dd94482d2a9e74828eaafc433dc89da8a482d8"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/SHA256SUMS",
+      "bytes": 1339,
+      "sha256": "d05f4d885d5cf488ae146b7d719bc8c0b618607810c76777d8f7167ea2215b4f"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/models/mace-mh-1.model",
+      "bytes": 59208139,
+      "sha256": "a522eb7f59c7879963d41586528f4980baf33e086c94aa92e3eafdeccad3be47"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/references/provenance.json",
+      "bytes": 7776,
+      "sha256": "bc07a1e24943305521d4024c6277910c793b1c59d260177575f24231130cdb63"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/references/zrc216_T0300_v100_s17.npz",
+      "bytes": 11285,
+      "sha256": "47346c8562725f2028e069871e00b60f086bd0938bcf876410fd1f14a22d6b5f"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/references/zrc216_T6000_v100_s17.npz",
+      "bytes": 11364,
+      "sha256": "9b1c22e52c5f2d579f4d88a8ee7a0b368a233cfbce6ecb9728b2a05f4170cb5a"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/references/zrc64_T0300_v100_s17.npz",
+      "bytes": 4415,
+      "sha256": "bf0d8cb2f26afca09418a1c10c58e852d6656d795d2372e260701e79ee090ff6"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/references/zrc64_T6000_v100_s17.npz",
+      "bytes": 4430,
+      "sha256": "bd9cfbd7915cc6eb9ccfc20c80fe2f095506290ad38d512d594d8dcfcd86bd9f"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/references/zrc8_T0300_v100_s17.npz",
+      "bytes": 1784,
+      "sha256": "b64bb37694ea3886850c837570c64a2c5ce47665727621d9fc92bd80dd1418c4"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup/references/zrc8_T6000_v100_s17.npz",
+      "bytes": 1786,
+      "sha256": "3db0e1b18faf0ebc9c24b3d91c2843a15863fb522291adfe085fabe38cdc8030"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup.tgz",
+      "bytes": 27790411,
+      "sha256": "371c6704411d82e88d328e2fb23b0448a60e15c3e18ce2a88ed29a156ab711b4"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-setup.tgz.sha256",
+      "bytes": 89,
+      "sha256": "d3ab5511b97de7b3861cdce8755443811ad8f0634c9cfa36623e0b361024db44"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-fix1.tgz",
+      "bytes": 7248,
+      "sha256": "81889ab7fbf08115ca343bbd7ddc05e64e175075ef20bbed124abdc9036a26e9"
+    },
+    {
+      "path": "hpc/zrc-ase-v100-fix1.tgz.sha256",
+      "bytes": 88,
+      "sha256": "103193d45bc52cdbea29b1ac7a9faacd2ed75570099f4ddeafd6ce1442ab9b4d"
+    },
+    {
+      "path": "tmp/environment-checks/analysis/analysis-check.png",
+      "bytes": 21554,
+      "sha256": "89e5f55dd1f16c9fba12e8e5c456458d7aee9055ea241fc4dcead472ef5b0839"
+    },
+    {
+      "path": "tmp/environment-checks/analysis/distances.csv",
+      "bytes": 148,
+      "sha256": "6faf09a1cf08b9c66a6d31af14a557731bb7ed616af89d18b4f552e6d3202886"
+    },
+    {
+      "path": "tmp/environment-checks/analysis/report.json",
+      "bytes": 560,
+      "sha256": "634be1d9f554c0805a7421fea08b33044e90547c50915d87c9c2ef2eaef3014f"
+    },
+    {
+      "path": "tmp/environment-checks/analysis/soap.h5",
+      "bytes": 3560,
+      "sha256": "04977eb3bafd7cd4413a0721406218b28c4e4271f4be910b5658e4f7933c52a8"
+    },
+    {
+      "path": "tmp/environment-checks/analysis/synthetic.extxyz",
+      "bytes": 1686,
+      "sha256": "e3856651d9b96f982ff2b710a918268f18624cadc709cd1a67d327226e8e48df"
+    },
+    {
+      "path": "tmp/environment-checks/mace/report.json",
+      "bytes": 985,
+      "sha256": "153bebfc8cfa42d4e4a69b05ed3533a8f9064c04fe18cf8d970e0c69abad3e5c"
+    },
+    {
+      "path": "tmp/environment-checks/mace/synthetic-train.extxyz",
+      "bytes": 3804,
+      "sha256": "b2422d91592c38e4c7f215bc6cd6251438cc49ac1eb07376a688c82b2579f48c"
+    },
+    {
+      "path": "tmp/environment-checks/mace/synthetic-valid.extxyz",
+      "bytes": 1291,
+      "sha256": "a7694468f0c352c144010c7e1c498020a72a65a486d387f131893b601fdd5b83"
+    },
+    {
+      "path": "tmp/environment-checks/mace/training-report.json",
+      "bytes": 245,
+      "sha256": "8788dfb5053f420734b570062691289ce309d607ff08f0f152e71fb690ace14a"
+    },
+    {
+      "path": "tmp/environment-checks/mace/training/logs/mh1_installation_check_run-17.log",
+      "bytes": 10219,
+      "sha256": "9e4e8bb6c35f6acb4981daf68b6b56000f57074682c9e82aa2cba344f6940696"
+    },
+    {
+      "path": "tmp/environment-checks/mace/training/logs/mh1_installation_check_run-17_debug.log",
+      "bytes": 16371,
+      "sha256": "018321e959db1520a93df9d25cec431d926790f200b5a342d12fb195daf572bf"
+    },
+    {
+      "path": "tmp/environment-checks/mace/training/results/mh1_installation_check_run-17_train.txt",
+      "bytes": 2195,
+      "sha256": "4c20f0abe18b66e10e3f8877749399ff202226de13d4aa9091d817a977cb90d7"
+    },
+    {
+      "path": "tmp/hpc-manual/text.txt",
+      "bytes": 42502,
+      "sha256": "f3ad970a7f39940ae43273a662f61a2c6bc72d8acb8ffc44ff2dc2e3fc8c6b4b"
+    },
+    {
+      "path": "tmp/mace-install-report.json",
+      "bytes": 182436,
+      "sha256": "e0a1cea03e6d1771c892924a6a1c4ba9b45acb44626b5779ec145ab2cce66c39"
+    },
+    {
+      "path": "tmp/mace-train-help.txt",
+      "bytes": 37203,
+      "sha256": "ae7e8aefc7869f009742f666bbd82cd553b41d5ba68bc93b51223c132c94f1f4"
+    },
+    {
+      "path": "tmp/mace-training-check.log",
+      "bytes": 24950,
+      "sha256": "5ca3f8928cbb48d65f57ca313d68f95fd8eb6a37931e463e58107fc42fc36495"
+    },
+    {
+      "path": "tmp/finalize_deployment.py",
+      "bytes": 2819,
+      "sha256": "2e9bd212fa886d7c5e77ea833cdc85f6c832ceafb1565d0259d8fd124348072b"
+    },
+    {
+      "path": "hpc/reviews/20260922-install-failure/review.json",
+      "bytes": 570,
+      "sha256": "431a3fe0fbe309b67b1579a7665d38684b882647a744360753d099b4e2a89501"
+    },
+    {
+      "path": "hpc/reviews/20260922-install-failure/wheel-metadata.json",
+      "bytes": 2497,
+      "sha256": "e17741289b528ab6283215177abb1a5ee646fbc1ad0363105bf9099fae1c4e75"
+    },
+    {
+      "path": "hpc/reviews/20260922-install-failure/original/constraints.txt",
+      "bytes": 106,
+      "sha256": "19246625740b8b054727ea0eec64602bd91483366885762a0379c055b4e76edc"
+    },
+    {
+      "path": "hpc/reviews/20260922-install-failure/original/gpu-15316769.json",
+      "bytes": 789,
+      "sha256": "7f156dc8869ee0de3b82d63adfb90c17667f7412820fa8b1d7c1ad45d12e6359"
+    },
+    {
+      "path": "hpc/reviews/20260922-install-failure/original/install-20260922T060311Z.log",
+      "bytes": 30117,
+      "sha256": "fc3f8b3d45d38fd6b0cc0872ba919db187cb44c234a089f318cfd7aeb75c1e81"
+    },
+    {
+      "path": "hpc/reviews/20260922-install-failure/original/install.sh",
+      "bytes": 2164,
+      "sha256": "e99abece3746a8cc9c53f1114e64c4efc129363e7393ce18061ede0ee86ae7dc"
+    },
+    {
+      "path": "hpc/reviews/20260922-install-failure/original/mace-check-15316769.out",
+      "bytes": 1199,
+      "sha256": "86935f103ef09cb4a00dc7b63903b362b221663a7cb021462d532413292cb040"
+    },
+    {
+      "path": "hpc/reviews/20260922-install-failure/original/README.md",
+      "bytes": 6744,
+      "sha256": "c3c67554d61869d5559353c6dbb968491d0b7193440c3b32aeb550e2a2032fb6"
+    },
+    {
+      "path": "hpc/reviews/20260922-install-failure/original/SHA256SUMS",
+      "bytes": 1339,
+      "sha256": "541e42b5fd718e01aa66119f1d834fb2ab64db71a92221ceb17b671b7d941499"
+    }
+  ],
+  "archived_files": 51,
+  "evidence_archive": "hpc/archive/deployment-evidence-20260922.tgz",
+  "archive_sha256": "edd9726b73015906b997b2abebd0cbc15d450c47ebfc5bc41527a9ff7148bcf9",
+  "old_bytes_removed": 87528513,
+  "archive_bytes": 176607,
+  "note": "Duplicate model remains in models/ and new submission bundle. Old deployment tarballs superseded; scripts, reference snapshots and raw logs archived. Scientific MD/DFT results and installed environments untouched."
+}

@@ -1,31 +1,163 @@
 {
   "schema_version": 1,
-  "status": "design_only_not_executable",
+  "status": "round1_MD_complete_DFT600_k67_36_jobs_prepared_not_submitted",
   "experiment_id": "zrc_mvp",
   "material": "ZrC",
-  "candidate_foundation_models": ["MACE", "MatterSim", "UMA"],
-  "model_checkpoints": null,
+  "candidate_foundation_models": [
+    "MACE",
+    "MatterSim",
+    "UMA"
+  ],
+  "model_checkpoints": {
+    "MACE": {
+      "name": "MACE-MH-1",
+      "package": "mace-torch==0.3.16",
+      "path": "models/mace-mh-1.model",
+      "head": "omat_pbe",
+      "sha256": "a522eb7f59c7879963d41586528f4980baf33e086c94aa92e3eafdeccad3be47",
+      "source": "https://github.com/ACEsuit/mace-foundations/releases/download/mace_mh_1/mace-mh-1.model",
+      "status": "windows_gpu_installation_verified_not_DFT_validated"
+    },
+    "MatterSim": null,
+    "UMA": null
+  },
   "adaptation_model": "MACE",
-  "selection_strategies": ["random", "soap_fps"],
-  "comparisons": ["zero_shot", "fine_tuning", "same_architecture_from_scratch"],
-  "adaptation_pool_target_structures": [100, 200],
-  "mvp_learning_curve_budgets": [20, 50, 100, 200],
-  "full_study_learning_curve_budgets": [20, 50, 100, 200, 400],
+  "selection_strategies": [
+    "stratified_random",
+    "stratified_SOAP_FPS"
+  ],
+  "comparisons": [
+    "zero_shot",
+    "fine_tuning",
+    "same_architecture_from_scratch"
+  ],
+  "adaptation_pool_target_structures": [
+    100,
+    200
+  ],
+  "mvp_learning_curve_budgets": [
+    20,
+    50,
+    100,
+    200
+  ],
+  "full_study_learning_curve_budgets": [
+    20,
+    50,
+    100,
+    200,
+    400
+  ],
   "budget_rule": "Skip budgets larger than the available converged training pool; reserve validation and test labels separately.",
   "validation_budget": null,
   "test_budget": null,
-  "seed_candidates": [17, 42, 2026],
-  "split_group_key": "source_group",
+  "seed_candidates": [
+    17,
+    42,
+    2026
+  ],
+  "split_group_key": "md_seed",
   "fixed_test_manifest": null,
-  "target_states": ["ambient_crystal", "high_temperature_solid", "premelting", "liquid_if_verified"],
-  "target_high_temperature_range_K": [4500, 6000],
+  "target_states": [
+    "ambient_crystal",
+    "high_temperature_solid",
+    "premelting",
+    "liquid_if_verified"
+  ],
+  "target_high_temperature_range_K": [
+    4500,
+    6000
+  ],
   "phase_assignment": "requires_structural_and_dynamic_evidence",
-  "temperature_grid_K": null,
-  "dft_protocol": null,
-  "md_protocol": null,
+  "temperature_grid_K": [
+    300,
+    1500,
+    3000,
+    4500,
+    5250,
+    6000
+  ],
+  "dft_protocol": {
+    "id": "zrc-pbe64-zrsv-c-v2-proposed",
+    "status": "ENCUT600_selected_by_user_k6_vs_k7_comparison_pending",
+    "vasp_version": "6.3.2",
+    "input_directory": "dft/jobs",
+    "functional": "PBE",
+    "potcar_names": [
+      "Zr_sv",
+      "C"
+    ],
+    "potcar_release": "potpaw_PBE.64",
+    "proposed_encut_eV": 600,
+    "proposed_ismear": 0,
+    "proposed_sigma_eV": 0.1,
+    "ediff_eV_per_cell": 1e-07,
+    "label_energy_proposal": "force_consistent_free_energy_TOTEN",
+    "finite_electronic_temperature": false,
+    "note": "User chose fixed ENCUT=600 eV and Gamma-centered k6/k7 on all 18 calibration frames. 36 static jobs prepared, not submitted. Previous 700/800 eV sweep is superseded for this batch; no new cutoff convergence certification.",
+    "vaspkit_version": "1.3.5",
+    "potcar_preparation": "assembled_from_user_supplied_local_library",
+    "potcar_inventory": "dft/jobs/potcar-inventory.json",
+    "potcar_source_directory": "dft/psudopotential/potpaw_PBE.64",
+    "potcar_source_archive": "dft/potpaw_PBE.64.tgz",
+    "smoke_review": "dft/reviews/smoke-15309852.json",
+    "proposed_kmesh_8_atom": null,
+    "numerical_accuracy_standard": "configs/experiments/zrc_dft_accuracy.json",
+    "convergence_review": "dft/reviews/convergence-2026-09-21.json",
+    "next_submission_list": "dft/jobs/05_md_kmesh600/jobs.list",
+    "confirmation_review": "dft/reviews/confirmation-2026-09-21.json",
+    "optional_reference_submission_list": "dft/jobs/01c_reference_check/jobs.list",
+    "literature_review": "docs/dft-cutoff-literature-review.md",
+    "calibration_proposal": "configs/experiments/zrc_dft_literature_proposal.json",
+    "selected_encut_eV": 600,
+    "current_task_config": "configs/experiments/zrc_dft600_k67.json"
+  },
+  "md_protocol": {
+    "id": "zrc-mh1-nvt-candidate-sampling-v1",
+    "path": "configs/experiments/zrc_mace_sampling.json",
+    "status": "round1_162_production_numerically_complete_not_physical_validated",
+    "initial_atoms": 64,
+    "finite_size_check_atoms": 216,
+    "optional_larger_atoms": 512,
+    "active_campaign": {
+      "id": "zrc-mace-mh1-round1-162",
+      "config": "configs/experiments/zrc_mace_round1.json",
+      "summary": "hpc/reviews/completed-round1-20260924/completion-audit.json",
+      "sizes_atoms": [
+        8,
+        64,
+        216
+      ],
+      "combinations": 162,
+      "local_summary": "experiments/zrc_mace_round1/summary.json"
+    }
+  },
   "reliability_thresholds": null,
   "reference_observables_source": null,
-  "metrics": ["energy_per_atom_error", "force_component_error", "stress_error", "rdf", "coordination", "density", "diffusion", "md_stability"],
-  "units": {"length": "angstrom", "energy": "eV", "force": "eV/angstrom", "stress": "eV/angstrom^3"},
-  "extensions": ["HfC", "TaC", "iterative_active_learning", "long_timescale_md"]
+  "metrics": [
+    "energy_per_atom_error",
+    "force_component_error",
+    "stress_error",
+    "rdf",
+    "coordination",
+    "density",
+    "diffusion",
+    "md_stability"
+  ],
+  "units": {
+    "length": "angstrom",
+    "energy": "eV",
+    "force": "eV/angstrom",
+    "stress": "eV/angstrom^3"
+  },
+  "extensions": [
+    "HfC",
+    "TaC",
+    "iterative_active_learning",
+    "long_timescale_md"
+  ],
+  "split_group_scope": "global across all sizes, volumes and heating descendants",
+  "frozen_candidate_groups": "data/splits/zrc_round1_frozen_groups.json",
+  "calibration_structures": "dft/structures/zrc_calibration18/manifest.json",
+  "selection_sequences": "data/candidates/zrc_round1/sequences"
 }

@@ -1,0 +1,106 @@
+{
+  "job_id": "15309852",
+  "job_path": "dft/jobs/00_smoke/zrc8",
+  "assessment": "smoke_test_passed_not_production_protocol_validated",
+  "protocol_id": "zrc-pbe64-zrsv-c-v2-proposed",
+  "potcar_release": "potpaw_PBE.64",
+  "potential_titles": [
+    "PAW_PBE Zr_sv 04Jan2005",
+    "PAW_PBE C 08Apr2002"
+  ],
+  "output_embedded_potential_hashes_match": true,
+  "last_scf_delta_energy_eV": 6.9631e-09,
+  "last_scf_delta_band_energy_eV": -3.7376e-09,
+  "version": "6.3.2",
+  "converged_electronic": true,
+  "ionic_relaxation_performed": false,
+  "ionic_steps": 1,
+  "electronic_steps": 14,
+  "energies_eV": {
+    "e_fr_energy": -77.94895984,
+    "e_wo_entrp": -77.93318881,
+    "e_0_energy": -77.94107433
+  },
+  "free_energy_eV_per_atom": -9.74361998,
+  "entropy_term_magnitude_meV_per_atom": 1.9713787499995306,
+  "last_electronic_step": {
+    "alphaZ": 323.64923595,
+    "ewald": -5136.08125544,
+    "hartreedc": -782.34546936,
+    "XCdc": 252.46629418,
+    "pawpsdc": 9001.87675855,
+    "pawaedc": -8931.64152575,
+    "eentropy": -0.01577104,
+    "bandstr": -531.33862654,
+    "atom": 5725.48139959,
+    "e_fr_energy": -77.94895984,
+    "e_wo_entrp": -77.93318881,
+    "e_0_energy": -77.94107433
+  },
+  "natoms": 8,
+  "volume_A3": 103.82300000000002,
+  "max_force_eV_A": 3.10322412983658e-07,
+  "stress_vasp_kbar": [
+    [
+      11.84815294,
+      -1.836e-05,
+      7.6e-07
+    ],
+    [
+      -1.837e-05,
+      11.84809039,
+      -1.97e-06
+    ],
+    [
+      7.2e-07,
+      -1.81e-06,
+      11.84809857
+    ]
+  ],
+  "stress_ase_eV_A3": [
+    -0.007395035469987056,
+    -0.007394996429347473,
+    -0.007395001534901938,
+    1.229577297799002e-09,
+    -4.743546935671277e-10,
+    1.1459410755121662e-08
+  ],
+  "pressure_GPa": 1.1848113966666667,
+  "highest_band_max_occupancy": 0.0,
+  "elapsed_seconds": 25.428,
+  "parameters": {
+    "GGA": "Pe",
+    "ENCUT": 600.0,
+    "EDIFF": 1e-07,
+    "NELECT": 64.0,
+    "NBANDS": 56,
+    "ISMEAR": 0,
+    "SIGMA": 0.1,
+    "NSW": 0,
+    "ISPIN": 1
+  },
+  "mpi_ranks": 56,
+  "ncore": 1,
+  "kpar": 1,
+  "nkpts": 36,
+  "position_change_A": 0.0,
+  "cell_change_A": 0.0,
+  "input_hashes_match_job_record": true,
+  "stderr_empty": true,
+  "slurm_accounting_available": false,
+  "production_dataset_eligible": false,
+  "input_file_sha256": {
+    "INCAR": "c930ede51e8fcaf7d34978609ce6e1393cea311e56c9d4f32fdb31584030ee88",
+    "POSCAR": "eb6e2d17eb9d2e5874ef53a2e40c59986cea287a8c55b53e92818bf5f282aaf8",
+    "KPOINTS": "e8db94eff1394fc7c2f51ebf27e533209eb385b508d5d4c4f5dbe4525a951fb3",
+    "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+    "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b"
+  },
+  "output_file_sha256": {
+    "OUTCAR": "bf27f9dd42bb4f07ac2969805c32416c54d0fcf0975fef80b3132f6f6a5b8e41",
+    "OSZICAR": "f25fdf6ba62379f02893fdb9ec65a26e6333dc0b4fb2d6ecca2952353ff8194d",
+    "vasprun.xml": "fb6d8c2b7be4dd31e054ab5c0652c55c92d01a6e5fa3dcba446c2d8e4437c742",
+    "stdout.15309852": "d9e1fb9675e46c8f17ee291eed41ec4f20b17bfc811dad56922817608c3a48e0",
+    "stderr.15309852": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

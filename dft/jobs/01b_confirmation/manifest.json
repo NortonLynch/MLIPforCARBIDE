@@ -1,0 +1,208 @@
+{
+  "protocol_id": "zrc-pbe64-zrsv-c-v2-proposed",
+  "status": "completed_reviewed_reference_warning_unresolved",
+  "based_on_review": "dft/reviews/convergence-2026-09-21.json",
+  "expected_job_count": 3,
+  "jobs": [
+    {
+      "path": "01b_confirmation/encut_800_k12",
+      "stage": 1,
+      "purpose": "Post-review convergence confirmation; k-mesh plateau and joint ENCUT/k reference",
+      "source_group": "distorted8",
+      "structure_kind": "constructed_not_thermalized",
+      "natoms": 8,
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "counts": [
+        4,
+        4
+      ],
+      "recommended_potentials": [
+        "Zr_sv",
+        "C"
+      ],
+      "kmesh": [
+        12,
+        12,
+        12
+      ],
+      "incar": {
+        "SYSTEM": "01b_confirmation_encut_800_k12",
+        "GGA": "PE",
+        "PREC": "Accurate",
+        "ENCUT": 800,
+        "EDIFF": "1E-7",
+        "ALGO": "Normal",
+        "NELM": 200,
+        "NELMIN": 4,
+        "ISTART": 0,
+        "ICHARG": 2,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "LREAL": ".FALSE.",
+        "LASPH": ".TRUE.",
+        "ADDGRID": ".FALSE.",
+        "LMAXMIX": 4,
+        "ISYM": 0,
+        "NSW": 0,
+        "IBRION": -1,
+        "ISIF": 2,
+        "LWAVE": ".FALSE.",
+        "LCHARG": ".FALSE.",
+        "NWRITE": 2
+      },
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "min_periodic_distance_A": 2.2364282326201472,
+      "label_status": "converged",
+      "dataset_split": "unassigned",
+      "input_status": "executed_reviewed",
+      "potcar_sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "potcar_metadata": "POTCAR.meta.json",
+      "protocol_id": "zrc-pbe64-zrsv-c-v2-proposed",
+      "potcar_release": "potpaw_PBE.64",
+      "validation_status": "SCF_converged_reference_protocol_not_certified",
+      "dataset_eligible": false,
+      "accuracy_standard": "zrc-label-numerical-accuracy-v1",
+      "last_run_id": "15310787",
+      "review_file": "dft/reviews/confirmation-2026-09-21.json",
+      "unresolved_physical_warning": false
+    },
+    {
+      "path": "01b_confirmation/encut_800_k14",
+      "stage": 1,
+      "purpose": "Post-review convergence confirmation; k-mesh plateau and joint ENCUT/k reference",
+      "source_group": "distorted8",
+      "structure_kind": "constructed_not_thermalized",
+      "natoms": 8,
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "counts": [
+        4,
+        4
+      ],
+      "recommended_potentials": [
+        "Zr_sv",
+        "C"
+      ],
+      "kmesh": [
+        14,
+        14,
+        14
+      ],
+      "incar": {
+        "SYSTEM": "01b_confirmation_encut_800_k14",
+        "GGA": "PE",
+        "PREC": "Accurate",
+        "ENCUT": 800,
+        "EDIFF": "1E-7",
+        "ALGO": "Normal",
+        "NELM": 200,
+        "NELMIN": 4,
+        "ISTART": 0,
+        "ICHARG": 2,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "LREAL": ".FALSE.",
+        "LASPH": ".TRUE.",
+        "ADDGRID": ".FALSE.",
+        "LMAXMIX": 4,
+        "ISYM": 0,
+        "NSW": 0,
+        "IBRION": -1,
+        "ISIF": 2,
+        "LWAVE": ".FALSE.",
+        "LCHARG": ".FALSE.",
+        "NWRITE": 2
+      },
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "min_periodic_distance_A": 2.2364282326201472,
+      "label_status": "converged",
+      "dataset_split": "unassigned",
+      "input_status": "executed_reviewed",
+      "potcar_sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "potcar_metadata": "POTCAR.meta.json",
+      "protocol_id": "zrc-pbe64-zrsv-c-v2-proposed",
+      "potcar_release": "potpaw_PBE.64",
+      "validation_status": "SCF_converged_reference_protocol_not_certified",
+      "dataset_eligible": false,
+      "accuracy_standard": "zrc-label-numerical-accuracy-v1",
+      "last_run_id": "15310788",
+      "review_file": "dft/reviews/confirmation-2026-09-21.json",
+      "unresolved_physical_warning": false
+    },
+    {
+      "path": "01b_confirmation/encut_900_k14",
+      "stage": 1,
+      "purpose": "Post-review convergence confirmation; k-mesh plateau and joint ENCUT/k reference",
+      "source_group": "distorted8",
+      "structure_kind": "constructed_not_thermalized",
+      "natoms": 8,
+      "species": [
+        "Zr",
+        "C"
+      ],
+      "counts": [
+        4,
+        4
+      ],
+      "recommended_potentials": [
+        "Zr_sv",
+        "C"
+      ],
+      "kmesh": [
+        14,
+        14,
+        14
+      ],
+      "incar": {
+        "SYSTEM": "01b_confirmation_encut_900_k14",
+        "GGA": "PE",
+        "PREC": "Accurate",
+        "ENCUT": 900,
+        "EDIFF": "1E-7",
+        "ALGO": "Normal",
+        "NELM": 200,
+        "NELMIN": 4,
+        "ISTART": 0,
+        "ICHARG": 2,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "LREAL": ".FALSE.",
+        "LASPH": ".TRUE.",
+        "ADDGRID": ".FALSE.",
+        "LMAXMIX": 4,
+        "ISYM": 0,
+        "NSW": 0,
+        "IBRION": -1,
+        "ISIF": 2,
+        "LWAVE": ".FALSE.",
+        "LCHARG": ".FALSE.",
+        "NWRITE": 2
+      },
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "min_periodic_distance_A": 2.2364282326201472,
+      "label_status": "converged",
+      "dataset_split": "unassigned",
+      "input_status": "executed_reviewed",
+      "potcar_sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+      "potcar_metadata": "POTCAR.meta.json",
+      "protocol_id": "zrc-pbe64-zrsv-c-v2-proposed",
+      "potcar_release": "potpaw_PBE.64",
+      "validation_status": "SCF_converged_reference_warning_unresolved",
+      "dataset_eligible": false,
+      "accuracy_standard": "zrc-label-numerical-accuracy-v1",
+      "last_run_id": "15310789",
+      "review_file": "dft/reviews/confirmation-2026-09-21.json",
+      "unresolved_physical_warning": true
+    }
+  ],
+  "execution_review": "dft/reviews/confirmation-2026-09-21.json",
+  "production_protocol_certified": false
+}

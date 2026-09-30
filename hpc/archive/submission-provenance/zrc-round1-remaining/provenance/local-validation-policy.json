@@ -1,0 +1,11 @@
+{
+  "static_precision_comparison": "relative E/N versus ideal same-composition reference; forces/stress on warm snapshot",
+  "relative_energy_precision_meV_atom": 0.1,
+  "force_component_RMS_precision_eV_A": 0.001,
+  "force_component_max_precision_eV_A": 0.003,
+  "stress_component_max_precision_GPa": 0.01,
+  "nve_drift_limit_meV_atom_ps": 1.0,
+  "finite_explosive_temperature_guard_K": "max(100000,30*target_T)",
+  "rule": "Never relax thresholds to force a pass. NVT log warnings do not establish equilibration.",
+  "frozen_before_first_MD": true
+}

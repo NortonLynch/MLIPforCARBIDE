@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "utc": "2026-09-22T08:08:10.647862+00:00",
+  "manifest_sha256": "60145fdfcf66c83909cbd288c12a70a3342d27bbdd87e2033ad4f621679f762b",
+  "environment_sha256": "b51f3363223aa8c56a2652036a171e3d67054f8ff787cf3fe0dae02e5f01629c",
+  "gates": {
+    "warm_64": {
+      "status": "passed",
+      "initial_checkpoint": "jobs/zrc64_T3000_v100_s17/pilot-source/checkpoint.npz",
+      "initial_sha256": "e0b4fa497b0d7f12bb0cc3afe8e3215a5c62b168be3c80a355d22d1e539152f7",
+      "static_precision": {
+        "relative_energy_delta_meV_atom": 0.0005589139853157121,
+        "force_component_RMS_eV_A": 4.046736748293278e-06,
+        "force_component_max_eV_A": 1.3470278132032831e-05,
+        "stress_component_max_GPa": 8.260873865294284e-05,
+        "energy_diagnostics": {
+          "float32": {
+            "energy_eV_atom": -9.365256309509277,
+            "reference_energy_eV_atom": -9.711849212646484,
+            "relative_energy_eV_atom": 0.34659290313720703
+          },
+          "float64": {
+            "energy_eV_atom": -9.36525679301806,
+            "reference_energy_eV_atom": -9.711849137241284,
+            "relative_energy_eV_atom": 0.3465923442232217
+          }
+        },
+        "float32_pass": true
+      },
+      "selected_dt_fs": 0.5,
+      "selected_dtype": "float32",
+      "completed_utc": "2026-09-22T07:59:03.979520+00:00",
+      "errors": [],
+      "qualification": "numerical_screen_only_not_physical_validation"
+    },
+    "high_64": {
+      "status": "passed",
+      "initial_checkpoint": "jobs/zrc64_T6000_v100_s17/pilot-source/checkpoint.npz",
+      "initial_sha256": "dc59c8b653f5da089c1fdabba31a7cd513270f0ab25f63191ba11ef6fcbb80f0",
+      "static_precision": {
+        "relative_energy_delta_meV_atom": 0.00107131387494519,
+        "force_component_RMS_eV_A": 4.757225830128202e-06,
+        "force_component_max_eV_A": 1.9097353891162072e-05,
+        "stress_component_max_GPa": 8.669633406289879e-05,
+        "energy_diagnostics": {
+          "float32": {
+            "energy_eV_atom": -8.45502758026123,
+            "reference_energy_eV_atom": -9.711849212646484,
+            "relative_energy_eV_atom": 1.2568206787109375
+          },
+          "float64": {
+            "energy_eV_atom": -8.455027387216472,
+            "reference_energy_eV_atom": -9.711849137241284,
+            "relative_energy_eV_atom": 1.2568217500248124
+          }
+        },
+        "float32_pass": true
+      },
+      "selected_dt_fs": 0.5,
+      "selected_dtype": "float32",
+      "completed_utc": "2026-09-22T08:07:50.969048+00:00",
+      "errors": [],
+      "qualification": "numerical_screen_only_not_physical_validation"
+    }
+  },
+  "artifacts": {
+    "gates/high_64/nve_float32_dt0p25/checkpoint.npz": "a1ebdd4e117967f84bbe3c279b81de644a0b10928429e813284bdbbfab09cb2c",
+    "gates/high_64/nve_float32_dt0p25/frames.extxyz": "24383ad871590a91c31edf83864ebbf7ba8016e6f617457c0b390251027f8b4e",
+    "gates/high_64/nve_float32_dt0p25/log.jsonl": "86f29837c82a0b5dd4443582c1137c0888192bf1deeffe6650be96f4c2ff0b3b",
+    "gates/high_64/nve_float32_dt0p25/review.json": "3fec928d952cfcce31fa90edf5a6488d8c94dd41cfaecc92fa507b292ea8eae5",
+    "gates/high_64/nve_float32_dt0p25/segment.json": "dcd06647f018b86a55cc988dc9e57d82845e4bfc36da0063ff1f83c76380d8e5",
+    "gates/high_64/nve_float32_dt0p5/checkpoint.npz": "0be23b673137117dd06192862b2d2aa06be3d9c9cd9bc604872dac22a7dc4807",
+    "gates/high_64/nve_float32_dt0p5/frames.extxyz": "11262164e4ae8b2ae61f986e97cd229297a54d1d28a317a43626b62e9f7dbd73",
+    "gates/high_64/nve_float32_dt0p5/log.jsonl": "eb759a5f7d132311ae3aeb6d4d5e5f97d3cc08d213b1b5c4680de3fe81a06502",
+    "gates/high_64/nve_float32_dt0p5/review.json": "1ad2934db205746e7c5cecc9db8f6c141e7e3f1152515d798168bd7f03e4ec99",
+    "gates/high_64/nve_float32_dt0p5/segment.json": "eeaf959632635a77bd521aa73c1499ae9c692512e5ccb4cd1015e4d6becac83e",
+    "gates/high_64/static-precision.json": "f7b981a2ff89203c58c33d2da22cdfc6855d522f12b5fd906dc562d6dee9a944",
+    "gates/warm_64/nve_float32_dt0p25/checkpoint.npz": "3c6afa494cdc4db342e3b4f62c4932f642ddb3458104b0707ce6764bff9047e6",
+    "gates/warm_64/nve_float32_dt0p25/frames.extxyz": "fb1f19a140a7fe67582b95e75633444e494da790a42e8581c58ece1c7046bc50",
+    "gates/warm_64/nve_float32_dt0p25/log.jsonl": "e25975e36147d64423d3d15e82010a9af3ad518aab71d84efa192b98feb64bf9",
+    "gates/warm_64/nve_float32_dt0p25/review.json": "ac4a5fe18b4b3b737bf9baccad797e9fbc7eaf4962bedc452d27cd7692efc541",
+    "gates/warm_64/nve_float32_dt0p25/segment.json": "53e60482a1e8db340c891c3a5158ebdb4cc602ad7ad7ab449f1e26a7cd50c7cc",
+    "gates/warm_64/nve_float32_dt0p5/checkpoint.npz": "9a7575e8a3124b1d23d9e4974422b8fec8cb050f883708ccab25d1630296bf94",
+    "gates/warm_64/nve_float32_dt0p5/frames.extxyz": "29699d5a1eb3a53beae11fbb03406b6939f5663d6aafe30cb36b4e80045e4796",
+    "gates/warm_64/nve_float32_dt0p5/log.jsonl": "cba675b737a4a71def047223ba070bf8f4512fe0b0544ddfb88f24a8f1b01e4f",
+    "gates/warm_64/nve_float32_dt0p5/review.json": "3163154a39f5e46ce9952b2912364047604fb4e609490975c53e6811c397de7e",
+    "gates/warm_64/nve_float32_dt0p5/segment.json": "c1c6987a5ad77c1204f47f410dcafe193ba3d1671df6f7260110b08f1568c96d",
+    "gates/warm_64/static-precision.json": "de915f8039e8d67aa96e8eb9677dc9c94a411ddff97ef38eeaec6c0cd6851be3",
+    "restart/zrc64_T3000_v100_s17/interruption.json": "e4f95d5db0b7ffbe23300507d2f383682e9e6c8119664a30c584ca487e81f12b",
+    "restart/zrc64_T3000_v100_s17/resumed/checkpoint.npz": "8fde60a1a21497368601b17334a8f0135d676bed68f6c464f65660a102f51380",
+    "restart/zrc64_T3000_v100_s17/resumed/frames.extxyz": "7036d9370560d2590c10d1a4b00f2986cc581e8b4ce9ba563529cdf63f5130bc",
+    "restart/zrc64_T3000_v100_s17/resumed/log.jsonl": "8d8d4dfaa0a2e74ab9dd550420fe286d7d6ddd8214212d67eabc9b10c250b9af",
+    "restart/zrc64_T3000_v100_s17/resumed/review.json": "d5f3931b8cee29adb2a41ae80efe2461a90b5f868153e0f97890ce4838890f75",
+    "restart/zrc64_T3000_v100_s17/resumed/segment.json": "6a7db6d7b2f5596f9efc8d39fad538849d111fb6fb03a69cc4681fe8d0fccd8b",
+    "restart/zrc64_T3000_v100_s17/review.json": "3aaeca96e41d23979c09ab940c6631544830b1ff99fa84732a17b73d09ce5b20",
+    "restart/zrc64_T3000_v100_s17/uninterrupted/checkpoint.npz": "37508072be8e92c33df0fe11a089cf6052ccbc140fd468ef07f0acbc8896f916",
+    "restart/zrc64_T3000_v100_s17/uninterrupted/frames.extxyz": "9767ec4152030ff9319f559b49e9b898b90ad67e11b12fae2c5ccdbc8a226c99",
+    "restart/zrc64_T3000_v100_s17/uninterrupted/log.jsonl": "270e79c923f2c34c7ec2e0515846ef1f87862c0b89130be79c709541062c0915",
+    "restart/zrc64_T3000_v100_s17/uninterrupted/review.json": "cd48912fcc61e6e1df5c752798bc1bd9142d72604eb7ec6161653dd3d74b1216",
+    "restart/zrc64_T3000_v100_s17/uninterrupted/segment.json": "6a7db6d7b2f5596f9efc8d39fad538849d111fb6fb03a69cc4681fe8d0fccd8b",
+    "restart/zrc64_T6000_v100_s17/interruption.json": "530c72df5bc4e45da453990c659965fc356a6978c9f4f222295248b4934f62a3",
+    "restart/zrc64_T6000_v100_s17/resumed/checkpoint.npz": "1211922735280802b5e5a1b70ec0397e1220e122a28e8a726c969dc8300f7a0f",
+    "restart/zrc64_T6000_v100_s17/resumed/frames.extxyz": "f7563f0ee85afb9740b8862394f7f3083c06ca0efec8cdfee214922162371828",
+    "restart/zrc64_T6000_v100_s17/resumed/log.jsonl": "a2bfa79506fbc2d0b7ceac142dcab0231a95922740d6c1ce86e5348b1d54e48a",
+    "restart/zrc64_T6000_v100_s17/resumed/review.json": "f4b39556a85833a941532e5678e1b213bda44f16fb40d464900925fc0c7cbdfb",
+    "restart/zrc64_T6000_v100_s17/resumed/segment.json": "3791fa2877600006df24bd77d97b6a0f154619f77608a56155cacb0dcd9db69c",
+    "restart/zrc64_T6000_v100_s17/review.json": "5c64b6a98e2ab9d7226d4043927dbaba1aeaf919fbe060273fdd61e3e0fb6287",
+    "restart/zrc64_T6000_v100_s17/uninterrupted/checkpoint.npz": "116ecc6dfd66c03ed7583ec9a857940a6eb42f612a7d53cbcec8baedeb1a7fb3",
+    "restart/zrc64_T6000_v100_s17/uninterrupted/frames.extxyz": "1f37a437e7eeb5eb7c283b224c7f12759da07d8c3c9d51af7a53ce680bc605c0",
+    "restart/zrc64_T6000_v100_s17/uninterrupted/log.jsonl": "78e0812b6975df43c92c1ceee8600cf757ebc02b7be997f401fc5c68c58471a3",
+    "restart/zrc64_T6000_v100_s17/uninterrupted/review.json": "651336e547904d8cf1306b013f8bfb17b4af37b0c5ac54f2d631c5c47891b141",
+    "restart/zrc64_T6000_v100_s17/uninterrupted/segment.json": "3791fa2877600006df24bd77d97b6a0f154619f77608a56155cacb0dcd9db69c"
+  },
+  "physical_validated": false
+}

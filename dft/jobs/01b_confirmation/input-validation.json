@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "jobs": [
+    {
+      "path": "01b_confirmation/encut_800_k12",
+      "status": "input_checks_passed_calculation_pending",
+      "input_sha256": {
+        "INCAR": "7a76e3e351aa38b75c0dbd3f0dbb316ea127efd54ca78c788f4e485c72cc1d51",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "4c9507d8e8dc10a651da7e565f4e4485632cd7ab5fd225f171ad6ca02c492d32",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "24949af36f6a60061e2d093ecbe65b34d9ba665e9e060323a78fdb7440e72808",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "job.json": "9e82b40ec93e108e3ffb06af06f5012a32cddf1c612ac978ba2cf8ed0a37f032"
+      }
+    },
+    {
+      "path": "01b_confirmation/encut_800_k14",
+      "status": "input_checks_passed_calculation_pending",
+      "input_sha256": {
+        "INCAR": "6beb22e3fa7f2daa892e699a575772571e58f66c3489090b1afc82696e54ed71",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "10391eb45ca9d4ff346f3ae6053a38a43c9f8e0b2308e1254081dc436af044e5",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "24949af36f6a60061e2d093ecbe65b34d9ba665e9e060323a78fdb7440e72808",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "job.json": "be50968dd70ba61fc4a394b3ef57d7e4ca671b5639fb69f3d05056ca2a537dc2"
+      }
+    },
+    {
+      "path": "01b_confirmation/encut_900_k14",
+      "status": "input_checks_passed_calculation_pending",
+      "input_sha256": {
+        "INCAR": "6d32593c0f220c136bdfec8ba781fbf01106636cbc16b777bcf10f200ea4bedd",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "10391eb45ca9d4ff346f3ae6053a38a43c9f8e0b2308e1254081dc436af044e5",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "fc30ba0dc44bc1200d2398387e6782abedd863bbbec758da566e76aa6152bde8",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "job.json": "69fa50e6c9f8c32627501404b8f18375fdc485c23d1e6f23610cd675ba66633c"
+      }
+    }
+  ],
+  "job_count": 3,
+  "original_core_files_unchanged": 132,
+  "production_protocol_certified": false,
+  "scope": "Historical pre-execution audit of the three 01b inputs",
+  "current_execution_review": "dft/reviews/confirmation-2026-09-21.json"
+}

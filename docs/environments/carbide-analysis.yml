@@ -1,0 +1,16 @@
+name: carbide-analysis
+channels:
+  - defaults
+dependencies:
+  - dscribe
+  - pyyaml
+  - h5py
+  - python=3.12
+  - pymatgen
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - ase
+  - pip
+  - scipy
+  - pandas

@@ -1,0 +1,64 @@
+{
+  "path": "00_smoke/zrc8",
+  "stage": 0,
+  "purpose": "Check executable, POTCAR and parsing; not a converged label",
+  "source_group": "pristine8",
+  "structure_kind": "constructed_not_thermalized",
+  "natoms": 8,
+  "species": [
+    "Zr",
+    "C"
+  ],
+  "counts": [
+    4,
+    4
+  ],
+  "recommended_potentials": [
+    "Zr_sv",
+    "C"
+  ],
+  "kmesh": [
+    4,
+    4,
+    4
+  ],
+  "incar": {
+    "SYSTEM": "00_smoke_zrc8",
+    "GGA": "PE",
+    "PREC": "Accurate",
+    "ENCUT": 600,
+    "EDIFF": "1E-7",
+    "ALGO": "Normal",
+    "NELM": 200,
+    "NELMIN": 4,
+    "ISTART": 0,
+    "ICHARG": 2,
+    "ISPIN": 1,
+    "ISMEAR": 0,
+    "SIGMA": 0.1,
+    "LREAL": ".FALSE.",
+    "LASPH": ".TRUE.",
+    "ADDGRID": ".FALSE.",
+    "LMAXMIX": 4,
+    "ISYM": 0,
+    "NSW": 0,
+    "IBRION": -1,
+    "ISIF": 2,
+    "LWAVE": ".FALSE.",
+    "LCHARG": ".FALSE.",
+    "NWRITE": 2
+  },
+  "poscar_sha256": "eb6e2d17eb9d2e5874ef53a2e40c59986cea287a8c55b53e92818bf5f282aaf8",
+  "min_periodic_distance_A": 2.35,
+  "label_status": "converged",
+  "dataset_split": "unassigned",
+  "input_status": "executed_smoke_passed",
+  "potcar_sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+  "potcar_metadata": "POTCAR.meta.json",
+  "protocol_id": "zrc-pbe64-zrsv-c-v2-proposed",
+  "potcar_release": "potpaw_PBE.64",
+  "validation_status": "smoke_passed_protocol_convergence_pending",
+  "dataset_eligible": false,
+  "last_run_id": "15309852",
+  "review_file": "dft/reviews/smoke-15309852.json"
+}

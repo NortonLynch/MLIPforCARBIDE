@@ -1,0 +1,19 @@
+{
+  "relative_energy_delta_meV_atom": 0.0005942842911110802,
+  "force_component_RMS_eV_A": 3.135087386986032e-06,
+  "force_component_max_eV_A": 8.882891299188955e-06,
+  "stress_component_max_GPa": 6.605586024044168e-05,
+  "energy_diagnostics": {
+    "float32": {
+      "energy_eV_atom": -9.383919715881348,
+      "reference_energy_eV_atom": -9.711848258972168,
+      "relative_energy_eV_atom": 0.3279294967651367
+    },
+    "float64": {
+      "energy_eV_atom": -9.38392023476045,
+      "reference_energy_eV_atom": -9.711849137241297,
+      "relative_energy_eV_atom": 0.3279289024808456
+    }
+  },
+  "float32_pass": true
+}

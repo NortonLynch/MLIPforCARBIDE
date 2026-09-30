@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "date": "2026-09-24",
+  "archive": "hpc/zrc-dft600-k67.tgz",
+  "archive_bytes": 5926206,
+  "archive_sha256": "bb389bf5a83ad08d4895c0874e2a4db759c2df42795f4578d7c41f84451a5782",
+  "file_count": 263,
+  "task_count": 36,
+  "structure_count": 18,
+  "checks": [
+    "All packaged input and script checksums match",
+    "Every archive member matches the reviewed directory; shell files are LF and executable",
+    "Offline behavior tests apply to this exact manifest",
+    "36 inputs preserve all 18 selected original POSCARs and use the approved POTCAR identity",
+    "No submission script uses cnmix"
+  ],
+  "independent_parser_checks": "Earlier pymatgen validation of all 36 INCAR/KPOINTS/POSCARs passed; each pair differs only in SYSTEM label and KPOINTS",
+  "real_slurm_submission_performed": false,
+  "real_VASP_run_performed": false
+}

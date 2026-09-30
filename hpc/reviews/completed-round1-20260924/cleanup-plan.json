@@ -1,0 +1,43 @@
+{
+  "approved_scope": "User asked to clean all hpc validation files and duplicate tgz packages; raw production retained",
+  "moves": [
+    {
+      "from": "hpc/zrc-round1-remaining/outputs/production",
+      "to": "hpc/results/round1-8-64/production"
+    },
+    {
+      "from": "hpc/zrc-round1-remaining/logs",
+      "to": "hpc/results/round1-8-64/logs"
+    },
+    {
+      "from": "hpc/zrc-round1-remaining/submissions",
+      "to": "hpc/results/round1-8-64/submissions"
+    },
+    {
+      "from": "hpc/zrc216-continuous/outputs/production",
+      "to": "hpc/results/round1-216/production"
+    },
+    {
+      "from": "hpc/zrc216-continuous/logs",
+      "to": "hpc/results/round1-216/logs"
+    },
+    {
+      "from": "hpc/zrc216-continuous/submissions",
+      "to": "hpc/results/round1-216/submissions"
+    }
+  ],
+  "remove": [
+    "hpc/zrc-round1-remaining",
+    "hpc/zrc216-continuous",
+    "hpc/zrc-round1-results.tgz",
+    "hpc/zrc216-continuous-results.tgz",
+    "hpc/zrc-round1-remaining.tgz",
+    "hpc/zrc216-continuous.tgz",
+    "hpc/zrc-round1-remaining.tgz.sha256",
+    "hpc/zrc216-continuous.tgz.sha256",
+    "hpc/submit_review_only.sh"
+  ],
+  "before_bytes": 1605197622,
+  "evidence_kept": "hpc/reviews/completed-round1-20260924",
+  "status": "audited_ready_for_native_powershell_cleanup"
+}

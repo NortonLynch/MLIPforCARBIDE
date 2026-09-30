@@ -1,0 +1,28 @@
+# VASP 6.3.2; proposed settings, convergence not yet established.
+# Numerical Gaussian smearing, not an electronic temperature.
+SYSTEM = 01_convergence_spin_check
+GGA = PE
+PREC = Accurate
+ENCUT = 600
+EDIFF = 1E-7
+ALGO = Normal
+NELM = 200
+NELMIN = 4
+ISTART = 0
+ICHARG = 2
+ISPIN = 2
+ISMEAR = 0
+SIGMA = 0.1
+LREAL = .FALSE.
+LASPH = .TRUE.
+ADDGRID = .FALSE.
+LMAXMIX = 4
+ISYM = 0
+NSW = 0
+IBRION = -1
+ISIF = 2
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+NWRITE = 2
+MAGMOM = 4*1.0 4*0.0
+LORBIT = 11

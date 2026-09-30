@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "time": "2026-09-24T16:38:15.2468183+08:00",
+  "verified_segment_files": 972,
+  "before_bytes": 1605197622,
+  "after_bytes": 1093216170.0,
+  "net_reclaimed_bytes": 511981452.0,
+  "deleted": [
+    {
+      "path": "hpc/zrc-round1-remaining",
+      "bytes": 69330496.0
+    },
+    {
+      "path": "hpc/zrc216-continuous",
+      "bytes": 65717265.0
+    },
+    {
+      "path": "hpc/zrc-round1-results.tgz",
+      "bytes": 95429781
+    },
+    {
+      "path": "hpc/zrc216-continuous-results.tgz",
+      "bytes": 225451299
+    },
+    {
+      "path": "hpc/zrc-round1-remaining.tgz",
+      "bytes": 28945679
+    },
+    {
+      "path": "hpc/zrc216-continuous.tgz",
+      "bytes": 30053011
+    },
+    {
+      "path": "hpc/zrc-round1-remaining.tgz.sha256",
+      "bytes": 91
+    },
+    {
+      "path": "hpc/zrc216-continuous.tgz.sha256",
+      "bytes": 88
+    },
+    {
+      "path": "hpc/submit_review_only.sh",
+      "bytes": 2691
+    }
+  ],
+  "preserved": "All production trajectories, checkpoints, worker logs; review certificates and failed 216 restart evidence"
+}

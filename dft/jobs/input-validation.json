@@ -1,0 +1,31 @@
+{
+  "status": "passed_static_full_input_validation",
+  "vasp_target": "6.3.2",
+  "job_count": 24,
+  "potcar_count": 24,
+  "dataset_combinations": {
+    "Zr_sv+C": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+    "Zr_sv": "e3d75732e64ed47e733ef12202d7082321f6b043dd450e16fe03b686b180cdc0",
+    "C": "e324f39f282d3fd6b99a7bff390f4b2441edd3dd3eac607d1f1c01376f3d0dc0"
+  },
+  "validation_parser": "pymatgen",
+  "parser_warnings": [],
+  "species_and_order_match_POSCAR": true,
+  "all_potentials_PAW_PBE": true,
+  "source_bytes_unchanged": true,
+  "decompressed_bytes_preserved_in_concatenation": true,
+  "encut_at_least_max_enmax": true,
+  "relaxation_encut_at_least_1_3_max_enmax": true,
+  "potential_release": "potpaw_PBE.64",
+  "release_identification": "user_supplied_archive_name_and_potential_metadata",
+  "portal_authenticity_verified": false,
+  "source_identity": "potcar-inventory.json",
+  "protocol_id": "zrc-pbe64-zrsv-c-v2-proposed",
+  "legacy_outputs_archived": true,
+  "vasp_executed": false,
+  "vaspkit_executed": false,
+  "numerical_convergence_established": false,
+  "scope": "Historical pre-execution audit of the original 24 input jobs",
+  "current_execution_review": "dft/reviews/convergence-2026-09-21.json",
+  "supplemental_input_validation": "dft/jobs/01b_confirmation/input-validation.json"
+}

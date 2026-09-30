@@ -1,0 +1,32 @@
+{
+  "id": "zrc-relative-energy-calibration-v2-proposal",
+  "status": "historical_proposal_current_batch_superseded_by_user_fixed600_k67",
+  "literature_review": "docs/dft-cutoff-literature-review.md",
+  "reason": "Single-configuration absolute-energy cutoff differences do not establish necessity of 800 eV for fixed-composition MLIP training",
+  "production_candidate_encut_eV": 600,
+  "reference_cutoffs_eV": [
+    700,
+    800
+  ],
+  "kmesh": "Determine on actual labeling cell; no automatic transfer of 8-atom grids",
+  "energy_observable": "Difference of relative energies per atom against one preselected same-composition reference configuration",
+  "energy_formula": "(E_low_i/N_i - E_low_r/N_r) - (E_high_i/N_i - E_high_r/N_r)",
+  "energy_tolerance_meV_atom": 1,
+  "force_component_RMS_tolerance_eV_A": 0.01,
+  "force_component_max_tolerance_eV_A": 0.03,
+  "stress_component_max_tolerance_GPa": 0.1,
+  "absolute_energy_difference": "retain_as_diagnostic_not_sole_rejection_rule",
+  "calibration_scope": "Approximately 10-20 representative configurations spanning target temperature/volume/phase regimes; this count is a planning suggestion, not a statistical guarantee",
+  "calibration_reference_configuration": "dft/structures/zrc_calibration18/01_zrc64_T0300_v100_s17_f0085/POSCAR",
+  "energy_labels_modified": false,
+  "prohibitions": [
+    "No per-frame energy correction",
+    "No mixing different ENCUT labels without protocol handling",
+    "No assuming energy offsets constant from one configuration",
+    "No transfer to variable-composition defects without consistent elemental-reference calibration"
+  ],
+  "production_protocol_certified": false,
+  "calibration_manifest": "dft/structures/zrc_calibration18/manifest.json",
+  "calibration_design_status": "18_frames_36_static_jobs_prepared_fixed600_k6_k7_not_submitted",
+  "current_execution_config": "configs/experiments/zrc_dft600_k67.json"
+}

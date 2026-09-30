@@ -1,0 +1,31 @@
+#!/bin/bash
+#SBATCH --job-name=VASPtask
+#SBATCH --partition=cnall
+#SBATCH -N 1
+#SBATCH -n 56
+#SBATCH -o stdout.%j
+#SBATCH -e stderr.%j
+#SBATCH --time=240:00:00
+#SBATCH --no-requeue
+#SBATCH --ntasks-per-node=56
+#SBATCH --cpus-per-task=1
+#SBATCH --mail-type=END
+#SBATCH --mail-user=liu-qxxx@foxmail.com
+
+set -eo pipefail
+
+cd "${SLURM_SUBMIT_DIR:?Submit with sbatch from a VASP job directory}"
+for input in INCAR POSCAR KPOINTS POTCAR; do
+    if [[ ! -s "$input" ]]; then
+        echo "Missing or empty VASP input: $input in $PWD" >&2
+        exit 1
+    fi
+done
+
+module load compilers/intel/oneapi-2023/config
+module load soft/vasp/vasp.6.3.2
+# Pure MPI setup; NCORE and KPAR, if benchmarked, belong in INCAR.
+export OMP_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+
+mpirun -np "${SLURM_NTASKS:?Missing Slurm task allocation}" vasp_std

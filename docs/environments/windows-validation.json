@@ -1,0 +1,96 @@
+{
+  "date": "2026-09-21",
+  "purpose": "installation_validation_only_not_research_results",
+  "mace": {
+    "status": "passed",
+    "purpose": "installation_check_not_physical_validation",
+    "model": "MACE-MH-1",
+    "head": "omat_pbe",
+    "dtype": "float32",
+    "versions": {
+      "mace-torch": "0.3.16",
+      "torch": "2.13.0+cu132",
+      "e3nn": "0.4.4",
+      "ase": "3.29.0",
+      "matscipy": "1.2.0"
+    },
+    "gpu": "NVIDIA GeForce RTX 5060",
+    "torch_cuda": "13.2",
+    "single_points": [
+      {
+        "atoms": 8,
+        "seconds_including_first_call_overhead": 0.5055832001380622,
+        "energy_eV": -77.67779541015625,
+        "force_shape": [
+          8,
+          3
+        ],
+        "stress_shape": [
+          6
+        ]
+      },
+      {
+        "atoms": 64,
+        "seconds_including_first_call_overhead": 0.3163179000839591,
+        "energy_eV": -621.4200439453125,
+        "force_shape": [
+          64,
+          3
+        ],
+        "stress_shape": [
+          6
+        ]
+      }
+    ],
+    "md_steps": 10,
+    "md_seconds": 0.3801040002144873,
+    "peak_allocated_MiB": 657.77490234375
+  },
+  "training": {
+    "status": "passed",
+    "purpose": "synthetic_installation_check_not_DFT",
+    "epochs": 2,
+    "gradient_updates": 6,
+    "energy_force_stress_loss": true,
+    "checkpoint_saved_and_reloaded": true,
+    "fresh_process_prediction_passed": true
+  },
+  "analysis": {
+    "status": "passed",
+    "purpose": "installation_check_not_research_data",
+    "versions": {
+      "ase": "3.29.0",
+      "pymatgen": "2026.5.4",
+      "dscribe": "2.1.2",
+      "numpy": "2.5.3",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "pandas": "3.0.6",
+      "matplotlib": "3.11.2",
+      "h5py": "3.16.0",
+      "pyyaml": "6.0.3"
+    },
+    "soap_shape": [
+      3,
+      63
+    ],
+    "checks": [
+      "extxyz_roundtrip",
+      "pymatgen_conversion",
+      "periodic_soap",
+      "distances",
+      "hdf5",
+      "csv",
+      "plot",
+      "yaml"
+    ]
+  },
+  "base_existing_packages_replaced": [],
+  "base_environment_variables": {
+    "MKL_THREADING_LAYER": "TBB"
+  },
+  "pip_check": {
+    "base": "passed",
+    "carbide-analysis": "passed"
+  }
+}

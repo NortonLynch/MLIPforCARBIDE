@@ -1,0 +1,104 @@
+{
+  "reviewed_utc": "2026-09-23T06:30:54.535468+00:00",
+  "archive_sha256": "bc37c7914a972f7acd7cbcb0c9ce20d26c2491a67d30a463a6cb6ae892891239",
+  "archive_files_compared": 1979,
+  "archive_files_not_extracted": [],
+  "archive_vs_extracted_mismatches": [],
+  "archive_production_directory_count": 90,
+  "archive_has_216_ready_certificate": false,
+  "production_by_size": {
+    "8": {
+      "passed": 45
+    },
+    "64": {
+      "passed": 45
+    },
+    "216": {
+      "not_started": 54
+    }
+  },
+  "hpc_production_passed": 90,
+  "hpc_segments_duration_and_hash_verified": 180,
+  "local_previously_completed": 18,
+  "total_production_completed": 108,
+  "expected_total": 162,
+  "missing_production": 54,
+  "missing_temperatures_K": [
+    300,
+    1500,
+    3000,
+    4500,
+    5250,
+    6000
+  ],
+  "missing_volumes": [
+    0.95,
+    1.0,
+    1.05
+  ],
+  "missing_seeds": [
+    17,
+    42,
+    2026
+  ],
+  "restart_216": [
+    {
+      "temperature_K": 3000,
+      "status": "passed",
+      "max_position_difference_A": 2.8963622789035526e-07,
+      "max_momentum_difference_ASE": 2.9572362046925704e-06,
+      "identical_rng_state": true,
+      "policy": {
+        "duration_fs": 100.0,
+        "interrupt_fs": 50.0,
+        "position_atol_A": 1e-06,
+        "momentum_atol_ASE": 1e-05,
+        "rng_must_match_exactly": true,
+        "thresholds_fixed_before_hpc_execution": true
+      },
+      "physical_validated": false
+    },
+    {
+      "temperature_K": 6000,
+      "status": "blocked_review",
+      "max_position_difference_A": 6.01667917443649e-06,
+      "max_momentum_difference_ASE": 7.118328622901515e-05,
+      "identical_rng_state": true,
+      "policy": {
+        "duration_fs": 100.0,
+        "interrupt_fs": 50.0,
+        "position_atol_A": 1e-06,
+        "momentum_atol_ASE": 1e-05,
+        "rng_must_match_exactly": true,
+        "thresholds_fixed_before_hpc_execution": true
+      },
+      "physical_validated": false
+    }
+  ],
+  "nve_216": [
+    {
+      "path": "outputs/validation/216/gates/high_216/nve_float32_dt0p25/review.json",
+      "passed": true,
+      "drift_meV_atom_ps": 0.0008949555275876969
+    },
+    {
+      "path": "outputs/validation/216/gates/high_216/nve_float32_dt0p5/review.json",
+      "passed": true,
+      "drift_meV_atom_ps": 0.004059929781999293
+    },
+    {
+      "path": "outputs/validation/216/gates/warm_216/nve_float32_dt0p25/review.json",
+      "passed": true,
+      "drift_meV_atom_ps": -0.0006054843355989036
+    },
+    {
+      "path": "outputs/validation/216/gates/warm_216/nve_float32_dt0p5/review.json",
+      "passed": true,
+      "drift_meV_atom_ps": -0.001895710545071582
+    }
+  ],
+  "local_collect_exit_code": 1,
+  "local_collect_exit_meaning": "deliberate nonzero exit because matrix incomplete; not an environment error",
+  "underlying_restart_discrepancy_cause": "not established by this results audit",
+  "physical_validated": false
+}

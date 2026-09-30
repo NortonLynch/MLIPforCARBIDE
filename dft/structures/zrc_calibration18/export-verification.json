@@ -1,0 +1,190 @@
+{
+  "all_passed": true,
+  "count": 18,
+  "source_model_labels_exported_as_DFT": false,
+  "geometry_unchanged_modulo_periodic_wrapping": true,
+  "split_roles_disjoint": true,
+  "six_selection_sequences_verified": true,
+  "checks": [
+    {
+      "id": "01_zrc64_T0300_v100_s17_f0085",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 2.2683353487313225e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 2.2183687113404256,
+        "C-C": 3.120435049240936,
+        "Zr-Zr": 3.168385365550363
+      }
+    },
+    {
+      "id": "02_zrc64_T0300_v095_s17_f0165",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 2.9355197084581817e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 2.138989233521966,
+        "C-C": 3.0994584344758747,
+        "Zr-Zr": 3.132263353295337
+      }
+    },
+    {
+      "id": "03_zrc64_T0300_v105_s17_f0100",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 2.3423476735542317e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 2.2164043560527786,
+        "C-C": 3.1588698509540607,
+        "Zr-Zr": 3.228601196810453
+      }
+    },
+    {
+      "id": "04_zrc64_T1500_v100_s17_f0085",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 2.960113596594291e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 2.0649153599835763,
+        "C-C": 2.8161105819362464,
+        "Zr-Zr": 3.0266047250473944
+      }
+    },
+    {
+      "id": "05_zrc64_T1500_v095_s17_f0180",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 2.2358200445119883e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 2.016851516072838,
+        "C-C": 2.885821492908999,
+        "Zr-Zr": 3.013434445424658
+      }
+    },
+    {
+      "id": "06_zrc64_T1500_v105_s17_f0190",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 3.00017215915309e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 1.9977316413284254,
+        "C-C": 2.944263170915479,
+        "Zr-Zr": 3.0251390016377457
+      }
+    },
+    {
+      "id": "07_zrc64_T3000_v100_s17_f0045",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 2.98499311966901e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 1.860552408961754,
+        "C-C": 2.5849523515580612,
+        "Zr-Zr": 2.742501119821894
+      }
+    },
+    {
+      "id": "08_zrc64_T3000_v095_s17_f0030",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 3.03462050966215e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 1.8557731743228225,
+        "C-C": 2.407358936381934,
+        "Zr-Zr": 2.8653800816277712
+      }
+    },
+    {
+      "id": "09_zrc64_T3000_v105_s17_f0005",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 2.3165523079082755e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 1.9046896549406833,
+        "C-C": 2.5956589317094947,
+        "Zr-Zr": 2.9357507423967952
+      }
+    },
+    {
+      "id": "10_zrc64_T4500_v100_s17_f0005",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 2.2683353487313225e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 1.812550794822363,
+        "C-C": 1.4227580778067401,
+        "Zr-Zr": 2.507290935796413
+      }
+    },
+    {
+      "id": "11_zrc64_T4500_v095_s17_f0085",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 2.237929473457349e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 1.818668493837926,
+        "C-C": 1.4052769245866485,
+        "Zr-Zr": 2.70902543650918
+      }
+    },
+    {
+      "id": "12_zrc64_T4500_v105_s17_f0010",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 2.1900986107321687e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 1.6896367211591052,
+        "C-C": 1.287738806889268,
+        "Zr-Zr": 2.6441968727545118
+      }
+    },
+    {
+      "id": "13_zrc64_T5250_v100_s17_f0080",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 2.9517738223254972e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 1.8388677238411728,
+        "C-C": 1.2500566542994096,
+        "Zr-Zr": 2.2985318380334974
+      }
+    },
+    {
+      "id": "14_zrc64_T5250_v095_s17_f0140",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 2.2358200445119883e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 1.8309354144699226,
+        "C-C": 1.254497290936323,
+        "Zr-Zr": 2.3228895978600455
+      }
+    },
+    {
+      "id": "15_zrc64_T5250_v105_s17_f0055",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 3.00017215915309e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 1.8376439564863372,
+        "C-C": 1.3329980407714856,
+        "Zr-Zr": 2.2558297805646337
+      }
+    },
+    {
+      "id": "16_zrc64_T6000_v100_s17_f0115",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 4.2678798368221625e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 1.705637045266509,
+        "C-C": 1.2977984034969858,
+        "Zr-Zr": 2.357044534722088
+      }
+    },
+    {
+      "id": "17_zrc64_T6000_v095_s17_f0175",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 4.588044445196983e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 1.8645232926357025,
+        "C-C": 1.215518111835256,
+        "Zr-Zr": 2.2500926068963545
+      }
+    },
+    {
+      "id": "18_zrc64_T6000_v105_s17_f0065",
+      "source_frame_verified": true,
+      "periodic_max_position_error_A": 3.00017215915309e-15,
+      "minimum_pair_distances_A": {
+        "Zr-C": 1.919154402227433,
+        "C-C": 1.181447171898321,
+        "Zr-Zr": 2.205416933119998
+      }
+    }
+  ]
+}

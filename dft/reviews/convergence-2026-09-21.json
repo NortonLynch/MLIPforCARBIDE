@@ -1,0 +1,1895 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-21",
+  "scope": "One constructed distorted eight-atom ZrC cell; no high-temperature certification",
+  "all_runs_valid": true,
+  "tolerances": {
+    "energy_meV_atom": 1,
+    "force_component_RMS_eV_A": 0.01,
+    "force_component_max_eV_A": 0.03,
+    "stress_component_max_GPa": 0.1
+  },
+  "jobs": [
+    {
+      "name": "encut_520_k8",
+      "job_path": "dft/jobs/01_convergence/encut_520_k8",
+      "slurm_run_ids": [
+        "15309878"
+      ],
+      "checks": {
+        "input_incar_matches_job": true,
+        "xml_incar_matches_input": true,
+        "actual_key_parameters_match_input": true,
+        "kmesh_matches_job_and_output": true,
+        "poscar_hash_matches_job": true,
+        "potcar_hash_matches_job": true,
+        "source_potcar_matches": true,
+        "output_potentials_match": true,
+        "normal_end": true,
+        "electronic_converged": true,
+        "ediff_reached": true,
+        "last_scf_deltas_below_ediff": true,
+        "stderr_empty": true,
+        "single_static_step": true,
+        "output_structure_matches_input": true,
+        "finite_labels": true,
+        "ase_energy_matches": true,
+        "ase_forces_match": true,
+        "ase_stress_sign_units_match": true,
+        "top_band_empty": true
+      },
+      "all_checks_pass": true,
+      "vasp_version": "6.3.2",
+      "natoms": 8,
+      "kmesh": [
+        8,
+        8,
+        8
+      ],
+      "actual_parameters": {
+        "ENCUT": 520.0,
+        "EDIFF": 1e-07,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "NELECT": 64.0,
+        "NBANDS": 56,
+        "NCORE": null,
+        "KPAR": null,
+        "ISYM": 0
+      },
+      "nkpts": 260,
+      "electronic_steps": 16,
+      "last_scf_deltas_eV": [
+        3.5834e-09,
+        -2.5462e-10
+      ],
+      "energies_eV": {
+        "e_fr_energy": -77.39265291,
+        "e_wo_entrp": -77.38865466,
+        "e_0_energy": -77.39065379
+      },
+      "entropy_magnitude_meV_atom": 0.499781249999387,
+      "forces_eV_A": [
+        [
+          0.03117695,
+          0.11294973,
+          0.59963244
+        ],
+        [
+          0.48703233,
+          -0.75257045,
+          0.28038614
+        ],
+        [
+          -0.92909203,
+          0.046634,
+          0.1666199
+        ],
+        [
+          -1.01819115,
+          0.13454381,
+          -0.47923787
+        ],
+        [
+          0.60710242,
+          0.74204607,
+          -1.02585991
+        ],
+        [
+          0.53802716,
+          -0.73084962,
+          0.43922328
+        ],
+        [
+          0.20467292,
+          0.71983535,
+          0.15450497
+        ],
+        [
+          0.0792714,
+          -0.27258888,
+          -0.13526895
+        ]
+      ],
+      "stress_vasp_kbar": [
+        [
+          188.72913119,
+          -28.99254126,
+          2.68988211
+        ],
+        [
+          -28.99254244,
+          21.83737391,
+          -18.3593512
+        ],
+        [
+          2.68988201,
+          -18.35935096,
+          99.40584828
+        ]
+      ],
+      "stress_ase_eV_A3": [
+        -0.11779545946424037,
+        -0.013629816854458998,
+        -0.062044250920578664,
+        0.011459005806009575,
+        -0.0016788923737115116,
+        0.01809572108568369
+      ],
+      "pressure_GPa": 10.332411779333334,
+      "maximum_force_norm_eV_A": 1.4041347062577398,
+      "total_magnetization_muB": null,
+      "local_magnetization_muB": [],
+      "highest_band_occupancy": 0.0,
+      "wall_seconds": 164.737,
+      "source_group": "distorted8",
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "core_file_sha256": {
+        "INCAR": "8cb44fffb82da9e8576d2ad1b25afbc02b78ac490472542322d28c6d1a6ec038",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "85e8b6ed8c4d89ba853e6d8dfc2e9e77d983615de3bc0a48e3b2685418b37386",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "e3523134e9721236e1f0718cc28f7f075f8fdb424a9c5dde0ca0d16a4e0ef625",
+        "OUTCAR": "bb146e94bb3add7e2b4f7a37997821a3939719499c1d49819db2c003febd57a6",
+        "OSZICAR": "18219a8bc821e1966c00eb12a26765f87735d42f78389d6bd62d7fa312817069",
+        "vasprun.xml": "4aa57f9cdace32865c53ceb5a9f6081792584b31ac5f9918c7ba284c1e35d4f7",
+        "CONTCAR": "22771745dfae964e681edf95e2786f349016829e3845791f29cb96c1172f7ff4",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "stderr.15309878": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.15309878": "d95cd31e312bdb91d69887c2b52a549d007d4f7d996bc1b58cf6eb6f1254ab30"
+      }
+    },
+    {
+      "name": "encut_600_k8",
+      "job_path": "dft/jobs/01_convergence/encut_600_k8",
+      "slurm_run_ids": [
+        "15309879"
+      ],
+      "checks": {
+        "input_incar_matches_job": true,
+        "xml_incar_matches_input": true,
+        "actual_key_parameters_match_input": true,
+        "kmesh_matches_job_and_output": true,
+        "poscar_hash_matches_job": true,
+        "potcar_hash_matches_job": true,
+        "source_potcar_matches": true,
+        "output_potentials_match": true,
+        "normal_end": true,
+        "electronic_converged": true,
+        "ediff_reached": true,
+        "last_scf_deltas_below_ediff": true,
+        "stderr_empty": true,
+        "single_static_step": true,
+        "output_structure_matches_input": true,
+        "finite_labels": true,
+        "ase_energy_matches": true,
+        "ase_forces_match": true,
+        "ase_stress_sign_units_match": true,
+        "top_band_empty": true
+      },
+      "all_checks_pass": true,
+      "vasp_version": "6.3.2",
+      "natoms": 8,
+      "kmesh": [
+        8,
+        8,
+        8
+      ],
+      "actual_parameters": {
+        "ENCUT": 600.0,
+        "EDIFF": 1e-07,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "NELECT": 64.0,
+        "NBANDS": 56,
+        "NCORE": null,
+        "KPAR": null,
+        "ISYM": 0
+      },
+      "nkpts": 260,
+      "electronic_steps": 15,
+      "last_scf_deltas_eV": [
+        9.8087e-08,
+        -1.2457e-09
+      ],
+      "energies_eV": {
+        "e_fr_energy": -77.39684423,
+        "e_wo_entrp": -77.39284661,
+        "e_0_energy": -77.39484542
+      },
+      "entropy_magnitude_meV_atom": 0.49970249999908845,
+      "forces_eV_A": [
+        [
+          0.03098943,
+          0.11298324,
+          0.59994915
+        ],
+        [
+          0.48718932,
+          -0.75304998,
+          0.28060068
+        ],
+        [
+          -0.92969019,
+          0.04686725,
+          0.1670309
+        ],
+        [
+          -1.01876702,
+          0.13446928,
+          -0.47969957
+        ],
+        [
+          0.60745732,
+          0.74221725,
+          -1.02635601
+        ],
+        [
+          0.53820861,
+          -0.7309774,
+          0.43953089
+        ],
+        [
+          0.20504205,
+          0.72004382,
+          0.1542975
+        ],
+        [
+          0.07957048,
+          -0.27255345,
+          -0.13535354
+        ]
+      ],
+      "stress_vasp_kbar": [
+        [
+          187.86413992,
+          -28.99976029,
+          2.68946513
+        ],
+        [
+          -28.99976165,
+          21.02051816,
+          -18.36359597
+        ],
+        [
+          2.68946501,
+          -18.36359561,
+          98.5562598
+        ]
+      ],
+      "stress_ase_eV_A3": [
+        -0.11725557437368894,
+        -0.013119975592643477,
+        -0.06151397949546213,
+        0.011461655183078802,
+        -0.0016786321152639802,
+        0.018100226849846194
+      ],
+      "pressure_GPa": 10.248030596000001,
+      "maximum_force_norm_eV_A": 1.404741079730448,
+      "total_magnetization_muB": null,
+      "local_magnetization_muB": [],
+      "highest_band_occupancy": 0.0,
+      "wall_seconds": 170.07,
+      "source_group": "distorted8",
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "core_file_sha256": {
+        "INCAR": "9f6b3398b3ce3a74ef58cf4de0b134cd219e7b8d1a403b42ab69350285ab5b0e",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "85e8b6ed8c4d89ba853e6d8dfc2e9e77d983615de3bc0a48e3b2685418b37386",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "4cca2c1a518829fccffb53b4308052b839938abd0ef982bdb26af8f175bb4e6c",
+        "OUTCAR": "b92dd451ac12d1b2a2d6ecd5ada0b0fd28dd405b9c85fbecbc02d4c44b46c496",
+        "OSZICAR": "eadf5da53b6800842e8a07fc0f7c628016bff5b0832f8f5e8a8834aa37d9a469",
+        "vasprun.xml": "acf6d598c727f52abb6f1c43f50ac0a0b132799725d7df8f9b90f5969564183b",
+        "CONTCAR": "22771745dfae964e681edf95e2786f349016829e3845791f29cb96c1172f7ff4",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "stderr.15309879": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.15309879": "696414a9858b993cc172b5bb476819911f43042155781e7a76f61f587415059e"
+      }
+    },
+    {
+      "name": "encut_700_k8",
+      "job_path": "dft/jobs/01_convergence/encut_700_k8",
+      "slurm_run_ids": [
+        "15309880"
+      ],
+      "checks": {
+        "input_incar_matches_job": true,
+        "xml_incar_matches_input": true,
+        "actual_key_parameters_match_input": true,
+        "kmesh_matches_job_and_output": true,
+        "poscar_hash_matches_job": true,
+        "potcar_hash_matches_job": true,
+        "source_potcar_matches": true,
+        "output_potentials_match": true,
+        "normal_end": true,
+        "electronic_converged": true,
+        "ediff_reached": true,
+        "last_scf_deltas_below_ediff": true,
+        "stderr_empty": true,
+        "single_static_step": true,
+        "output_structure_matches_input": true,
+        "finite_labels": true,
+        "ase_energy_matches": true,
+        "ase_forces_match": true,
+        "ase_stress_sign_units_match": true,
+        "top_band_empty": true
+      },
+      "all_checks_pass": true,
+      "vasp_version": "6.3.2",
+      "natoms": 8,
+      "kmesh": [
+        8,
+        8,
+        8
+      ],
+      "actual_parameters": {
+        "ENCUT": 700.0,
+        "EDIFF": 1e-07,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "NELECT": 64.0,
+        "NBANDS": 56,
+        "NCORE": null,
+        "KPAR": null,
+        "ISYM": 0
+      },
+      "nkpts": 260,
+      "electronic_steps": 15,
+      "last_scf_deltas_eV": [
+        9.2569e-08,
+        -1.2497e-09
+      ],
+      "energies_eV": {
+        "e_fr_energy": -77.40489807,
+        "e_wo_entrp": -77.40090109,
+        "e_0_energy": -77.40289958
+      },
+      "entropy_magnitude_meV_atom": 0.49962249999957464,
+      "forces_eV_A": [
+        [
+          0.03120857,
+          0.11264207,
+          0.5997807
+        ],
+        [
+          0.4872418,
+          -0.7520247,
+          0.28043241
+        ],
+        [
+          -0.92942052,
+          0.04617721,
+          0.16628004
+        ],
+        [
+          -1.01852016,
+          0.13503265,
+          -0.47912275
+        ],
+        [
+          0.60735526,
+          0.74199882,
+          -1.02586393
+        ],
+        [
+          0.5381709,
+          -0.73067354,
+          0.43917029
+        ],
+        [
+          0.20478349,
+          0.71947558,
+          0.15462869
+        ],
+        [
+          0.07918066,
+          -0.27262809,
+          -0.13530544
+        ]
+      ],
+      "stress_vasp_kbar": [
+        [
+          187.94506115,
+          -29.00470196,
+          2.69010298
+        ],
+        [
+          -29.00470327,
+          21.07943232,
+          -18.36656773
+        ],
+        [
+          2.69010313,
+          -18.36656748,
+          98.61582951
+        ]
+      ],
+      "stress_ase_eV_A3": [
+        -0.1173060814332412,
+        -0.01315674691937185,
+        -0.06155115998432125,
+        0.011463510009794797,
+        -0.0016790302299235747,
+        0.018103311197686402
+      ],
+      "pressure_GPa": 10.254677432666666,
+      "maximum_force_norm_eV_A": 1.4042220136453156,
+      "total_magnetization_muB": null,
+      "local_magnetization_muB": [],
+      "highest_band_occupancy": 0.0,
+      "wall_seconds": 185.318,
+      "source_group": "distorted8",
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "core_file_sha256": {
+        "INCAR": "df8f4995b9f963e70ee7d2527d3cd8c00fbc74a48bd5afd900e714b845fe59c5",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "85e8b6ed8c4d89ba853e6d8dfc2e9e77d983615de3bc0a48e3b2685418b37386",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "ac86ba9a9c95749b78707af9c3c274520d8a0c1c424164be044e1c92c4d6427e",
+        "OUTCAR": "41bf9f6f32d19d838f5a8e88074b31e02cc5d066a8b9e794d320a145fce36a81",
+        "OSZICAR": "36f52dd1aeba5af544ad56397693ef8cf587a0cdf942e20015b41beaff8e4ffa",
+        "vasprun.xml": "858d931919e8414550055b29234157b204b05fd1bf2a31bcc14041db9e012695",
+        "CONTCAR": "22771745dfae964e681edf95e2786f349016829e3845791f29cb96c1172f7ff4",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "stderr.15309880": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.15309880": "d0accacda5c8092a15391e5767397204fbc7cbe16a521f5d877653d1931c7820"
+      }
+    },
+    {
+      "name": "encut_800_k8",
+      "job_path": "dft/jobs/01_convergence/encut_800_k8",
+      "slurm_run_ids": [
+        "15309885"
+      ],
+      "checks": {
+        "input_incar_matches_job": true,
+        "xml_incar_matches_input": true,
+        "actual_key_parameters_match_input": true,
+        "kmesh_matches_job_and_output": true,
+        "poscar_hash_matches_job": true,
+        "potcar_hash_matches_job": true,
+        "source_potcar_matches": true,
+        "output_potentials_match": true,
+        "normal_end": true,
+        "electronic_converged": true,
+        "ediff_reached": true,
+        "last_scf_deltas_below_ediff": true,
+        "stderr_empty": true,
+        "single_static_step": true,
+        "output_structure_matches_input": true,
+        "finite_labels": true,
+        "ase_energy_matches": true,
+        "ase_forces_match": true,
+        "ase_stress_sign_units_match": true,
+        "top_band_empty": true
+      },
+      "all_checks_pass": true,
+      "vasp_version": "6.3.2",
+      "natoms": 8,
+      "kmesh": [
+        8,
+        8,
+        8
+      ],
+      "actual_parameters": {
+        "ENCUT": 800.0,
+        "EDIFF": 1e-07,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "NELECT": 64.0,
+        "NBANDS": 56,
+        "NCORE": null,
+        "KPAR": null,
+        "ISYM": 0
+      },
+      "nkpts": 260,
+      "electronic_steps": 15,
+      "last_scf_deltas_eV": [
+        9.1188e-08,
+        -1.2495e-09
+      ],
+      "energies_eV": {
+        "e_fr_energy": -77.4100203,
+        "e_wo_entrp": -77.40602446,
+        "e_0_energy": -77.40802238
+      },
+      "entropy_magnitude_meV_atom": 0.49948000000021864,
+      "forces_eV_A": [
+        [
+          0.0311136,
+          0.11252143,
+          0.59992452
+        ],
+        [
+          0.48727593,
+          -0.75172538,
+          0.28042048
+        ],
+        [
+          -0.92968982,
+          0.0458692,
+          0.16618699
+        ],
+        [
+          -1.01880266,
+          0.1353327,
+          -0.47913048
+        ],
+        [
+          0.60756022,
+          0.74183893,
+          -1.02605756
+        ],
+        [
+          0.53845782,
+          -0.73054144,
+          0.43924568
+        ],
+        [
+          0.20476175,
+          0.71916182,
+          0.15472006
+        ],
+        [
+          0.07932317,
+          -0.27245725,
+          -0.1353097
+        ]
+      ],
+      "stress_vasp_kbar": [
+        [
+          188.33546799,
+          -29.00887208,
+          2.68999795
+        ],
+        [
+          -29.00887324,
+          21.49677997,
+          -18.36884719
+        ],
+        [
+          2.689998,
+          -18.36884708,
+          99.0196551
+        ]
+      ],
+      "stress_ase_eV_A3": [
+        -0.11754975421870793,
+        -0.013417234835985942,
+        -0.06180320809484627,
+        0.011464932736834004,
+        -0.0016789646753532256,
+        0.018105913981890005
+      ],
+      "pressure_GPa": 10.295063435333335,
+      "maximum_force_norm_eV_A": 1.4043676639054128,
+      "total_magnetization_muB": null,
+      "local_magnetization_muB": [],
+      "highest_band_occupancy": 0.0,
+      "wall_seconds": 414.904,
+      "source_group": "distorted8",
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "core_file_sha256": {
+        "INCAR": "de9771fccada204928e82d744b350157e19fb95eee6d8e72f57548f855a41b76",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "85e8b6ed8c4d89ba853e6d8dfc2e9e77d983615de3bc0a48e3b2685418b37386",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "24949af36f6a60061e2d093ecbe65b34d9ba665e9e060323a78fdb7440e72808",
+        "OUTCAR": "f315efb77c9d2ed2f346738e09e91bdb09a867f4d72725e0c05cc1bcdf78cbbe",
+        "OSZICAR": "19e01563cf02efb54891e846b7d53df8deb347390c0e4199ab1200864df515f2",
+        "vasprun.xml": "6c4bfe840bc80c80212ebff6de511a598f221c58f74886c3879f7f924705fd54",
+        "CONTCAR": "22771745dfae964e681edf95e2786f349016829e3845791f29cb96c1172f7ff4",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "stderr.15309885": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.15309885": "9c38406f49e38e2668671172fe333d13252a78444e4db1aa773a5f0c26fc5d90"
+      }
+    },
+    {
+      "name": "encut_800_k4",
+      "job_path": "dft/jobs/01_convergence/encut_800_k4",
+      "slurm_run_ids": [
+        "15309883"
+      ],
+      "checks": {
+        "input_incar_matches_job": true,
+        "xml_incar_matches_input": true,
+        "actual_key_parameters_match_input": true,
+        "kmesh_matches_job_and_output": true,
+        "poscar_hash_matches_job": true,
+        "potcar_hash_matches_job": true,
+        "source_potcar_matches": true,
+        "output_potentials_match": true,
+        "normal_end": true,
+        "electronic_converged": true,
+        "ediff_reached": true,
+        "last_scf_deltas_below_ediff": true,
+        "stderr_empty": true,
+        "single_static_step": true,
+        "output_structure_matches_input": true,
+        "finite_labels": true,
+        "ase_energy_matches": true,
+        "ase_forces_match": true,
+        "ase_stress_sign_units_match": true,
+        "top_band_empty": true
+      },
+      "all_checks_pass": true,
+      "vasp_version": "6.3.2",
+      "natoms": 8,
+      "kmesh": [
+        4,
+        4,
+        4
+      ],
+      "actual_parameters": {
+        "ENCUT": 800.0,
+        "EDIFF": 1e-07,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "NELECT": 64.0,
+        "NBANDS": 56,
+        "NCORE": null,
+        "KPAR": null,
+        "ISYM": 0
+      },
+      "nkpts": 36,
+      "electronic_steps": 15,
+      "last_scf_deltas_eV": [
+        8.0949e-08,
+        -1.4198e-09
+      ],
+      "energies_eV": {
+        "e_fr_energy": -77.52550806,
+        "e_wo_entrp": -77.51772612,
+        "e_0_energy": -77.52161709
+      },
+      "entropy_magnitude_meV_atom": 0.9727425000001233,
+      "forces_eV_A": [
+        [
+          0.05299348,
+          0.11627732,
+          0.58143257
+        ],
+        [
+          0.46739335,
+          -0.83354165,
+          0.33015562
+        ],
+        [
+          -0.93409967,
+          0.08450641,
+          0.16678277
+        ],
+        [
+          -1.04758532,
+          0.10303943,
+          -0.46399659
+        ],
+        [
+          0.60883464,
+          0.7175098,
+          -1.01196284
+        ],
+        [
+          0.56838773,
+          -0.69542599,
+          0.40554186
+        ],
+        [
+          0.20075599,
+          0.74163509,
+          0.13240058
+        ],
+        [
+          0.08331979,
+          -0.23400041,
+          -0.14035397
+        ]
+      ],
+      "stress_vasp_kbar": [
+        [
+          175.31392548,
+          -26.42362757,
+          3.13869452
+        ],
+        [
+          -26.42362885,
+          28.76523587,
+          -18.02777202
+        ],
+        [
+          3.13869459,
+          -18.02777155,
+          95.14347712
+        ]
+      ],
+      "stress_ase_eV_A3": [
+        -0.10942234657778374,
+        -0.017953848219078947,
+        -0.059383888071274496,
+        0.011252050358217287,
+        -0.0019590190489939775,
+        0.016492331261709545
+      ],
+      "pressure_GPa": 9.974087949000001,
+      "maximum_force_norm_eV_A": 1.3818714562146637,
+      "total_magnetization_muB": null,
+      "local_magnetization_muB": [],
+      "highest_band_occupancy": 0.0,
+      "wall_seconds": 34.183,
+      "source_group": "distorted8",
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "core_file_sha256": {
+        "INCAR": "20b40e3e5f72b587089b67d465dd512b22297b159c380c5cdb6df75ecefdbe88",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "e8db94eff1394fc7c2f51ebf27e533209eb385b508d5d4c4f5dbe4525a951fb3",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "24949af36f6a60061e2d093ecbe65b34d9ba665e9e060323a78fdb7440e72808",
+        "OUTCAR": "7c61d30a60e0710f84482976e70355a874bebfe0daec2cbe8cfd9f4b21491474",
+        "OSZICAR": "eea96bc4b50b11052a78bb1f9f04dd9913a50a7fd94f4a36b43c1e34080127a6",
+        "vasprun.xml": "dc6fefd4a3bcd5151aacce6fadcb42614cef99a6b35995a689780235290c74b5",
+        "CONTCAR": "22771745dfae964e681edf95e2786f349016829e3845791f29cb96c1172f7ff4",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "stderr.15309883": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.15309883": "9f575c608b214d1244a1eea4be9c16111410141f333bb14e7bc623b54d6dd116"
+      }
+    },
+    {
+      "name": "encut_800_k6",
+      "job_path": "dft/jobs/01_convergence/encut_800_k6",
+      "slurm_run_ids": [
+        "15309884"
+      ],
+      "checks": {
+        "input_incar_matches_job": true,
+        "xml_incar_matches_input": true,
+        "actual_key_parameters_match_input": true,
+        "kmesh_matches_job_and_output": true,
+        "poscar_hash_matches_job": true,
+        "potcar_hash_matches_job": true,
+        "source_potcar_matches": true,
+        "output_potentials_match": true,
+        "normal_end": true,
+        "electronic_converged": true,
+        "ediff_reached": true,
+        "last_scf_deltas_below_ediff": true,
+        "stderr_empty": true,
+        "single_static_step": true,
+        "output_structure_matches_input": true,
+        "finite_labels": true,
+        "ase_energy_matches": true,
+        "ase_forces_match": true,
+        "ase_stress_sign_units_match": true,
+        "top_band_empty": true
+      },
+      "all_checks_pass": true,
+      "vasp_version": "6.3.2",
+      "natoms": 8,
+      "kmesh": [
+        6,
+        6,
+        6
+      ],
+      "actual_parameters": {
+        "ENCUT": 800.0,
+        "EDIFF": 1e-07,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "NELECT": 64.0,
+        "NBANDS": 56,
+        "NCORE": null,
+        "KPAR": null,
+        "ISYM": 0
+      },
+      "nkpts": 112,
+      "electronic_steps": 15,
+      "last_scf_deltas_eV": [
+        7.8586e-08,
+        -1.4754e-09
+      ],
+      "energies_eV": {
+        "e_fr_energy": -77.44070849,
+        "e_wo_entrp": -77.43673981,
+        "e_0_energy": -77.43872415
+      },
+      "entropy_magnitude_meV_atom": 0.49608499999997946,
+      "forces_eV_A": [
+        [
+          0.0269616,
+          0.10428889,
+          0.61055019
+        ],
+        [
+          0.47528419,
+          -0.76551305,
+          0.29060121
+        ],
+        [
+          -0.94328324,
+          0.04691572,
+          0.17086694
+        ],
+        [
+          -1.03291566,
+          0.12931595,
+          -0.47116469
+        ],
+        [
+          0.61685526,
+          0.7370764,
+          -1.03702626
+        ],
+        [
+          0.55397929,
+          -0.72268658,
+          0.42954211
+        ],
+        [
+          0.21541317,
+          0.72455915,
+          0.14359063
+        ],
+        [
+          0.08770539,
+          -0.25395647,
+          -0.13696012
+        ]
+      ],
+      "stress_vasp_kbar": [
+        [
+          187.66088599,
+          -29.23482777,
+          2.59303
+        ],
+        [
+          -29.23482906,
+          22.4063093,
+          -17.8900147
+        ],
+        [
+          2.59302992,
+          -17.89001443,
+          98.43197298
+        ]
+      ],
+      "stress_ase_eV_A3": [
+        -0.11712871324779227,
+        -0.013984918397331292,
+        -0.06143640576333643,
+        0.011166069001223564,
+        -0.0016184420408689067,
+        0.01824694443200803
+      ],
+      "pressure_GPa": 10.283305609000001,
+      "maximum_force_norm_eV_A": 1.413936170821093,
+      "total_magnetization_muB": null,
+      "local_magnetization_muB": [],
+      "highest_band_occupancy": 0.0,
+      "wall_seconds": 96.406,
+      "source_group": "distorted8",
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "core_file_sha256": {
+        "INCAR": "eb0ed46e0a5b098297873f7492ca929ddf464bd4cf73e4398b0ac7e4b8b4d887",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "dde5169df5d66fa5f80869fbd5ec37216f1c25b870c7d2f7df930ae4199f7b9b",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "24949af36f6a60061e2d093ecbe65b34d9ba665e9e060323a78fdb7440e72808",
+        "OUTCAR": "d7612c2b0c9b6763ea794dc7c2dce428a02ae2257de3fcfb6cd80a85677b9f6b",
+        "OSZICAR": "388142e6911c85febf7575192d021d245939138ca3e12ed396a2eb7317e736e3",
+        "vasprun.xml": "bda1955d87deaaed6f9d5bb7990bc66055233a94f863c0e31e0ec7a6cc438436",
+        "CONTCAR": "22771745dfae964e681edf95e2786f349016829e3845791f29cb96c1172f7ff4",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "stderr.15309884": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.15309884": "b088bb475fa36bdbb9e47ab564e683fbf6db2176e19c461ed644e4a37147d54d"
+      }
+    },
+    {
+      "name": "encut_800_k10",
+      "job_path": "dft/jobs/01_convergence/encut_800_k10",
+      "slurm_run_ids": [
+        "15309882"
+      ],
+      "checks": {
+        "input_incar_matches_job": true,
+        "xml_incar_matches_input": true,
+        "actual_key_parameters_match_input": true,
+        "kmesh_matches_job_and_output": true,
+        "poscar_hash_matches_job": true,
+        "potcar_hash_matches_job": true,
+        "source_potcar_matches": true,
+        "output_potentials_match": true,
+        "normal_end": true,
+        "electronic_converged": true,
+        "ediff_reached": true,
+        "last_scf_deltas_below_ediff": true,
+        "stderr_empty": true,
+        "single_static_step": true,
+        "output_structure_matches_input": true,
+        "finite_labels": true,
+        "ase_energy_matches": true,
+        "ase_forces_match": true,
+        "ase_stress_sign_units_match": true,
+        "top_band_empty": true
+      },
+      "all_checks_pass": true,
+      "vasp_version": "6.3.2",
+      "natoms": 8,
+      "kmesh": [
+        10,
+        10,
+        10
+      ],
+      "actual_parameters": {
+        "ENCUT": 800.0,
+        "EDIFF": 1e-07,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "NELECT": 64.0,
+        "NBANDS": 56,
+        "NCORE": null,
+        "KPAR": null,
+        "ISYM": 0
+      },
+      "nkpts": 504,
+      "electronic_steps": 15,
+      "last_scf_deltas_eV": [
+        7.3729e-08,
+        -1.3799e-09
+      ],
+      "energies_eV": {
+        "e_fr_energy": -77.40535094,
+        "e_wo_entrp": -77.3995744,
+        "e_0_energy": -77.40246267
+      },
+      "entropy_magnitude_meV_atom": 0.7220674999999233,
+      "forces_eV_A": [
+        [
+          0.03841691,
+          0.1126218,
+          0.58954662
+        ],
+        [
+          0.49236192,
+          -0.75089257,
+          0.29791476
+        ],
+        [
+          -0.92193318,
+          0.05327249,
+          0.16118229
+        ],
+        [
+          -1.01062979,
+          0.12471309,
+          -0.46817233
+        ],
+        [
+          0.5996569,
+          0.74607384,
+          -1.01625556
+        ],
+        [
+          0.53298125,
+          -0.72746572,
+          0.42366013
+        ],
+        [
+          0.19684174,
+          0.71587001,
+          0.16338752
+        ],
+        [
+          0.07230425,
+          -0.27419295,
+          -0.15126343
+        ]
+      ],
+      "stress_vasp_kbar": [
+        [
+          185.99196736,
+          -28.65213786,
+          2.63850127
+        ],
+        [
+          -28.65213909,
+          23.07906052,
+          -17.67034346
+        ],
+        [
+          2.63850145,
+          -17.67034323,
+          100.11244007
+        ]
+      ],
+      "stress_ase_eV_A3": [
+        -0.1160870561618421,
+        -0.014404816685239201,
+        -0.06248527083113458,
+        0.011028960996308157,
+        -0.0016468229755359567,
+        0.017883257992925523
+      ],
+      "pressure_GPa": 10.306115598333333,
+      "maximum_force_norm_eV_A": 1.3960622964899774,
+      "total_magnetization_muB": null,
+      "local_magnetization_muB": [],
+      "highest_band_occupancy": 0.0,
+      "wall_seconds": 416.264,
+      "source_group": "distorted8",
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "core_file_sha256": {
+        "INCAR": "e0b63a3021c98f491b7ac37441fbac8fd7c76f9edc36c299c2bb241532db45a2",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "52cefb7ef8c41045788ec995765014fb75d1637bf99061a088ce89e2625fd3a2",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "24949af36f6a60061e2d093ecbe65b34d9ba665e9e060323a78fdb7440e72808",
+        "OUTCAR": "6070101091f26f2ed378664f2833cd4e13cf7349e148c4dabf64f175ad1fa365",
+        "OSZICAR": "bfc0ef4764cdcdee1247f61af4c82a84060c2fc4323396b8419fd24fa98ba79f",
+        "vasprun.xml": "c5d9c9f25696d67f9a3caf5103087eadaed5605c5d48c84aa8231ccb73b33245",
+        "CONTCAR": "22771745dfae964e681edf95e2786f349016829e3845791f29cb96c1172f7ff4",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "stderr.15309882": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.15309882": "576a3683c9b3c99ad445b2444fd0fdb78b21813a355be61cafd28bc9e6ce0c5f"
+      }
+    },
+    {
+      "name": "sigma_0.05",
+      "job_path": "dft/jobs/01_convergence/sigma_0.05",
+      "slurm_run_ids": [
+        "15309886"
+      ],
+      "checks": {
+        "input_incar_matches_job": true,
+        "xml_incar_matches_input": true,
+        "actual_key_parameters_match_input": true,
+        "kmesh_matches_job_and_output": true,
+        "poscar_hash_matches_job": true,
+        "potcar_hash_matches_job": true,
+        "source_potcar_matches": true,
+        "output_potentials_match": true,
+        "normal_end": true,
+        "electronic_converged": true,
+        "ediff_reached": true,
+        "last_scf_deltas_below_ediff": true,
+        "stderr_empty": true,
+        "single_static_step": true,
+        "output_structure_matches_input": true,
+        "finite_labels": true,
+        "ase_energy_matches": true,
+        "ase_forces_match": true,
+        "ase_stress_sign_units_match": true,
+        "top_band_empty": true
+      },
+      "all_checks_pass": true,
+      "vasp_version": "6.3.2",
+      "natoms": 8,
+      "kmesh": [
+        10,
+        10,
+        10
+      ],
+      "actual_parameters": {
+        "ENCUT": 800.0,
+        "EDIFF": 1e-07,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.05,
+        "NELECT": 64.0,
+        "NBANDS": 56,
+        "NCORE": null,
+        "KPAR": null,
+        "ISYM": 0
+      },
+      "nkpts": 504,
+      "electronic_steps": 15,
+      "last_scf_deltas_eV": [
+        8.2536e-08,
+        -1.3222e-09
+      ],
+      "energies_eV": {
+        "e_fr_energy": -77.40316759,
+        "e_wo_entrp": -77.40168461,
+        "e_0_energy": -77.4024261
+      },
+      "entropy_magnitude_meV_atom": 0.18537249999894811,
+      "forces_eV_A": [
+        [
+          0.0397731,
+          0.11226176,
+          0.58866956
+        ],
+        [
+          0.49463047,
+          -0.75100612,
+          0.29717665
+        ],
+        [
+          -0.92125826,
+          0.05175938,
+          0.16218305
+        ],
+        [
+          -1.00913321,
+          0.12527046,
+          -0.46997856
+        ],
+        [
+          0.59784981,
+          0.74664529,
+          -1.01666434
+        ],
+        [
+          0.5311894,
+          -0.72618145,
+          0.42563909
+        ],
+        [
+          0.19593794,
+          0.71598594,
+          0.16461674
+        ],
+        [
+          0.07101075,
+          -0.27473525,
+          -0.15164218
+        ]
+      ],
+      "stress_vasp_kbar": [
+        [
+          185.87253452,
+          -28.64230478,
+          2.75890591
+        ],
+        [
+          -28.64230578,
+          22.86950083,
+          -17.59325563
+        ],
+        [
+          2.75890595,
+          -17.59325524,
+          100.3548654
+        ]
+      ],
+      "stress_ase_eV_A3": [
+        -0.11601251204576309,
+        -0.014274019813483975,
+        -0.0626365808220886,
+        0.010980846556864203,
+        -0.0017219736414718257,
+        0.01787712066706997
+      ],
+      "pressure_GPa": 10.303230025,
+      "maximum_force_norm_eV_A": 1.3958903841720007,
+      "total_magnetization_muB": null,
+      "local_magnetization_muB": [],
+      "highest_band_occupancy": 0.0,
+      "wall_seconds": 423.364,
+      "source_group": "distorted8",
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "core_file_sha256": {
+        "INCAR": "4d4010ad404139bc78ab854395e97b152610ef521b329524143b7ef676be7d07",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "52cefb7ef8c41045788ec995765014fb75d1637bf99061a088ce89e2625fd3a2",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "24949af36f6a60061e2d093ecbe65b34d9ba665e9e060323a78fdb7440e72808",
+        "OUTCAR": "c1f86c5708fdcea1ce3ace653ae17db8b9132db8731661b592dcfc30ad89e4ab",
+        "OSZICAR": "2ec7ace64fa45bb11cffffa04b93331b061cc30552f2c1cb8c9cbf1bdbcd1f80",
+        "vasprun.xml": "284bab3d9c915b3f7c125dde218eecec6a7899186df13744e04f47a3156a4336",
+        "CONTCAR": "22771745dfae964e681edf95e2786f349016829e3845791f29cb96c1172f7ff4",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "stderr.15309886": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.15309886": "352cc3489f38d118df9f06a8bb24f5d13b3dd79b80346d46a36ffa7953a902a1"
+      }
+    },
+    {
+      "name": "sigma_0.20",
+      "job_path": "dft/jobs/01_convergence/sigma_0.20",
+      "slurm_run_ids": [
+        "15309887"
+      ],
+      "checks": {
+        "input_incar_matches_job": true,
+        "xml_incar_matches_input": true,
+        "actual_key_parameters_match_input": true,
+        "kmesh_matches_job_and_output": true,
+        "poscar_hash_matches_job": true,
+        "potcar_hash_matches_job": true,
+        "source_potcar_matches": true,
+        "output_potentials_match": true,
+        "normal_end": true,
+        "electronic_converged": true,
+        "ediff_reached": true,
+        "last_scf_deltas_below_ediff": true,
+        "stderr_empty": true,
+        "single_static_step": true,
+        "output_structure_matches_input": true,
+        "finite_labels": true,
+        "ase_energy_matches": true,
+        "ase_forces_match": true,
+        "ase_stress_sign_units_match": true,
+        "top_band_empty": true
+      },
+      "all_checks_pass": true,
+      "vasp_version": "6.3.2",
+      "natoms": 8,
+      "kmesh": [
+        10,
+        10,
+        10
+      ],
+      "actual_parameters": {
+        "ENCUT": 800.0,
+        "EDIFF": 1e-07,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.2,
+        "NELECT": 64.0,
+        "NBANDS": 56,
+        "NCORE": null,
+        "KPAR": null,
+        "ISYM": 0
+      },
+      "nkpts": 504,
+      "electronic_steps": 15,
+      "last_scf_deltas_eV": [
+        7.0653e-08,
+        -1.45e-09
+      ],
+      "energies_eV": {
+        "e_fr_energy": -77.41411434,
+        "e_wo_entrp": -77.39041003,
+        "e_0_energy": -77.40226219
+      },
+      "entropy_magnitude_meV_atom": 2.9630387499999244,
+      "forces_eV_A": [
+        [
+          0.03742351,
+          0.10951724,
+          0.59344878
+        ],
+        [
+          0.48780656,
+          -0.75269508,
+          0.29749171
+        ],
+        [
+          -0.92450142,
+          0.05616168,
+          0.16252419
+        ],
+        [
+          -1.01288803,
+          0.12331717,
+          -0.46726615
+        ],
+        [
+          0.602033,
+          0.74470849,
+          -1.01784673
+        ],
+        [
+          0.53676375,
+          -0.72848776,
+          0.42320601
+        ],
+        [
+          0.19899322,
+          0.7176883,
+          0.15899845
+        ],
+        [
+          0.07436941,
+          -0.27021004,
+          -0.15055627
+        ]
+      ],
+      "stress_vasp_kbar": [
+        [
+          186.34599852,
+          -28.63060942,
+          2.58295505
+        ],
+        [
+          -28.63061053,
+          23.28716449,
+          -17.78885146
+        ],
+        [
+          2.58295513,
+          -17.78885113,
+          99.85354519
+        ]
+      ],
+      "stress_ase_eV_A3": [
+        -0.11630802503344081,
+        -0.014534704968027954,
+        -0.062323681355518135,
+        0.011102927872657173,
+        -0.0016121537516321247,
+        0.017869820997452917
+      ],
+      "pressure_GPa": 10.316223606666668,
+      "maximum_force_norm_eV_A": 1.3975143770061091,
+      "total_magnetization_muB": null,
+      "local_magnetization_muB": [],
+      "highest_band_occupancy": 0.0,
+      "wall_seconds": 415.912,
+      "source_group": "distorted8",
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "core_file_sha256": {
+        "INCAR": "3ad296399bfe91073ce6d78410c45a04336c4d332c48e65e06f99e5e88463977",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "52cefb7ef8c41045788ec995765014fb75d1637bf99061a088ce89e2625fd3a2",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "24949af36f6a60061e2d093ecbe65b34d9ba665e9e060323a78fdb7440e72808",
+        "OUTCAR": "2f09a40888b5edeb5634f636cf1e2c13349cd4187e2e601117c0de2fca3ffc11",
+        "OSZICAR": "6fc839aea8b9f3a48c6537f9580fc613dd6cccd77bf06dd8f63a2dabae494671",
+        "vasprun.xml": "7d88b077034f2ac311b42e09df4ca81623f25d4a397ec6a4fe4ab4696120d010",
+        "CONTCAR": "22771745dfae964e681edf95e2786f349016829e3845791f29cb96c1172f7ff4",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "stderr.15309887": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.15309887": "104ea8eba2935156487c102b154fdb82efa1ed33d6475aa4ab474b95b06a92c6"
+      }
+    },
+    {
+      "name": "ediff_1e-8",
+      "job_path": "dft/jobs/01_convergence/ediff_1e-8",
+      "slurm_run_ids": [
+        "15309877"
+      ],
+      "checks": {
+        "input_incar_matches_job": true,
+        "xml_incar_matches_input": true,
+        "actual_key_parameters_match_input": true,
+        "kmesh_matches_job_and_output": true,
+        "poscar_hash_matches_job": true,
+        "potcar_hash_matches_job": true,
+        "source_potcar_matches": true,
+        "output_potentials_match": true,
+        "normal_end": true,
+        "electronic_converged": true,
+        "ediff_reached": true,
+        "last_scf_deltas_below_ediff": true,
+        "stderr_empty": true,
+        "single_static_step": true,
+        "output_structure_matches_input": true,
+        "finite_labels": true,
+        "ase_energy_matches": true,
+        "ase_forces_match": true,
+        "ase_stress_sign_units_match": true,
+        "top_band_empty": true
+      },
+      "all_checks_pass": true,
+      "vasp_version": "6.3.2",
+      "natoms": 8,
+      "kmesh": [
+        10,
+        10,
+        10
+      ],
+      "actual_parameters": {
+        "ENCUT": 800.0,
+        "EDIFF": 1e-08,
+        "ISPIN": 1,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "NELECT": 64.0,
+        "NBANDS": 56,
+        "NCORE": null,
+        "KPAR": null,
+        "ISYM": 0
+      },
+      "nkpts": 504,
+      "electronic_steps": 17,
+      "last_scf_deltas_eV": [
+        -7.4488e-09,
+        -4.6326e-11
+      ],
+      "energies_eV": {
+        "e_fr_energy": -77.40535091,
+        "e_wo_entrp": -77.39957436,
+        "e_0_energy": -77.40246264
+      },
+      "entropy_magnitude_meV_atom": 0.7220687499991385,
+      "forces_eV_A": [
+        [
+          0.03842434,
+          0.11262793,
+          0.58955714
+        ],
+        [
+          0.49237547,
+          -0.75090603,
+          0.29791837
+        ],
+        [
+          -0.92194491,
+          0.05327706,
+          0.16117817
+        ],
+        [
+          -1.01064302,
+          0.12471474,
+          -0.46818142
+        ],
+        [
+          0.59964613,
+          0.74607534,
+          -1.01625714
+        ],
+        [
+          0.53297411,
+          -0.72746686,
+          0.42366013
+        ],
+        [
+          0.19685178,
+          0.71587026,
+          0.16338543
+        ],
+        [
+          0.0723161,
+          -0.27419244,
+          -0.15126068
+        ]
+      ],
+      "stress_vasp_kbar": [
+        [
+          185.99002012,
+          -28.65203619,
+          2.63841172
+        ],
+        [
+          -28.65203719,
+          23.06761593,
+          -17.67046577
+        ],
+        [
+          2.63841193,
+          -17.67046556,
+          100.10584346
+        ]
+      ],
+      "stress_ase_eV_A3": [
+        -0.11608584079021908,
+        -0.014397673533946501,
+        -0.06248115355098309,
+        0.011029037336206273,
+        -0.0016467670828217344,
+        0.017883194535502238
+      ],
+      "pressure_GPa": 10.305449317,
+      "maximum_force_norm_eV_A": 1.3960596222157104,
+      "total_magnetization_muB": null,
+      "local_magnetization_muB": [],
+      "highest_band_occupancy": 0.0,
+      "wall_seconds": 468.046,
+      "source_group": "distorted8",
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "core_file_sha256": {
+        "INCAR": "496ca4c9e47dcfa7cb91c9245369c4983f8bbb51b993d93765dab1a7b9c6238d",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "52cefb7ef8c41045788ec995765014fb75d1637bf99061a088ce89e2625fd3a2",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "24949af36f6a60061e2d093ecbe65b34d9ba665e9e060323a78fdb7440e72808",
+        "OUTCAR": "8c11d99ff29db1418710d78c952d8de7e1e46bd366b72f80ee6ecac347d59b7d",
+        "OSZICAR": "ace229b7bed53daf821146a325890892989226975ad4a486bc0bd357a89a700b",
+        "vasprun.xml": "b6fb66a529293ffe622077e76e114421b800d7efe328e5b6b35a8f8f36d00b19",
+        "CONTCAR": "22771745dfae964e681edf95e2786f349016829e3845791f29cb96c1172f7ff4",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "stderr.15309877": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.15309877": "d3adcc004b31a966f64c7c0a41b6b1011a114610ae75877d989e4e86f928ea95"
+      }
+    },
+    {
+      "name": "spin_check",
+      "job_path": "dft/jobs/01_convergence/spin_check",
+      "slurm_run_ids": [
+        "15309888"
+      ],
+      "checks": {
+        "input_incar_matches_job": true,
+        "xml_incar_matches_input": true,
+        "actual_key_parameters_match_input": true,
+        "kmesh_matches_job_and_output": true,
+        "poscar_hash_matches_job": true,
+        "potcar_hash_matches_job": true,
+        "source_potcar_matches": true,
+        "output_potentials_match": true,
+        "normal_end": true,
+        "electronic_converged": true,
+        "ediff_reached": true,
+        "last_scf_deltas_below_ediff": true,
+        "stderr_empty": true,
+        "single_static_step": true,
+        "output_structure_matches_input": true,
+        "finite_labels": true,
+        "ase_energy_matches": true,
+        "ase_forces_match": true,
+        "ase_stress_sign_units_match": true,
+        "top_band_empty": true
+      },
+      "all_checks_pass": true,
+      "vasp_version": "6.3.2",
+      "natoms": 8,
+      "kmesh": [
+        8,
+        8,
+        8
+      ],
+      "actual_parameters": {
+        "ENCUT": 600.0,
+        "EDIFF": 1e-07,
+        "ISPIN": 2,
+        "ISMEAR": 0,
+        "SIGMA": 0.1,
+        "NELECT": 64.0,
+        "NBANDS": 56,
+        "NCORE": null,
+        "KPAR": null,
+        "ISYM": 0
+      },
+      "nkpts": 260,
+      "electronic_steps": 17,
+      "last_scf_deltas_eV": [
+        5.7004e-08,
+        -3.2524e-10
+      ],
+      "energies_eV": {
+        "e_fr_energy": -77.39684423,
+        "e_wo_entrp": -77.39284661,
+        "e_0_energy": -77.39484542
+      },
+      "entropy_magnitude_meV_atom": 0.49970249999908845,
+      "forces_eV_A": [
+        [
+          0.03099829,
+          0.1129903,
+          0.59996122
+        ],
+        [
+          0.48720762,
+          -0.75306111,
+          0.2806025
+        ],
+        [
+          -0.92970155,
+          0.04687005,
+          0.16702956
+        ],
+        [
+          -1.0187789,
+          0.13447264,
+          -0.47971065
+        ],
+        [
+          0.60745377,
+          0.74221462,
+          -1.02635264
+        ],
+        [
+          0.53820003,
+          -0.73097684,
+          0.43952782
+        ],
+        [
+          0.20504586,
+          0.72004354,
+          0.15429564
+        ],
+        [
+          0.07957489,
+          -0.2725532,
+          -0.13535344
+        ]
+      ],
+      "stress_vasp_kbar": [
+        [
+          187.8617014,
+          -28.99965174,
+          2.6894859
+        ],
+        [
+          -28.99965289,
+          21.02162288,
+          -18.36346734
+        ],
+        [
+          2.68948594,
+          -18.36346711,
+          98.55558995
+        ]
+      ],
+      "stress_ase_eV_A3": [
+        -0.11725405236920557,
+        -0.01312066510463963,
+        -0.06151356140797333,
+        0.011461574898546916,
+        -0.001678645078878435,
+        0.01810015909826463
+      ],
+      "pressure_GPa": 10.247963807666666,
+      "maximum_force_norm_eV_A": 1.4047356927422066,
+      "total_magnetization_muB": -1.9e-06,
+      "local_magnetization_muB": [
+        {
+          "s": -0.0,
+          "p": 0.0,
+          "d": 0.0,
+          "tot": -0.0
+        },
+        {
+          "s": -0.0,
+          "p": 0.0,
+          "d": 0.0,
+          "tot": -0.0
+        },
+        {
+          "s": -0.0,
+          "p": 0.0,
+          "d": 0.0,
+          "tot": -0.0
+        },
+        {
+          "s": -0.0,
+          "p": 0.0,
+          "d": 0.0,
+          "tot": -0.0
+        },
+        {
+          "s": -0.0,
+          "p": -0.0,
+          "d": 0.0,
+          "tot": -0.0
+        },
+        {
+          "s": -0.0,
+          "p": -0.0,
+          "d": 0.0,
+          "tot": -0.0
+        },
+        {
+          "s": 0.0,
+          "p": -0.0,
+          "d": 0.0,
+          "tot": -0.0
+        },
+        {
+          "s": -0.0,
+          "p": -0.0,
+          "d": 0.0,
+          "tot": -0.0
+        }
+      ],
+      "highest_band_occupancy": 0.0,
+      "wall_seconds": 377.902,
+      "source_group": "distorted8",
+      "poscar_sha256": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+      "core_file_sha256": {
+        "INCAR": "a822e4d3a06bb37a010c7fcfbcdab79e5302399fea8b3a8030091488e528e841",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "85e8b6ed8c4d89ba853e6d8dfc2e9e77d983615de3bc0a48e3b2685418b37386",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "4cca2c1a518829fccffb53b4308052b839938abd0ef982bdb26af8f175bb4e6c",
+        "OUTCAR": "77bcc20b8af7f5809c6b120bc4cecf702292af6f03318fa73b7cfd227a819b62",
+        "OSZICAR": "46d978383412bd1d99f7def1da7897fa42d926e2a7ce53fe6d5360c79dd067c2",
+        "vasprun.xml": "60f2f5b078a8e2de2d33baa9f2106bd675bd42cbd49b7cb7164eaa931f3e5b05",
+        "CONTCAR": "22771745dfae964e681edf95e2786f349016829e3845791f29cb96c1172f7ff4",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "stderr.15309888": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "stdout.15309888": "f1c7fa30fd7962c8d01aeb439e11f150936ecaa00ae59649264aac99695c9d4b"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "job": "encut_520_k8",
+      "reference": "encut_800_k8",
+      "comparison": "cutoff",
+      "signed_energy_difference_meV_atom": {
+        "e_fr_energy": 2.1709237500004974,
+        "e_wo_entrp": 2.171224999999666,
+        "e_0_energy": 2.171073750000474
+      },
+      "force_component_RMS_eV_A": 0.00042263549090793684,
+      "force_component_max_eV_A": 0.0008450700000000033,
+      "force_vector_max_eV_A": 0.0010628654628879607,
+      "stress_component_max_GPa": 0.03936631999999918,
+      "meets_project_tolerances": false
+    },
+    {
+      "job": "encut_600_k8",
+      "reference": "encut_800_k8",
+      "comparison": "cutoff",
+      "signed_energy_difference_meV_atom": {
+        "e_fr_energy": 1.647008750000012,
+        "e_wo_entrp": 1.6472312499988817,
+        "e_0_energy": 1.6471200000012232
+      },
+      "force_component_RMS_eV_A": 0.0005198731233676223,
+      "force_component_max_eV_A": 0.001324600000000009,
+      "force_vector_max_eV_A": 0.001339603856406818,
+      "stress_component_max_GPa": 0.04762618099999969,
+      "meets_project_tolerances": false
+    },
+    {
+      "job": "encut_700_k8",
+      "reference": "encut_800_k8",
+      "comparison": "cutoff",
+      "signed_energy_difference_meV_atom": {
+        "e_fr_energy": 0.6402787499997231,
+        "e_wo_entrp": 0.6404212499990791,
+        "e_0_energy": 0.6403500000011775
+      },
+      "force_component_RMS_eV_A": 0.00018801675896045972,
+      "force_component_max_eV_A": 0.0003137600000000518,
+      "force_vector_max_eV_A": 0.00041958426162097003,
+      "stress_component_max_GPa": 0.041734765,
+      "meets_project_tolerances": true
+    },
+    {
+      "job": "encut_800_k4",
+      "reference": "encut_800_k10",
+      "comparison": "kmesh",
+      "signed_energy_difference_meV_atom": {
+        "e_fr_energy": -15.019640000000223,
+        "e_wo_entrp": -14.768965000000023,
+        "e_0_energy": -14.894302500000123
+      },
+      "force_component_RMS_eV_A": 0.027999583016434376,
+      "force_component_max_eV_A": 0.08264908000000004,
+      "force_vector_max_eV_A": 0.0921616675534406,
+      "stress_component_max_GPa": 1.0678041879999995,
+      "meets_project_tolerances": false
+    },
+    {
+      "job": "encut_800_k6",
+      "reference": "encut_800_k10",
+      "comparison": "kmesh",
+      "signed_energy_difference_meV_atom": {
+        "e_fr_energy": -4.419693750000064,
+        "e_wo_entrp": -4.645676250000008,
+        "e_0_energy": -4.532684999999148
+      },
+      "force_component_RMS_eV_A": 0.014843151239148273,
+      "force_component_max_eV_A": 0.02228586999999993,
+      "force_vector_max_eV_A": 0.029176958598286083,
+      "stress_component_max_GPa": 0.16804670900000077,
+      "meets_project_tolerances": false
+    },
+    {
+      "job": "encut_800_k8",
+      "reference": "encut_800_k10",
+      "comparison": "kmesh",
+      "signed_energy_difference_meV_atom": {
+        "e_fr_energy": -0.583669999999259,
+        "e_wo_entrp": -0.8062574999989636,
+        "e_0_energy": -0.6949637499999994
+      },
+      "force_component_RMS_eV_A": 0.008774155426417102,
+      "force_component_max_eV_A": 0.017494279999999973,
+      "force_vector_max_eV_A": 0.018237617703378887,
+      "stress_component_max_GPa": 0.23435006300000227,
+      "meets_project_tolerances": false
+    },
+    {
+      "job": "sigma_0.05",
+      "reference": "encut_800_k10",
+      "comparison": "smearing_or_scf",
+      "signed_energy_difference_meV_atom": {
+        "e_fr_energy": 0.27291875000123866,
+        "e_wo_entrp": -0.2637762499997365,
+        "e_0_energy": 0.0045712500007510926
+      },
+      "force_component_RMS_eV_A": 0.0012074266857056632,
+      "force_component_max_eV_A": 0.0022685499999999803,
+      "force_vector_max_eV_A": 0.0029624919471619797,
+      "stress_component_max_GPa": 0.0242425329999989,
+      "meets_project_tolerances": true
+    },
+    {
+      "job": "sigma_0.20",
+      "reference": "encut_800_k10",
+      "comparison": "smearing_or_scf",
+      "signed_energy_difference_meV_atom": {
+        "e_fr_energy": -1.0954249999990395,
+        "e_wo_entrp": 1.1455462500009617,
+        "e_0_energy": 0.025060000000465266
+      },
+      "force_component_RMS_eV_A": 0.0024838825906364154,
+      "force_component_max_eV_A": 0.004555360000000008,
+      "force_vector_max_eV_A": 0.005215264152408774,
+      "stress_component_max_GPa": 0.035403116000000526,
+      "meets_project_tolerances": false
+    },
+    {
+      "job": "ediff_1e-8",
+      "reference": "encut_800_k10",
+      "comparison": "smearing_or_scf",
+      "signed_energy_difference_meV_atom": {
+        "e_fr_energy": 3.750001198454811e-06,
+        "e_wo_entrp": 5.000000413701855e-06,
+        "e_0_energy": 3.750001198454811e-06
+      },
+      "force_component_RMS_eV_A": 7.755615975967813e-06,
+      "force_component_max_eV_A": 1.3549999999973306e-05,
+      "force_vector_max_eV_A": 1.943723745802734e-05,
+      "stress_component_max_GPa": 0.0011444589999999976,
+      "meets_project_tolerances": true
+    },
+    {
+      "job": "spin_check",
+      "reference": "encut_600_k8",
+      "comparison": "spin",
+      "signed_energy_difference_meV_atom": {
+        "e_fr_energy": 0.0,
+        "e_wo_entrp": 0.0,
+        "e_0_energy": 0.0
+      },
+      "force_component_RMS_eV_A": 7.3648628070384035e-06,
+      "force_component_max_eV_A": 1.8300000000026628e-05,
+      "force_vector_max_eV_A": 2.1496029866006937e-05,
+      "stress_component_max_GPa": 0.00024385200000267562,
+      "meets_project_tolerances": true
+    },
+    {
+      "job": "encut_600_k8",
+      "reference": "encut_800_k10",
+      "comparison": "combined_cutoff_and_kmesh",
+      "signed_energy_difference_meV_atom": {
+        "e_fr_energy": 1.063338750000753,
+        "e_wo_entrp": 0.8409737499999181,
+        "e_0_energy": 0.9521562500012237
+      },
+      "force_component_RMS_eV_A": 0.008826003012264381,
+      "force_component_max_eV_A": 0.01731408000000001,
+      "force_vector_max_eV_A": 0.018198559693407078,
+      "stress_component_max_GPa": 0.20585423599999972,
+      "meets_project_tolerances": false
+    },
+    {
+      "job": "encut_700_k8",
+      "reference": "encut_800_k10",
+      "comparison": "combined_cutoff_and_kmesh",
+      "signed_energy_difference_meV_atom": {
+        "e_fr_energy": 0.05660875000046417,
+        "e_wo_entrp": -0.16583624999988444,
+        "e_0_energy": -0.05461374999882196
+      },
+      "force_component_RMS_eV_A": 0.008693960962270491,
+      "force_component_max_eV_A": 0.01748234999999998,
+      "force_vector_max_eV_A": 0.018251846719545925,
+      "stress_component_max_GPa": 0.19996282,
+      "meets_project_tolerances": false
+    }
+  ]
+}

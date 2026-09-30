@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "jobs": [
+    {
+      "path": "01c_reference_check/encut_850_k14",
+      "status": "input_checks_passed",
+      "input_sha256": {
+        "INCAR": "e3246fa4e547da7cf3c2989522b6452441af7c6725eb89d3772f34c9c227b787",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "10391eb45ca9d4ff346f3ae6053a38a43c9f8e0b2308e1254081dc436af044e5",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "58940e023f5a15a52527b7447fb30abccbe369c34e067cecf7e8d0782763d62a",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "job.json": "1a3d3261a80baa11867ca10f90f2b95dd6060a6caeb4171f7fa2db7e7c1e60ac"
+      }
+    },
+    {
+      "path": "01c_reference_check/encut_850_k16",
+      "status": "input_checks_passed",
+      "input_sha256": {
+        "INCAR": "313ea0080bcfb4bdc1b6229ca135122889d124c4c3db319121920d66e7f1a736",
+        "POSCAR": "a2a135382548af7c5d1269f81974c6f3331dc1f1e1051b93fb7a8e00dc0ee758",
+        "KPOINTS": "a4ce8d2ef22b932267a7f327e170ddbe7b86ef22aa84bd78323b5595c4a998ed",
+        "POTCAR": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+        "POTCAR.meta.json": "58940e023f5a15a52527b7447fb30abccbe369c34e067cecf7e8d0782763d62a",
+        "JobModel": "528933c5cff7a9f249e88e4b408023b1b20adea62edfaae3eba24e74ab19e40b",
+        "job.json": "6fbbbf845abdc94a01071e4dce21f1ebb8f9d1ae30aea9b83d485d380e900ca2"
+      }
+    }
+  ],
+  "job_count": 2,
+  "core_file_hash_checks_passed": 180,
+  "production_protocol_certified": false
+}

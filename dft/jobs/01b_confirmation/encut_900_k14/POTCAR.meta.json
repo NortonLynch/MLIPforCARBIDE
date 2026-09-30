@@ -1,0 +1,46 @@
+{
+  "assembly": "binary_concatenation_in_POSCAR_species_order",
+  "species": [
+    "Zr",
+    "C"
+  ],
+  "potentials": [
+    {
+      "name": "Zr_sv",
+      "element": "Zr",
+      "title": "PAW_PBE Zr_sv 04Jan2005",
+      "lexch": "PE",
+      "enmax_eV": 229.898,
+      "zval": 12.0,
+      "source_path": "dft/psudopotential/potpaw_PBE.64/Zr_sv/POTCAR",
+      "source_sha256": "e3d75732e64ed47e733ef12202d7082321f6b043dd450e16fe03b686b180cdc0",
+      "decompressed_sha256": "e3d75732e64ed47e733ef12202d7082321f6b043dd450e16fe03b686b180cdc0",
+      "bytes": 234711,
+      "embedded_sha256": "25aed69cb10325f9d37c5c68912b61a17387d1f8e4f1d804860ffa10c8a4bf76"
+    },
+    {
+      "name": "C",
+      "element": "C",
+      "title": "PAW_PBE C 08Apr2002",
+      "lexch": "PE",
+      "enmax_eV": 400.0,
+      "zval": 4.0,
+      "source_path": "dft/psudopotential/potpaw_PBE.64/C/POTCAR",
+      "source_sha256": "e324f39f282d3fd6b99a7bff390f4b2441edd3dd3eac607d1f1c01376f3d0dc0",
+      "decompressed_sha256": "e324f39f282d3fd6b99a7bff390f4b2441edd3dd3eac607d1f1c01376f3d0dc0",
+      "bytes": 207583,
+      "embedded_sha256": "253f7b50bb8d59471dbedb8285d89021f4a42ed1a2c5d38a03a736e69125dd95"
+    }
+  ],
+  "sha256": "14f29842e7a19e8251a90aaef4221903201a49d54af90190dd4e75ee9d5d6bd1",
+  "bytes": 442294,
+  "dataset_count": 2,
+  "max_enmax_eV": 400.0,
+  "encut_eV": 900.0,
+  "source_release": "potpaw_PBE.64",
+  "source_archive": {
+    "path": "dft/potpaw_PBE.64.tgz",
+    "sha256": "16e2c03f20bec437d7e7c32f969901fa8264d74b2782c57617147c15147ec253"
+  },
+  "source_release_note": "Release declared by user-supplied archive; archive and source bytes recorded, not authenticated against the VASP portal."
+}

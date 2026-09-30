@@ -1,0 +1,283 @@
+{
+  "counts": {
+    "passed": 54
+  },
+  "expected_216": 54,
+  "previously_completed_8_and_64": 108,
+  "production_completed_total": 162,
+  "status": "all_production_completed_under_recorded_protocols",
+  "restart_equivalence_certified_for_216": false,
+  "physical_validated": false,
+  "tasks": [
+    {
+      "job_id": "zrc216_T0300_v100_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T0300_v100_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T0300_v100_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T0300_v095_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T0300_v095_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T0300_v095_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T0300_v105_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T0300_v105_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T0300_v105_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T1500_v100_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T1500_v100_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T1500_v100_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T1500_v095_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T1500_v095_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T1500_v095_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T1500_v105_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T1500_v105_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T1500_v105_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T3000_v100_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T3000_v100_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T3000_v100_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T3000_v095_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T3000_v095_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T3000_v095_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T3000_v105_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T3000_v105_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T3000_v105_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T4500_v100_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T4500_v100_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T4500_v100_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T4500_v095_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T4500_v095_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T4500_v095_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T4500_v105_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T4500_v105_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T4500_v105_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T5250_v100_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T5250_v100_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T5250_v100_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T5250_v095_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T5250_v095_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T5250_v095_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T5250_v105_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T5250_v105_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T5250_v105_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T6000_v100_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T6000_v100_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T6000_v100_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T6000_v095_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T6000_v095_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T6000_v095_s2026",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T6000_v105_s17",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T6000_v105_s42",
+      "status": "passed",
+      "error": null
+    },
+    {
+      "job_id": "zrc216_T6000_v105_s2026",
+      "status": "passed",
+      "error": null
+    }
+  ]
+}

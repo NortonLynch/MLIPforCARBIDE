@@ -1,0 +1,16 @@
+{
+  "scope": "Offline mocks only; NO real Slurm submission and NO real VASP calculation",
+  "passed": true,
+  "checks": [
+    "Bash syntax of all five launch/return scripts",
+    "Dry run makes no submission or submission-state files",
+    "Scheduler rejection does not record a submitted array",
+    "One cnall 36-task array; duplicate full submission blocked",
+    "Explicit indexed retry accepted; duplicate/out-of-range indices and invalid concurrency rejected",
+    "Successful execution is review-pending, and existing attempt cannot be overwritten",
+    "VASP exit zero with unconverged SCF is failed; original output retained",
+    "A resubmitted task uses a new attempt directory without overwriting failure evidence",
+    "Return package refused while queued, succeeds once the mock queue is empty"
+  ],
+  "bundle_manifest_sha256": "0345552db0cece1c12b01c598a3bd40151b6c8eb1fb5db4260472a0c2a3efe9b"
+}

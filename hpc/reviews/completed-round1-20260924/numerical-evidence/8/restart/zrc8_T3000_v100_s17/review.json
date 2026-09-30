@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "max_position_difference_A": 9.769775033419137e-08,
+  "max_momentum_difference_ASE": 7.533831563044657e-07,
+  "identical_rng_state": true,
+  "policy": {
+    "duration_fs": 100.0,
+    "interrupt_fs": 50.0,
+    "position_atol_A": 1e-06,
+    "momentum_atol_ASE": 1e-05,
+    "rng_must_match_exactly": true,
+    "thresholds_fixed_before_hpc_execution": true
+  },
+  "physical_validated": false
+}

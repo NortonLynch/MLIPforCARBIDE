@@ -1,0 +1,123 @@
+{
+  "campaign_id": "zrc-round1-hpc-remaining-144",
+  "status": "needs_review",
+  "jobs": [
+    {
+      "id": "zrc216_T3000_v100_s17",
+      "atoms": 216,
+      "temperature_K": 3000,
+      "volume_scale": 1.0,
+      "seed": 17,
+      "source_group": "zrc216_v100_s17_heating",
+      "parent_pilot_job": "zrc216_T1500_v100_s17",
+      "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "pilot": {
+        "status": "passed",
+        "accepted_parameters": {
+          "timestep_fs": 0.5,
+          "dtype": "float32"
+        },
+        "completed_utc": "2026-09-21T17:02:09.626738+00:00",
+        "final_checkpoint": "jobs/zrc216_T3000_v100_s17/pilot-source/checkpoint.npz"
+      },
+      "production": {
+        "status": "pending",
+        "attempts": []
+      }
+    },
+    {
+      "id": "zrc216_T6000_v100_s17",
+      "atoms": 216,
+      "temperature_K": 6000,
+      "volume_scale": 1.0,
+      "seed": 17,
+      "source_group": "zrc216_v100_s17_heating",
+      "parent_pilot_job": "zrc216_T5250_v100_s17",
+      "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "pilot": {
+        "status": "passed",
+        "accepted_parameters": {
+          "timestep_fs": 0.5,
+          "dtype": "float32"
+        },
+        "completed_utc": "2026-09-21T21:34:00.021175+00:00",
+        "final_checkpoint": "jobs/zrc216_T6000_v100_s17/pilot-source/checkpoint.npz"
+      },
+      "production": {
+        "status": "pending",
+        "attempts": []
+      }
+    }
+  ],
+  "gates": {
+    "warm_216": {
+      "status": "passed",
+      "initial_checkpoint": "jobs/zrc216_T3000_v100_s17/pilot-source/checkpoint.npz",
+      "initial_sha256": "e99f1fe7dcd6b6339d199f20b105c4f08afc0028ae1ecfc4cf99a2cdc514a352",
+      "static_precision": {
+        "relative_energy_delta_meV_atom": 0.009765317494636605,
+        "force_component_RMS_eV_A": 5.10284705502104e-06,
+        "force_component_max_eV_A": 2.6145851968806255e-05,
+        "stress_component_max_GPa": 4.0306583937736615e-05,
+        "energy_diagnostics": {
+          "float32": {
+            "energy_eV_atom": -9.26527687355324,
+            "reference_energy_eV_atom": -9.711859809027779,
+            "relative_energy_eV_atom": 0.44658293547453703
+          },
+          "float64": {
+            "energy_eV_atom": -9.26527596708429,
+            "reference_energy_eV_atom": -9.711849137241336,
+            "relative_energy_eV_atom": 0.4465731701570424
+          }
+        },
+        "float32_pass": true
+      },
+      "selected_dt_fs": 0.5,
+      "selected_dtype": "float32",
+      "completed_utc": "2026-09-22T08:08:11.923560+00:00",
+      "errors": [],
+      "qualification": "numerical_screen_only_not_physical_validation"
+    },
+    "high_216": {
+      "status": "passed",
+      "initial_checkpoint": "jobs/zrc216_T6000_v100_s17/pilot-source/checkpoint.npz",
+      "initial_sha256": "b9bb3ecaa28f48cd34b36f935c5196caed9763ed9775b2be0999992630ef8998",
+      "static_precision": {
+        "relative_energy_delta_meV_atom": 0.008719105213383926,
+        "force_component_RMS_eV_A": 7.471774582054589e-06,
+        "force_component_max_eV_A": 7.69666090985055e-05,
+        "stress_component_max_GPa": 5.093342060683809e-05,
+        "energy_diagnostics": {
+          "float32": {
+            "energy_eV_atom": -8.179857042100695,
+            "reference_energy_eV_atom": -9.711859809027779,
+            "relative_energy_eV_atom": 1.5320027669270833
+          },
+          "float64": {
+            "energy_eV_atom": -8.179855089419467,
+            "reference_energy_eV_atom": -9.711849137241336,
+            "relative_energy_eV_atom": 1.5319940478218699
+          }
+        },
+        "float32_pass": true
+      },
+      "selected_dt_fs": 0.5,
+      "selected_dtype": "float32",
+      "completed_utc": "2026-09-22T08:25:38.342618+00:00",
+      "errors": [],
+      "qualification": "numerical_screen_only_not_physical_validation"
+    }
+  },
+  "hpc_contract": {
+    "manifest_sha256": "60145fdfcf66c83909cbd288c12a70a3342d27bbdd87e2033ad4f621679f762b",
+    "environment_sha256": "b51f3363223aa8c56a2652036a171e3d67054f8ff787cf3fe0dae02e5f01629c",
+    "role": "validation",
+    "jobs": [
+      "zrc216_T3000_v100_s17",
+      "zrc216_T6000_v100_s17"
+    ]
+  },
+  "physical_validated": false,
+  "updated_utc": "2026-09-22T08:26:41.353149+00:00"
+}

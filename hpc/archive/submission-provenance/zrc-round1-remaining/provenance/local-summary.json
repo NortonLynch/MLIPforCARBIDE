@@ -1,0 +1,76 @@
+{
+  "campaign_id": "zrc-mace-mh1-round1-162",
+  "updated_utc": "2026-09-22T05:24:55.838516+00:00",
+  "status": "stopped_by_marker",
+  "total_combinations": 162,
+  "by_size": {
+    "8": {
+      "pilot": {
+        "passed": 54
+      },
+      "production": {
+        "passed": 9,
+        "pending": 45
+      }
+    },
+    "64": {
+      "pilot": {
+        "passed": 54
+      },
+      "production": {
+        "passed": 9,
+        "pending": 45
+      }
+    },
+    "216": {
+      "pilot": {
+        "passed": 54
+      },
+      "production": {
+        "pending": 54
+      }
+    }
+  },
+  "pilot_passed": 162,
+  "production_passed": 18,
+  "gates": {
+    "warm_8": {
+      "status": "passed",
+      "selected_dt_fs": 0.5,
+      "selected_dtype": "float32",
+      "errors": []
+    },
+    "warm_64": {
+      "status": "passed",
+      "selected_dt_fs": 0.5,
+      "selected_dtype": "float32",
+      "errors": []
+    },
+    "warm_216": {
+      "status": "passed",
+      "selected_dt_fs": 0.5,
+      "selected_dtype": "float32",
+      "errors": []
+    },
+    "high_8": {
+      "status": "passed",
+      "selected_dt_fs": 0.5,
+      "selected_dtype": "float32",
+      "errors": []
+    },
+    "high_64": {
+      "status": "passed",
+      "selected_dt_fs": 0.5,
+      "selected_dtype": "float32",
+      "errors": []
+    },
+    "high_216": {
+      "status": "passed",
+      "selected_dt_fs": 0.5,
+      "selected_dtype": "float32",
+      "errors": []
+    }
+  },
+  "physical_validated": false,
+  "equilibrium_certified": false
+}

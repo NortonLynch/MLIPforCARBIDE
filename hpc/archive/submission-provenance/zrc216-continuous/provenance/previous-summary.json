@@ -1,0 +1,595 @@
+{
+  "validation_status_by_size": {
+    "8": "passed",
+    "64": "passed",
+    "216": "not_ready_or_review_failed: [Errno 2] No such file or directory: 'D:\\\\MaterialModel\\\\hpc\\\\zrc-round1-remaining\\\\outputs\\\\validation\\\\216\\\\ready.json'"
+  },
+  "local_production_passed": 18,
+  "hpc_status_counts": {
+    "not_started": 54,
+    "passed": 90
+  },
+  "production_passed_total": 108,
+  "expected_total": 162,
+  "status": "incomplete_or_needs_review",
+  "tasks": [
+    {
+      "job_id": "zrc216_T0300_v100_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T0300_v100_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T0300_v100_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T0300_v095_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T0300_v095_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T0300_v095_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T0300_v105_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T0300_v105_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T0300_v105_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc8_T1500_v100_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T1500_v100_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T1500_v100_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T1500_v095_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T1500_v095_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T1500_v095_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T1500_v105_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T1500_v105_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T1500_v105_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T1500_v100_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T1500_v100_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T1500_v100_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T1500_v095_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T1500_v095_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T1500_v095_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T1500_v105_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T1500_v105_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T1500_v105_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc216_T1500_v100_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T1500_v100_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T1500_v100_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T1500_v095_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T1500_v095_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T1500_v095_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T1500_v105_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T1500_v105_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T1500_v105_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc8_T3000_v100_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T3000_v100_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T3000_v100_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T3000_v095_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T3000_v095_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T3000_v095_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T3000_v105_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T3000_v105_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T3000_v105_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T3000_v100_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T3000_v100_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T3000_v100_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T3000_v095_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T3000_v095_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T3000_v095_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T3000_v105_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T3000_v105_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T3000_v105_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc216_T3000_v100_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T3000_v100_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T3000_v100_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T3000_v095_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T3000_v095_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T3000_v095_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T3000_v105_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T3000_v105_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T3000_v105_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc8_T4500_v100_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T4500_v100_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T4500_v100_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T4500_v095_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T4500_v095_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T4500_v095_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T4500_v105_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T4500_v105_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T4500_v105_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T4500_v100_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T4500_v100_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T4500_v100_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T4500_v095_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T4500_v095_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T4500_v095_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T4500_v105_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T4500_v105_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T4500_v105_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc216_T4500_v100_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T4500_v100_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T4500_v100_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T4500_v095_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T4500_v095_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T4500_v095_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T4500_v105_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T4500_v105_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T4500_v105_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc8_T5250_v100_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T5250_v100_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T5250_v100_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T5250_v095_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T5250_v095_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T5250_v095_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T5250_v105_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T5250_v105_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T5250_v105_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T5250_v100_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T5250_v100_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T5250_v100_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T5250_v095_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T5250_v095_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T5250_v095_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T5250_v105_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T5250_v105_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T5250_v105_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc216_T5250_v100_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T5250_v100_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T5250_v100_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T5250_v095_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T5250_v095_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T5250_v095_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T5250_v105_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T5250_v105_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T5250_v105_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc8_T6000_v100_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T6000_v100_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T6000_v100_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T6000_v095_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T6000_v095_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T6000_v095_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T6000_v105_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T6000_v105_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc8_T6000_v105_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T6000_v100_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T6000_v100_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T6000_v100_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T6000_v095_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T6000_v095_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T6000_v095_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T6000_v105_s17",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T6000_v105_s42",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc64_T6000_v105_s2026",
+      "status": "passed"
+    },
+    {
+      "job_id": "zrc216_T6000_v100_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T6000_v100_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T6000_v100_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T6000_v095_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T6000_v095_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T6000_v095_s2026",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T6000_v105_s17",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T6000_v105_s42",
+      "status": "not_started"
+    },
+    {
+      "job_id": "zrc216_T6000_v105_s2026",
+      "status": "not_started"
+    }
+  ],
+  "physical_validated": false,
+  "equilibrium_certified": false
+}

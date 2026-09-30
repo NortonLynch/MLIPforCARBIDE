@@ -1,0 +1,4 @@
+{
+  "utc": "2026-09-22T08:26:41.364975+00:00",
+  "traceback": "Traceback (most recent call last):\n  File \"/WORK/gongqianm_work/MaterialModel-HPC/zrc-round1-remaining/scripts/run_zrc_hpc.py\", line 233, in validate\n    restart_check(c, job, gate)\n  File \"/WORK/gongqianm_work/MaterialModel-HPC/zrc-round1-remaining/scripts/run_zrc_hpc.py\", line 207, in restart_check\n    raise NumericalFailure(\"Restart comparison failed; no threshold relaxation is permitted\")\nzrc_md_engine.NumericalFailure: Restart comparison failed; no threshold relaxation is permitted\n"
+}

@@ -1,0 +1,9 @@
+{
+  "job_id": "zrc64_T0300_v105_s2026",
+  "phase": "production",
+  "requested_utc": "2026-09-22T05:07:11.803528+00:00",
+  "reason": "User requests current job completion then local stop for cluster migration",
+  "allow_remaining_matrix": false,
+  "stopped_utc": "2026-09-22T05:24:55.824723+00:00",
+  "target_status": "passed"
+}

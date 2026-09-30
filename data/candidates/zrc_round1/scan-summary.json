@@ -1,0 +1,15 @@
+{
+  "complete_trajectories": 162,
+  "raw_sampling_frames_including_t0": 32562,
+  "frames_after_t0_removed": 32400,
+  "raw64_frames": 10800,
+  "thinned64_frames": 2160,
+  "time_grid_fs": 250,
+  "duplicate_count": 0,
+  "rejected_nonfinite_or_invalid_frames": 0,
+  "hard_checks": "abort, do not silently drop invalid source data",
+  "independence_at_250fs_established": false,
+  "physical_validated": false,
+  "trajectory_index_sha256": "fc0464ced21432c4e642c2c1c9a6d4d813755694a3e92a2082dfde8e0dd12b2d",
+  "candidate_structures_sha256": "1c6afba8625c845cb8a5703baf83f8b9bf6e3a0b2da4e9569704bbab0740f5d5"
+}

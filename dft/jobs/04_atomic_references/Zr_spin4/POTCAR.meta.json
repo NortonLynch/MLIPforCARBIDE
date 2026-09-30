@@ -1,0 +1,32 @@
+{
+  "assembly": "binary_concatenation_in_POSCAR_species_order",
+  "species": [
+    "Zr"
+  ],
+  "potentials": [
+    {
+      "name": "Zr_sv",
+      "element": "Zr",
+      "title": "PAW_PBE Zr_sv 04Jan2005",
+      "lexch": "PE",
+      "enmax_eV": 229.898,
+      "zval": 12.0,
+      "source_path": "dft/psudopotential/potpaw_PBE.64/Zr_sv/POTCAR",
+      "source_sha256": "e3d75732e64ed47e733ef12202d7082321f6b043dd450e16fe03b686b180cdc0",
+      "decompressed_sha256": "e3d75732e64ed47e733ef12202d7082321f6b043dd450e16fe03b686b180cdc0",
+      "bytes": 234711,
+      "embedded_sha256": "25aed69cb10325f9d37c5c68912b61a17387d1f8e4f1d804860ffa10c8a4bf76"
+    }
+  ],
+  "sha256": "e3d75732e64ed47e733ef12202d7082321f6b043dd450e16fe03b686b180cdc0",
+  "bytes": 234711,
+  "dataset_count": 1,
+  "max_enmax_eV": 229.898,
+  "encut_eV": 600.0,
+  "source_release": "potpaw_PBE.64",
+  "source_archive": {
+    "path": "dft/potpaw_PBE.64.tgz",
+    "sha256": "16e2c03f20bec437d7e7c32f969901fa8264d74b2782c57617147c15147ec253"
+  },
+  "source_release_note": "Release declared by user-supplied archive; archive and source bytes recorded, not authenticated against the VASP portal."
+}

@@ -1,0 +1,9 @@
+{
+  "source_archive": "dft/potpaw_PBE.64.tgz",
+  "source_archive_sha256": "16e2c03f20bec437d7e7c32f969901fa8264d74b2782c57617147c15147ec253",
+  "target_directory": "dft/psudopotential/potpaw_PBE.64",
+  "members": 1032,
+  "file_count": 689,
+  "unpacked_bytes": 86797215,
+  "all_extracted_files_match_archive": true
+}

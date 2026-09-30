@@ -1,0 +1,30 @@
+[
+  {
+    "path": "hpc/zrc-round1-results.tgz",
+    "sha256": "bc37c7914a972f7acd7cbcb0c9ce20d26c2491a67d30a463a6cb6ae892891239",
+    "matching_files": 1979,
+    "uncompressed_bytes": 370270589,
+    "preserved_differences": []
+  },
+  {
+    "path": "hpc/zrc216-continuous-results.tgz",
+    "sha256": "8b5c0e3c9540034b9065064c67a1c071e6d4a19aa9cc7666d79bbb9180e87f4c",
+    "matching_files": 1082,
+    "uncompressed_bytes": 727038273,
+    "preserved_differences": []
+  },
+  {
+    "path": "hpc/zrc-round1-remaining.tgz",
+    "sha256": "b332b90e1bad4ec6ee5ab0ea246a83cc395b141b9095498919d52130afb69a1d",
+    "matching_files": 453,
+    "uncompressed_bytes": 62185753,
+    "preserved_differences": []
+  },
+  {
+    "path": "hpc/zrc216-continuous.tgz",
+    "sha256": "a8faba0c17bd9c56cb8df1ebe85da1bcd228a09d678a11c8d77948ad747d349d",
+    "matching_files": 235,
+    "uncompressed_bytes": 65567857,
+    "preserved_differences": []
+  }
+]

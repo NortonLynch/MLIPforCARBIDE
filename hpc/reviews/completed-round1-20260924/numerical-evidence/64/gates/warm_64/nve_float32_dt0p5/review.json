@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "hard_pass": true,
+  "completed_numerically": true,
+  "equilibrated": false,
+  "physical_validated": false,
+  "equilibration_assessment": "not_established_from_automated_log_review",
+  "scope": "Numerical completion and diagnostics; not DFT or physical validation.",
+  "errors": [],
+  "warnings": [
+    "Block means are descriptive diagnostics with correlated samples; they do not establish equilibration or independent statistical precision.",
+    "This short segment is a pilot/numerical check; thermodynamic equilibration is not certified.",
+    "Physical validity, phase identity, and DFT agreement require separate trajectory and reference-data validation."
+  ],
+  "metrics": {
+    "valid_log_records": 201,
+    "expected_steps": 2000,
+    "requested_duration_fs": 1000.0,
+    "completed_steps": 2000,
+    "observed_duration_fs": 1000.0,
+    "atoms": 64,
+    "volume_A3": 830.5840000000007,
+    "temperature_K": {
+      "mean": 2783.0981142073138,
+      "min": 2366.279833144785,
+      "max": 3271.874281312821,
+      "standard_deviation": 162.60037489306166
+    },
+    "target_temperature_K": {
+      "mean": 3000.0,
+      "min": 3000.0,
+      "max": 3000.0,
+      "standard_deviation": 0.0
+    },
+    "potential_eV_atom": {
+      "mean": -9.353303565979004,
+      "min": -9.415534019470215,
+      "max": -9.300250053405762,
+      "standard_deviation": 0.020697889261086733
+    },
+    "pressure_GPa": {
+      "mean": 13.17653926067288,
+      "min": 11.007070803746192,
+      "max": 16.167545394275038,
+      "standard_deviation": 0.9719097622427386
+    },
+    "maximum_force_eV_A": 10.951438903808594,
+    "minimum_pair_distances_A": {
+      "Zr-Zr": 2.745729242734658,
+      "Zr-C": 1.7835826796592502,
+      "C-C": 2.4608953758950496
+    },
+    "catastrophe_temperature_limit_K": 100000.0,
+    "nve": {
+      "linear_drift_meV_atom_ps": 0.00382628500972977,
+      "absolute_linear_drift_meV_atom_ps": 0.00382628500972977,
+      "endpoint_drift_meV_atom_ps": 0.04380348461745598,
+      "peak_to_peak_energy_meV_atom": 0.07257848844710679,
+      "fit_duration_ps": 1.0,
+      "drift_limit_meV_atom_ps": 1.0
+    },
+    "four_block_means": [
+      {
+        "start_time_fs": 5.0,
+        "end_time_fs": 250.0,
+        "temperature_K": 2785.431107238993,
+        "potential_eV_atom": -9.35360122680664,
+        "pressure_GPa": 13.420319726396718
+      },
+      {
+        "start_time_fs": 255.0,
+        "end_time_fs": 500.0,
+        "temperature_K": 2791.889676366238,
+        "potential_eV_atom": -9.354423294067383,
+        "pressure_GPa": 13.132551963272038
+      },
+      {
+        "start_time_fs": 505.0,
+        "end_time_fs": 750.0,
+        "temperature_K": 2775.1957436048297,
+        "potential_eV_atom": -9.352297344207763,
+        "pressure_GPa": 13.060469029372685
+      },
+      {
+        "start_time_fs": 755.0,
+        "end_time_fs": 1000.0,
+        "temperature_K": 2779.875929619194,
+        "potential_eV_atom": -9.352892398834229,
+        "pressure_GPa": 13.092816323650077
+      }
+    ]
+  },
+  "trajectory_integrity_passed": true,
+  "frame_count": 21,
+  "file_sha256": {
+    "log.jsonl": "cba675b737a4a71def047223ba070bf8f4512fe0b0544ddfb88f24a8f1b01e4f",
+    "frames.extxyz": "29699d5a1eb3a53beae11fbb03406b6939f5663d6aafe30cb36b4e80045e4796",
+    "checkpoint.npz": "9a7575e8a3124b1d23d9e4974422b8fec8cb050f883708ccab25d1630296bf94"
+  }
+}

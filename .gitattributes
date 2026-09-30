@@ -5,3 +5,16 @@
 *.txt text eol=lf
 *.sh text eol=lf
 *.png binary
+
+# Preserve exact bytes for input identities and historical SHA-256 records.
+# -text disables newline conversion, while retaining normal text diffs.
+configs/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+data/candidates/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+data/splits/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+dft/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+hpc/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+scripts/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# ASE's frozen VASP species headers include spaces; preserve their hashes.
+**/POSCAR whitespace=-blank-at-eol,cr-at-eol
+*.POSCAR whitespace=-blank-at-eol,cr-at-eol

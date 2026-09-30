@@ -1,0 +1,62 @@
+{
+  "path": "04_atomic_references/C_spin4",
+  "stage": 4,
+  "purpose": "Optional isolated-atom spin scan; do not assume ground state from one run",
+  "source_group": "atom_C",
+  "structure_kind": "isolated_atom",
+  "natoms": 1,
+  "species": [
+    "C"
+  ],
+  "counts": [
+    1
+  ],
+  "recommended_potentials": [
+    "C"
+  ],
+  "kmesh": [
+    1,
+    1,
+    1
+  ],
+  "incar": {
+    "SYSTEM": "04_atomic_references_C_spin4",
+    "GGA": "PE",
+    "PREC": "Accurate",
+    "ENCUT": 600,
+    "EDIFF": "1E-8",
+    "ALGO": "Normal",
+    "NELM": 300,
+    "NELMIN": 4,
+    "ISTART": 0,
+    "ICHARG": 2,
+    "ISPIN": 2,
+    "ISMEAR": 0,
+    "SIGMA": 0.01,
+    "LREAL": ".FALSE.",
+    "LASPH": ".TRUE.",
+    "ADDGRID": ".FALSE.",
+    "LMAXMIX": 4,
+    "ISYM": 0,
+    "NSW": 0,
+    "IBRION": -1,
+    "ISIF": 0,
+    "LWAVE": ".FALSE.",
+    "LCHARG": ".FALSE.",
+    "NWRITE": 2,
+    "MAGMOM": 4.0,
+    "NUPDOWN": 4,
+    "LORBIT": 11
+  },
+  "poscar_sha256": "7276f159f8ac1f6834ff6eed5878f77f897c57f9eb92bee6ab1df985fe73db87",
+  "min_periodic_distance_A": null,
+  "label_status": "not_calculated",
+  "dataset_split": "unassigned",
+  "input_status": "potcar_assembled_requires_cluster_smoke_and_convergence",
+  "potcar_sha256": "e324f39f282d3fd6b99a7bff390f4b2441edd3dd3eac607d1f1c01376f3d0dc0",
+  "potcar_metadata": "POTCAR.meta.json",
+  "protocol_id": "zrc-pbe64-zrsv-c-v2-proposed",
+  "potcar_release": "potpaw_PBE.64",
+  "submission_ready": false,
+  "submission_blocker": "Validate representative configurations and synchronize the final numerical protocol before production submission"
+}

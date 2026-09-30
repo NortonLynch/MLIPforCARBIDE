@@ -24,8 +24,7 @@ Thumbs.db
 !/data/candidates/README.md
 /data/labeled/*
 !/data/labeled/README.md
-/dft/jobs/*
-!/dft/jobs/README.md
+# DFT inputs are versioned; dft/jobs/.gitignore excludes calculation outputs.
 /models/*
 !/models/README.md
 /experiments/*
@@ -43,3 +42,56 @@ Thumbs.db
 *.dump
 *.log
 /tmp/
+
+# User-supplied local pseudopotentials and private upload bundle
+/dft/psudopotential/
+/dft/psudopotential.rar
+/dft/zrc-vasp632-inputs.zip
+
+# PAW-PBE.64 source archive and preserved historical calculations
+/dft/potpaw_PBE.64.tgz
+/dft/archive/
+
+# Generated HPC delivery archives and per-job outputs
+/hpc/*.tgz
+/hpc/archive/*.tgz
+/hpc/zrc-round1-remaining/models/
+/hpc/zrc-round1-remaining/inputs/
+/hpc/zrc-round1-remaining/outputs/
+/hpc/zrc-round1-remaining/logs/
+/hpc/zrc-round1-remaining/submissions/
+
+# 216-atom continuous execution bundle
+/hpc/zrc216-continuous/models/
+/hpc/zrc216-continuous/inputs/
+/hpc/zrc216-continuous/outputs/
+/hpc/zrc216-continuous/logs/
+/hpc/zrc216-continuous/submissions/
+
+# Completed HPC production data and retained binary failure evidence
+/hpc/results/
+/hpc/reviews/completed-round1-20260924/numerical-evidence/**/*.npz
+/hpc/reviews/completed-round1-20260924/numerical-evidence/**/*.extxyz
+/hpc/reviews/completed-round1-20260924/numerical-evidence/**/*.jsonl
+
+# Portable selection records; full candidate structures and SOAP arrays stay local.
+!/data/candidates/zrc_round1/
+/data/candidates/zrc_round1/*
+!/data/candidates/zrc_round1/README.md
+!/data/candidates/zrc_round1/scan-summary.json
+!/data/candidates/zrc_round1/selection-summary.json
+!/data/candidates/zrc_round1/soap-method.json
+!/data/candidates/zrc_round1/duplicate-audit.json
+!/data/candidates/zrc_round1/DFT-budget-unions.json
+!/data/candidates/zrc_round1/trajectory-diagnostics.csv
+!/data/candidates/zrc_round1/calibration18-summary.csv
+!/data/candidates/zrc_round1/selection-coverage.csv
+!/data/candidates/zrc_round1/sequences/
+
+# Local reference material, licensed potentials and model binaries, anywhere.
+/docs/*.docx
+POTCAR
+POTCAR.gz
+POTCAR.Z
+POTCAR.bz2
+*.model

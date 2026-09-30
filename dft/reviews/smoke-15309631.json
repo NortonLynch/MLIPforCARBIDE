@@ -1,0 +1,100 @@
+{
+  "job_id": "15309631",
+  "job_path": "dft/archive/paw-pbe-legacy-before-64/jobs/00_smoke/zrc8",
+  "assessment": "smoke_test_passed_not_production_protocol_validated",
+  "version": "6.3.2",
+  "converged_electronic": true,
+  "ionic_relaxation_performed": false,
+  "ionic_steps": 1,
+  "electronic_steps": 16,
+  "energies_eV": {
+    "e_fr_energy": -77.64692809,
+    "e_wo_entrp": -77.63124036,
+    "e_0_energy": -77.63908423
+  },
+  "free_energy_eV_per_atom": -9.70586601125,
+  "entropy_term_magnitude_meV_per_atom": 1.9609662499995295,
+  "last_electronic_step": {
+    "alphaZ": 589.91841053,
+    "ewald": -5136.08125544,
+    "hartreedc": -781.5098496,
+    "XCdc": 254.7289614,
+    "pawpsdc": 3656.78583864,
+    "pawaedc": -3588.50001925,
+    "eentropy": -0.01568774,
+    "bandstr": -795.14446451,
+    "atom": 5722.17113788,
+    "e_fr_energy": -77.64692809,
+    "e_wo_entrp": -77.63124036,
+    "e_0_energy": -77.63908423
+  },
+  "natoms": 8,
+  "volume_A3": 103.82300000000002,
+  "max_force_eV_A": 3e-08,
+  "stress_vasp_kbar": [
+    [
+      31.58712651,
+      8.9e-07,
+      -2.5e-07
+    ],
+    [
+      8.9e-07,
+      31.58713685,
+      -4e-08
+    ],
+    [
+      -3.4e-07,
+      5e-08,
+      31.58711772
+    ]
+  ],
+  "stress_ase_eV_A3": [
+    -0.0197151338372594,
+    -0.019715140290979837,
+    -0.019715128350972878,
+    2.4966036503533036e-11,
+    1.5603772814708144e-10,
+    -5.5549431220361e-10
+  ],
+  "pressure_GPa": 3.158712702666667,
+  "highest_band_max_occupancy": 0.0,
+  "elapsed_seconds": 29.573,
+  "parameters": {
+    "GGA": "Pe",
+    "ENCUT": 600.0,
+    "EDIFF": 1e-07,
+    "NELECT": 64.0,
+    "NBANDS": 56,
+    "ISMEAR": 0,
+    "SIGMA": 0.1,
+    "NSW": 0,
+    "ISPIN": 1
+  },
+  "mpi_ranks": 56,
+  "ncore": 1,
+  "kpar": 1,
+  "nkpts": 36,
+  "position_change_A": 0.0,
+  "cell_change_A": 0.0,
+  "input_hashes_match_job_record": true,
+  "stderr_empty": true,
+  "slurm_accounting_available": false,
+  "production_dataset_eligible": false,
+  "input_file_sha256": {
+    "INCAR": "c930ede51e8fcaf7d34978609ce6e1393cea311e56c9d4f32fdb31584030ee88",
+    "POSCAR": "eb6e2d17eb9d2e5874ef53a2e40c59986cea287a8c55b53e92818bf5f282aaf8",
+    "KPOINTS": "e8db94eff1394fc7c2f51ebf27e533209eb385b508d5d4c4f5dbe4525a951fb3",
+    "POTCAR": "12653755c88dfea9ff30dcd0641a272e7c5878e2d2249c04baf80674fde18438",
+    "JobModel": "03051dcdd9c11f3a18ddb4405233e82547e400c0c0ab68de9196033935af9c12"
+  },
+  "output_file_sha256": {
+    "OUTCAR": "b2402a4d2f615272b6dfaf36c46205fce164cdb9d2f4d6c6079f8565c3e4b6f7",
+    "OSZICAR": "57d7b8b5802d3eafaf26c2e5fac397695aac0f76638e573168bb94473a0668d9",
+    "vasprun.xml": "e3a7fbc9172fe441f8eaa82b20920e00f450b14820f5414622963425abdf583b",
+    "stdout.15309631": "120036d1ffe2504a073e814ce50787698761392a2b45d0d640ec194e47218a27",
+    "stderr.15309631": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "original_job_path": "dft/jobs/00_smoke/zrc8",
+  "protocol_id": "zrc-pbe-zrsv-c-v1-proposed",
+  "archive_note": "Legacy-potential run; not evidence that the new PAW-PBE.64 inputs have been executed."
+}

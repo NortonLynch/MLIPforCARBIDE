@@ -1,0 +1,1492 @@
+{
+  "schema_version": 1,
+  "campaign_id": "zrc216-continuous-v1",
+  "model_sha256": "a522eb7f59c7879963d41586528f4980baf33e086c94aa92e3eafdeccad3be47",
+  "hpc_versions": {
+    "torch": "2.5.1+cu118",
+    "mace-torch": "0.3.16",
+    "ase": "3.29.0",
+    "numpy": "1.26.4",
+    "e3nn": "0.4.4",
+    "matscipy": "1.1.1",
+    "scipy": "1.13.1"
+  },
+  "remaining": [
+    {
+      "id": "zrc216_T0300_v100_s17",
+      "job": {
+        "id": "zrc216_T0300_v100_s17",
+        "atoms": 216,
+        "temperature_K": 300,
+        "volume_scale": 1.0,
+        "seed": 17,
+        "source_group": "zrc216_v100_s17_heating",
+        "parent_pilot_job": null,
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T14:30:35.317794+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T0300_v100_s17/pilot.npz",
+      "checkpoint_sha256": "d009b7a9f6ad7e9916d45a90c5443e54afe7fa6428bac8fdb71d192df66e7719",
+      "initial_path": "inputs/zrc216_T0300_v100_s17/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "57594d63c63aeb54c6d39214dee81ceadeb5cce6d8989ee811a91b767ad26d19",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T0300_v100_s42",
+      "job": {
+        "id": "zrc216_T0300_v100_s42",
+        "atoms": 216,
+        "temperature_K": 300,
+        "volume_scale": 1.0,
+        "seed": 42,
+        "source_group": "zrc216_v100_s42_heating",
+        "parent_pilot_job": null,
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T14:32:50.523759+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T0300_v100_s42/pilot.npz",
+      "checkpoint_sha256": "bc47833c82c23b4415de4b72d99a20c3eaa297cb2f9bfcf3e4466f727d302ab1",
+      "initial_path": "inputs/zrc216_T0300_v100_s42/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "36ec0478abcc7912769c51ab70d2ebf0f84322fa45a6193fbc7be12b2762b724",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T0300_v100_s2026",
+      "job": {
+        "id": "zrc216_T0300_v100_s2026",
+        "atoms": 216,
+        "temperature_K": 300,
+        "volume_scale": 1.0,
+        "seed": 2026,
+        "source_group": "zrc216_v100_s2026_heating",
+        "parent_pilot_job": null,
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T14:35:05.534850+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T0300_v100_s2026/pilot.npz",
+      "checkpoint_sha256": "fa9cf13787d534d0a3b23f398a17ec2c28068724a321e36f32383f18148447a3",
+      "initial_path": "inputs/zrc216_T0300_v100_s2026/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "68dd1469166e3ef74b664dee6c9b047428c3f480a16c65d6c77d987c1533c2c0",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T0300_v095_s17",
+      "job": {
+        "id": "zrc216_T0300_v095_s17",
+        "atoms": 216,
+        "temperature_K": 300,
+        "volume_scale": 0.95,
+        "seed": 17,
+        "source_group": "zrc216_v095_s17_heating",
+        "parent_pilot_job": null,
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T14:37:20.636639+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T0300_v095_s17/pilot.npz",
+      "checkpoint_sha256": "6a6830d71c36e1e409f73c885a63ce33cdf9091d1a80008c1d1aaf06c329b8c7",
+      "initial_path": "inputs/zrc216_T0300_v095_s17/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "14a43aef93832f567188ae0ca4fc9d72d055c537854fe0c1908f7f65fa446afa",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T0300_v095_s42",
+      "job": {
+        "id": "zrc216_T0300_v095_s42",
+        "atoms": 216,
+        "temperature_K": 300,
+        "volume_scale": 0.95,
+        "seed": 42,
+        "source_group": "zrc216_v095_s42_heating",
+        "parent_pilot_job": null,
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T14:39:35.888942+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T0300_v095_s42/pilot.npz",
+      "checkpoint_sha256": "306b6a6e817a8598ed71fb17b61f9c33cc6bfb1a1c22ea8d27ac32b350cc3022",
+      "initial_path": "inputs/zrc216_T0300_v095_s42/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "0818e5cf5794a3d64e03505d5851937ab30b3b64f3e5d8a33397db41437bc56b",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T0300_v095_s2026",
+      "job": {
+        "id": "zrc216_T0300_v095_s2026",
+        "atoms": 216,
+        "temperature_K": 300,
+        "volume_scale": 0.95,
+        "seed": 2026,
+        "source_group": "zrc216_v095_s2026_heating",
+        "parent_pilot_job": null,
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T14:41:51.015710+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T0300_v095_s2026/pilot.npz",
+      "checkpoint_sha256": "e878054e619ef6d6b65287c1587cec98157c55ac6f8008bee79825ccf1d51fdb",
+      "initial_path": "inputs/zrc216_T0300_v095_s2026/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "cd7e0ec8e842529f70376adb1d99aaa6f1646df6e7d4f29495631033ed8ca13d",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T0300_v105_s17",
+      "job": {
+        "id": "zrc216_T0300_v105_s17",
+        "atoms": 216,
+        "temperature_K": 300,
+        "volume_scale": 1.05,
+        "seed": 17,
+        "source_group": "zrc216_v105_s17_heating",
+        "parent_pilot_job": null,
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T14:44:05.797877+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T0300_v105_s17/pilot.npz",
+      "checkpoint_sha256": "db0fe45d15f8aff86f7b7d7cd47c7fd19ab7c216f113045cad5a10c5fb2df97b",
+      "initial_path": "inputs/zrc216_T0300_v105_s17/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "5b80da26efa61db14758621994c8498847aa3dfa803a409eb93db3777fda768e",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T0300_v105_s42",
+      "job": {
+        "id": "zrc216_T0300_v105_s42",
+        "atoms": 216,
+        "temperature_K": 300,
+        "volume_scale": 1.05,
+        "seed": 42,
+        "source_group": "zrc216_v105_s42_heating",
+        "parent_pilot_job": null,
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T14:46:20.670999+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T0300_v105_s42/pilot.npz",
+      "checkpoint_sha256": "93b32a9d3213ea0c37543337d32c04204f2110cf2df087dcff86728ab69485e2",
+      "initial_path": "inputs/zrc216_T0300_v105_s42/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "3e000749850be1a1d5e91421962c82862807fc07952f7227efb50510e2640cc5",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T0300_v105_s2026",
+      "job": {
+        "id": "zrc216_T0300_v105_s2026",
+        "atoms": 216,
+        "temperature_K": 300,
+        "volume_scale": 1.05,
+        "seed": 2026,
+        "source_group": "zrc216_v105_s2026_heating",
+        "parent_pilot_job": null,
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T14:48:35.474792+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T0300_v105_s2026/pilot.npz",
+      "checkpoint_sha256": "2f1fbd41f610ff11ff2f786c512db9c73d2dc26a459de0e74c73c58eb0e1d105",
+      "initial_path": "inputs/zrc216_T0300_v105_s2026/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "c9f8303b4436c0bd593588c8965deed975597990afb7ed263e1b75427bcdf528",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T1500_v100_s17",
+      "job": {
+        "id": "zrc216_T1500_v100_s17",
+        "atoms": 216,
+        "temperature_K": 1500,
+        "volume_scale": 1.0,
+        "seed": 17,
+        "source_group": "zrc216_v100_s17_heating",
+        "parent_pilot_job": "zrc216_T0300_v100_s17",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T15:29:04.647957+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T1500_v100_s17/pilot.npz",
+      "checkpoint_sha256": "c6adbab378551e805eba099a93cc96ed34aa0e9d552ba9e6bf7463226bc44f3a",
+      "initial_path": "inputs/zrc216_T1500_v100_s17/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "ddffe43ba54d282e72e38a659c371317a860876d9dfc10a4986a58aebf890ce9",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T1500_v100_s42",
+      "job": {
+        "id": "zrc216_T1500_v100_s42",
+        "atoms": 216,
+        "temperature_K": 1500,
+        "volume_scale": 1.0,
+        "seed": 42,
+        "source_group": "zrc216_v100_s42_heating",
+        "parent_pilot_job": "zrc216_T0300_v100_s42",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T15:34:54.744770+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T1500_v100_s42/pilot.npz",
+      "checkpoint_sha256": "f3be46dc58c04ceecf32012adff7f83fd315d4fda73794782e136bc5c5256c7b",
+      "initial_path": "inputs/zrc216_T1500_v100_s42/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "fe08d18f52243a70f8967edb9a672ca3e071f695cc2b8578cde2c0a6981768ee",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T1500_v100_s2026",
+      "job": {
+        "id": "zrc216_T1500_v100_s2026",
+        "atoms": 216,
+        "temperature_K": 1500,
+        "volume_scale": 1.0,
+        "seed": 2026,
+        "source_group": "zrc216_v100_s2026_heating",
+        "parent_pilot_job": "zrc216_T0300_v100_s2026",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T15:40:44.572932+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T1500_v100_s2026/pilot.npz",
+      "checkpoint_sha256": "e863b28d775fb6d30ffda96bb344538cb7a941beb2df8e558aafbc517ce29afb",
+      "initial_path": "inputs/zrc216_T1500_v100_s2026/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "24ccdbc0c55b3724395d1109fb5a2de064ecd409dbd1e234a6e21d804858082e",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T1500_v095_s17",
+      "job": {
+        "id": "zrc216_T1500_v095_s17",
+        "atoms": 216,
+        "temperature_K": 1500,
+        "volume_scale": 0.95,
+        "seed": 17,
+        "source_group": "zrc216_v095_s17_heating",
+        "parent_pilot_job": "zrc216_T0300_v095_s17",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T15:46:35.507835+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T1500_v095_s17/pilot.npz",
+      "checkpoint_sha256": "a17938756525e9d034b0e31faec6569194243ba3806312bd6177a900795f7740",
+      "initial_path": "inputs/zrc216_T1500_v095_s17/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "74341277b190e881361bcb1cac0a69650f310f89a4ef198c613acced05d0fa99",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T1500_v095_s42",
+      "job": {
+        "id": "zrc216_T1500_v095_s42",
+        "atoms": 216,
+        "temperature_K": 1500,
+        "volume_scale": 0.95,
+        "seed": 42,
+        "source_group": "zrc216_v095_s42_heating",
+        "parent_pilot_job": "zrc216_T0300_v095_s42",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T15:52:25.901849+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T1500_v095_s42/pilot.npz",
+      "checkpoint_sha256": "0ba9016986aa2359463f1b320c396b87bc6cd7272f450a32d8720121c59c703b",
+      "initial_path": "inputs/zrc216_T1500_v095_s42/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "4d1edb3f2bbd446240521981fc077041beeaa14c9b959cde8702757c67962bcb",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T1500_v095_s2026",
+      "job": {
+        "id": "zrc216_T1500_v095_s2026",
+        "atoms": 216,
+        "temperature_K": 1500,
+        "volume_scale": 0.95,
+        "seed": 2026,
+        "source_group": "zrc216_v095_s2026_heating",
+        "parent_pilot_job": "zrc216_T0300_v095_s2026",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T15:58:20.833804+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T1500_v095_s2026/pilot.npz",
+      "checkpoint_sha256": "ba5a7c93464e9ddfb10b8d7348eedd3d6dfdec67deb3482a39f596cff174d954",
+      "initial_path": "inputs/zrc216_T1500_v095_s2026/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "f187ed411fdaf7046fd334f745925f5c9805ab551e00e114202da5c8f157865a",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T1500_v105_s17",
+      "job": {
+        "id": "zrc216_T1500_v105_s17",
+        "atoms": 216,
+        "temperature_K": 1500,
+        "volume_scale": 1.05,
+        "seed": 17,
+        "source_group": "zrc216_v105_s17_heating",
+        "parent_pilot_job": "zrc216_T0300_v105_s17",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T16:04:05.637265+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T1500_v105_s17/pilot.npz",
+      "checkpoint_sha256": "7c3806ce0d4c1f444d29f156a562e76db9b6bef487c5bc0ae1329f5ea9e616ae",
+      "initial_path": "inputs/zrc216_T1500_v105_s17/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "d70c2ae72e58fe34b375058dd5a8ac02ec2f23db94e5bf00c6d29ce85775bcbd",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T1500_v105_s42",
+      "job": {
+        "id": "zrc216_T1500_v105_s42",
+        "atoms": 216,
+        "temperature_K": 1500,
+        "volume_scale": 1.05,
+        "seed": 42,
+        "source_group": "zrc216_v105_s42_heating",
+        "parent_pilot_job": "zrc216_T0300_v105_s42",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T16:09:50.234766+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T1500_v105_s42/pilot.npz",
+      "checkpoint_sha256": "2ca51cd783647cecea1f8a7a847344293d04967dc6339a103d4ff5019377bf45",
+      "initial_path": "inputs/zrc216_T1500_v105_s42/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "7b055117e03aad862c1774a19379eed3b0471c2500ca3b5a52e7ceffbc29f483",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T1500_v105_s2026",
+      "job": {
+        "id": "zrc216_T1500_v105_s2026",
+        "atoms": 216,
+        "temperature_K": 1500,
+        "volume_scale": 1.05,
+        "seed": 2026,
+        "source_group": "zrc216_v105_s2026_heating",
+        "parent_pilot_job": "zrc216_T0300_v105_s2026",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T16:15:35.062367+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T1500_v105_s2026/pilot.npz",
+      "checkpoint_sha256": "001106161c8c0692c51a12e27efbd95d6721560a28d65e484258799f2f4d8403",
+      "initial_path": "inputs/zrc216_T1500_v105_s2026/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "6492e38121b398524b04e941adad70309bce0d861b721e956f16ccbfa411e622",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T3000_v100_s17",
+      "job": {
+        "id": "zrc216_T3000_v100_s17",
+        "atoms": 216,
+        "temperature_K": 3000,
+        "volume_scale": 1.0,
+        "seed": 17,
+        "source_group": "zrc216_v100_s17_heating",
+        "parent_pilot_job": "zrc216_T1500_v100_s17",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T17:02:09.626738+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T3000_v100_s17/pilot.npz",
+      "checkpoint_sha256": "e99f1fe7dcd6b6339d199f20b105c4f08afc0028ae1ecfc4cf99a2cdc514a352",
+      "initial_path": "inputs/zrc216_T3000_v100_s17/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "4c6b8174416bbb15951e62345f64076c5f692b97c7314453c36bb8fd97d2a920",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T3000_v100_s42",
+      "job": {
+        "id": "zrc216_T3000_v100_s42",
+        "atoms": 216,
+        "temperature_K": 3000,
+        "volume_scale": 1.0,
+        "seed": 42,
+        "source_group": "zrc216_v100_s42_heating",
+        "parent_pilot_job": "zrc216_T1500_v100_s42",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T17:08:50.829219+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T3000_v100_s42/pilot.npz",
+      "checkpoint_sha256": "465aeb2a53c266fd7d208428bbe3ca9042868c075f645917bdaa2002ca267f3f",
+      "initial_path": "inputs/zrc216_T3000_v100_s42/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "3a7796e8e43b1d7afd39be17ec307b2736a786c69f816d14c3ad7247e4615b4a",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T3000_v100_s2026",
+      "job": {
+        "id": "zrc216_T3000_v100_s2026",
+        "atoms": 216,
+        "temperature_K": 3000,
+        "volume_scale": 1.0,
+        "seed": 2026,
+        "source_group": "zrc216_v100_s2026_heating",
+        "parent_pilot_job": "zrc216_T1500_v100_s2026",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T17:15:31.880338+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T3000_v100_s2026/pilot.npz",
+      "checkpoint_sha256": "a53050cf7436f0d629dd584a5a88de641ad8585d108b2a88726a8286c509a15d",
+      "initial_path": "inputs/zrc216_T3000_v100_s2026/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "faa83fe229c598254ec98412c11f05d8268862a248ef4005f05076fe1b0b3a10",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T3000_v095_s17",
+      "job": {
+        "id": "zrc216_T3000_v095_s17",
+        "atoms": 216,
+        "temperature_K": 3000,
+        "volume_scale": 0.95,
+        "seed": 17,
+        "source_group": "zrc216_v095_s17_heating",
+        "parent_pilot_job": "zrc216_T1500_v095_s17",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T17:22:15.431467+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T3000_v095_s17/pilot.npz",
+      "checkpoint_sha256": "ec62867fae12fd2d2baba6cacbc178bd334602d2fd7dcd09ce479769604ee105",
+      "initial_path": "inputs/zrc216_T3000_v095_s17/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "4101f6573e37a7598af530316ef123d8612407a7090c080c216cac6ea413acf9",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T3000_v095_s42",
+      "job": {
+        "id": "zrc216_T3000_v095_s42",
+        "atoms": 216,
+        "temperature_K": 3000,
+        "volume_scale": 0.95,
+        "seed": 42,
+        "source_group": "zrc216_v095_s42_heating",
+        "parent_pilot_job": "zrc216_T1500_v095_s42",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T17:28:59.488993+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T3000_v095_s42/pilot.npz",
+      "checkpoint_sha256": "adf20f5115e52dcfb563a2ecbce27fd7e343882df1fa43b361f4485f75f971bb",
+      "initial_path": "inputs/zrc216_T3000_v095_s42/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "88e91719f87750e2734c9387bb74b9ad24a7b01b6d1506d9444b9c39521f1ce2",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T3000_v095_s2026",
+      "job": {
+        "id": "zrc216_T3000_v095_s2026",
+        "atoms": 216,
+        "temperature_K": 3000,
+        "volume_scale": 0.95,
+        "seed": 2026,
+        "source_group": "zrc216_v095_s2026_heating",
+        "parent_pilot_job": "zrc216_T1500_v095_s2026",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T17:35:46.110390+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T3000_v095_s2026/pilot.npz",
+      "checkpoint_sha256": "e34e1fbc2b368ddb35914eb4457aef8c1d5d468ed270030a2eb40f83955411a8",
+      "initial_path": "inputs/zrc216_T3000_v095_s2026/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "f86b12ae5c278b11264260159cb5dd49773474b5caa4fbf8ae564e1cd86166c2",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T3000_v105_s17",
+      "job": {
+        "id": "zrc216_T3000_v105_s17",
+        "atoms": 216,
+        "temperature_K": 3000,
+        "volume_scale": 1.05,
+        "seed": 17,
+        "source_group": "zrc216_v105_s17_heating",
+        "parent_pilot_job": "zrc216_T1500_v105_s17",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T17:42:18.218249+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T3000_v105_s17/pilot.npz",
+      "checkpoint_sha256": "5ab227ad358ea58e55a5833ca8dd901aba628eed45199d4b395d0dfe1f58dfb2",
+      "initial_path": "inputs/zrc216_T3000_v105_s17/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "e70b948df2829221702b8fe8e8f0739531c19caaa3cdc69476fd8faca4b06cb3",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T3000_v105_s42",
+      "job": {
+        "id": "zrc216_T3000_v105_s42",
+        "atoms": 216,
+        "temperature_K": 3000,
+        "volume_scale": 1.05,
+        "seed": 42,
+        "source_group": "zrc216_v105_s42_heating",
+        "parent_pilot_job": "zrc216_T1500_v105_s42",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T17:48:50.002368+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T3000_v105_s42/pilot.npz",
+      "checkpoint_sha256": "c530f8d8511a18d5e8a26265c9c074172fee3835745c071c5dc436d1dc266a33",
+      "initial_path": "inputs/zrc216_T3000_v105_s42/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "5a8c1a34f0bca232a4bf3b7c9ec1ea57cde4bb3736f790fd8464b9ae1546cb19",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T3000_v105_s2026",
+      "job": {
+        "id": "zrc216_T3000_v105_s2026",
+        "atoms": 216,
+        "temperature_K": 3000,
+        "volume_scale": 1.05,
+        "seed": 2026,
+        "source_group": "zrc216_v105_s2026_heating",
+        "parent_pilot_job": "zrc216_T1500_v105_s2026",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T17:55:22.179932+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T3000_v105_s2026/pilot.npz",
+      "checkpoint_sha256": "f7da39c1fdacf62dfbd7df18d853317aa0dde5ecd635c78cbfb33ebcc39ad69f",
+      "initial_path": "inputs/zrc216_T3000_v105_s2026/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "f47c17734b645ab56695b34bb69db09bdc3e4dfdb45ef25614417461e4275cad",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T4500_v100_s17",
+      "job": {
+        "id": "zrc216_T4500_v100_s17",
+        "atoms": 216,
+        "temperature_K": 4500,
+        "volume_scale": 1.0,
+        "seed": 17,
+        "source_group": "zrc216_v100_s17_heating",
+        "parent_pilot_job": "zrc216_T3000_v100_s17",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T19:04:17.722218+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T4500_v100_s17/pilot.npz",
+      "checkpoint_sha256": "40d4e16614cfc621a441405037dd5bc190b422f222901e5a89767a73c2200077",
+      "initial_path": "inputs/zrc216_T4500_v100_s17/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "0b7cb39e6e131bb22301f01b1af92d3d428564b5571716a778d0b85b6beea437",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T4500_v100_s42",
+      "job": {
+        "id": "zrc216_T4500_v100_s42",
+        "atoms": 216,
+        "temperature_K": 4500,
+        "volume_scale": 1.0,
+        "seed": 42,
+        "source_group": "zrc216_v100_s42_heating",
+        "parent_pilot_job": "zrc216_T3000_v100_s42",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T19:11:04.659565+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T4500_v100_s42/pilot.npz",
+      "checkpoint_sha256": "1aa2468a547427e4f6a984b1beb05bd4b785bb4a9fd12fdf9abac706e7753ff8",
+      "initial_path": "inputs/zrc216_T4500_v100_s42/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "946bc471cec6a7adbd2c546931398f82c3d11d8c97515e4635e559d5a064b87c",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T4500_v100_s2026",
+      "job": {
+        "id": "zrc216_T4500_v100_s2026",
+        "atoms": 216,
+        "temperature_K": 4500,
+        "volume_scale": 1.0,
+        "seed": 2026,
+        "source_group": "zrc216_v100_s2026_heating",
+        "parent_pilot_job": "zrc216_T3000_v100_s2026",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T19:17:40.450239+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T4500_v100_s2026/pilot.npz",
+      "checkpoint_sha256": "cc01f1eced5d15b6a0554bccf366d6b2db626978371a8ae38cedcf7567dd4e73",
+      "initial_path": "inputs/zrc216_T4500_v100_s2026/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "5d0e00d6c1fcc27c0c7415b09db4ab37b799e6aed035785f0e35757490490d91",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T4500_v095_s17",
+      "job": {
+        "id": "zrc216_T4500_v095_s17",
+        "atoms": 216,
+        "temperature_K": 4500,
+        "volume_scale": 0.95,
+        "seed": 17,
+        "source_group": "zrc216_v095_s17_heating",
+        "parent_pilot_job": "zrc216_T3000_v095_s17",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T19:24:21.654730+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T4500_v095_s17/pilot.npz",
+      "checkpoint_sha256": "c1f512c01a958aaa09a9d85c5fa05dcf83d56d55f2c4a4b13d58cf820225e29e",
+      "initial_path": "inputs/zrc216_T4500_v095_s17/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "ea406a8777e2c587739120ee5849d373ff3caf27859e802e8b4eb817535f125d",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T4500_v095_s42",
+      "job": {
+        "id": "zrc216_T4500_v095_s42",
+        "atoms": 216,
+        "temperature_K": 4500,
+        "volume_scale": 0.95,
+        "seed": 42,
+        "source_group": "zrc216_v095_s42_heating",
+        "parent_pilot_job": "zrc216_T3000_v095_s42",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T19:31:02.705886+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T4500_v095_s42/pilot.npz",
+      "checkpoint_sha256": "aef0d4d5747f5a6da6e4ac6e70e95e066c6ac23b4f747ed10db5533b29cb9c9c",
+      "initial_path": "inputs/zrc216_T4500_v095_s42/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "8581ed0ddb776c8fc8919f7696c44b1a0e642262a96d759bb45bc6eb94f2fbe1",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T4500_v095_s2026",
+      "job": {
+        "id": "zrc216_T4500_v095_s2026",
+        "atoms": 216,
+        "temperature_K": 4500,
+        "volume_scale": 0.95,
+        "seed": 2026,
+        "source_group": "zrc216_v095_s2026_heating",
+        "parent_pilot_job": "zrc216_T3000_v095_s2026",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T19:37:44.246604+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T4500_v095_s2026/pilot.npz",
+      "checkpoint_sha256": "678eed615cc7a9702b2f5932b3e9b80ff1b14ce41d63f3ffde6643368e8d3177",
+      "initial_path": "inputs/zrc216_T4500_v095_s2026/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "aa740c34ffe2a0a9493e36734c9a6c760edf55920bf75c8527b4c2d0915e6bc6",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T4500_v105_s17",
+      "job": {
+        "id": "zrc216_T4500_v105_s17",
+        "atoms": 216,
+        "temperature_K": 4500,
+        "volume_scale": 1.05,
+        "seed": 17,
+        "source_group": "zrc216_v105_s17_heating",
+        "parent_pilot_job": "zrc216_T3000_v105_s17",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T19:44:20.581845+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T4500_v105_s17/pilot.npz",
+      "checkpoint_sha256": "b3880d424b788addcb657d9d26ee7354bcecc749ae70458d253ee237b93d23d0",
+      "initial_path": "inputs/zrc216_T4500_v105_s17/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "cb4a01c0a584b254edfa81c56e38477424f280a7d77925d313a3e8961ce4f4fe",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T4500_v105_s42",
+      "job": {
+        "id": "zrc216_T4500_v105_s42",
+        "atoms": 216,
+        "temperature_K": 4500,
+        "volume_scale": 1.05,
+        "seed": 42,
+        "source_group": "zrc216_v105_s42_heating",
+        "parent_pilot_job": "zrc216_T3000_v105_s42",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T19:50:49.359516+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T4500_v105_s42/pilot.npz",
+      "checkpoint_sha256": "1f45c0796b7ce705eefded7539556239b564f29c9c084a37d7db53cdfae08b14",
+      "initial_path": "inputs/zrc216_T4500_v105_s42/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "c5a0d1094fc5b3506d06a7b7a5f0e03c7e146aa427c707ef073f567497b231c5",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T4500_v105_s2026",
+      "job": {
+        "id": "zrc216_T4500_v105_s2026",
+        "atoms": 216,
+        "temperature_K": 4500,
+        "volume_scale": 1.05,
+        "seed": 2026,
+        "source_group": "zrc216_v105_s2026_heating",
+        "parent_pilot_job": "zrc216_T3000_v105_s2026",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T19:57:18.111866+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T4500_v105_s2026/pilot.npz",
+      "checkpoint_sha256": "fa9a1ac2b5865d8bb4b17630bad988928d7c6167a76bd61fb02f054b4f65257f",
+      "initial_path": "inputs/zrc216_T4500_v105_s2026/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "4ba4e35f3d5fc88c5a10b77c44a6e927e44245221f284d100e4b70fb1e5678e9",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T5250_v100_s17",
+      "job": {
+        "id": "zrc216_T5250_v100_s17",
+        "atoms": 216,
+        "temperature_K": 5250,
+        "volume_scale": 1.0,
+        "seed": 17,
+        "source_group": "zrc216_v100_s17_heating",
+        "parent_pilot_job": "zrc216_T4500_v100_s17",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T20:28:12.691083+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T5250_v100_s17/pilot.npz",
+      "checkpoint_sha256": "0dc77cf5f33c20aabdafa36d607ceb3cff02df6854d48ad8595c47111bb8cacf",
+      "initial_path": "inputs/zrc216_T5250_v100_s17/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "806af372204c94b730d8d99b486014f10156bc92fbda0b7ee5fbc9aebf904aa0",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T5250_v100_s42",
+      "job": {
+        "id": "zrc216_T5250_v100_s42",
+        "atoms": 216,
+        "temperature_K": 5250,
+        "volume_scale": 1.0,
+        "seed": 42,
+        "source_group": "zrc216_v100_s42_heating",
+        "parent_pilot_job": "zrc216_T4500_v100_s42",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T20:32:34.355016+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T5250_v100_s42/pilot.npz",
+      "checkpoint_sha256": "9b232510cd1938131868fa0f56c76066a59b8a4bd9b33da1279ef02826394867",
+      "initial_path": "inputs/zrc216_T5250_v100_s42/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "fe25cdc62b6feba66a55a5e36b908de20cad1a04d9b82114459fc6387cc5a83b",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T5250_v100_s2026",
+      "job": {
+        "id": "zrc216_T5250_v100_s2026",
+        "atoms": 216,
+        "temperature_K": 5250,
+        "volume_scale": 1.0,
+        "seed": 2026,
+        "source_group": "zrc216_v100_s2026_heating",
+        "parent_pilot_job": "zrc216_T4500_v100_s2026",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T20:36:55.421136+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T5250_v100_s2026/pilot.npz",
+      "checkpoint_sha256": "4a69bc06ff1bd5d15393cde7458d04d6677bba5112612e943f6d86403b3dc7c4",
+      "initial_path": "inputs/zrc216_T5250_v100_s2026/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "2d8d71fc8bbc0f1fedd42a115721662f09059071918be162b9049491ff92dcb1",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T5250_v095_s17",
+      "job": {
+        "id": "zrc216_T5250_v095_s17",
+        "atoms": 216,
+        "temperature_K": 5250,
+        "volume_scale": 0.95,
+        "seed": 17,
+        "source_group": "zrc216_v095_s17_heating",
+        "parent_pilot_job": "zrc216_T4500_v095_s17",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T20:41:21.257625+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T5250_v095_s17/pilot.npz",
+      "checkpoint_sha256": "7b34d272fa828594cf7c8806aafa2ba01290c2c34e23502b492fe4175d831515",
+      "initial_path": "inputs/zrc216_T5250_v095_s17/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "155fd9a176e5b6246eaf79c95a52ed93beb009e44595f1836a3822083fbd1cac",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T5250_v095_s42",
+      "job": {
+        "id": "zrc216_T5250_v095_s42",
+        "atoms": 216,
+        "temperature_K": 5250,
+        "volume_scale": 0.95,
+        "seed": 42,
+        "source_group": "zrc216_v095_s42_heating",
+        "parent_pilot_job": "zrc216_T4500_v095_s42",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T20:45:47.814649+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T5250_v095_s42/pilot.npz",
+      "checkpoint_sha256": "4ce55f00e35eb43f48f067fbd3d16076757138b01a193d3532dd5e9a2fa55b1e",
+      "initial_path": "inputs/zrc216_T5250_v095_s42/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "ca4ab5456cbda7a2df7d291298d58198da268a896152cc0704fe57badcf0f844",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T5250_v095_s2026",
+      "job": {
+        "id": "zrc216_T5250_v095_s2026",
+        "atoms": 216,
+        "temperature_K": 5250,
+        "volume_scale": 0.95,
+        "seed": 2026,
+        "source_group": "zrc216_v095_s2026_heating",
+        "parent_pilot_job": "zrc216_T4500_v095_s2026",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T20:50:20.868387+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T5250_v095_s2026/pilot.npz",
+      "checkpoint_sha256": "954190648b7741d329e90feb0326c0a59d187552f3290f8c90c6de90ddf03f08",
+      "initial_path": "inputs/zrc216_T5250_v095_s2026/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "04550026bcc124940154231a8319ec5f2449c657b9347cc68c37d30aacdeb479",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T5250_v105_s17",
+      "job": {
+        "id": "zrc216_T5250_v105_s17",
+        "atoms": 216,
+        "temperature_K": 5250,
+        "volume_scale": 1.05,
+        "seed": 17,
+        "source_group": "zrc216_v105_s17_heating",
+        "parent_pilot_job": "zrc216_T4500_v105_s17",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T20:54:37.830913+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T5250_v105_s17/pilot.npz",
+      "checkpoint_sha256": "5116b933f33d293e7a75be1b33e128898cf4806dc06b21300b77124c64bff0ea",
+      "initial_path": "inputs/zrc216_T5250_v105_s17/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "ea21ba5c343270f42acafd3a3816f7ebdad33a2759af6090f825adcdbf7a764e",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T5250_v105_s42",
+      "job": {
+        "id": "zrc216_T5250_v105_s42",
+        "atoms": 216,
+        "temperature_K": 5250,
+        "volume_scale": 1.05,
+        "seed": 42,
+        "source_group": "zrc216_v105_s42_heating",
+        "parent_pilot_job": "zrc216_T4500_v105_s42",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T20:58:53.851916+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T5250_v105_s42/pilot.npz",
+      "checkpoint_sha256": "48a670955803296539aa7dd1c4a5d41f157f81dd9c788a31cd250a149ffd499f",
+      "initial_path": "inputs/zrc216_T5250_v105_s42/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "7b2265d4cc78b6f000cbd88069e70e63caf85e54bb07d351c461d0b16c6c7ea1",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T5250_v105_s2026",
+      "job": {
+        "id": "zrc216_T5250_v105_s2026",
+        "atoms": 216,
+        "temperature_K": 5250,
+        "volume_scale": 1.05,
+        "seed": 2026,
+        "source_group": "zrc216_v105_s2026_heating",
+        "parent_pilot_job": "zrc216_T4500_v105_s2026",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T21:03:11.263278+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T5250_v105_s2026/pilot.npz",
+      "checkpoint_sha256": "893dd7ed527087f80086b24d64626cd0266f1243681d6f264001a144ab0fd521",
+      "initial_path": "inputs/zrc216_T5250_v105_s2026/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "631b60a8081718eff97f0dd049b20e12e1de0cecc08476bfadb8c769029300d2",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T6000_v100_s17",
+      "job": {
+        "id": "zrc216_T6000_v100_s17",
+        "atoms": 216,
+        "temperature_K": 6000,
+        "volume_scale": 1.0,
+        "seed": 17,
+        "source_group": "zrc216_v100_s17_heating",
+        "parent_pilot_job": "zrc216_T5250_v100_s17",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T21:34:00.021175+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T6000_v100_s17/pilot.npz",
+      "checkpoint_sha256": "b9bb3ecaa28f48cd34b36f935c5196caed9763ed9775b2be0999992630ef8998",
+      "initial_path": "inputs/zrc216_T6000_v100_s17/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "fd3b5454ae24b93a8cb19ee69b8d10bf46d0c3f7b6bd28c6def18f8607ea108a",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T6000_v100_s42",
+      "job": {
+        "id": "zrc216_T6000_v100_s42",
+        "atoms": 216,
+        "temperature_K": 6000,
+        "volume_scale": 1.0,
+        "seed": 42,
+        "source_group": "zrc216_v100_s42_heating",
+        "parent_pilot_job": "zrc216_T5250_v100_s42",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T21:38:19.636395+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T6000_v100_s42/pilot.npz",
+      "checkpoint_sha256": "6a5bc7e843b1711fec1906aedd79c9e049357d4a03f733252ac3b9d1afdee51c",
+      "initial_path": "inputs/zrc216_T6000_v100_s42/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "8938655ec6109ee8302b384a9b4fcddff8959037ecffc4c608361ae4bdb0750d",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T6000_v100_s2026",
+      "job": {
+        "id": "zrc216_T6000_v100_s2026",
+        "atoms": 216,
+        "temperature_K": 6000,
+        "volume_scale": 1.0,
+        "seed": 2026,
+        "source_group": "zrc216_v100_s2026_heating",
+        "parent_pilot_job": "zrc216_T5250_v100_s2026",
+        "input_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T21:42:38.562749+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T6000_v100_s2026/pilot.npz",
+      "checkpoint_sha256": "dd020503fb536cdfa640e7056e94925a5d6f32a7b6f096fc323e321eb01d1147",
+      "initial_path": "inputs/zrc216_T6000_v100_s2026/initial.POSCAR",
+      "initial_sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+      "source_review_sha256": "0fe0e1e905c68bc4927ed2870f316990d61268e68e8d3e3ce6629bd1c4bd9cdd",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T6000_v095_s17",
+      "job": {
+        "id": "zrc216_T6000_v095_s17",
+        "atoms": 216,
+        "temperature_K": 6000,
+        "volume_scale": 0.95,
+        "seed": 17,
+        "source_group": "zrc216_v095_s17_heating",
+        "parent_pilot_job": "zrc216_T5250_v095_s17",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T21:47:03.657958+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T6000_v095_s17/pilot.npz",
+      "checkpoint_sha256": "12f52f18da50390b00c71345fcd83f65c1a221794c2d62b5a374c771399ff007",
+      "initial_path": "inputs/zrc216_T6000_v095_s17/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "5e19bd57b167ac9f86b54128049c4273fb917c522607093a76f30fd50506845b",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T6000_v095_s42",
+      "job": {
+        "id": "zrc216_T6000_v095_s42",
+        "atoms": 216,
+        "temperature_K": 6000,
+        "volume_scale": 0.95,
+        "seed": 42,
+        "source_group": "zrc216_v095_s42_heating",
+        "parent_pilot_job": "zrc216_T5250_v095_s42",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T21:51:27.834981+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T6000_v095_s42/pilot.npz",
+      "checkpoint_sha256": "0c1a82208d5dfd571bb40f0eb0b5a859870dc144da2c51bfac187953312b22a2",
+      "initial_path": "inputs/zrc216_T6000_v095_s42/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "288c7ee7c1336bfca5d7c40f0601f6642dfd9db268cc3734ad55b39026712d57",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T6000_v095_s2026",
+      "job": {
+        "id": "zrc216_T6000_v095_s2026",
+        "atoms": 216,
+        "temperature_K": 6000,
+        "volume_scale": 0.95,
+        "seed": 2026,
+        "source_group": "zrc216_v095_s2026_heating",
+        "parent_pilot_job": "zrc216_T5250_v095_s2026",
+        "input_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T21:55:58.881191+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T6000_v095_s2026/pilot.npz",
+      "checkpoint_sha256": "9decb924dbc0cff99e9fa1c9f30b57aaa6ce9ee9fd52cd6283f5ee1daf9ceb56",
+      "initial_path": "inputs/zrc216_T6000_v095_s2026/initial.POSCAR",
+      "initial_sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+      "source_review_sha256": "dc41dd96cd666b9a8240e3a15c8c9dc98d4e9f30a88540452a6f4acbe55239b7",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T6000_v105_s17",
+      "job": {
+        "id": "zrc216_T6000_v105_s17",
+        "atoms": 216,
+        "temperature_K": 6000,
+        "volume_scale": 1.05,
+        "seed": 17,
+        "source_group": "zrc216_v105_s17_heating",
+        "parent_pilot_job": "zrc216_T5250_v105_s17",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T22:00:12.479443+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T6000_v105_s17/pilot.npz",
+      "checkpoint_sha256": "def311e6dbd8f4c3f63ab58752c212823be052d5f1b9448a7421910661f00273",
+      "initial_path": "inputs/zrc216_T6000_v105_s17/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "40f004764e230b61d6cb6ad8b4cbb3a6aa6ad13387337292232eb0ffd6c0e6e6",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T6000_v105_s42",
+      "job": {
+        "id": "zrc216_T6000_v105_s42",
+        "atoms": 216,
+        "temperature_K": 6000,
+        "volume_scale": 1.05,
+        "seed": 42,
+        "source_group": "zrc216_v105_s42_heating",
+        "parent_pilot_job": "zrc216_T5250_v105_s42",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T22:04:24.411484+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T6000_v105_s42/pilot.npz",
+      "checkpoint_sha256": "23f348bcea79e4056f4c39287eda7392ef6d628d5a9eee2680defa9d7b2bf177",
+      "initial_path": "inputs/zrc216_T6000_v105_s42/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "28fd57074c22e56c351eaa6231a323879a0719be71eedc070e455c8146602083",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    },
+    {
+      "id": "zrc216_T6000_v105_s2026",
+      "job": {
+        "id": "zrc216_T6000_v105_s2026",
+        "atoms": 216,
+        "temperature_K": 6000,
+        "volume_scale": 1.05,
+        "seed": 2026,
+        "source_group": "zrc216_v105_s2026_heating",
+        "parent_pilot_job": "zrc216_T5250_v105_s2026",
+        "input_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+        "pilot": {
+          "status": "passed",
+          "accepted_parameters": {
+            "timestep_fs": 0.5,
+            "dtype": "float32"
+          },
+          "completed_utc": "2026-09-21T22:08:37.306307+00:00"
+        }
+      },
+      "checkpoint_path": "inputs/zrc216_T6000_v105_s2026/pilot.npz",
+      "checkpoint_sha256": "5001c7d3cf532f7d1bb8e4cdad017d86824d2645ea5ae03412931244f09d78b0",
+      "initial_path": "inputs/zrc216_T6000_v105_s2026/initial.POSCAR",
+      "initial_sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+      "source_review_sha256": "c5c64f295206bb690ed87054fb31e19a75c24af7ea2924b8560ca4d93eef07bd",
+      "migration_semantics": "new_production_branch_from_own_accepted_pilot_with_exact_state_and_rng"
+    }
+  ],
+  "previous_completed_8_and_64": 108,
+  "execution_policy": {
+    "name": "continuous_216_v1",
+    "equilibration_fs": 5000,
+    "sampling_fs": 10000,
+    "timestep_fs": 0.5,
+    "dtype": "float32",
+    "production_resume_allowed": false,
+    "on_infrastructure_interruption": "preserve_failed_run_and_start_entire_15ps_from_original_pilot",
+    "on_numerical_failure": "blocked_review_no_automatic_threshold_change",
+    "max_full_attempts": 3,
+    "checkpoint_writes": "for_evidence_only_not_production_resume",
+    "stages": "same_process_in_memory_handoff",
+    "restart_comparison": "original_failed_test_retained_not_claimed_passed_and_not_a_gate_for_continuous_execution",
+    "numeric_authorization": "reuse_verified_V100_warm_high_static_and_NVE_evidence_same_environment",
+    "user_basis": "User requested a new 216-atom HPC package after discussion of continuous runs with whole-task reruns"
+  },
+  "physical_validated": false
+}

@@ -1,0 +1,2162 @@
+[
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v095_s17/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v095_s17/pilot-review.json",
+    "sha256": "14a43aef93832f567188ae0ca4fc9d72d055c537854fe0c1908f7f65fa446afa",
+    "bytes": 3061
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v095_s17/pilot.npz",
+    "sha256": "6a6830d71c36e1e409f73c885a63ce33cdf9091d1a80008c1d1aaf06c329b8c7",
+    "bytes": 12189
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v095_s2026/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v095_s2026/pilot-review.json",
+    "sha256": "cd7e0ec8e842529f70376adb1d99aaa6f1646df6e7d4f29495631033ed8ca13d",
+    "bytes": 3065
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v095_s2026/pilot.npz",
+    "sha256": "e878054e619ef6d6b65287c1587cec98157c55ac6f8008bee79825ccf1d51fdb",
+    "bytes": 12197
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v095_s42/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v095_s42/pilot-review.json",
+    "sha256": "0818e5cf5794a3d64e03505d5851937ab30b3b64f3e5d8a33397db41437bc56b",
+    "bytes": 3062
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v095_s42/pilot.npz",
+    "sha256": "306b6a6e817a8598ed71fb17b61f9c33cc6bfb1a1c22ea8d27ac32b350cc3022",
+    "bytes": 12214
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v100_s17/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v100_s17/pilot-review.json",
+    "sha256": "57594d63c63aeb54c6d39214dee81ceadeb5cce6d8989ee811a91b767ad26d19",
+    "bytes": 3067
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v100_s17/pilot.npz",
+    "sha256": "d009b7a9f6ad7e9916d45a90c5443e54afe7fa6428bac8fdb71d192df66e7719",
+    "bytes": 12227
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v100_s2026/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v100_s2026/pilot-review.json",
+    "sha256": "68dd1469166e3ef74b664dee6c9b047428c3f480a16c65d6c77d987c1533c2c0",
+    "bytes": 3064
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v100_s2026/pilot.npz",
+    "sha256": "fa9cf13787d534d0a3b23f398a17ec2c28068724a321e36f32383f18148447a3",
+    "bytes": 12208
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v100_s42/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v100_s42/pilot-review.json",
+    "sha256": "36ec0478abcc7912769c51ab70d2ebf0f84322fa45a6193fbc7be12b2762b724",
+    "bytes": 3068
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v100_s42/pilot.npz",
+    "sha256": "bc47833c82c23b4415de4b72d99a20c3eaa297cb2f9bfcf3e4466f727d302ab1",
+    "bytes": 12205
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v105_s17/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v105_s17/pilot-review.json",
+    "sha256": "5b80da26efa61db14758621994c8498847aa3dfa803a409eb93db3777fda768e",
+    "bytes": 3065
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v105_s17/pilot.npz",
+    "sha256": "db0fe45d15f8aff86f7b7d7cd47c7fd19ab7c216f113045cad5a10c5fb2df97b",
+    "bytes": 12227
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v105_s2026/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v105_s2026/pilot-review.json",
+    "sha256": "c9f8303b4436c0bd593588c8965deed975597990afb7ed263e1b75427bcdf528",
+    "bytes": 3062
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v105_s2026/pilot.npz",
+    "sha256": "2f1fbd41f610ff11ff2f786c512db9c73d2dc26a459de0e74c73c58eb0e1d105",
+    "bytes": 12209
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v105_s42/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v105_s42/pilot-review.json",
+    "sha256": "3e000749850be1a1d5e91421962c82862807fc07952f7227efb50510e2640cc5",
+    "bytes": 3068
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T0300_v105_s42/pilot.npz",
+    "sha256": "93b32a9d3213ea0c37543337d32c04204f2110cf2df087dcff86728ab69485e2",
+    "bytes": 12216
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v095_s17/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v095_s17/pilot-review.json",
+    "sha256": "74341277b190e881361bcb1cac0a69650f310f89a4ef198c613acced05d0fa99",
+    "bytes": 3064
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v095_s17/pilot.npz",
+    "sha256": "a17938756525e9d034b0e31faec6569194243ba3806312bd6177a900795f7740",
+    "bytes": 12292
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v095_s2026/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v095_s2026/pilot-review.json",
+    "sha256": "f187ed411fdaf7046fd334f745925f5c9805ab551e00e114202da5c8f157865a",
+    "bytes": 3064
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v095_s2026/pilot.npz",
+    "sha256": "ba5a7c93464e9ddfb10b8d7348eedd3d6dfdec67deb3482a39f596cff174d954",
+    "bytes": 12290
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v095_s42/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v095_s42/pilot-review.json",
+    "sha256": "4d1edb3f2bbd446240521981fc077041beeaa14c9b959cde8702757c67962bcb",
+    "bytes": 3061
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v095_s42/pilot.npz",
+    "sha256": "0ba9016986aa2359463f1b320c396b87bc6cd7272f450a32d8720121c59c703b",
+    "bytes": 12291
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v100_s17/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v100_s17/pilot-review.json",
+    "sha256": "ddffe43ba54d282e72e38a659c371317a860876d9dfc10a4986a58aebf890ce9",
+    "bytes": 3060
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v100_s17/pilot.npz",
+    "sha256": "c6adbab378551e805eba099a93cc96ed34aa0e9d552ba9e6bf7463226bc44f3a",
+    "bytes": 12270
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v100_s2026/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v100_s2026/pilot-review.json",
+    "sha256": "24ccdbc0c55b3724395d1109fb5a2de064ecd409dbd1e234a6e21d804858082e",
+    "bytes": 3062
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v100_s2026/pilot.npz",
+    "sha256": "e863b28d775fb6d30ffda96bb344538cb7a941beb2df8e558aafbc517ce29afb",
+    "bytes": 12281
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v100_s42/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v100_s42/pilot-review.json",
+    "sha256": "fe08d18f52243a70f8967edb9a672ca3e071f695cc2b8578cde2c0a6981768ee",
+    "bytes": 3060
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v100_s42/pilot.npz",
+    "sha256": "f3be46dc58c04ceecf32012adff7f83fd315d4fda73794782e136bc5c5256c7b",
+    "bytes": 12288
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v105_s17/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v105_s17/pilot-review.json",
+    "sha256": "d70c2ae72e58fe34b375058dd5a8ac02ec2f23db94e5bf00c6d29ce85775bcbd",
+    "bytes": 3079
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v105_s17/pilot.npz",
+    "sha256": "7c3806ce0d4c1f444d29f156a562e76db9b6bef487c5bc0ae1329f5ea9e616ae",
+    "bytes": 12312
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v105_s2026/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v105_s2026/pilot-review.json",
+    "sha256": "6492e38121b398524b04e941adad70309bce0d861b721e956f16ccbfa411e622",
+    "bytes": 3067
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v105_s2026/pilot.npz",
+    "sha256": "001106161c8c0692c51a12e27efbd95d6721560a28d65e484258799f2f4d8403",
+    "bytes": 12276
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v105_s42/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v105_s42/pilot-review.json",
+    "sha256": "7b055117e03aad862c1774a19379eed3b0471c2500ca3b5a52e7ceffbc29f483",
+    "bytes": 3076
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T1500_v105_s42/pilot.npz",
+    "sha256": "2ca51cd783647cecea1f8a7a847344293d04967dc6339a103d4ff5019377bf45",
+    "bytes": 12297
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v095_s17/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v095_s17/pilot-review.json",
+    "sha256": "4101f6573e37a7598af530316ef123d8612407a7090c080c216cac6ea413acf9",
+    "bytes": 3065
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v095_s17/pilot.npz",
+    "sha256": "ec62867fae12fd2d2baba6cacbc178bd334602d2fd7dcd09ce479769604ee105",
+    "bytes": 12304
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v095_s2026/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v095_s2026/pilot-review.json",
+    "sha256": "f86b12ae5c278b11264260159cb5dd49773474b5caa4fbf8ae564e1cd86166c2",
+    "bytes": 3065
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v095_s2026/pilot.npz",
+    "sha256": "e34e1fbc2b368ddb35914eb4457aef8c1d5d468ed270030a2eb40f83955411a8",
+    "bytes": 12317
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v095_s42/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v095_s42/pilot-review.json",
+    "sha256": "88e91719f87750e2734c9387bb74b9ad24a7b01b6d1506d9444b9c39521f1ce2",
+    "bytes": 3060
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v095_s42/pilot.npz",
+    "sha256": "adf20f5115e52dcfb563a2ecbce27fd7e343882df1fa43b361f4485f75f971bb",
+    "bytes": 12296
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v100_s17/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v100_s17/pilot-review.json",
+    "sha256": "4c6b8174416bbb15951e62345f64076c5f692b97c7314453c36bb8fd97d2a920",
+    "bytes": 3068
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v100_s17/pilot.npz",
+    "sha256": "e99f1fe7dcd6b6339d199f20b105c4f08afc0028ae1ecfc4cf99a2cdc514a352",
+    "bytes": 12294
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v100_s2026/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v100_s2026/pilot-review.json",
+    "sha256": "faa83fe229c598254ec98412c11f05d8268862a248ef4005f05076fe1b0b3a10",
+    "bytes": 3067
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v100_s2026/pilot.npz",
+    "sha256": "a53050cf7436f0d629dd584a5a88de641ad8585d108b2a88726a8286c509a15d",
+    "bytes": 12288
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v100_s42/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v100_s42/pilot-review.json",
+    "sha256": "3a7796e8e43b1d7afd39be17ec307b2736a786c69f816d14c3ad7247e4615b4a",
+    "bytes": 3071
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v100_s42/pilot.npz",
+    "sha256": "465aeb2a53c266fd7d208428bbe3ca9042868c075f645917bdaa2002ca267f3f",
+    "bytes": 12281
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v105_s17/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v105_s17/pilot-review.json",
+    "sha256": "e70b948df2829221702b8fe8e8f0739531c19caaa3cdc69476fd8faca4b06cb3",
+    "bytes": 3060
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v105_s17/pilot.npz",
+    "sha256": "5ab227ad358ea58e55a5833ca8dd901aba628eed45199d4b395d0dfe1f58dfb2",
+    "bytes": 12312
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v105_s2026/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v105_s2026/pilot-review.json",
+    "sha256": "f47c17734b645ab56695b34bb69db09bdc3e4dfdb45ef25614417461e4275cad",
+    "bytes": 3062
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v105_s2026/pilot.npz",
+    "sha256": "f7da39c1fdacf62dfbd7df18d853317aa0dde5ecd635c78cbfb33ebcc39ad69f",
+    "bytes": 12318
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v105_s42/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v105_s42/pilot-review.json",
+    "sha256": "5a8c1a34f0bca232a4bf3b7c9ec1ea57cde4bb3736f790fd8464b9ae1546cb19",
+    "bytes": 3058
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T3000_v105_s42/pilot.npz",
+    "sha256": "c530f8d8511a18d5e8a26265c9c074172fee3835745c071c5dc436d1dc266a33",
+    "bytes": 12316
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v095_s17/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v095_s17/pilot-review.json",
+    "sha256": "ea406a8777e2c587739120ee5849d373ff3caf27859e802e8b4eb817535f125d",
+    "bytes": 3199
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v095_s17/pilot.npz",
+    "sha256": "c1f512c01a958aaa09a9d85c5fa05dcf83d56d55f2c4a4b13d58cf820225e29e",
+    "bytes": 12314
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v095_s2026/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v095_s2026/pilot-review.json",
+    "sha256": "aa740c34ffe2a0a9493e36734c9a6c760edf55920bf75c8527b4c2d0915e6bc6",
+    "bytes": 3054
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v095_s2026/pilot.npz",
+    "sha256": "678eed615cc7a9702b2f5932b3e9b80ff1b14ce41d63f3ffde6643368e8d3177",
+    "bytes": 12304
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v095_s42/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v095_s42/pilot-review.json",
+    "sha256": "8581ed0ddb776c8fc8919f7696c44b1a0e642262a96d759bb45bc6eb94f2fbe1",
+    "bytes": 3056
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v095_s42/pilot.npz",
+    "sha256": "aef0d4d5747f5a6da6e4ac6e70e95e066c6ac23b4f747ed10db5533b29cb9c9c",
+    "bytes": 12288
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v100_s17/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v100_s17/pilot-review.json",
+    "sha256": "0b7cb39e6e131bb22301f01b1af92d3d428564b5571716a778d0b85b6beea437",
+    "bytes": 3063
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v100_s17/pilot.npz",
+    "sha256": "40d4e16614cfc621a441405037dd5bc190b422f222901e5a89767a73c2200077",
+    "bytes": 12303
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v100_s2026/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v100_s2026/pilot-review.json",
+    "sha256": "5d0e00d6c1fcc27c0c7415b09db4ab37b799e6aed035785f0e35757490490d91",
+    "bytes": 3062
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v100_s2026/pilot.npz",
+    "sha256": "cc01f1eced5d15b6a0554bccf366d6b2db626978371a8ae38cedcf7567dd4e73",
+    "bytes": 12315
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v100_s42/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v100_s42/pilot-review.json",
+    "sha256": "946bc471cec6a7adbd2c546931398f82c3d11d8c97515e4635e559d5a064b87c",
+    "bytes": 3203
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v100_s42/pilot.npz",
+    "sha256": "1aa2468a547427e4f6a984b1beb05bd4b785bb4a9fd12fdf9abac706e7753ff8",
+    "bytes": 12313
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v105_s17/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v105_s17/pilot-review.json",
+    "sha256": "cb4a01c0a584b254edfa81c56e38477424f280a7d77925d313a3e8961ce4f4fe",
+    "bytes": 3201
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v105_s17/pilot.npz",
+    "sha256": "b3880d424b788addcb657d9d26ee7354bcecc749ae70458d253ee237b93d23d0",
+    "bytes": 12309
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v105_s2026/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v105_s2026/pilot-review.json",
+    "sha256": "4ba4e35f3d5fc88c5a10b77c44a6e927e44245221f284d100e4b70fb1e5678e9",
+    "bytes": 3064
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v105_s2026/pilot.npz",
+    "sha256": "fa9a1ac2b5865d8bb4b17630bad988928d7c6167a76bd61fb02f054b4f65257f",
+    "bytes": 12327
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v105_s42/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v105_s42/pilot-review.json",
+    "sha256": "c5a0d1094fc5b3506d06a7b7a5f0e03c7e146aa427c707ef073f567497b231c5",
+    "bytes": 3202
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T4500_v105_s42/pilot.npz",
+    "sha256": "1f45c0796b7ce705eefded7539556239b564f29c9c084a37d7db53cdfae08b14",
+    "bytes": 12319
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v095_s17/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v095_s17/pilot-review.json",
+    "sha256": "155fd9a176e5b6246eaf79c95a52ed93beb009e44595f1836a3822083fbd1cac",
+    "bytes": 3200
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v095_s17/pilot.npz",
+    "sha256": "7b34d272fa828594cf7c8806aafa2ba01290c2c34e23502b492fe4175d831515",
+    "bytes": 12328
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v095_s2026/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v095_s2026/pilot-review.json",
+    "sha256": "04550026bcc124940154231a8319ec5f2449c657b9347cc68c37d30aacdeb479",
+    "bytes": 3194
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v095_s2026/pilot.npz",
+    "sha256": "954190648b7741d329e90feb0326c0a59d187552f3290f8c90c6de90ddf03f08",
+    "bytes": 12304
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v095_s42/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v095_s42/pilot-review.json",
+    "sha256": "ca4ab5456cbda7a2df7d291298d58198da268a896152cc0704fe57badcf0f844",
+    "bytes": 3195
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v095_s42/pilot.npz",
+    "sha256": "4ce55f00e35eb43f48f067fbd3d16076757138b01a193d3532dd5e9a2fa55b1e",
+    "bytes": 12332
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v100_s17/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v100_s17/pilot-review.json",
+    "sha256": "806af372204c94b730d8d99b486014f10156bc92fbda0b7ee5fbc9aebf904aa0",
+    "bytes": 3204
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v100_s17/pilot.npz",
+    "sha256": "0dc77cf5f33c20aabdafa36d607ceb3cff02df6854d48ad8595c47111bb8cacf",
+    "bytes": 12329
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v100_s2026/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v100_s2026/pilot-review.json",
+    "sha256": "2d8d71fc8bbc0f1fedd42a115721662f09059071918be162b9049491ff92dcb1",
+    "bytes": 3201
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v100_s2026/pilot.npz",
+    "sha256": "4a69bc06ff1bd5d15393cde7458d04d6677bba5112612e943f6d86403b3dc7c4",
+    "bytes": 12337
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v100_s42/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v100_s42/pilot-review.json",
+    "sha256": "fe25cdc62b6feba66a55a5e36b908de20cad1a04d9b82114459fc6387cc5a83b",
+    "bytes": 3197
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v100_s42/pilot.npz",
+    "sha256": "9b232510cd1938131868fa0f56c76066a59b8a4bd9b33da1279ef02826394867",
+    "bytes": 12322
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v105_s17/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v105_s17/pilot-review.json",
+    "sha256": "ea21ba5c343270f42acafd3a3816f7ebdad33a2759af6090f825adcdbf7a764e",
+    "bytes": 3198
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v105_s17/pilot.npz",
+    "sha256": "5116b933f33d293e7a75be1b33e128898cf4806dc06b21300b77124c64bff0ea",
+    "bytes": 12341
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v105_s2026/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v105_s2026/pilot-review.json",
+    "sha256": "631b60a8081718eff97f0dd049b20e12e1de0cecc08476bfadb8c769029300d2",
+    "bytes": 3206
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v105_s2026/pilot.npz",
+    "sha256": "893dd7ed527087f80086b24d64626cd0266f1243681d6f264001a144ab0fd521",
+    "bytes": 12323
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v105_s42/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v105_s42/pilot-review.json",
+    "sha256": "7b2265d4cc78b6f000cbd88069e70e63caf85e54bb07d351c461d0b16c6c7ea1",
+    "bytes": 3202
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T5250_v105_s42/pilot.npz",
+    "sha256": "48a670955803296539aa7dd1c4a5d41f157f81dd9c788a31cd250a149ffd499f",
+    "bytes": 12316
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v095_s17/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v095_s17/pilot-review.json",
+    "sha256": "5e19bd57b167ac9f86b54128049c4273fb917c522607093a76f30fd50506845b",
+    "bytes": 3196
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v095_s17/pilot.npz",
+    "sha256": "12f52f18da50390b00c71345fcd83f65c1a221794c2d62b5a374c771399ff007",
+    "bytes": 12339
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v095_s2026/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v095_s2026/pilot-review.json",
+    "sha256": "dc41dd96cd666b9a8240e3a15c8c9dc98d4e9f30a88540452a6f4acbe55239b7",
+    "bytes": 3194
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v095_s2026/pilot.npz",
+    "sha256": "9decb924dbc0cff99e9fa1c9f30b57aaa6ce9ee9fd52cd6283f5ee1daf9ceb56",
+    "bytes": 12327
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v095_s42/initial.POSCAR",
+    "sha256": "154d19cfff0292f52d0da7041b010e0f1037d55fc129c44ca0137cf9bd3651a4",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v095_s42/pilot-review.json",
+    "sha256": "288c7ee7c1336bfca5d7c40f0601f6642dfd9db268cc3734ad55b39026712d57",
+    "bytes": 3200
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v095_s42/pilot.npz",
+    "sha256": "0c1a82208d5dfd571bb40f0eb0b5a859870dc144da2c51bfac187953312b22a2",
+    "bytes": 12327
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v100_s17/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v100_s17/pilot-review.json",
+    "sha256": "fd3b5454ae24b93a8cb19ee69b8d10bf46d0c3f7b6bd28c6def18f8607ea108a",
+    "bytes": 3197
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v100_s17/pilot.npz",
+    "sha256": "b9bb3ecaa28f48cd34b36f935c5196caed9763ed9775b2be0999992630ef8998",
+    "bytes": 12353
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v100_s2026/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v100_s2026/pilot-review.json",
+    "sha256": "0fe0e1e905c68bc4927ed2870f316990d61268e68e8d3e3ce6629bd1c4bd9cdd",
+    "bytes": 3200
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v100_s2026/pilot.npz",
+    "sha256": "dd020503fb536cdfa640e7056e94925a5d6f32a7b6f096fc323e321eb01d1147",
+    "bytes": 12338
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v100_s42/initial.POSCAR",
+    "sha256": "2c039180cad756e21bdf9ecc30014afd60021ac6c3be1db788d6c07b4eef0156",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v100_s42/pilot-review.json",
+    "sha256": "8938655ec6109ee8302b384a9b4fcddff8959037ecffc4c608361ae4bdb0750d",
+    "bytes": 3198
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v100_s42/pilot.npz",
+    "sha256": "6a5bc7e843b1711fec1906aedd79c9e049357d4a03f733252ac3b9d1afdee51c",
+    "bytes": 12333
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v105_s17/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v105_s17/pilot-review.json",
+    "sha256": "40f004764e230b61d6cb6ad8b4cbb3a6aa6ad13387337292232eb0ffd6c0e6e6",
+    "bytes": 3202
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v105_s17/pilot.npz",
+    "sha256": "def311e6dbd8f4c3f63ab58752c212823be052d5f1b9448a7421910661f00273",
+    "bytes": 12379
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v105_s2026/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v105_s2026/pilot-review.json",
+    "sha256": "c5c64f295206bb690ed87054fb31e19a75c24af7ea2924b8560ca4d93eef07bd",
+    "bytes": 3204
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v105_s2026/pilot.npz",
+    "sha256": "5001c7d3cf532f7d1bb8e4cdad017d86824d2645ea5ae03412931244f09d78b0",
+    "bytes": 12364
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v105_s42/initial.POSCAR",
+    "sha256": "535d33e8db6d33859d8778a39146322d13ce5f40ec2b8aac0aea70ae2d00ab84",
+    "bytes": 13655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v105_s42/pilot-review.json",
+    "sha256": "28fd57074c22e56c351eaa6231a323879a0719be71eedc070e455c8146602083",
+    "bytes": 3199
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc216_T6000_v105_s42/pilot.npz",
+    "sha256": "23f348bcea79e4056f4c39287eda7392ef6d628d5a9eee2680defa9d7b2bf177",
+    "bytes": 12350
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v095_s17/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v095_s17/pilot-review.json",
+    "sha256": "65087788c859d576c361c9de08a5ed4d0538135aaf4a0ae8aeaef9c086e7b49f",
+    "bytes": 3061
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v095_s17/pilot.npz",
+    "sha256": "e8e008078b14bb7ab98ad326db5e28e0feb8f30da1827300e52c177f8ee87f76",
+    "bytes": 5331
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v095_s2026/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v095_s2026/pilot-review.json",
+    "sha256": "981fc051ca1bae422dce07e983eacd90854ad8cafb7865ad5aa3d055e85813b4",
+    "bytes": 3061
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v095_s2026/pilot.npz",
+    "sha256": "76ed60f0c147ea4c44d0d6ebf6d702b6eeba71612cfb24d622a93b5ee876d89d",
+    "bytes": 5330
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v095_s42/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v095_s42/pilot-review.json",
+    "sha256": "7e5cc1d1a4c150f634d09a00402b2c48a34bbfbb8657e985f81c71e6fc350e75",
+    "bytes": 3065
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v095_s42/pilot.npz",
+    "sha256": "3666bca4eea9807f5b40d73a3cfbde8ddb7f1ffac03d8bc6a9175fac1d139e68",
+    "bytes": 5322
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v100_s17/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v100_s17/pilot-review.json",
+    "sha256": "48dc02675f133b7413696c90eab309121a2e92bde218062e059b8e67b7086bcc",
+    "bytes": 3060
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v100_s17/pilot.npz",
+    "sha256": "dd86d9e01e1f808ba9a2a04da31d191de8caab2cff45d1fdeb1b2a26b2b45b3a",
+    "bytes": 5325
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v100_s2026/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v100_s2026/pilot-review.json",
+    "sha256": "abfbc63cdcf3eb401876cf0c3bc25b7592a05cbd9f81dc0df37c589e5b691fd2",
+    "bytes": 3061
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v100_s2026/pilot.npz",
+    "sha256": "f3cf0ad5763b8ad24c447b9460bc6b8632c99395602c7582daef06b14cdcfebe",
+    "bytes": 5334
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v100_s42/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v100_s42/pilot-review.json",
+    "sha256": "8870e05a4043070a4e5940681564ff8f0e7a11f8d3508be171584d5bde84cc17",
+    "bytes": 3062
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v100_s42/pilot.npz",
+    "sha256": "d3dafeaca30750dbeb670bfa9b925ece1eff009f80208fcea5774ae5e1d5e70c",
+    "bytes": 5305
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v105_s17/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v105_s17/pilot-review.json",
+    "sha256": "a658b36c782eac5ae1768ff94030b4ade8c18b2679b2c1c10b4f7b8f409a1a2f",
+    "bytes": 3073
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v105_s17/pilot.npz",
+    "sha256": "f7d99ef2e778009c87610f52b38b815064564c1dd67ec4438637fe3394da5a06",
+    "bytes": 5326
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v105_s2026/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v105_s2026/pilot-review.json",
+    "sha256": "67639a11b980bb14265157d8a2da7d0c380ba427c44599a476598b1e11232e20",
+    "bytes": 3069
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v105_s2026/pilot.npz",
+    "sha256": "bab9f9736c86bb8ec0b781c647dc6b785976ee591974b40f0b0661279f2e7788",
+    "bytes": 5318
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v105_s42/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v105_s42/pilot-review.json",
+    "sha256": "d098f3b6fe17c9ca543ef2deef25a2cd740cf2f18c7c0d23e94e2213d3aa49da",
+    "bytes": 3068
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T1500_v105_s42/pilot.npz",
+    "sha256": "6e66bb0d3facad82f95ca2d1fb5ec024b80f7f179fd6dbe39d3abb090924e3a8",
+    "bytes": 5327
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v095_s17/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v095_s17/pilot-review.json",
+    "sha256": "ff2324f51e500b3ee37b296173e0a8c24b529975d429b3c950a4de1038f29fc0",
+    "bytes": 3062
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v095_s17/pilot.npz",
+    "sha256": "471018f36737dc487b2681933644c98a8fcf8f64bc516f2c4186e2c64bd6f9f3",
+    "bytes": 5337
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v095_s2026/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v095_s2026/pilot-review.json",
+    "sha256": "6397b2c0b09e614c56f5c5de26710ac040d61809d5683e66a8ca7f663770ccfb",
+    "bytes": 3064
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v095_s2026/pilot.npz",
+    "sha256": "34c827936e33c68d2e177a07538c00c91292adf07c090702b7aaabc62563c070",
+    "bytes": 5316
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v095_s42/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v095_s42/pilot-review.json",
+    "sha256": "2433f88bb2ffbac168910997400e570a2fef2e23dcdfc4913e542ef396ad16a0",
+    "bytes": 3062
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v095_s42/pilot.npz",
+    "sha256": "967bb7815a6629231c911a7bb83d1594bd9989ad53decca01cfc6423c95a4b05",
+    "bytes": 5325
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v100_s17/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v100_s17/pilot-review.json",
+    "sha256": "0b312341c99ca6d5212241e0324fceb8db355ced31527bb9686f8e8f988dd2b1",
+    "bytes": 3063
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v100_s17/pilot.npz",
+    "sha256": "e0b4fa497b0d7f12bb0cc3afe8e3215a5c62b168be3c80a355d22d1e539152f7",
+    "bytes": 5336
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v100_s2026/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v100_s2026/pilot-review.json",
+    "sha256": "2910c17046f4471ac4d2e862f977ace539b03b2e18651daa3d339d261aa3cdb5",
+    "bytes": 3064
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v100_s2026/pilot.npz",
+    "sha256": "7be014bba68d67bd12904eecf4a6d98dccec347643c5cdaef00a05454060a699",
+    "bytes": 5331
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v100_s42/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v100_s42/pilot-review.json",
+    "sha256": "33833b2dfe08bd9fb51d324329aa759035c72edcefa49f1b5585c0498d4f6c7c",
+    "bytes": 3063
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v100_s42/pilot.npz",
+    "sha256": "f7d7d1ccd97fef73e23a7263896dadfeeae4c3462760559ff04a51d85ff6143f",
+    "bytes": 5323
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v105_s17/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v105_s17/pilot-review.json",
+    "sha256": "e173a4e6630930fef308902f927144eb8af308ad736599ebd98aed9e40d17f86",
+    "bytes": 3062
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v105_s17/pilot.npz",
+    "sha256": "293b8d4434510db62c7cfae86239afced4a3f664eb62a01f1f22e71e3819a666",
+    "bytes": 5338
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v105_s2026/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v105_s2026/pilot-review.json",
+    "sha256": "fa9df3a40d21f20b2979d1a7a0bfdc117d12e3ebc3ea85035f2d2d1966095cd3",
+    "bytes": 3058
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v105_s2026/pilot.npz",
+    "sha256": "afdeeec228fb4f865a918030c064caf9002a30935031bdedb4f1376ed2066abd",
+    "bytes": 5333
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v105_s42/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v105_s42/pilot-review.json",
+    "sha256": "449a96db46d03223ba5345436df70f2d0f03a26bfed756fbe3154bcdfa9be0a3",
+    "bytes": 3058
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T3000_v105_s42/pilot.npz",
+    "sha256": "55c3f15fc2bc0ad09e7d2bcaec25b9602a9842ffce1e16efc308615828d86ef5",
+    "bytes": 5325
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v095_s17/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v095_s17/pilot-review.json",
+    "sha256": "88a2a97b27ae67af7a72676b6b67fb7b73da4d8203afc342f49e4d6207b737d9",
+    "bytes": 3053
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v095_s17/pilot.npz",
+    "sha256": "63c5e8dc23fab3d817fd2434a5d4c7e060254b08a9370fe38672bc048735c1b6",
+    "bytes": 5334
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v095_s2026/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v095_s2026/pilot-review.json",
+    "sha256": "e803f5160c143ad3792219122a9938f55458386f9dbf3e8a45919f38c1e7dcbd",
+    "bytes": 3051
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v095_s2026/pilot.npz",
+    "sha256": "bb304b8e23d34c9e0356a84e13b6b9d8864615e4e2c12cfdf447806d1d195f9e",
+    "bytes": 5336
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v095_s42/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v095_s42/pilot-review.json",
+    "sha256": "e8fc3f7c3b9a083359232da786a649a64b036942a91d0999aff6d5ce1fe7c5d8",
+    "bytes": 3054
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v095_s42/pilot.npz",
+    "sha256": "8b15178c5bec7dfab9190c1aded323490d0b47692c182ca08689b3788290b965",
+    "bytes": 5332
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v100_s17/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v100_s17/pilot-review.json",
+    "sha256": "2713f9aefc7be4d3ab4368d5ed7a0c7d1ae820f1195764914b10899e79abec47",
+    "bytes": 3060
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v100_s17/pilot.npz",
+    "sha256": "c3f558a069fe2e7116b5fe9f5e0571a06226c011bc8771d706b646974ab4429a",
+    "bytes": 5328
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v100_s2026/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v100_s2026/pilot-review.json",
+    "sha256": "f70f1bb2fbbfe76f0aba8771ca6f22df4b955a7114aa81f5f232e74b9759f482",
+    "bytes": 3055
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v100_s2026/pilot.npz",
+    "sha256": "1b01030da0c18a4855c95725fb838c2ceeed68953ea17aa324f771371e1b5eeb",
+    "bytes": 5339
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v100_s42/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v100_s42/pilot-review.json",
+    "sha256": "2127a7fc1aa6054b0648050b81cee711e8ccb7301f1f6afd9bb7d2b564e6ab0b",
+    "bytes": 3056
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v100_s42/pilot.npz",
+    "sha256": "743fcf55f018606f56eb0d71fabbc310f54437a20e5efa7c28ce3b25b8717f12",
+    "bytes": 5330
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v105_s17/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v105_s17/pilot-review.json",
+    "sha256": "d1ddf7a3d259d276ae039241ca204fc8d30ebd60906837c517ef3741c16ed56a",
+    "bytes": 3056
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v105_s17/pilot.npz",
+    "sha256": "cdebfba468993263ddab65bad1d594e76b9e97fc9f1145191d4d7dd202bcb723",
+    "bytes": 5345
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v105_s2026/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v105_s2026/pilot-review.json",
+    "sha256": "51ca51750f2eff4222b9c7f32d5d78b9de9f558f7945e7983b38c561079a0976",
+    "bytes": 3062
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v105_s2026/pilot.npz",
+    "sha256": "26aef10f62ad8aa34f6bc261c0f0e6bd361ae7ea3a057a04849f0c672e3ec640",
+    "bytes": 5327
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v105_s42/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v105_s42/pilot-review.json",
+    "sha256": "f87a83281fd6b8531d9f78ca0aa4574f89570be9f90406fe02a19970d77d2456",
+    "bytes": 3205
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T4500_v105_s42/pilot.npz",
+    "sha256": "563223267c727ab8b62302df24c6b0e97b0267bcbd2ddc9a14d2f0e61e8d6b09",
+    "bytes": 5323
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v095_s17/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v095_s17/pilot-review.json",
+    "sha256": "31e469fc176c33ac9b17e5d083202d942494672b57f094306fd966b503e9b1f1",
+    "bytes": 3196
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v095_s17/pilot.npz",
+    "sha256": "10b3aaad3893f2966998206c7b9b15ad51e5101537286a965bb0989933eeab76",
+    "bytes": 5323
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v095_s2026/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v095_s2026/pilot-review.json",
+    "sha256": "9106ee616e513d5c2fa904723f01c279c85c08ae7352dd6072cc92520e199bf1",
+    "bytes": 3049
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v095_s2026/pilot.npz",
+    "sha256": "59d18313da915a38d4ce22074130fc5d845559fe7991247df100751698bf0854",
+    "bytes": 5328
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v095_s42/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v095_s42/pilot-review.json",
+    "sha256": "16ed5b6dfb0ad6f145031c749b0f2ca1342f52b5f69ed2e9fec6e54358f2568b",
+    "bytes": 3052
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v095_s42/pilot.npz",
+    "sha256": "c6ca90529fb6569acbd6d9b7fde0fd051df786296e041b4bd1855b3a2f14acd0",
+    "bytes": 5340
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v100_s17/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v100_s17/pilot-review.json",
+    "sha256": "bd60e2f942e40ad258329b7f3fcd60b30d8dcf710e83b3bc126b90dc24515d5f",
+    "bytes": 3196
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v100_s17/pilot.npz",
+    "sha256": "658d44b03161d2e7aa5422f12f5921e53d91bd76722a60ac6cbc64ecbee2cc3a",
+    "bytes": 5319
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v100_s2026/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v100_s2026/pilot-review.json",
+    "sha256": "6082d376b55695d3365740b48c83b6ae7feeda9be82faa1b5225946c5769ed6d",
+    "bytes": 3055
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v100_s2026/pilot.npz",
+    "sha256": "9963dad6de5352ddd6ec79aa92e847992310fb31c610a6f0a4edd29e377295a1",
+    "bytes": 5340
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v100_s42/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v100_s42/pilot-review.json",
+    "sha256": "8d9078a3aecffb5ee54d5d18c9790e5d34603da75a6f340bba6beee8e7466034",
+    "bytes": 3194
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v100_s42/pilot.npz",
+    "sha256": "21827290a3376a8706b896c81a4347d238279a946d136381b1e23e874fb69b6e",
+    "bytes": 5338
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v105_s17/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v105_s17/pilot-review.json",
+    "sha256": "ae05124ce5a4f95036e4da025fc069fa22d7daf8cd69e8ca620cf85460c83caa",
+    "bytes": 3196
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v105_s17/pilot.npz",
+    "sha256": "0210aaddeb79ed402587f96b8f0a325460841d45bf9164370a16ccb570943aac",
+    "bytes": 5340
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v105_s2026/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v105_s2026/pilot-review.json",
+    "sha256": "1ea8ad81f9051bc5b77effaa1babc8e4b3a5f2588e90f3079cf005037a6bbdfa",
+    "bytes": 3060
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v105_s2026/pilot.npz",
+    "sha256": "db16b9ef35faec7cccb8c4cffa7a7f6ef6f92c7f78b61349d0346c71c127d8a2",
+    "bytes": 5338
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v105_s42/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v105_s42/pilot-review.json",
+    "sha256": "ce1a315694e6c7c0eb96f5271c5e0cce79b22692a9d9f04227270bea129109c0",
+    "bytes": 3200
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T5250_v105_s42/pilot.npz",
+    "sha256": "cb7c75ff436575cc4d8c79fb5aa147c744c61f269fbcbd6a90ff4bb59ab9200f",
+    "bytes": 5337
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v095_s17/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v095_s17/pilot-review.json",
+    "sha256": "1cfcda546e3988fb0873d1f7aa3d1471698cc3f0427e3b0308df4cadf5c63f5b",
+    "bytes": 3196
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v095_s17/pilot.npz",
+    "sha256": "36066b01f6ce0feabac29f3989eebe6aef39be88e6023e4410ca42a39f3edebc",
+    "bytes": 5335
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v095_s2026/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v095_s2026/pilot-review.json",
+    "sha256": "a897e51fd9f1b77e62f4f93bce31783b4f473715677f45c40261f35db766dcf5",
+    "bytes": 3189
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v095_s2026/pilot.npz",
+    "sha256": "79672401afe179d26d62bd21b26c8c1b92e42c0d2f390387ad2b288eea86e935",
+    "bytes": 5341
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v095_s42/initial.POSCAR",
+    "sha256": "d35e31f833f681b8640f786d1170edf584b0a2284baf75ad19af7e79baa462a3",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v095_s42/pilot-review.json",
+    "sha256": "5293449af5108a48471f3abc6a266d3002a94896f88afb7ef5e0cbcf1eca084d",
+    "bytes": 3200
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v095_s42/pilot.npz",
+    "sha256": "2b70ab975457a04ac8e4f8233a7e6fd0df38459e9031561aa461624c2cb5f5a0",
+    "bytes": 5337
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v100_s17/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v100_s17/pilot-review.json",
+    "sha256": "12db1c1889436b957bada30a8ce34aaf5fa84c3c3a3a19f2a18323cbd80a77ea",
+    "bytes": 3197
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v100_s17/pilot.npz",
+    "sha256": "dc59c8b653f5da089c1fdabba31a7cd513270f0ab25f63191ba11ef6fcbb80f0",
+    "bytes": 5333
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v100_s2026/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v100_s2026/pilot-review.json",
+    "sha256": "81417e3a14828b484948daaef4acb11f2c6807a645afedb96db584f4b1776b52",
+    "bytes": 3197
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v100_s2026/pilot.npz",
+    "sha256": "129f61c4ee86bb9ed76a72f692ea688f784da1edb0117d02a1909e28694be71f",
+    "bytes": 5331
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v100_s42/initial.POSCAR",
+    "sha256": "7b6a1070ab69a600a17941670f7a290838ca3c5062c226a0cabef457a1d8074e",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v100_s42/pilot-review.json",
+    "sha256": "c2b780c1d4982d5953ee0ff071761cf1dc60e8e5a770e3b935a869d71c33fbbd",
+    "bytes": 3196
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v100_s42/pilot.npz",
+    "sha256": "9de69dccf820456cd856c46322a5def60f0a3895ad80639f899bca63649ddb08",
+    "bytes": 5327
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v105_s17/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v105_s17/pilot-review.json",
+    "sha256": "b878067e41591e916e2e05d61fb1c4e07432e257559712a6d368b4ac5d38717b",
+    "bytes": 3189
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v105_s17/pilot.npz",
+    "sha256": "c2b405c9b2dd30eee5e0114b1c51e2b46a516bf2333cce9bb24fe4e0b8f5311a",
+    "bytes": 5342
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v105_s2026/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v105_s2026/pilot-review.json",
+    "sha256": "d3fc1f12e75334b2aa535e01f44bcb2049f7ddec07e1831157de9862f1dda21b",
+    "bytes": 3201
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v105_s2026/pilot.npz",
+    "sha256": "dfb8dd5c021242aabb384ec97df968d4ba9ba57d49eb509d38924c9ab50fe7d1",
+    "bytes": 5345
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v105_s42/initial.POSCAR",
+    "sha256": "24a455f0672a39dc85fbad181dcd1a6cc15262a8bf12b97e698c25e652130021",
+    "bytes": 4231
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v105_s42/pilot-review.json",
+    "sha256": "a0a4bb3d0d3584d6eea0e184ff2f453acba2812dd844b29a08f0cfa668b6e83e",
+    "bytes": 3196
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc64_T6000_v105_s42/pilot.npz",
+    "sha256": "56eabe6ae5efaf98e1d45790d161191c4d9ab6cd0417f997e6d77766895f4908",
+    "bytes": 5336
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v095_s17/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v095_s17/pilot-review.json",
+    "sha256": "44006a046edef9e7c5b757df22b6c7b9fc2b02e0e8fdecc2b3e82d6e461f4a35",
+    "bytes": 3061
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v095_s17/pilot.npz",
+    "sha256": "37a512ada5711c9af3175b5cea29981bfff3242bae170348bf051d17b3acc782",
+    "bytes": 2652
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v095_s2026/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v095_s2026/pilot-review.json",
+    "sha256": "892163a4a7838ea8c9d07745ca9cf89862bc839089ade557a94423bda17c85cf",
+    "bytes": 3064
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v095_s2026/pilot.npz",
+    "sha256": "37b7f7d793ce4177830949c0f2a4bd06953b554465e94c8e7c03a10b59317a1d",
+    "bytes": 2654
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v095_s42/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v095_s42/pilot-review.json",
+    "sha256": "14b324c8686194c478d7a3d57c08b7474b5d1cb62588d8e028f926bd5442d4ac",
+    "bytes": 3064
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v095_s42/pilot.npz",
+    "sha256": "62b3736eb2a4ca45fee2bfe3cc86edd66b48331cf478a980a1cbeda80f39bb36",
+    "bytes": 2665
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v100_s17/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v100_s17/pilot-review.json",
+    "sha256": "158079590f045c07baec9409ad9a57679e1ecfee91559f783cbfd980d1dc43e2",
+    "bytes": 3060
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v100_s17/pilot.npz",
+    "sha256": "493678031a3b3d94445b15b79258f798015b48e963ce22b06677bbad0cd17932",
+    "bytes": 2661
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v100_s2026/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v100_s2026/pilot-review.json",
+    "sha256": "cb709a29ad4a4579c3276fb92f556259f2d8622da33952d744ea07bb2bf58e76",
+    "bytes": 3059
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v100_s2026/pilot.npz",
+    "sha256": "704c2c1ba0ec4ab82b63cbaa1cd7681a6b6c61a8800dfaea132c8aa49fdb7fc3",
+    "bytes": 2666
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v100_s42/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v100_s42/pilot-review.json",
+    "sha256": "ac14f612dba932a29351de7b62ac6c3b189d1f5a1a5a38b9ffde5d7f7d500cdf",
+    "bytes": 3058
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v100_s42/pilot.npz",
+    "sha256": "3357dd6619cbb5a8cdd91014cb509000310f30f318e91d9730b659c8e4bb7efa",
+    "bytes": 2657
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v105_s17/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v105_s17/pilot-review.json",
+    "sha256": "3a4ed120111d818a43f2df0f0c27ab8df5f289e02dfadaff843fc50a11b3d7c4",
+    "bytes": 3069
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v105_s17/pilot.npz",
+    "sha256": "27c7fac27de1a70d69adbc95bb864350ab3c177cc858e20889b82c50d7c670b5",
+    "bytes": 2659
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v105_s2026/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v105_s2026/pilot-review.json",
+    "sha256": "43ddbdb7fe0ececfd3123fe112c8a2f6bb12a0d577beb61bf7e9599a8b2d2c10",
+    "bytes": 3071
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v105_s2026/pilot.npz",
+    "sha256": "6a8924e58c9f48fc52fae735de2caca25ed490f04b1a9c924965810a91cf7a2a",
+    "bytes": 2658
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v105_s42/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v105_s42/pilot-review.json",
+    "sha256": "86d4cbd761e46f69d70b484b2ea5330e3468bb4be01f054454fd1267db71d815",
+    "bytes": 3066
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T1500_v105_s42/pilot.npz",
+    "sha256": "b8f3c7fa835561ee4533f4a4f429d5128e522eb9e98b8a4b8b557978db6eb639",
+    "bytes": 2665
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v095_s17/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v095_s17/pilot-review.json",
+    "sha256": "44447b3c726fb2e882b83703eaa4ca8bef3ba835080bf53a3f3279832fddcca7",
+    "bytes": 3057
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v095_s17/pilot.npz",
+    "sha256": "8d8a68e1f8020637e1f621ea62763c08d4a4a80976e4f56654d46caa975bdf3e",
+    "bytes": 2658
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v095_s2026/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v095_s2026/pilot-review.json",
+    "sha256": "7fbaf78a5052e8e82f0e086ad369bf55c10f150e75a19abcf669f62ba593a8c5",
+    "bytes": 3063
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v095_s2026/pilot.npz",
+    "sha256": "5e9d48ce06bf5601d12252d09fe8dc5c3ec626784ed18f403cda7aef8b09fb01",
+    "bytes": 2650
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v095_s42/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v095_s42/pilot-review.json",
+    "sha256": "d7cf4b25126a8028c02c696133bb108ebdc4fc598e00bea813c34e7e1be8d70f",
+    "bytes": 3060
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v095_s42/pilot.npz",
+    "sha256": "fed165f266fbbc643de655293eda62ec09a229c38053e858ff63d94e35ed43ca",
+    "bytes": 2655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v100_s17/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v100_s17/pilot-review.json",
+    "sha256": "169f5073ac15ff00c23e31da999f07146dcb92835951be9a7b55632fdd567b76",
+    "bytes": 3062
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v100_s17/pilot.npz",
+    "sha256": "90775a3018440a267051ad113712aa43f1dce5608376da93774e6afcb64eb276",
+    "bytes": 2652
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v100_s2026/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v100_s2026/pilot-review.json",
+    "sha256": "595cb1e1ae9bd108521a05643379dedeef608986b38f207e7a780e8ab7b19f41",
+    "bytes": 3058
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v100_s2026/pilot.npz",
+    "sha256": "31aa62ab518db6064592e8ef3cfa2451cc6ad995e848f51fd833d7785f986c00",
+    "bytes": 2647
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v100_s42/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v100_s42/pilot-review.json",
+    "sha256": "6558446b1db979f7eac0bb3b55cca81996d4fe8dc9ca66b655c55d262bf293f1",
+    "bytes": 3063
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v100_s42/pilot.npz",
+    "sha256": "bf66f518856a4b204ed3dae844c1c2c19ab922a27e12ea52f69ae46c809f11ce",
+    "bytes": 2653
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v105_s17/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v105_s17/pilot-review.json",
+    "sha256": "6d19506c6f8a06f266b22564fe26306ecf8fc1dc18e98eecf43e567108d5787b",
+    "bytes": 3061
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v105_s17/pilot.npz",
+    "sha256": "e082830e0d89004f9b621742f1a9760afab199b8c482e3c34da245aa43672814",
+    "bytes": 2651
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v105_s2026/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v105_s2026/pilot-review.json",
+    "sha256": "a7ef2716ee6fc8c1530313254e5840d989b391c2c3774b2a73d6945cc4aa5540",
+    "bytes": 3061
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v105_s2026/pilot.npz",
+    "sha256": "2b291062374072f5ab2afbc610bee287375e45407074a3efc758919dddef9709",
+    "bytes": 2670
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v105_s42/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v105_s42/pilot-review.json",
+    "sha256": "fa2d9dc2eff3217c9fa51f6ca2487990b267faab8a247e9af245af1d265e1719",
+    "bytes": 3057
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T3000_v105_s42/pilot.npz",
+    "sha256": "de65ddd2c81f8cc9f56508a902cf42cf572c7d26783d9cae52bb5b7e0e8771c0",
+    "bytes": 2658
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v095_s17/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v095_s17/pilot-review.json",
+    "sha256": "eef3c7e1eb577ccfe85ef0f143584cb5a345ac0e0463abe1a86e06bd62b8e40a",
+    "bytes": 3054
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v095_s17/pilot.npz",
+    "sha256": "d3a686ff7d7956f7386c5d277fa9f6208f4a440566015ba9b8191101f9def79a",
+    "bytes": 2662
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v095_s2026/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v095_s2026/pilot-review.json",
+    "sha256": "bf709eccdba5dc3287cfd01ade417841ff1ee3e6143d5d521b0eabc442738084",
+    "bytes": 3052
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v095_s2026/pilot.npz",
+    "sha256": "44e47782d6339061583e069f8cdbb63371edce1c5d8c98d441bd2a83ff69d611",
+    "bytes": 2664
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v095_s42/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v095_s42/pilot-review.json",
+    "sha256": "42f84842d02326722ced107e06e2524965725ee92626218f406fb4f0103de65c",
+    "bytes": 3054
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v095_s42/pilot.npz",
+    "sha256": "f198e997bc64d9b28a371396e74dcd20c3d2e560dadc0d1587c1e56d0c5f1cd7",
+    "bytes": 2650
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v100_s17/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v100_s17/pilot-review.json",
+    "sha256": "c122189c5087d1d6f42898f6d8a3f4b6fc5802222a9264bac248cd5581a87856",
+    "bytes": 3049
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v100_s17/pilot.npz",
+    "sha256": "78d7b2ca09283b168572a07d5ade27a1baa71df531045397e3102f013d3cf5ea",
+    "bytes": 2659
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v100_s2026/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v100_s2026/pilot-review.json",
+    "sha256": "95abc4a1ffaf47aa95720c555ac7c3755ba55656acee2c0cb6044c43c534b6b9",
+    "bytes": 3055
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v100_s2026/pilot.npz",
+    "sha256": "23e33c79a0a4c8a0728c263ab0fe198f2f9c13c7ee310962254b9b0620aa0d39",
+    "bytes": 2656
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v100_s42/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v100_s42/pilot-review.json",
+    "sha256": "0828017073250c7a9b42e34dd4965b90bac97b648aa510563bc559a888105b79",
+    "bytes": 3056
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v100_s42/pilot.npz",
+    "sha256": "49d5eaecccfcfc3fd14c9ba9d0fe1e55129009e1619458ab030b2431cdcf211d",
+    "bytes": 2659
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v105_s17/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v105_s17/pilot-review.json",
+    "sha256": "e8a8d606a9f8a58736de3ee449a355e82580edbb72e6efa8710145a56893c8d9",
+    "bytes": 3055
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v105_s17/pilot.npz",
+    "sha256": "66fd3efb6bd0a513a47de0d9400158131535f108d697f1c98e2c05b262b9bb4c",
+    "bytes": 2662
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v105_s2026/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v105_s2026/pilot-review.json",
+    "sha256": "5daf95ee762a98d4971b1744768a1252d0a33c6e31cd4cb50339eab1c20ec41f",
+    "bytes": 3053
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v105_s2026/pilot.npz",
+    "sha256": "af13a7e135dc7715ecc62a703316eb0464c2d01b2a6b62e9ef8e0460fd77fd69",
+    "bytes": 2651
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v105_s42/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v105_s42/pilot-review.json",
+    "sha256": "eadb1253c7ea8eb2ecd3a45586f7fe680626a74df4739f16960e2e5fae4c9936",
+    "bytes": 3058
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T4500_v105_s42/pilot.npz",
+    "sha256": "2011259f8076750180779f92b45927724f6722da6aa2005602dc8a399bc2a0ce",
+    "bytes": 2664
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v095_s17/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v095_s17/pilot-review.json",
+    "sha256": "bbc91998cfdf46b0965040581cf272719ccc4262ba4185bd00f484a120815980",
+    "bytes": 3059
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v095_s17/pilot.npz",
+    "sha256": "4c69c97250177f78b4e5c75950958d204d2378a61249499ede5539fc33551d93",
+    "bytes": 2661
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v095_s2026/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v095_s2026/pilot-review.json",
+    "sha256": "1fd0270cea72552da3b64656e4192ef0b8147213dedaf5b3f3ac95c50e017adc",
+    "bytes": 3048
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v095_s2026/pilot.npz",
+    "sha256": "9c5b4b0961886e96bb912001f62c42bf53143a4050142bb94b895b81986bbc42",
+    "bytes": 2658
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v095_s42/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v095_s42/pilot-review.json",
+    "sha256": "9f569b408c8325b6ac5214051cc8b0e9bea323b5b3f5c39cbff00ec305fd5321",
+    "bytes": 3055
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v095_s42/pilot.npz",
+    "sha256": "54bd8ff251862364e6410af60656cf21f19205d689ce85dea07bdb2078f3a191",
+    "bytes": 2661
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v100_s17/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v100_s17/pilot-review.json",
+    "sha256": "4c2e63a3ef2ce592035b988ee3d51d8842d21dd76825c675660b6582799c8cab",
+    "bytes": 3056
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v100_s17/pilot.npz",
+    "sha256": "f3fd98e63bc04d44d5ec8f5ce30f785ae76a67e06c1201f75c15c3a4f8001927",
+    "bytes": 2660
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v100_s2026/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v100_s2026/pilot-review.json",
+    "sha256": "ee1f7598af0bce7fbbadd7be7566643a2005d041d4985cae9173ff30db6722a0",
+    "bytes": 3055
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v100_s2026/pilot.npz",
+    "sha256": "5482b8dd792de124175aa440a22271cfd350df8db89b71829ef723a99433e10a",
+    "bytes": 2663
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v100_s42/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v100_s42/pilot-review.json",
+    "sha256": "05e648b257cc6f9d20f9c53faa4cd2af51638b13846ddfb6f9c56b492d746e0b",
+    "bytes": 3053
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v100_s42/pilot.npz",
+    "sha256": "f41cdd96c39a238f2015901f29dfcf1be2aed65d299c53d103f7525aa66b7271",
+    "bytes": 2657
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v105_s17/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v105_s17/pilot-review.json",
+    "sha256": "a2228460b1778d12ec475d9e9b0c6b16949740ef31841188b7aacad60009e057",
+    "bytes": 3059
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v105_s17/pilot.npz",
+    "sha256": "7a4e892845a93ddfaab56c5d6dda224c4fcc63cdac184ccc5071a814e8139bba",
+    "bytes": 2658
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v105_s2026/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v105_s2026/pilot-review.json",
+    "sha256": "9cb7f2c00e6fd6ca1ef77a5ca028eb0aab585032559b6980e1d1665cd0d3f94f",
+    "bytes": 3059
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v105_s2026/pilot.npz",
+    "sha256": "704465c6e94ce5e8d3d0ed8827dff1dac905e220ae773464b56551956cfaf879",
+    "bytes": 2670
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v105_s42/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v105_s42/pilot-review.json",
+    "sha256": "b2ff9c4ee81058881c3cbc308026e1e5e35d48816a3b099404c87d6a604bbe84",
+    "bytes": 3053
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T5250_v105_s42/pilot.npz",
+    "sha256": "f2d12e53c718ae1947417ef9681c8bb331b6643fa65bddde6936e0c989083853",
+    "bytes": 2651
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v095_s17/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v095_s17/pilot-review.json",
+    "sha256": "fd25900315795e7d10e24ccb237b1000097e4a653219834d0ae9aadaec22c449",
+    "bytes": 3053
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v095_s17/pilot.npz",
+    "sha256": "bff61021e5a2d269fbb4e500e770e00f9049be873ef6771ebaa4dbb860591147",
+    "bytes": 2655
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v095_s2026/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v095_s2026/pilot-review.json",
+    "sha256": "7c052fb361843f84cdb6560063f9a95be9cfa0e451e7f1a4e9155bf60793fd3c",
+    "bytes": 3050
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v095_s2026/pilot.npz",
+    "sha256": "23aa1385d63f95b47ccc5b1dc854fb4ffe934c465186b597b071dd3de18bc1e5",
+    "bytes": 2660
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v095_s42/initial.POSCAR",
+    "sha256": "f176dab14326c35a7830dd9d349cf11b396b1f7057a9a4b2c72413765f1e16b0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v095_s42/pilot-review.json",
+    "sha256": "909187afa68d2e825615f82534d2e0d28c342197077ef4ecab7587e6ee238252",
+    "bytes": 3052
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v095_s42/pilot.npz",
+    "sha256": "7464d76a4bd7aa62cc5cc41df3ae0eb0aab5c21b4ab64fa42ee0f1c1bcc38c68",
+    "bytes": 2663
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v100_s17/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v100_s17/pilot-review.json",
+    "sha256": "8176ad11360962fac6777c7e04d893368c065eb5e55dd1691dd6ed32b7a54fdb",
+    "bytes": 3059
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v100_s17/pilot.npz",
+    "sha256": "8f41c06acd87fe626fff3325ba0fbd103447d1ca93bcc37e619ba99e339e2671",
+    "bytes": 2664
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v100_s2026/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v100_s2026/pilot-review.json",
+    "sha256": "2fa41c8ad8dca12d2ea44b89ddd072a6b76a86ef0d498be97fca18e5a833727e",
+    "bytes": 3197
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v100_s2026/pilot.npz",
+    "sha256": "31133584426d37762d9a5c52b15d61c280b7e0fbe80c3dc64125230ec6e54673",
+    "bytes": 2662
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v100_s42/initial.POSCAR",
+    "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v100_s42/pilot-review.json",
+    "sha256": "7a5c438b1b4b8d245ebe0a39e7508282d0392ec19ce65c9e4b2d5feb21916e36",
+    "bytes": 3055
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v100_s42/pilot.npz",
+    "sha256": "a0c601c8cf074a53a67dcbad3089b270354e543208dada036849a8504c01ff77",
+    "bytes": 2656
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v105_s17/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v105_s17/pilot-review.json",
+    "sha256": "9419103073a30e6e640c0a834335713c0b01a97f4a11a6e48e05e4f76310dc9a",
+    "bytes": 3055
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v105_s17/pilot.npz",
+    "sha256": "c039883f2089e069e68f4fe0ab0ebcbf9e9d5f044cab149642c7fbc4b0b5e455",
+    "bytes": 2663
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v105_s2026/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v105_s2026/pilot-review.json",
+    "sha256": "4a601b3a6436b2c407ba46daf74d29a7fc9db9730fb6bde990de790db80825f5",
+    "bytes": 3059
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v105_s2026/pilot.npz",
+    "sha256": "7714e734d7cdc4b70e2072a43a40b21d889926318a84a15af2fcee7f717564e8",
+    "bytes": 2662
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v105_s42/initial.POSCAR",
+    "sha256": "c24765e03b82d04de92bb9c1e73c351b49b815ce82ab535c85773b871e2fb5d0",
+    "bytes": 759
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v105_s42/pilot-review.json",
+    "sha256": "7bb60ec5995103582dd6d2beac48076b58d09ca3e7e77a4f2e28eece5e6c8c52",
+    "bytes": 3055
+  },
+  {
+    "path": "hpc/zrc-round1-remaining/inputs/zrc8_T6000_v105_s42/pilot.npz",
+    "sha256": "3028bf0767f53a0e6a3f3f9fb889c5795a2b2f733e73c5c76fa6fd253ecec064",
+    "bytes": 2661
+  }
+]

@@ -1,0 +1,337 @@
+{
+  "status": "prepared_and_geometry_roundtrip_validated",
+  "provenance": "ideal_crystals_at_initial_guess_not_DFT_relaxed_not_thermalized",
+  "a_start_A": 4.7,
+  "reference_volume_name": "V_start",
+  "source_config": "configs/experiments/zrc_mace_sampling.json",
+  "structures": [
+    {
+      "id": "zrc8_v100",
+      "atoms": 8,
+      "counts": {
+        "Zr": 4,
+        "C": 4
+      },
+      "repeat_conventional": [
+        1,
+        1,
+        1
+      ],
+      "volume_ratio_to_start": 1.0,
+      "cell_lengths_A": [
+        4.7,
+        4.7,
+        4.7
+      ],
+      "volume_A3": 103.82300000000006,
+      "volume_A3_atom": 12.977875000000008,
+      "minimum_distance_A": 2.3499999999999996,
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "species_order": [
+        "Zr",
+        "C"
+      ],
+      "files": [
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc8_v100.POSCAR",
+          "sha256": "4523b1f24849c57b7d2ebdc7f84685485419a7292e10f44aff1c83c29a946191"
+        },
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc8_v100.extxyz",
+          "sha256": "16a10dfaeaa579bb5c277c3be7b75b0f774888cb258db1abffde456e51122305"
+        }
+      ]
+    },
+    {
+      "id": "zrc64_v095",
+      "atoms": 64,
+      "counts": {
+        "Zr": 32,
+        "C": 32
+      },
+      "repeat_conventional": [
+        2,
+        2,
+        2
+      ],
+      "volume_ratio_to_start": 0.95,
+      "cell_lengths_A": [
+        9.24064718142065,
+        9.24064718142065,
+        9.24064718142065
+      ],
+      "volume_A3": 789.0547999999997,
+      "volume_A3_atom": 12.328981249999995,
+      "minimum_distance_A": 2.310161795355161,
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "species_order": [
+        "Zr",
+        "C"
+      ],
+      "files": [
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc64_v095.POSCAR",
+          "sha256": "4291dc191dddb2f64d2b477526e70bef97dd6ec7ee6a5f96593433c0d69f80fa"
+        },
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc64_v095.extxyz",
+          "sha256": "94a9104e4f4e656ac39319d2e57ef2a71d0ebe41cd86b469abe6f0a0ba1cf62f"
+        }
+      ]
+    },
+    {
+      "id": "zrc64_v100",
+      "atoms": 64,
+      "counts": {
+        "Zr": 32,
+        "C": 32
+      },
+      "repeat_conventional": [
+        2,
+        2,
+        2
+      ],
+      "volume_ratio_to_start": 1.0,
+      "cell_lengths_A": [
+        9.4,
+        9.4,
+        9.4
+      ],
+      "volume_A3": 830.5840000000007,
+      "volume_A3_atom": 12.977875000000012,
+      "minimum_distance_A": 2.3499999999999988,
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "species_order": [
+        "Zr",
+        "C"
+      ],
+      "files": [
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc64_v100.POSCAR",
+          "sha256": "d67148786ead5ed0c84d68f909a01d8ce48b99a1d06e4be4222d8069165d16fa"
+        },
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc64_v100.extxyz",
+          "sha256": "c78069dfac03ae0c5c7cd192ea24c1a76eb4d3255ccb19b673c9a5a8c9851976"
+        }
+      ]
+    },
+    {
+      "id": "zrc64_v105",
+      "atoms": 64,
+      "counts": {
+        "Zr": 32,
+        "C": 32
+      },
+      "repeat_conventional": [
+        2,
+        2,
+        2
+      ],
+      "volume_ratio_to_start": 1.05,
+      "cell_lengths_A": [
+        9.554125754059623,
+        9.554125754059623,
+        9.554125754059623
+      ],
+      "volume_A3": 872.1131999999994,
+      "volume_A3_atom": 13.626768749999991,
+      "minimum_distance_A": 2.388531438514905,
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "species_order": [
+        "Zr",
+        "C"
+      ],
+      "files": [
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc64_v105.POSCAR",
+          "sha256": "683a01be47a1c4633e66b26a91e7c37867490b504d081ef54ddb8a6839e2dc23"
+        },
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc64_v105.extxyz",
+          "sha256": "f270f8fc8f85b3b4f14dfa60c138b9ee9551561dce4009345e7cea3fc22c57ee"
+        }
+      ]
+    },
+    {
+      "id": "zrc216_v095",
+      "atoms": 216,
+      "counts": {
+        "Zr": 108,
+        "C": 108
+      },
+      "repeat_conventional": [
+        3,
+        3,
+        3
+      ],
+      "volume_ratio_to_start": 0.95,
+      "cell_lengths_A": [
+        13.860970772130976,
+        13.860970772130976,
+        13.860970772130976
+      ],
+      "volume_A3": 2663.059950000003,
+      "volume_A3_atom": 12.328981250000014,
+      "minimum_distance_A": 2.3101617953551603,
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "species_order": [
+        "Zr",
+        "C"
+      ],
+      "files": [
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc216_v095.POSCAR",
+          "sha256": "d973bcb482ac5329afea45d78cbf8b955d3338ec9704352c67f6ac56b3c6b0d5"
+        },
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc216_v095.extxyz",
+          "sha256": "68d95c973486a28a1383de52e21bb7d3a1e22dd6ee83ef230c051d9b40379c00"
+        }
+      ]
+    },
+    {
+      "id": "zrc216_v100",
+      "atoms": 216,
+      "counts": {
+        "Zr": 108,
+        "C": 108
+      },
+      "repeat_conventional": [
+        3,
+        3,
+        3
+      ],
+      "volume_ratio_to_start": 1.0,
+      "cell_lengths_A": [
+        14.100000000000001,
+        14.100000000000001,
+        14.100000000000001
+      ],
+      "volume_A3": 2803.2209999999995,
+      "volume_A3_atom": 12.977874999999997,
+      "minimum_distance_A": 2.3499999999999996,
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "species_order": [
+        "Zr",
+        "C"
+      ],
+      "files": [
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc216_v100.POSCAR",
+          "sha256": "88a370b06d688f9b5c3e9d0eda7da6aa21281fe5014a0f5a913a601f46fbd80b"
+        },
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc216_v100.extxyz",
+          "sha256": "b8314ab7c62eda4bfefcc6a48922c6905b34d975ffd7c48f83e683dafb831129"
+        }
+      ]
+    },
+    {
+      "id": "zrc216_v105",
+      "atoms": 216,
+      "counts": {
+        "Zr": 108,
+        "C": 108
+      },
+      "repeat_conventional": [
+        3,
+        3,
+        3
+      ],
+      "volume_ratio_to_start": 1.05,
+      "cell_lengths_A": [
+        14.331188631089436,
+        14.331188631089436,
+        14.331188631089436
+      ],
+      "volume_A3": 2943.3820500000024,
+      "volume_A3_atom": 13.62676875000001,
+      "minimum_distance_A": 2.388531438514905,
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "species_order": [
+        "Zr",
+        "C"
+      ],
+      "files": [
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc216_v105.POSCAR",
+          "sha256": "87afac5c229446318230ded6a6fdd6d37bd891c0da2bd385bb4a82d53b2d7471"
+        },
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc216_v105.extxyz",
+          "sha256": "7477c3d893be00e61c65551a1639659344aec86009d8b3b8ffef0787ff1191de"
+        }
+      ]
+    },
+    {
+      "id": "zrc512_v100",
+      "atoms": 512,
+      "counts": {
+        "Zr": 256,
+        "C": 256
+      },
+      "repeat_conventional": [
+        4,
+        4,
+        4
+      ],
+      "volume_ratio_to_start": 1.0,
+      "cell_lengths_A": [
+        18.8,
+        18.8,
+        18.8
+      ],
+      "volume_A3": 6644.672000000008,
+      "volume_A3_atom": 12.977875000000015,
+      "minimum_distance_A": 2.3499999999999974,
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "species_order": [
+        "Zr",
+        "C"
+      ],
+      "files": [
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc512_v100.POSCAR",
+          "sha256": "359c6a0359ea134aed66ace421ecfd70799e390c7cc6ab1091c8b41d2dbd755d"
+        },
+        {
+          "path": "configs/structures/zrc_start_a4p700/zrc512_v100.extxyz",
+          "sha256": "8502735218f22893681d70d570ca253532a5289b77f89b10f3dc1ec13bd979c7"
+        }
+      ]
+    }
+  ]
+}

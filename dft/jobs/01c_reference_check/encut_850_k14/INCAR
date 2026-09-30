@@ -1,0 +1,26 @@
+# VASP 6.3.2; reference check, NOT a certified production label.
+# Inspect PSMAXN and all physical warnings before reference acceptance.
+SYSTEM = 01c_reference_check_encut_850_k14
+GGA = PE
+PREC = Accurate
+ENCUT = 850
+EDIFF = 1E-7
+ALGO = Normal
+NELM = 200
+NELMIN = 4
+ISTART = 0
+ICHARG = 2
+ISPIN = 1
+ISMEAR = 0
+SIGMA = 0.1
+LREAL = .FALSE.
+LASPH = .TRUE.
+ADDGRID = .FALSE.
+LMAXMIX = 4
+ISYM = 0
+NSW = 0
+IBRION = -1
+ISIF = 2
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+NWRITE = 2

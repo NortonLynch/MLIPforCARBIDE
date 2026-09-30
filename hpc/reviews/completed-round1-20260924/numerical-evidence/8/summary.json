@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "production": {
+    "pending": 2
+  },
+  "gates": {
+    "warm_8": {
+      "status": "passed",
+      "initial_checkpoint": "jobs/zrc8_T3000_v100_s17/pilot-source/checkpoint.npz",
+      "initial_sha256": "90775a3018440a267051ad113712aa43f1dce5608376da93774e6afcb64eb276",
+      "static_precision": {
+        "relative_energy_delta_meV_atom": 0.0005942842911110802,
+        "force_component_RMS_eV_A": 3.135087386986032e-06,
+        "force_component_max_eV_A": 8.882891299188955e-06,
+        "stress_component_max_GPa": 6.605586024044168e-05,
+        "energy_diagnostics": {
+          "float32": {
+            "energy_eV_atom": -9.383919715881348,
+            "reference_energy_eV_atom": -9.711848258972168,
+            "relative_energy_eV_atom": 0.3279294967651367
+          },
+          "float64": {
+            "energy_eV_atom": -9.38392023476045,
+            "reference_energy_eV_atom": -9.711849137241297,
+            "relative_energy_eV_atom": 0.3279289024808456
+          }
+        },
+        "float32_pass": true
+      },
+      "selected_dt_fs": 0.5,
+      "selected_dtype": "float32",
+      "completed_utc": "2026-09-22T07:57:01.716261+00:00",
+      "errors": [],
+      "qualification": "numerical_screen_only_not_physical_validation"
+    },
+    "high_8": {
+      "status": "passed",
+      "initial_checkpoint": "jobs/zrc8_T6000_v100_s17/pilot-source/checkpoint.npz",
+      "initial_sha256": "8f41c06acd87fe626fff3325ba0fbd103447d1ca93bcc37e619ba99e339e2671",
+      "static_precision": {
+        "relative_energy_delta_meV_atom": 6.451143974572915e-05,
+        "force_component_RMS_eV_A": 3.0759801044323363e-06,
+        "force_component_max_eV_A": 6.014716769309203e-06,
+        "stress_component_max_GPa": 3.791141432994047e-05,
+        "energy_diagnostics": {
+          "float32": {
+            "energy_eV_atom": -9.100320816040039,
+            "reference_energy_eV_atom": -9.711849212646484,
+            "relative_energy_eV_atom": 0.6115283966064453
+          },
+          "float64": {
+            "energy_eV_atom": -9.100320676123411,
+            "reference_energy_eV_atom": -9.711849137241297,
+            "relative_energy_eV_atom": 0.6115284611178851
+          }
+        },
+        "float32_pass": true
+      },
+      "selected_dt_fs": 0.5,
+      "selected_dtype": "float32",
+      "completed_utc": "2026-09-22T08:02:53.049265+00:00",
+      "errors": [],
+      "qualification": "numerical_screen_only_not_physical_validation"
+    }
+  },
+  "physical_validated": false
+}

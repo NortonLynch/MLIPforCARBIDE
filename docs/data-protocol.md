@@ -1,10 +1,14 @@
 # 数据与复现约定
 
+> 当前进度见 [project-status.md](project-status.md)。本轮按全局MD种子划分来源：17开发/校准、42验证预留、2026测试预留，同种子的尺寸/体积/加热后代不拆分。18个协议校准帧不计入训练序列，详见 [冻结方案](candidate-selection-20260924.md)。PBE.64 smoke与基础收敛计算已审核，真实MD帧的36项网格比较尚待回传。
+
 ## 目录和数据流
 
 `raw → candidates → labeled → splits → experiments → results`
 
-DFT 原始作业保存在 `dft/jobs/`，解析得到的规范标签保存在 `data/labeled/`。模型检查点保存在 `models/`。上述大型产物由 `.gitignore` 排除；将其存储位置、校验值和来源写入轻量清单后再版本化。
+VASP 6.3.2 输入统一存放在 `dft/jobs/`，其中 `job-list.csv` 为参数清单，`jobs.list` 为相对路径清单；POTCAR 已从用户提供的 `dft/potpaw_PBE.64.tgz` 解压库按 POSCAR 顺序组装，当前协议为 `zrc-pbe64-zrsv-c-v2-proposed`，来源、势头信息和校验值见 `dft/jobs/potcar-inventory.json`。轻量输入与清单纳入版本控制，原始输出在对应作业目录归档并由该目录的 `.gitignore` 排除。解析得到的规范标签保存在 `data/labeled/`。模型检查点保存在 `models/`。上述大型产物由 `.gitignore` 排除；将其存储位置、校验值和来源写入轻量清单后再版本化。
+
+换库前的输入、旧烟雾测试 Slurm 15309631 输出及审核证据保存在 `dft/archive/paw-pbe-legacy-before-64/`。旧势结果属于原协议；新PBE.64烟雾测试、11项收敛与3项补测均已审核。解析历史结果必须读取同一归档中的原始输入，不能关联到活动目录的新POTCAR，也不能混用两个协议的标签。
 
 ## 单位和构型记录
 

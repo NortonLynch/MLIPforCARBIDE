@@ -1,0 +1,27 @@
+{
+  "job_id": "zrc216_T3000_v100_s17",
+  "source_group": "zrc216_v100_s17_heating",
+  "atoms": 216,
+  "target_temperature_K": 3000,
+  "stage": "migration_restart",
+  "ensemble": "NVT",
+  "expected_duration_fs": 100.0,
+  "time_step_fs": 0.5,
+  "dtype": "float32",
+  "model_sha256": "a522eb7f59c7879963d41586528f4980baf33e086c94aa92e3eafdeccad3be47",
+  "head": "omat_pbe",
+  "versions": {
+    "mace-torch": "0.3.16",
+    "torch": "2.5.1+cu118",
+    "ase": "3.29.0",
+    "numpy": "1.26.4"
+  },
+  "log_interval_fs": 5.0,
+  "checkpoint_interval_fs": 50.0,
+  "frame_interval_fs": 50.0,
+  "friction_per_fs": 0.01,
+  "nve_drift_limit_meV_atom_ps": 1.0,
+  "hpc_bundle_sha256": "60145fdfcf66c83909cbd288c12a70a3342d27bbdd87e2033ad4f621679f762b",
+  "hpc_environment_sha256": "b51f3363223aa8c56a2652036a171e3d67054f8ff787cf3fe0dae02e5f01629c",
+  "initial_pilot_sha256": "e99f1fe7dcd6b6339d199f20b105c4f08afc0028ae1ecfc4cf99a2cdc514a352"
+}
