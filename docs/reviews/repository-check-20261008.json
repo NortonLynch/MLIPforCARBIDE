@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-08",
+  "scope": "Workspace organization and Git publication of reviewed progress; no new research calculations",
+  "indexed_files_before_this_report": 762,
+  "indexed_total_bytes_before_this_report": 17110458,
+  "checks": {
+    "json": 315,
+    "python": 39,
+    "shell": 14,
+    "byte_preserved": 711,
+    "entry_links": 106
+  },
+  "credential_pattern_scan": "no matches",
+  "local_only_links_verified_existing": [
+    {
+      "document": "docs/project-status.md",
+      "target": "hpc/results/zrc-dft600-k67-20261008"
+    },
+    {
+      "document": "hpc/README.md",
+      "target": "hpc/results/zrc-dft600-k67-20261008"
+    },
+    {
+      "document": "hpc/README.md",
+      "target": "hpc/zrc-dft600-k67.tgz"
+    }
+  ],
+  "cpu_tests": {
+    "command": "conda run --no-capture-output -n carbide-analysis python -m unittest discover -s tests -v",
+    "total": 49,
+    "passed": 47,
+    "skipped": 2,
+    "duration_seconds": 8.732,
+    "skip_reason": "Retired collector-only scripts; historical evidence retained",
+    "real_GPU_or_cluster_calculation": false,
+    "non_failure_warnings": "ASE/NumPy deprecation warnings"
+  },
+  "preserved_artifacts": {
+    "MD_jobs": 162,
+    "MD_production_files": 972,
+    "MD_review_files": 324,
+    "calibration_POSCARs": 18,
+    "DFT_successful_runs": 36,
+    "DFT_input_checksums": 262,
+    "bundles_checked": 2,
+    "total_SHA256_checks": 1938
+  },
+  "organization": {
+    "moves": [
+      "hpc/vasp-15501455_22.out -> hpc/reviews/dft600-k67-task22-20261002/evidence/vasp-15501455_22.out"
+    ],
+    "deletions": 0,
+    "raw_scientific_data_paths_unchanged": true,
+    "historical_presentation_slides": 3,
+    "presentation_image_matches_source": true,
+    "git_boundary": "No POTCAR content, model weights, raw trajectories, full DFT output or task archives"
+  },
+  "workspace_inventory_excluding_git_tmp_caches": {
+    "(root files)": {
+      "files": 4,
+      "bytes": 12034
+    },
+    "configs": {
+      "files": 25,
+      "bytes": 202647
+    },
+    "data": {
+      "files": 30,
+      "bytes": 56147872
+    },
+    "dft": {
+      "files": 1609,
+      "bytes": 278335841
+    },
+    "docs": {
+      "files": 33,
+      "bytes": 5316624
+    },
+    "experiments": {
+      "files": 2341,
+      "bytes": 179635214
+    },
+    "hpc": {
+      "files": 4310,
+      "bytes": 1365921269
+    },
+    "models": {
+      "files": 2,
+      "bytes": 59208817
+    },
+    "notebooks": {
+      "files": 1,
+      "bytes": 184
+    },
+    "outputs": {
+      "files": 2,
+      "bytes": 1639650
+    },
+    "results": {
+      "files": 2,
+      "bytes": 1275
+    },
+    "scripts": {
+      "files": 25,
+      "bytes": 232505
+    },
+    "src": {
+      "files": 1,
+      "bytes": 665
+    },
+    "tests": {
+      "files": 7,
+      "bytes": 53892
+    }
+  },
+  "issues": [],
+  "passed": true
+}

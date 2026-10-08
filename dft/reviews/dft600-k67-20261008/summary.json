@@ -1,0 +1,57 @@
+{
+  "review_date": "2026-10-08",
+  "results_directory": "hpc/results/zrc-dft600-k67-20261008",
+  "original_bundle_checksums_verified": 262,
+  "task_count": 36,
+  "pairs_count": 18,
+  "all_numerical_integrity_checks_pass": true,
+  "numerical_pattern_alerts": {},
+  "performance_advisories": {
+    "advisory_LREAL_auto": 36,
+    "advisory_NCORE1": 36
+  },
+  "all_pair_budgets_pass": true,
+  "tolerances": {
+    "relative_energy_meV_atom": 1,
+    "force_component_RMS_eV_A": 0.01,
+    "force_component_max_eV_A": 0.03,
+    "stress_component_max_GPa": 0.1
+  },
+  "maxima": {
+    "relative_energy_meV_atom": {
+      "value": -0.17404874999726871,
+      "structure_id": "08_zrc64_T3000_v095_s17_f0030"
+    },
+    "force_component_RMS_eV_A": {
+      "value": 0.0019003780962194362,
+      "structure_id": "02_zrc64_T0300_v095_s17_f0165"
+    },
+    "force_component_max_eV_A": {
+      "value": 0.005937749999999964,
+      "structure_id": "02_zrc64_T0300_v095_s17_f0165"
+    },
+    "stress_component_max_GPa": {
+      "value": 0.01198093699999987,
+      "structure_id": "04_zrc64_T1500_v100_s17_f0085"
+    }
+  },
+  "wall_seconds_sum": {
+    "6": 189626.616,
+    "7": 292426.045
+  },
+  "k7_over_k6_wall_ratio": 1.5421149792600843,
+  "k6_wall_saving_fraction_vs_k7": 0.35153992182878235,
+  "cost_scope": "Sum of successful VASP wall times on 56 MPI ranks; excludes cancelled original22 and queue wait; different nodes prevent treating this as a controlled speed benchmark.",
+  "scf_steps_range": [
+    17,
+    23
+  ],
+  "highest_band_occupation_max": 0.0,
+  "xml_stress_antisymmetry_max_GPa": 1.9580000000019026e-06,
+  "sigma0_minus_free_meV_atom_range": [
+    0.3239842187490183,
+    1.5332739062507983
+  ],
+  "raw_label_energy": "e_fr_energy (VASP TOTEN); no shifts applied to saved labels",
+  "relative_energy_reference": "01_zrc64_T0300_v100_s17_f0085"
+}

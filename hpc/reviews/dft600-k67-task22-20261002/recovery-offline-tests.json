@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "scope": "Offline scheduler mocks only; no real Slurm or VASP execution",
+  "checks": [
+    "Syntax and dry-run: index22, concurrency1, explicit node exclusion; no submission state",
+    "Rejects all indices other than22",
+    "Refuses missing original submission history",
+    "Refuses original array while live",
+    "Refuses any recorded retry while live",
+    "Queue failure blocks submission",
+    "Single accepted mock submission preserves resources and records job identity/history",
+    "Second invocation cannot duplicate recovery submission",
+    "All262 original bundle checksums unchanged"
+  ],
+  "script_sha256": "4bfe925b559bb051858874cb00a6c8e77bcbde2fec8f5146dd9020d3083fa54b",
+  "scratch": "D:\\MaterialModel\\tmp\\retry22-check-1790936433620678500"
+}

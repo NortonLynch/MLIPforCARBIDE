@@ -1,10 +1,13 @@
 * text=auto
+.gitattributes text eol=lf
 *.md text eol=lf
 *.py text eol=lf
 *.json text eol=lf
 *.txt text eol=lf
 *.sh text eol=lf
 *.png binary
+*.pdf binary
+*.pptx binary
 
 # Preserve exact bytes for input identities and historical SHA-256 records.
 # -text disables newline conversion, while retaining normal text diffs.
@@ -18,3 +21,6 @@ scripts/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 # ASE's frozen VASP species headers include spaces; preserve their hashes.
 **/POSCAR whitespace=-blank-at-eol,cr-at-eol
 *.POSCAR whitespace=-blank-at-eol,cr-at-eol
+
+# Preserve the original Slurm table padding and terminal blank lines as evidence.
+hpc/reviews/dft600-k67-task22-20261002/evidence/*.txt whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol

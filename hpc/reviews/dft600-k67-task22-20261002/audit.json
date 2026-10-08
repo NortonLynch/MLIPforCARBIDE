@@ -1,0 +1,426 @@
+{
+  "review_date": "2026-10-02",
+  "snapshot_time": "2026-10-02T18:02:08+0800",
+  "source_archive": "hpc/debug22-20261002-180208.tgz",
+  "source_archive_sha256": "c1dbc62239ffe7c83c9f41c6690a1347110b623c7d2e2413e0b2b7018e21e1d3",
+  "scope": "Diagnostic snapshot only. No cluster operation performed by this review. No DFT energy/force/stress outputs returned.",
+  "array_job_id": 15501455,
+  "scheduler_completed_exit_zero_count": 35,
+  "scientifically_accepted_count": null,
+  "task22": {
+    "array_task_id": "15501455_22",
+    "index": 22,
+    "job_id": 15514652,
+    "state": "RUNNING",
+    "exit_code": "0:0",
+    "elapsed": "1-07:41:05",
+    "total_cpu_display": "00:00:00",
+    "node": "ibc12b07n24"
+  },
+  "paired_task23": {
+    "array_task_id": "15501455_23",
+    "index": 23,
+    "job_id": 15515222,
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed": "05:13:00",
+    "total_cpu_display": "12-03:57:+",
+    "node": "ibc11b02n23"
+  },
+  "script_identity_checks": {
+    "run_one.sh": true,
+    "job_array.slurm": true,
+    "jobs.list": true,
+    "submitted.slurm_matches_job_array": true
+  },
+  "facts": [
+    "Task 22 has only batch and extern accounting rows; no normal .0 MPI step is recorded, whereas all 35 completed tasks have .0 rows.",
+    "Live stats report batch NTasks=1, AveCPU=00:00:00, MaxRSS=224K; extern NTasks=1, AveCPU=00:00:00, MaxRSS=0.",
+    "Both Slurm logs are zero bytes; supplied listing contains only inputs in the expected k6 directory and no runs directory.",
+    "Job WorkDir and Command match the intended bundle root.",
+    "The local worker creates the run directory and prints its location before loading modules or invoking MPI."
+  ],
+  "assessment": "Strong evidence of abnormal launch or early filesystem access before the expected VASP execution stage; no evidence of an SCF convergence problem.",
+  "root_cause_confirmed": false,
+  "limitations": [
+    "Running-job accounting can be incomplete; zero CPU or a missing step alone is not proof that no process exists.",
+    "Cannot distinguish node launch, shell startup, shared filesystem access or accounting/visibility issues without node-side process and Slurm logs.",
+    "The snapshot predates any subsequent cancellation or retry; their current status is unknown.",
+    "35 scheduler completions do not substitute for scientific result acceptance."
+  ],
+  "recommended_action": "Cancel only array task 15501455_22 after preserving evidence; confirm it is terminal, then retry only index 22 with identical VASP inputs. Investigate node ibc12b07n24; do not assume its root cause is proven.",
+  "records": [
+    {
+      "array_task_id": "15501455_0",
+      "index": 0,
+      "job_id": 15501456,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "02:42:08",
+      "total_cpu_display": "6-07:13:02",
+      "node": "ibc11b07n33"
+    },
+    {
+      "array_task_id": "15501455_1",
+      "index": 1,
+      "job_id": 15501457,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "04:10:41",
+      "total_cpu_display": "9-17:50:01",
+      "node": "ibc13b06n35"
+    },
+    {
+      "array_task_id": "15501455_2",
+      "index": 2,
+      "job_id": 15501458,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "02:25:14",
+      "total_cpu_display": "5-15:26:53",
+      "node": "ibc11b09n25"
+    },
+    {
+      "array_task_id": "15501455_3",
+      "index": 3,
+      "job_id": 15501459,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "03:42:36",
+      "total_cpu_display": "8-15:38:27",
+      "node": "ibc11b09n26"
+    },
+    {
+      "array_task_id": "15501455_4",
+      "index": 4,
+      "job_id": 15504544,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "02:55:03",
+      "total_cpu_display": "6-19:16:21",
+      "node": "ibc11b08n27"
+    },
+    {
+      "array_task_id": "15501455_5",
+      "index": 5,
+      "job_id": 15504623,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "04:29:04",
+      "total_cpu_display": "10-10:59:+",
+      "node": "ibc11b07n33"
+    },
+    {
+      "array_task_id": "15501455_6",
+      "index": 6,
+      "job_id": 15505385,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "02:51:51",
+      "total_cpu_display": "6-16:17:11",
+      "node": "ibc11b04n03"
+    },
+    {
+      "array_task_id": "15501455_7",
+      "index": 7,
+      "job_id": 15505430,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "04:23:35",
+      "total_cpu_display": "10-05:52:+",
+      "node": "ibc12b04n38"
+    },
+    {
+      "array_task_id": "15501455_8",
+      "index": 8,
+      "job_id": 15506287,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "02:22:40",
+      "total_cpu_display": "5-13:04:02",
+      "node": "ibc11b02n23"
+    },
+    {
+      "array_task_id": "15501455_9",
+      "index": 9,
+      "job_id": 15512462,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "03:38:18",
+      "total_cpu_display": "8-11:37:22",
+      "node": "ibc11b04n03"
+    },
+    {
+      "array_task_id": "15501455_10",
+      "index": 10,
+      "job_id": 15512752,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "03:05:07",
+      "total_cpu_display": "7-04:38:52",
+      "node": "ibc11b02n37"
+    },
+    {
+      "array_task_id": "15501455_11",
+      "index": 11,
+      "job_id": 15512968,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "04:44:03",
+      "total_cpu_display": "11-00:57:+",
+      "node": "ibc11b02n23"
+    },
+    {
+      "array_task_id": "15501455_12",
+      "index": 12,
+      "job_id": 15513107,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "02:34:01",
+      "total_cpu_display": "5-23:38:54",
+      "node": "ibc12b03n08"
+    },
+    {
+      "array_task_id": "15501455_13",
+      "index": 13,
+      "job_id": 15513749,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "04:15:11",
+      "total_cpu_display": "9-22:01:23",
+      "node": "ibc11b02n34"
+    },
+    {
+      "array_task_id": "15501455_14",
+      "index": 14,
+      "job_id": 15513752,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "02:28:49",
+      "total_cpu_display": "5-18:47:49",
+      "node": "ibc11b02n37"
+    },
+    {
+      "array_task_id": "15501455_15",
+      "index": 15,
+      "job_id": 15513801,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "03:47:00",
+      "total_cpu_display": "8-19:44:31",
+      "node": "ibc11b07n09"
+    },
+    {
+      "array_task_id": "15501455_16",
+      "index": 16,
+      "job_id": 15513885,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "03:13:12",
+      "total_cpu_display": "7-12:12:33",
+      "node": "ibc11b02n23"
+    },
+    {
+      "array_task_id": "15501455_17",
+      "index": 17,
+      "job_id": 15513900,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "04:57:35",
+      "total_cpu_display": "11-13:34:+",
+      "node": "ibc11b02n37"
+    },
+    {
+      "array_task_id": "15501455_18",
+      "index": 18,
+      "job_id": 15514467,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "02:48:53",
+      "total_cpu_display": "6-13:31:45",
+      "node": "ibc11b02n34"
+    },
+    {
+      "array_task_id": "15501455_19",
+      "index": 19,
+      "job_id": 15514487,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "04:17:29",
+      "total_cpu_display": "10-00:08:+",
+      "node": "ibc11b08n21"
+    },
+    {
+      "array_task_id": "15501455_20",
+      "index": 20,
+      "job_id": 15514526,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "02:35:49",
+      "total_cpu_display": "6-01:19:38",
+      "node": "ibc11b02n23"
+    },
+    {
+      "array_task_id": "15501455_21",
+      "index": 21,
+      "job_id": 15514620,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "03:57:21",
+      "total_cpu_display": "9-05:24:29",
+      "node": "ibc12b04n38"
+    },
+    {
+      "array_task_id": "15501455_22",
+      "index": 22,
+      "job_id": 15514652,
+      "state": "RUNNING",
+      "exit_code": "0:0",
+      "elapsed": "1-07:41:05",
+      "total_cpu_display": "00:00:00",
+      "node": "ibc12b07n24"
+    },
+    {
+      "array_task_id": "15501455_23",
+      "index": 23,
+      "job_id": 15515222,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "05:13:00",
+      "total_cpu_display": "12-03:57:+",
+      "node": "ibc11b02n23"
+    },
+    {
+      "array_task_id": "15501455_24",
+      "index": 24,
+      "job_id": 15515502,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "03:07:23",
+      "total_cpu_display": "7-06:46:32",
+      "node": "ibc11b08n21"
+    },
+    {
+      "array_task_id": "15501455_25",
+      "index": 25,
+      "job_id": 15515775,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "04:50:20",
+      "total_cpu_display": "11-06:48:+",
+      "node": "ibc11b07n20"
+    },
+    {
+      "array_task_id": "15501455_26",
+      "index": 26,
+      "job_id": 15515839,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "02:55:35",
+      "total_cpu_display": "6-19:46:20",
+      "node": "ibc11b07n31"
+    },
+    {
+      "array_task_id": "15501455_27",
+      "index": 27,
+      "job_id": 15516401,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "04:31:26",
+      "total_cpu_display": "10-13:12:+",
+      "node": "ibc11b02n23"
+    },
+    {
+      "array_task_id": "15501455_28",
+      "index": 28,
+      "job_id": 15517277,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "03:36:03",
+      "total_cpu_display": "8-09:25:58",
+      "node": "ibc11b02n15"
+    },
+    {
+      "array_task_id": "15501455_29",
+      "index": 29,
+      "job_id": 15517344,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "05:29:53",
+      "total_cpu_display": "12-19:43:+",
+      "node": "ibc11b07n20"
+    },
+    {
+      "array_task_id": "15501455_30",
+      "index": 30,
+      "job_id": 15521305,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "03:11:19",
+      "total_cpu_display": "7-10:27:22",
+      "node": "ibc11b02n23"
+    },
+    {
+      "array_task_id": "15501455_31",
+      "index": 31,
+      "job_id": 15523646,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "04:53:39",
+      "total_cpu_display": "11-09:50:+",
+      "node": "ibc11b02n15"
+    },
+    {
+      "array_task_id": "15501455_32",
+      "index": 32,
+      "job_id": 15524382,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "02:56:02",
+      "total_cpu_display": "6-20:11:30",
+      "node": "ibc11b02n23"
+    },
+    {
+      "array_task_id": "15501455_33",
+      "index": 33,
+      "job_id": 15524424,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "04:29:46",
+      "total_cpu_display": "10-11:38:+",
+      "node": "ibc11b07n20"
+    },
+    {
+      "array_task_id": "15501455_34",
+      "index": 34,
+      "job_id": 15525203,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "03:30:45",
+      "total_cpu_display": "8-04:30:25",
+      "node": "ibc11b02n15"
+    },
+    {
+      "array_task_id": "15501455_35",
+      "index": 35,
+      "job_id": 15501455,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "05:23:44",
+      "total_cpu_display": "12-13:58:+",
+      "node": "ibc11b02n23"
+    }
+  ],
+  "evidence_sha256": {
+    "job_array.slurm": "8182d189b88daee4824ac3ee6ca96f85c7daacb13c59558e204cf94bf582a3bb",
+    "accounting.txt": "25fecdf19b878f1a954fc2d82fb592273d38a11d564928288393be2f79203b53",
+    "jobs.list": "c9cd4b443c6adb1a3ac1a12774d667aa750b6c5cd39fbf50c7ae6b368300d9c1",
+    "submitted.slurm": "8182d189b88daee4824ac3ee6ca96f85c7daacb13c59558e204cf94bf582a3bb",
+    "live-stats.txt": "c0342346c97baa22835a594ecdf9503a65a62833f0e2c584062c3d77072d4ad2",
+    "script-export.txt": "f0bd92fac7be49d40902165a46064bef64012b09c8dc3d0465d2b3793be225da",
+    "files.txt": "622b2852fcd45d344c0d6b31675567b1f1a092634d4bd6a616b735b369988706",
+    "run_one.sh": "39192c432365c57fd98016a76304ce212f799bca695437322d6e6b22436e4dad",
+    "time.txt": "f5930fbf612b51208f75956dbb15cacd6745b0c00930936a81218058962cf9de",
+    "job.txt": "d2677480cb3fc1eb5beee585350ea04aefb70bf4ff1036f954e2d6234176f756"
+  }
+}

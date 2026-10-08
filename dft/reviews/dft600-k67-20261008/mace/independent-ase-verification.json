@@ -1,0 +1,403 @@
+{
+  "all_checks_passed": true,
+  "DFT_count": 36,
+  "stress_note": "XML stress has tiny antisymmetric/printed-rounding residuals. Upper triangle is used, matching ASE VASP reader; residuals are recorded below, not silently averaged.",
+  "checks": [
+    {
+      "structure_id": "01_zrc64_T0300_v100_s17_f0085",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 3.469446951953614e-18,
+        "XML_stress_antisymmetric_residual_max_kbar": 3.7000000002729294e-07
+      }
+    },
+    {
+      "structure_id": "01_zrc64_T0300_v100_s17_f0085",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 5.421010862427522e-20,
+        "XML_stress_antisymmetric_residual_max_kbar": 3.699999999717818e-07
+      }
+    },
+    {
+      "structure_id": "02_zrc64_T0300_v095_s17_f0165",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 1.3877787807814457e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 8.000000006891383e-08
+      }
+    },
+    {
+      "structure_id": "02_zrc64_T0300_v095_s17_f0165",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.117582368135751e-22,
+        "XML_stress_antisymmetric_residual_max_kbar": 2.7999999996364267e-07
+      }
+    },
+    {
+      "structure_id": "03_zrc64_T0300_v105_s17_f0100",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 6.938893903907228e-18,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.8999999998325912e-07
+      }
+    },
+    {
+      "structure_id": "03_zrc64_T0300_v105_s17_f0100",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 1.0842021724855044e-19,
+        "XML_stress_antisymmetric_residual_max_kbar": 2.0000000000575113e-07
+      }
+    },
+    {
+      "structure_id": "04_zrc64_T1500_v100_s17_f0085",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 6.938893903907228e-18,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.0400000007848575e-06
+      }
+    },
+    {
+      "structure_id": "04_zrc64_T1500_v100_s17_f0085",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 6.938893903907228e-18,
+        "XML_stress_antisymmetric_residual_max_kbar": 9.70000000322102e-07
+      }
+    },
+    {
+      "structure_id": "05_zrc64_T1500_v095_s17_f0180",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 2.049999999996499e-06
+      }
+    },
+    {
+      "structure_id": "05_zrc64_T1500_v095_s17_f0180",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 2.2499999999987808e-06
+      }
+    },
+    {
+      "structure_id": "06_zrc64_T1500_v105_s17_f0190",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 3.469446951953614e-18,
+        "XML_stress_antisymmetric_residual_max_kbar": 2.61000000001399e-06
+      }
+    },
+    {
+      "structure_id": "06_zrc64_T1500_v105_s17_f0190",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 1.0842021724855044e-19,
+        "XML_stress_antisymmetric_residual_max_kbar": 2.45999999992641e-06
+      }
+    },
+    {
+      "structure_id": "07_zrc64_T3000_v100_s17_f0045",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 6.938893903907228e-18,
+        "XML_stress_antisymmetric_residual_max_kbar": 9.290000000383714e-06
+      }
+    },
+    {
+      "structure_id": "07_zrc64_T3000_v100_s17_f0045",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 1.3877787807814457e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 9.38000000072492e-06
+      }
+    },
+    {
+      "structure_id": "08_zrc64_T3000_v095_s17_f0030",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.2250000001046146e-05
+      }
+    },
+    {
+      "structure_id": "08_zrc64_T3000_v095_s17_f0030",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.2339999999610995e-05
+      }
+    },
+    {
+      "structure_id": "09_zrc64_T3000_v105_s17_f0005",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 3.469446951953614e-18,
+        "XML_stress_antisymmetric_residual_max_kbar": 7.94999999964574e-06
+      }
+    },
+    {
+      "structure_id": "09_zrc64_T3000_v105_s17_f0005",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 1.734723475976807e-18,
+        "XML_stress_antisymmetric_residual_max_kbar": 7.860000000192713e-06
+      }
+    },
+    {
+      "structure_id": "10_zrc64_T4500_v100_s17_f0005",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 1.3877787807814457e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 9.479999999228994e-06
+      }
+    },
+    {
+      "structure_id": "10_zrc64_T4500_v100_s17_f0005",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 1.734723475976807e-18,
+        "XML_stress_antisymmetric_residual_max_kbar": 9.46999999840159e-06
+      }
+    },
+    {
+      "structure_id": "11_zrc64_T4500_v095_s17_f0085",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.0950000000065074e-05
+      }
+    },
+    {
+      "structure_id": "11_zrc64_T4500_v095_s17_f0085",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.1060000000284731e-05
+      }
+    },
+    {
+      "structure_id": "12_zrc64_T4500_v105_s17_f0010",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 0.0,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.1060000002061088e-05
+      }
+    },
+    {
+      "structure_id": "12_zrc64_T4500_v105_s17_f0010",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 1.734723475976807e-18,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.1060000002061088e-05
+      }
+    },
+    {
+      "structure_id": "13_zrc64_T5250_v100_s17_f0080",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.3879999999966142e-05
+      }
+    },
+    {
+      "structure_id": "13_zrc64_T5250_v100_s17_f0080",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.367999999996039e-05
+      }
+    },
+    {
+      "structure_id": "14_zrc64_T5250_v095_s17_f0140",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 7.950000000533919e-06
+      }
+    },
+    {
+      "structure_id": "14_zrc64_T5250_v095_s17_f0140",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 7.99000000029082e-06
+      }
+    },
+    {
+      "structure_id": "15_zrc64_T5250_v105_s17_f0055",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.7759999998645526e-05
+      }
+    },
+    {
+      "structure_id": "15_zrc64_T5250_v105_s17_f0055",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 6.776263578034403e-21,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.7699999997233817e-05
+      }
+    },
+    {
+      "structure_id": "16_zrc64_T6000_v100_s17_f0115",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.168404344971009e-19,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.2849999997399664e-05
+      }
+    },
+    {
+      "structure_id": "16_zrc64_T6000_v100_s17_f0115",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.2789999999540669e-05
+      }
+    },
+    {
+      "structure_id": "17_zrc64_T6000_v095_s17_f0175",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.9580000000019027e-05
+      }
+    },
+    {
+      "structure_id": "17_zrc64_T6000_v095_s17_f0175",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.949000000012191e-05
+      }
+    },
+    {
+      "structure_id": "18_zrc64_T6000_v105_s17_f0065",
+      "kmesh": 6,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 2.7755575615628914e-17,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.948000000240313e-05
+      }
+    },
+    {
+      "structure_id": "18_zrc64_T6000_v105_s17_f0065",
+      "kmesh": 7,
+      "checks": {
+        "ase_force_consistent_energy_delta_eV": 0.0,
+        "OUTCAR_TOTEN_delta_eV": 0.0,
+        "ase_forces_max_delta_eV_A": 0.0,
+        "ase_stress_max_delta_eV_A3": 3.469446951953614e-18,
+        "XML_stress_antisymmetric_residual_max_kbar": 1.9319999999822812e-05
+      }
+    }
+  ]
+}

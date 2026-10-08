@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-08",
+  "status": "pass",
+  "independent_DFT_label_crosschecks": 36,
+  "baseline_INCAR_matches_frozen_inputs_except_SYSTEM": true,
+  "python_files_parse": [
+    "analyze_zrc_dft600_k67.py",
+    "compare_zrc_calibration_mace.py",
+    "plot_zrc_dft_review.py"
+  ],
+  "existing_local_document_links_checked": 61,
+  "csv_row_counts": [
+    18,
+    36,
+    14
+  ],
+  "plot_outputs_present": 4,
+  "visual_review": "Both PNGs inspected: readable labels, no clipping; no inferred reliability boundary drawn.",
+  "external_jobs_submitted": false
+}

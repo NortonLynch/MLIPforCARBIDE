@@ -1,0 +1,31 @@
+JobId=15514652 ArrayJobId=15501455 ArrayTaskId=22 ArrayTaskThrottle=4 JobName=zrc600-k67
+   UserId=gongqianm(10520) GroupId=users(10000) MCS_label=N/A
+   Priority=1 Nice=0 Account=users QOS=defaultqos
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=1-07:41:05 TimeLimit=10-00:00:00 TimeMin=N/A
+   SubmitTime=2026-09-30T16:38:19 EligibleTime=2026-10-01T10:21:03
+   AccrueTime=2026-09-30T16:38:20
+   StartTime=2026-10-01T10:21:03 EndTime=2026-10-11T10:21:03 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-01T10:21:03 Scheduler=Main
+   Partition=cnall AllocNode:Sid=ibc12b01n05:51291
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=ibc12b07n24
+   BatchHost=ibc12b07n24
+   NumNodes=1 NumCPUs=56 NumTasks=56 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=56,node=1,billing=56
+   Socks/Node=* NtasksPerN:B:S:C=56:0:*:* CoreSpec=*
+   JOB_GRES=(null)
+     Nodes=ibc12b07n24 CPU_IDs=0-55 Mem=0 GRES=
+   MinCPUsNode=56 MinMemoryNode=0 MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/WORK/gongqianm_work/MaterialModel-HPC/zrc-dft600-k67/job_array.slurm
+   WorkDir=/WORK/gongqianm_work/MaterialModel-HPC/zrc-dft600-k67
+   StdErr=/WORK/gongqianm_work/MaterialModel-HPC/zrc-dft600-k67/logs/vasp-15501455_22.err
+   StdIn=/dev/null
+   StdOut=/WORK/gongqianm_work/MaterialModel-HPC/zrc-dft600-k67/logs/vasp-15501455_22.out
+   Power=
+   
+

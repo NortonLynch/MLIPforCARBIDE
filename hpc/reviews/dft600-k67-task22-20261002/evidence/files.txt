@@ -1,0 +1,12 @@
+-rw-r--r-- 1 gongqianm users    0 Oct  1 10:21 logs/vasp-15501455_22.err
+-rw-r--r-- 1 gongqianm users    0 Oct  1 10:21 logs/vasp-15501455_22.out
+
+structures/12_zrc64_T4500_v105_s17_f0010/k6:
+total 460
+-rw-r--r-- 1 gongqianm users    370 Jan  1  1970 INCAR
+-rw-r--r-- 1 gongqianm users    450 Jan  1  1970 INPUT_SHA256SUMS
+-rw-r--r-- 1 gongqianm users   2626 Jan  1  1970 job.json
+-rw-r--r-- 1 gongqianm users     41 Jan  1  1970 KPOINTS
+-rw-r--r-- 1 gongqianm users   4231 Jan  1  1970 POSCAR
+-rw-r--r-- 1 gongqianm users 442294 Jan  1  1970 POTCAR
+-rw-r--r-- 1 gongqianm users   1691 Jan  1  1970 POTCAR.meta.json

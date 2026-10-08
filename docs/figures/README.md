@@ -7,4 +7,6 @@
 - 原子结构和可靠性地图均为概念示意，不是计算结果。
 - 迭代选样依靠验证集和训练侧新轨迹，固定测试集仅在冻结模型后用于最终报告。
 
-真实结果图表放在 `results/figures/`，关联可追溯的数据与生成流程。
+`briefing-atoms-concept-20260930.png`为2026-09-30项目汇报准备的原子概念图；[提示词与用途](briefing-atoms-concept-20260930.prompt.txt)随图保留。晶体、热扰动与无序画面是示意，不是计算结构、相态判定或熔化证据。历史演示资料见[outputs索引](../../outputs/README.md)。
+
+真实结果图表由[results/figures索引](../../results/figures/README.md)导航，关联可追溯的数据与生成流程；当前DFT/MACE校准图与数值报告集中保存在[2026-10-08审核目录](../../dft/reviews/dft600-k67-20261008/report.md)。

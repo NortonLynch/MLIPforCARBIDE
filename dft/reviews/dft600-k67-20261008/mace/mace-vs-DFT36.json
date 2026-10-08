@@ -1,0 +1,2037 @@
+{
+  "provenance": {
+    "method": "reuse verified recorded model predictions; no new inference",
+    "model": {
+      "name": "MACE-MH-1",
+      "path": "models/mace-mh-1.model",
+      "sha256": "a522eb7f59c7879963d41586528f4980baf33e086c94aa92e3eafdeccad3be47",
+      "head": "omat_pbe",
+      "device": "cuda",
+      "dtype": "float32",
+      "mace_torch_version": "0.3.16",
+      "cutoff_A": 6.0,
+      "dispersion_correction": false,
+      "identity_mismatch_action": "stop_before_running"
+    },
+    "model_file_sha256_verified": true,
+    "frozen_calibration_manifest_sha256": "ffb62fdd1a6e640a3b15fd52d897b44c5c255653c1ea3c24d3c5f6c8af63cc3f",
+    "reference_structure_id": "01_zrc64_T0300_v100_s17_f0085",
+    "stress_convention": "ASE tension-positive; Voigt xx yy zz yz xz xy; eV/A^3",
+    "pressure_convention": "-trace(static potential stress)/3; compression positive; no kinetic term",
+    "conversion_eV_A3_to_GPa": 160.21766208,
+    "rounding_caveat": "MD forces and positions stored in extxyz at 8 decimal places; predictions originally evaluated before coordinate serialization; POSCAR preserves exported rounded positions modulo cell with unchanged atom order.",
+    "scope": "18 calibration structures, not held-out test data; parent audit controls DFT acceptance",
+    "python": "3.12.14 | packaged by conda-forge | (main, Sep  2 2026, 23:18:20) [MSC v.1944 64 bit (AMD64)]",
+    "analysis_versions": {
+      "ase": "3.29.0",
+      "numpy": "2.5.3"
+    },
+    "script_sha256": "73604c0583542ca3f8831f5aac893a37b63f4aac4319a3ab5389296c65423a65"
+  },
+  "energy_note": "Both e_fr_energy (TOTEN/free energy, force-consistent) and e_0_energy (sigma->0 estimate) included; do not treat them as identical. Model training-target convention needs separate provenance check.",
+  "comparison_sign": "MACE minus DFT",
+  "comparisons": [
+    {
+      "structure_id": "01_zrc64_T0300_v100_s17_f0085",
+      "kmesh": 6,
+      "target_temperature_K": 300,
+      "volume_scale": 1.0,
+      "mace_energy_eV": -618.9817504882812,
+      "dft_energies_eV": {
+        "e_fr_energy": -620.15310607,
+        "e_wo_entrp": -620.09982964,
+        "e_0_energy": -620.12646786
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 18.30243096435602,
+        "e_wo_entrp": 17.469986745606292,
+        "e_0_energy": 17.886208933106218
+      },
+      "force_component_RMSE_eV_A": 0.03459859482605481,
+      "force_component_MAE_eV_A": 0.026519048072916666,
+      "force_component_max_abs_eV_A": 0.12202332000000005,
+      "force_vector_max_error_eV_A": 0.1336686802057461,
+      "mace_force_component_RMS_eV_A": 0.6113095135353864,
+      "dft_force_component_RMS_eV_A": 0.6235919782095444,
+      "force_relative_RMSE": 0.055482745184430055,
+      "stress_6_component_RMSE_GPa": 0.9368382039881181,
+      "stress_component_max_abs_GPa": 1.3394072812272484,
+      "stress_6_component_error_GPa": [
+        1.30510221148308,
+        1.3293936707426801,
+        1.3394072812272484,
+        0.011869431067542298,
+        0.009928877703254603,
+        -0.03412151037821858
+      ],
+      "mace_potential_pressure_GPa": 1.2964882341823305,
+      "dft_static_pressure_GPa": 2.621122622,
+      "mace_minus_DFT_pressure_GPa": -1.3246343878176696,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.041487039604381624,
+        "C": 0.025941300521359453
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.41622203124980217,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 0.0,
+        "e_wo_entrp": 0.0,
+        "e_0_energy": 0.0
+      }
+    },
+    {
+      "structure_id": "01_zrc64_T0300_v100_s17_f0085",
+      "kmesh": 7,
+      "target_temperature_K": 300,
+      "volume_scale": 1.0,
+      "mace_energy_eV": -618.9817504882812,
+      "dft_energies_eV": {
+        "e_fr_energy": -620.16378586,
+        "e_wo_entrp": -620.11205238,
+        "e_0_energy": -620.13791912
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 18.46930268310487,
+        "e_wo_entrp": 17.660967058105825,
+        "e_0_energy": 18.06513487060535
+      },
+      "force_component_RMSE_eV_A": 0.035569762552844456,
+      "force_component_MAE_eV_A": 0.027370221666666666,
+      "force_component_max_abs_eV_A": 0.12526167,
+      "force_vector_max_error_eV_A": 0.1383131191884819,
+      "mace_force_component_RMS_eV_A": 0.6113095135353864,
+      "dft_force_component_RMS_eV_A": 0.6241664948704504,
+      "force_relative_RMSE": 0.05698761924128462,
+      "stress_6_component_RMSE_GPa": 0.9386520181730075,
+      "stress_component_max_abs_GPa": 1.3375847992272487,
+      "stress_6_component_error_GPa": [
+        1.3116632244830797,
+        1.3324376887426803,
+        1.3375847992272487,
+        0.010450812067542295,
+        0.011609230703254612,
+        -0.03432156237821859
+      ],
+      "mace_potential_pressure_GPa": 1.2964882341823305,
+      "dft_static_pressure_GPa": 2.623716805,
+      "mace_minus_DFT_pressure_GPa": -1.3272285708176694,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.042503877809007495,
+        "C": 0.026904207613836745
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.40416781249952294,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 0.0,
+        "e_wo_entrp": 0.0,
+        "e_0_energy": 0.0
+      }
+    },
+    {
+      "structure_id": "02_zrc64_T0300_v095_s17_f0165",
+      "kmesh": 6,
+      "target_temperature_K": 300,
+      "volume_scale": 0.95,
+      "mace_energy_eV": -617.14697265625,
+      "dft_energies_eV": {
+        "e_fr_energy": -618.03268033,
+        "e_wo_entrp": -617.98605921,
+        "e_0_energy": -618.00936977
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 13.839182402342942,
+        "e_wo_entrp": 13.11072740234387,
+        "e_0_energy": 13.474954902344294
+      },
+      "force_component_RMSE_eV_A": 0.029125050815719762,
+      "force_component_MAE_eV_A": 0.02223115458333334,
+      "force_component_max_abs_eV_A": 0.10417567999999999,
+      "force_vector_max_error_eV_A": 0.11887064993048915,
+      "mace_force_component_RMS_eV_A": 0.708759517131885,
+      "dft_force_component_RMS_eV_A": 0.7111679228049596,
+      "force_relative_RMSE": 0.04095383084890264,
+      "stress_6_component_RMSE_GPa": 0.34451645948232235,
+      "stress_component_max_abs_GPa": 0.5018111122081415,
+      "stress_6_component_error_GPa": [
+        0.4622388146161942,
+        0.49309312268735717,
+        0.5018111122081415,
+        -0.04650485043771328,
+        -0.0018127241159048096,
+        -0.03692717600261296
+      ],
+      "mace_potential_pressure_GPa": 15.337285319829434,
+      "dft_static_pressure_GPa": 15.82299966966667,
+      "mace_minus_DFT_pressure_GPa": -0.48571434983723627,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.036695462116997854,
+        "C": 0.018707758552442666
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.36422749999864834,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -4.463248562013078,
+        "e_wo_entrp": -4.359259343262423,
+        "e_0_energy": -4.411254030761924
+      }
+    },
+    {
+      "structure_id": "02_zrc64_T0300_v095_s17_f0165",
+      "kmesh": 7,
+      "target_temperature_K": 300,
+      "volume_scale": 0.95,
+      "mace_energy_eV": -617.14697265625,
+      "dft_energies_eV": {
+        "e_fr_energy": -618.04227208,
+        "e_wo_entrp": -617.99359675,
+        "e_0_energy": -618.01793442
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 13.989053496093362,
+        "e_wo_entrp": 13.228501464844555,
+        "e_0_energy": 13.608777558593133
+      },
+      "force_component_RMSE_eV_A": 0.02970609671354741,
+      "force_component_MAE_eV_A": 0.022751111354166673,
+      "force_component_max_abs_eV_A": 0.10899316999999997,
+      "force_vector_max_error_eV_A": 0.12379216685473679,
+      "mace_force_component_RMS_eV_A": 0.708759517131885,
+      "dft_force_component_RMS_eV_A": 0.711779894109303,
+      "force_relative_RMSE": 0.04173494778286847,
+      "stress_6_component_RMSE_GPa": 0.3446445532450086,
+      "stress_component_max_abs_GPa": 0.5012464912081445,
+      "stress_6_component_error_GPa": [
+        0.4676947686161945,
+        0.48897867268735773,
+        0.5012464912081445,
+        -0.04536448643771328,
+        -0.0005895151159048095,
+        -0.03917065800261295
+      ],
+      "mace_potential_pressure_GPa": 15.337285319829434,
+      "dft_static_pressure_GPa": 15.823258630666666,
+      "mace_minus_DFT_pressure_GPa": -0.48597331083723283,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.03741757482206853,
+        "C": 0.01910050937394518
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.3802759375002296,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -4.480249187011509,
+        "e_wo_entrp": -4.43246559326127,
+        "e_0_energy": -4.456357312012216
+      }
+    },
+    {
+      "structure_id": "03_zrc64_T0300_v105_s17_f0100",
+      "kmesh": 6,
+      "target_temperature_K": 300,
+      "volume_scale": 1.05,
+      "mace_energy_eV": -617.9459838867188,
+      "dft_energies_eV": {
+        "e_fr_energy": -619.56422256,
+        "e_wo_entrp": -619.50453744,
+        "e_0_energy": -619.53438
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 25.284979270018937,
+        "e_wo_entrp": 24.352399270020086,
+        "e_0_energy": 24.8186892700204
+      },
+      "force_component_RMSE_eV_A": 0.031912185203657156,
+      "force_component_MAE_eV_A": 0.024186245677083332,
+      "force_component_max_abs_eV_A": 0.10343593999999989,
+      "force_vector_max_error_eV_A": 0.11197518576214274,
+      "mace_force_component_RMS_eV_A": 0.5468153933153171,
+      "dft_force_component_RMS_eV_A": 0.5579800612455141,
+      "force_relative_RMSE": 0.05719233969117694,
+      "stress_6_component_RMSE_GPa": 1.1157793244257488,
+      "stress_component_max_abs_GPa": 1.5969483684710148,
+      "stress_6_component_error_GPa": [
+        1.5969483684710148,
+        1.5643062040765887,
+        1.5723628507539873,
+        0.00034721085872932433,
+        -0.00019734665222220782,
+        -0.012566594162831781
+      ],
+      "mace_potential_pressure_GPa": -9.174518806100531,
+      "dft_static_pressure_GPa": -7.596646331666666,
+      "mace_minus_DFT_pressure_GPa": -1.5778724744338648,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.038191759119221576,
+        "C": 0.024045054882956402
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.46628999999853704,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 6.982548305662917,
+        "e_wo_entrp": 6.882412524413795,
+        "e_0_energy": 6.932480336914182
+      }
+    },
+    {
+      "structure_id": "03_zrc64_T0300_v105_s17_f0100",
+      "kmesh": 7,
+      "target_temperature_K": 300,
+      "volume_scale": 1.05,
+      "mace_energy_eV": -617.9459838867188,
+      "dft_energies_eV": {
+        "e_fr_energy": -619.57670645,
+        "e_wo_entrp": -619.52210816,
+        "e_0_energy": -619.54940731
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 25.480040051268915,
+        "e_wo_entrp": 24.626941770019783,
+        "e_0_energy": 25.05349098876941
+      },
+      "force_component_RMSE_eV_A": 0.032432735086993056,
+      "force_component_MAE_eV_A": 0.024606799999999998,
+      "force_component_max_abs_eV_A": 0.10543991999999991,
+      "force_vector_max_error_eV_A": 0.11417274732155691,
+      "mace_force_component_RMS_eV_A": 0.5468153933153171,
+      "dft_force_component_RMS_eV_A": 0.5582974163675717,
+      "force_relative_RMSE": 0.058092217760936225,
+      "stress_6_component_RMSE_GPa": 1.1173082654512192,
+      "stress_component_max_abs_GPa": 1.6013679034710142,
+      "stress_6_component_error_GPa": [
+        1.6013679034710142,
+        1.5662974310765891,
+        1.572368568753988,
+        0.001118382858729311,
+        -0.0008146456522222095,
+        -0.015966370162831776
+      ],
+      "mace_potential_pressure_GPa": -9.174518806100531,
+      "dft_static_pressure_GPa": -7.594507505,
+      "mace_minus_DFT_pressure_GPa": -1.580011301100531,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.03869403243582891,
+        "C": 0.02462796102606063
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.42654906249950386,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 7.010737368164044,
+        "e_wo_entrp": 6.965974711913958,
+        "e_0_energy": 6.988356118164063
+      }
+    },
+    {
+      "structure_id": "04_zrc64_T1500_v100_s17_f0085",
+      "kmesh": 6,
+      "target_temperature_K": 1500,
+      "volume_scale": 1.0,
+      "mace_energy_eV": -607.32080078125,
+      "dft_energies_eV": {
+        "e_fr_energy": -608.52890947,
+        "e_wo_entrp": -608.48032653,
+        "e_0_energy": -608.504618
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 18.876698261719227,
+        "e_wo_entrp": 18.117589824218072,
+        "e_0_energy": 18.497144042969538
+      },
+      "force_component_RMSE_eV_A": 0.07132920535135756,
+      "force_component_MAE_eV_A": 0.05574739083333333,
+      "force_component_max_abs_eV_A": 0.24316874999999993,
+      "force_vector_max_error_eV_A": 0.25355129036037516,
+      "mace_force_component_RMS_eV_A": 1.4344676438894848,
+      "dft_force_component_RMS_eV_A": 1.4339548968296516,
+      "force_relative_RMSE": 0.049742990877230636,
+      "stress_6_component_RMSE_GPa": 0.6849376151590131,
+      "stress_component_max_abs_GPa": 1.0592720326964988,
+      "stress_6_component_error_GPa": [
+        1.0296820518113314,
+        0.732971516093663,
+        1.0592720326964988,
+        0.04961191210637664,
+        -0.14113656305780886,
+        -0.27001247790364846
+      ],
+      "mace_potential_pressure_GPa": 6.0654564907995026,
+      "dft_static_pressure_GPa": 7.006098357666668,
+      "mace_minus_DFT_pressure_GPa": -0.9406418668671659,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.07501333436496108,
+        "C": 0.06744413050490622
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.3795542187496892,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 0.5742672973632068,
+        "e_wo_entrp": 0.6476030786117803,
+        "e_0_energy": 0.6109351098633198
+      }
+    },
+    {
+      "structure_id": "04_zrc64_T1500_v100_s17_f0085",
+      "kmesh": 7,
+      "target_temperature_K": 1500,
+      "volume_scale": 1.0,
+      "mace_energy_eV": -607.32080078125,
+      "dft_energies_eV": {
+        "e_fr_energy": -608.5349783,
+        "e_wo_entrp": -608.49003187,
+        "e_0_energy": -608.51250508
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 18.971523730469286,
+        "e_wo_entrp": 18.26923576171957,
+        "e_0_energy": 18.62037966796848
+      },
+      "force_component_RMSE_eV_A": 0.07141263748770774,
+      "force_component_MAE_eV_A": 0.055883246822916656,
+      "force_component_max_abs_eV_A": 0.24430182,
+      "force_vector_max_error_eV_A": 0.25523551704077785,
+      "mace_force_component_RMS_eV_A": 1.4344676438894848,
+      "dft_force_component_RMS_eV_A": 1.4345119465963565,
+      "force_relative_RMSE": 0.04978183531837944,
+      "stress_6_component_RMSE_GPa": 0.6835935676650918,
+      "stress_component_max_abs_GPa": 1.052028762696498,
+      "stress_6_component_error_GPa": [
+        1.023189537811331,
+        0.7449524530936618,
+        1.052028762696498,
+        0.05142444610637667,
+        -0.14079920205780883,
+        -0.26962307090364845
+      ],
+      "mace_potential_pressure_GPa": 6.0654564907995026,
+      "dft_static_pressure_GPa": 7.005513408666666,
+      "mace_minus_DFT_pressure_GPa": -0.9400569178671638,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.07520411763888417,
+        "C": 0.06740823596607756
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.35114406250080776,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 0.5022210473644151,
+        "e_wo_entrp": 0.6082687036137457,
+        "e_0_energy": 0.5552447973631303
+      }
+    },
+    {
+      "structure_id": "05_zrc64_T1500_v095_s17_f0180",
+      "kmesh": 6,
+      "target_temperature_K": 1500,
+      "volume_scale": 0.95,
+      "mace_energy_eV": -605.7518920898438,
+      "dft_energies_eV": {
+        "e_fr_energy": -606.60517695,
+        "e_wo_entrp": -606.56118746,
+        "e_0_energy": -606.5831822
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 13.332575939941194,
+        "e_wo_entrp": 12.645240158692062,
+        "e_0_energy": 12.988907971191566
+      },
+      "force_component_RMSE_eV_A": 0.08209356625210927,
+      "force_component_MAE_eV_A": 0.06584976203125,
+      "force_component_max_abs_eV_A": 0.2548102499999998,
+      "force_vector_max_error_eV_A": 0.29936754140526556,
+      "mace_force_component_RMS_eV_A": 1.7160530432021928,
+      "dft_force_component_RMS_eV_A": 1.7069198394445184,
+      "force_relative_RMSE": 0.048094564463451846,
+      "stress_6_component_RMSE_GPa": 0.13708767664069993,
+      "stress_component_max_abs_GPa": 0.22169760536321093,
+      "stress_6_component_error_GPa": [
+        -0.22169760536321093,
+        0.12392980706680135,
+        0.1755218574998274,
+        -0.09282940332542625,
+        -0.03583310504658675,
+        -0.08683622065618657
+      ],
+      "mace_potential_pressure_GPa": 20.885323827932194,
+      "dft_static_pressure_GPa": 20.911241847666663,
+      "mace_minus_DFT_pressure_GPa": -0.025918019734469055,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.09417619164035652,
+        "C": 0.06789368282909503
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.343667968749628,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -4.9698550244148265,
+        "e_wo_entrp": -4.82474658691423,
+        "e_0_energy": -4.897300961914652
+      }
+    },
+    {
+      "structure_id": "05_zrc64_T1500_v095_s17_f0180",
+      "kmesh": 7,
+      "target_temperature_K": 1500,
+      "volume_scale": 0.95,
+      "mace_energy_eV": -605.7518920898438,
+      "dft_energies_eV": {
+        "e_fr_energy": -606.61056103,
+        "e_wo_entrp": -606.56713934,
+        "e_0_energy": -606.58885018
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 13.416702189941176,
+        "e_wo_entrp": 12.738238283692027,
+        "e_0_energy": 13.07747015869154
+      },
+      "force_component_RMSE_eV_A": 0.08234235375149761,
+      "force_component_MAE_eV_A": 0.066143145625,
+      "force_component_max_abs_eV_A": 0.2538345399999997,
+      "force_vector_max_error_eV_A": 0.3005063579112776,
+      "mace_force_component_RMS_eV_A": 1.7160530432021928,
+      "dft_force_component_RMS_eV_A": 1.7073020438394078,
+      "force_relative_RMSE": 0.048229517470924375,
+      "stress_6_component_RMSE_GPa": 0.139538128535159,
+      "stress_component_max_abs_GPa": 0.23022067336320973,
+      "stress_6_component_error_GPa": [
+        -0.23022067336320973,
+        0.13149290706680006,
+        0.1725315434998258,
+        -0.09100557332542622,
+        -0.031127798046586753,
+        -0.08669085965618656
+      ],
+      "mace_potential_pressure_GPa": 20.885323827932194,
+      "dft_static_pressure_GPa": 20.909925087000005,
+      "mace_minus_DFT_pressure_GPa": -0.0246012590678113,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.09449753602323491,
+        "C": 0.06804955641450551
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.33923203124963663,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -5.052600493163695,
+        "e_wo_entrp": -4.922728774413798,
+        "e_0_energy": -4.9876647119138084
+      }
+    },
+    {
+      "structure_id": "06_zrc64_T1500_v105_s17_f0190",
+      "kmesh": 6,
+      "target_temperature_K": 1500,
+      "volume_scale": 1.05,
+      "mace_energy_eV": -605.8416137695312,
+      "dft_energies_eV": {
+        "e_fr_energy": -607.2195973,
+        "e_wo_entrp": -607.17500926,
+        "e_0_energy": -607.19730328
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 21.53099266357472,
+        "e_wo_entrp": 20.8343045385746,
+        "e_0_energy": 21.18264860107466
+      },
+      "force_component_RMSE_eV_A": 0.07697175864711674,
+      "force_component_MAE_eV_A": 0.05661548020833332,
+      "force_component_max_abs_eV_A": 0.28813296999999993,
+      "force_vector_max_error_eV_A": 0.30321188737062765,
+      "mace_force_component_RMS_eV_A": 1.554283180595533,
+      "dft_force_component_RMS_eV_A": 1.5702059252595686,
+      "force_relative_RMSE": 0.04902016825238552,
+      "stress_6_component_RMSE_GPa": 0.924381753616122,
+      "stress_component_max_abs_GPa": 1.4643203491173744,
+      "stress_6_component_error_GPa": [
+        1.02012372740183,
+        1.3913317055562224,
+        1.4643203491173744,
+        0.039268534148631844,
+        0.06749181062824536,
+        0.010108278835731982
+      ],
+      "mace_potential_pressure_GPa": -2.4831151083584757,
+      "dft_static_pressure_GPa": -1.1911898476666667,
+      "mace_minus_DFT_pressure_GPa": -1.291925260691809,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.0916421024885302,
+        "C": 0.058745453525713004
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.3483440625000611,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 3.2285616992187016,
+        "e_wo_entrp": 3.3643177929683077,
+        "e_0_energy": 3.2964396679684427
+      }
+    },
+    {
+      "structure_id": "06_zrc64_T1500_v105_s17_f0190",
+      "kmesh": 7,
+      "target_temperature_K": 1500,
+      "volume_scale": 1.05,
+      "mace_energy_eV": -605.8416137695312,
+      "dft_energies_eV": {
+        "e_fr_energy": -607.22236084,
+        "e_wo_entrp": -607.18089087,
+        "e_0_energy": -607.20162585
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 21.57417297607367,
+        "e_wo_entrp": 20.92620469482398,
+        "e_0_energy": 21.25018875732465
+      },
+      "force_component_RMSE_eV_A": 0.07734500518188255,
+      "force_component_MAE_eV_A": 0.05704150072916666,
+      "force_component_max_abs_eV_A": 0.28689407,
+      "force_vector_max_error_eV_A": 0.3018470403790645,
+      "mace_force_component_RMS_eV_A": 1.554283180595533,
+      "dft_force_component_RMS_eV_A": 1.5708062309096134,
+      "force_relative_RMSE": 0.04923904913281,
+      "stress_6_component_RMSE_GPa": 0.9233388231619756,
+      "stress_component_max_abs_GPa": 1.4620047171173733,
+      "stress_6_component_error_GPa": [
+        1.02244029540183,
+        1.3878292685562226,
+        1.4620047171173733,
+        0.03907650214863185,
+        0.06855184962824536,
+        0.013752666835731966
+      ],
+      "mace_potential_pressure_GPa": -2.4831151083584757,
+      "dft_static_pressure_GPa": -1.1923570146666667,
+      "mace_minus_DFT_pressure_GPa": -1.290758093691809,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.09201779000447681,
+        "C": 0.05913734840067556
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.3239842187490183,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 3.1048702929687977,
+        "e_wo_entrp": 3.2652376367181546,
+        "e_0_energy": 3.1850538867193023
+      }
+    },
+    {
+      "structure_id": "07_zrc64_T3000_v100_s17_f0045",
+      "kmesh": 6,
+      "target_temperature_K": 3000,
+      "volume_scale": 1.0,
+      "mace_energy_eV": -592.9275512695312,
+      "dft_energies_eV": {
+        "e_fr_energy": -593.75532174,
+        "e_wo_entrp": -593.71166662,
+        "e_0_energy": -593.73349418
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 12.93391360107421,
+        "e_wo_entrp": 12.251802351073593,
+        "e_0_energy": 12.592857976073901
+      },
+      "force_component_RMSE_eV_A": 0.14350003991915403,
+      "force_component_MAE_eV_A": 0.11179258302083334,
+      "force_component_max_abs_eV_A": 0.43011945000000007,
+      "force_vector_max_error_eV_A": 0.4567492358584096,
+      "mace_force_component_RMS_eV_A": 2.0927691927832703,
+      "dft_force_component_RMS_eV_A": 2.1150488346186624,
+      "force_relative_RMSE": 0.06784715207061717,
+      "stress_6_component_RMSE_GPa": 0.5739459589020953,
+      "stress_component_max_abs_GPa": 1.0389342255647236,
+      "stress_6_component_error_GPa": [
+        0.11553350260452255,
+        1.0389342255647236,
+        0.8384582899111521,
+        -0.07432977038841737,
+        -0.12775075200628871,
+        -0.3986150948490692
+      ],
+      "mace_potential_pressure_GPa": 12.353507331306533,
+      "dft_static_pressure_GPa": 13.017816004000002,
+      "mace_minus_DFT_pressure_GPa": -0.664308672693469,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.16714658816119163,
+        "C": 0.11509361832730167
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.3410556250003083,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -5.368517363281811,
+        "e_wo_entrp": -5.218184394532699,
+        "e_0_energy": -5.293350957032317
+      }
+    },
+    {
+      "structure_id": "07_zrc64_T3000_v100_s17_f0045",
+      "kmesh": 7,
+      "target_temperature_K": 3000,
+      "volume_scale": 1.0,
+      "mace_energy_eV": -592.9275512695312,
+      "dft_energies_eV": {
+        "e_fr_energy": -593.75675007,
+        "e_wo_entrp": -593.71455493,
+        "e_0_energy": -593.7356525
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 12.95623125732348,
+        "e_wo_entrp": 12.29693219482364,
+        "e_0_energy": 12.626581726074448
+      },
+      "force_component_RMSE_eV_A": 0.14361087949251528,
+      "force_component_MAE_eV_A": 0.11182269916666669,
+      "force_component_max_abs_eV_A": 0.43183448000000013,
+      "force_vector_max_error_eV_A": 0.45628186157977435,
+      "mace_force_component_RMS_eV_A": 2.0927691927832703,
+      "dft_force_component_RMS_eV_A": 2.115466104456313,
+      "force_relative_RMSE": 0.06788616427840337,
+      "stress_6_component_RMSE_GPa": 0.5743449589506312,
+      "stress_component_max_abs_GPa": 1.0341766535647245,
+      "stress_6_component_error_GPa": [
+        0.10896354260452235,
+        1.0341766535647245,
+        0.8470815669111555,
+        -0.07490747238841744,
+        -0.12888897800628873,
+        -0.3975772978490692
+      ],
+      "mace_potential_pressure_GPa": 12.353507331306533,
+      "dft_static_pressure_GPa": 13.016914585666669,
+      "mace_minus_DFT_pressure_GPa": -0.6634072543601359,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.16728994814895037,
+        "C": 0.11516181079485065
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.3296495312490322,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -5.513071425781391,
+        "e_wo_entrp": -5.3640348632821855,
+        "e_0_energy": -5.4385531445309
+      }
+    },
+    {
+      "structure_id": "08_zrc64_T3000_v095_s17_f0030",
+      "kmesh": 6,
+      "target_temperature_K": 3000,
+      "volume_scale": 0.95,
+      "mace_energy_eV": -589.564453125,
+      "dft_energies_eV": {
+        "e_fr_energy": -590.11866555,
+        "e_wo_entrp": -590.06627284,
+        "e_0_energy": -590.09246919
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 8.659569140624157,
+        "e_wo_entrp": 7.840933046875165,
+        "e_0_energy": 8.250251015624599
+      },
+      "force_component_RMSE_eV_A": 0.14356587388758635,
+      "force_component_MAE_eV_A": 0.11341401052083332,
+      "force_component_max_abs_eV_A": 0.4642045999999995,
+      "force_vector_max_error_eV_A": 0.48088043546299697,
+      "mace_force_component_RMS_eV_A": 2.3858945036757833,
+      "dft_force_component_RMS_eV_A": 2.3980232218305484,
+      "force_relative_RMSE": 0.05986842520148504,
+      "stress_6_component_RMSE_GPa": 0.35554639830968704,
+      "stress_component_max_abs_GPa": 0.7189271003924205,
+      "stress_6_component_error_GPa": [
+        -0.2663752495131426,
+        -0.32448323801203216,
+        -0.7189271003924205,
+        0.04413964717276164,
+        0.2197269607233429,
+        -0.12308485447882966
+      ],
+      "mace_potential_pressure_GPa": 27.280438931305863,
+      "dft_static_pressure_GPa": 26.843843735333337,
+      "mace_minus_DFT_pressure_GPa": 0.43659519597252583,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.1558050223260755,
+        "C": 0.13018108659933603
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.4093181249995581,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -9.642861823731863,
+        "e_wo_entrp": -9.629053698731127,
+        "e_0_energy": -9.635957917481619
+      }
+    },
+    {
+      "structure_id": "08_zrc64_T3000_v095_s17_f0030",
+      "kmesh": 7,
+      "target_temperature_K": 3000,
+      "volume_scale": 0.95,
+      "mace_energy_eV": -589.564453125,
+      "dft_energies_eV": {
+        "e_fr_energy": -590.11820622,
+        "e_wo_entrp": -590.06646436,
+        "e_0_energy": -590.09233529
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 8.65239210937574,
+        "e_wo_entrp": 7.843925546875852,
+        "e_0_energy": 8.248158828125796
+      },
+      "force_component_RMSE_eV_A": 0.14384199233110517,
+      "force_component_MAE_eV_A": 0.11351613635416669,
+      "force_component_max_abs_eV_A": 0.4627919099999991,
+      "force_vector_max_error_eV_A": 0.48068969794197514,
+      "mace_force_component_RMS_eV_A": 2.3858945036757833,
+      "dft_force_component_RMS_eV_A": 2.3985542524192516,
+      "force_relative_RMSE": 0.059970289263218436,
+      "stress_6_component_RMSE_GPa": 0.35392126618828185,
+      "stress_component_max_abs_GPa": 0.7110854683924259,
+      "stress_6_component_error_GPa": [
+        -0.270467180513144,
+        -0.3283951360120234,
+        -0.7110854683924259,
+        0.04656209117276178,
+        0.22155581972334293,
+        -0.11691091447882962
+      ],
+      "mace_potential_pressure_GPa": 27.280438931305863,
+      "dft_static_pressure_GPa": 26.843789669666666,
+      "mace_minus_DFT_pressure_GPa": 0.4366492616391966,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.1560176316692624,
+        "C": 0.13053557416994727
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.40423328124994384,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -9.816910573729132,
+        "e_wo_entrp": -9.817041511229974,
+        "e_0_energy": -9.816976042479553
+      }
+    },
+    {
+      "structure_id": "09_zrc64_T3000_v105_s17_f0005",
+      "kmesh": 6,
+      "target_temperature_K": 3000,
+      "volume_scale": 1.05,
+      "mace_energy_eV": -592.7730712890625,
+      "dft_energies_eV": {
+        "e_fr_energy": -593.89719474,
+        "e_wo_entrp": -593.84816391,
+        "e_0_energy": -593.87267933
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 17.564428920898933,
+        "e_wo_entrp": 16.798322202149052,
+        "e_0_energy": 17.181375639648166
+      },
+      "force_component_RMSE_eV_A": 0.12496444421487767,
+      "force_component_MAE_eV_A": 0.09697361083333335,
+      "force_component_max_abs_eV_A": 0.49018039,
+      "force_vector_max_error_eV_A": 0.5796646967537997,
+      "mace_force_component_RMS_eV_A": 1.847942642345963,
+      "dft_force_component_RMS_eV_A": 1.8928657600554935,
+      "force_relative_RMSE": 0.0660186511119595,
+      "stress_6_component_RMSE_GPa": 0.717626062964776,
+      "stress_component_max_abs_GPa": 1.295939897156349,
+      "stress_6_component_error_GPa": [
+        0.896348030129323,
+        1.295939897156349,
+        0.7515316375605714,
+        0.012914821041674407,
+        0.08803529913652913,
+        0.185219276989606
+      ],
+      "mace_potential_pressure_GPa": 2.0670943030512525,
+      "dft_static_pressure_GPa": 3.048367491333334,
+      "mace_minus_DFT_pressure_GPa": -0.9812731882820813,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.14411546708066802,
+        "C": 0.10228859557148799
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.383053281250767,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -0.7380020434570866,
+        "e_wo_entrp": -0.6716645434572399,
+        "e_0_energy": -0.7048332934580515
+      }
+    },
+    {
+      "structure_id": "09_zrc64_T3000_v105_s17_f0005",
+      "kmesh": 7,
+      "target_temperature_K": 3000,
+      "volume_scale": 1.05,
+      "mace_energy_eV": -592.7730712890625,
+      "dft_energies_eV": {
+        "e_fr_energy": -593.89736189,
+        "e_wo_entrp": -593.85027019,
+        "e_0_energy": -593.87381604
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": 17.567040639647757,
+        "e_wo_entrp": 16.831232827147602,
+        "e_0_energy": 17.19913673339768
+      },
+      "force_component_RMSE_eV_A": 0.12530416536147626,
+      "force_component_MAE_eV_A": 0.09719485239583332,
+      "force_component_max_abs_eV_A": 0.49082793000000013,
+      "force_vector_max_error_eV_A": 0.5816574530485731,
+      "mace_force_component_RMS_eV_A": 1.847942642345963,
+      "dft_force_component_RMS_eV_A": 1.8931527329077442,
+      "force_relative_RMSE": 0.06618809099940828,
+      "stress_6_component_RMSE_GPa": 0.7168792708149527,
+      "stress_component_max_abs_GPa": 1.2925959151563493,
+      "stress_6_component_error_GPa": [
+        0.898738282129323,
+        1.2925959151563493,
+        0.7506550565605714,
+        0.012696911041674364,
+        0.08667173113652915,
+        0.183859781989606
+      ],
+      "mace_potential_pressure_GPa": 2.0670943030512525,
+      "dft_static_pressure_GPa": 3.047757387666667,
+      "mace_minus_DFT_pressure_GPa": -0.9806630846154145,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.1446149572988436,
+        "C": 0.10241475401193917
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.36790390625007774,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -0.9022620434571138,
+        "e_wo_entrp": -0.8297342309582234,
+        "e_0_energy": -0.8659981372076686
+      }
+    },
+    {
+      "structure_id": "10_zrc64_T4500_v100_s17_f0005",
+      "kmesh": 6,
+      "target_temperature_K": 4500,
+      "volume_scale": 1.0,
+      "mace_energy_eV": -572.8151245117188,
+      "dft_energies_eV": {
+        "e_fr_energy": -571.26206651,
+        "e_wo_entrp": -571.1550955,
+        "e_0_energy": -571.208581
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -24.266531276856185,
+        "e_wo_entrp": -25.93795330810522,
+        "e_0_energy": -25.102242370605765
+      },
+      "force_component_RMSE_eV_A": 0.22506482590681356,
+      "force_component_MAE_eV_A": 0.17162728822916665,
+      "force_component_max_abs_eV_A": 0.8226292399999999,
+      "force_vector_max_error_eV_A": 1.0353253569615757,
+      "mace_force_component_RMS_eV_A": 2.55921560790891,
+      "dft_force_component_RMS_eV_A": 2.595822457078507,
+      "force_relative_RMSE": 0.08670270391300755,
+      "stress_6_component_RMSE_GPa": 0.7933094252666061,
+      "stress_component_max_abs_GPa": 1.5067708319974926,
+      "stress_6_component_error_GPa": [
+        0.9495489554619923,
+        1.5067708319974926,
+        0.6883150516087859,
+        0.1417782763702526,
+        -0.20157357985968916,
+        -0.2636795560987697
+      ],
+      "mace_potential_pressure_GPa": 17.184262230977243,
+      "dft_static_pressure_GPa": 18.232473844,
+      "mace_minus_DFT_pressure_GPa": -1.0482116130227581,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.2507459709427236,
+        "C": 0.19604797825256812
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.8357110937495804,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -42.568962241212205,
+        "e_wo_entrp": -43.40794005371151,
+        "e_0_energy": -42.98845130371198
+      }
+    },
+    {
+      "structure_id": "10_zrc64_T4500_v100_s17_f0005",
+      "kmesh": 7,
+      "target_temperature_K": 4500,
+      "volume_scale": 1.0,
+      "mace_energy_eV": -572.8151245117188,
+      "dft_energies_eV": {
+        "e_fr_energy": -571.26240451,
+        "e_wo_entrp": -571.15521493,
+        "e_0_energy": -571.20880972
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -24.261250026855308,
+        "e_wo_entrp": -25.936087214354586,
+        "e_0_energy": -25.098668620605835
+      },
+      "force_component_RMSE_eV_A": 0.22506854549979022,
+      "force_component_MAE_eV_A": 0.17160921901041667,
+      "force_component_max_abs_eV_A": 0.8232727099999999,
+      "force_vector_max_error_eV_A": 1.0357849296825279,
+      "mace_force_component_RMS_eV_A": 2.55921560790891,
+      "dft_force_component_RMS_eV_A": 2.59579659598432,
+      "force_relative_RMSE": 0.08670500063370518,
+      "stress_6_component_RMSE_GPa": 0.7930182881565355,
+      "stress_component_max_abs_GPa": 1.5052086889974916,
+      "stress_6_component_error_GPa": [
+        0.9506722704619932,
+        1.5052086889974916,
+        0.6878152976087861,
+        0.1415618383702526,
+        -0.20204087485968913,
+        -0.2643613360987699
+      ],
+      "mace_potential_pressure_GPa": 17.184262230977243,
+      "dft_static_pressure_GPa": 18.232160983333337,
+      "mace_minus_DFT_pressure_GPa": -1.0478987523560939,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.2507205789640532,
+        "C": 0.1960889890603556
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.8374185937505274,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -42.73055270996018,
+        "e_wo_entrp": -43.59705427246041,
+        "e_0_energy": -43.16380349121118
+      }
+    },
+    {
+      "structure_id": "11_zrc64_T4500_v095_s17_f0085",
+      "kmesh": 6,
+      "target_temperature_K": 4500,
+      "volume_scale": 0.95,
+      "mace_energy_eV": -569.26513671875,
+      "dft_energies_eV": {
+        "e_fr_energy": -568.79658537,
+        "e_wo_entrp": -568.72134695,
+        "e_0_energy": -568.75896616
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -7.321114824218711,
+        "e_wo_entrp": -8.496715136718791,
+        "e_0_energy": -7.908914980468751
+      },
+      "force_component_RMSE_eV_A": 0.20774238709121096,
+      "force_component_MAE_eV_A": 0.1660837484375,
+      "force_component_max_abs_eV_A": 0.6157624800000001,
+      "force_vector_max_error_eV_A": 0.8613546267370288,
+      "mace_force_component_RMS_eV_A": 2.7276830183143748,
+      "dft_force_component_RMS_eV_A": 2.7422887903326125,
+      "force_relative_RMSE": 0.0757551093172845,
+      "stress_6_component_RMSE_GPa": 0.39876469564706063,
+      "stress_component_max_abs_GPa": 0.7599498121014392,
+      "stress_6_component_error_GPa": [
+        0.28917301617018154,
+        0.7599498121014392,
+        0.10555758344114707,
+        0.4681010030538316,
+        -0.15375311149480297,
+        -0.1975701723355865
+      ],
+      "mace_potential_pressure_GPa": 33.49676980676241,
+      "dft_static_pressure_GPa": 33.88166327733333,
+      "mace_minus_DFT_pressure_GPa": -0.3848934705709226,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.22387060194298158,
+        "C": 0.19025181306467526
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.5878001562500401,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -25.62354578857473,
+        "e_wo_entrp": -25.966701882325083,
+        "e_0_energy": -25.79512391357497
+      }
+    },
+    {
+      "structure_id": "11_zrc64_T4500_v095_s17_f0085",
+      "kmesh": 7,
+      "target_temperature_K": 4500,
+      "volume_scale": 0.95,
+      "mace_energy_eV": -569.26513671875,
+      "dft_energies_eV": {
+        "e_fr_energy": -568.79721948,
+        "e_wo_entrp": -568.72168408,
+        "e_0_energy": -568.75945178
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -7.3112068554692655,
+        "e_wo_entrp": -8.49144748046804,
+        "e_0_energy": -7.901327167969541
+      },
+      "force_component_RMSE_eV_A": 0.20769557442509046,
+      "force_component_MAE_eV_A": 0.1660973365625,
+      "force_component_max_abs_eV_A": 0.6150365400000001,
+      "force_vector_max_error_eV_A": 0.8616421706879659,
+      "mace_force_component_RMS_eV_A": 2.7276830183143748,
+      "dft_force_component_RMS_eV_A": 2.742323913803003,
+      "force_relative_RMSE": 0.07573706861530524,
+      "stress_6_component_RMSE_GPa": 0.3996895410911701,
+      "stress_component_max_abs_GPa": 0.7634061101014424,
+      "stress_6_component_error_GPa": [
+        0.2898837991701839,
+        0.7634061101014424,
+        0.09878657044114902,
+        0.4683895280538318,
+        -0.153266518494803,
+        -0.19761251833558635
+      ],
+      "mace_potential_pressure_GPa": 33.49676980676241,
+      "dft_static_pressure_GPa": 33.88079530000001,
+      "mace_minus_DFT_pressure_GPa": -0.38402549323760127,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.22381129884876735,
+        "C": 0.19021936226148042
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -0.5901203125002752,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -25.780509538574137,
+        "e_wo_entrp": -26.152414538573865,
+        "e_0_energy": -25.96646203857489
+      }
+    },
+    {
+      "structure_id": "12_zrc64_T4500_v105_s17_f0010",
+      "kmesh": 6,
+      "target_temperature_K": 4500,
+      "volume_scale": 1.05,
+      "mace_energy_eV": -557.1691284179688,
+      "dft_energies_eV": {
+        "e_fr_energy": -556.06919839,
+        "e_wo_entrp": -555.92935508,
+        "e_0_energy": -555.99927674
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -17.186406687011768,
+        "e_wo_entrp": -19.371458405760933,
+        "e_0_energy": -18.27893246826129
+      },
+      "force_component_RMSE_eV_A": 0.27215479515310387,
+      "force_component_MAE_eV_A": 0.2031933275,
+      "force_component_max_abs_eV_A": 1.1233347799999995,
+      "force_vector_max_error_eV_A": 1.631738517349946,
+      "mace_force_component_RMS_eV_A": 2.8556049871009903,
+      "dft_force_component_RMS_eV_A": 2.809530216100278,
+      "force_relative_RMSE": 0.09686843501219354,
+      "stress_6_component_RMSE_GPa": 0.4923997080261334,
+      "stress_component_max_abs_GPa": 0.7341481141335905,
+      "stress_6_component_error_GPa": [
+        0.5883562460661445,
+        0.060264061474050834,
+        0.6816325693691763,
+        -0.28226040800824537,
+        0.1472503119019497,
+        0.7341481141335905
+      ],
+      "mace_potential_pressure_GPa": 13.622189202363543,
+      "dft_static_pressure_GPa": 14.065606828,
+      "mace_minus_DFT_pressure_GPa": -0.4434176256364566,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.30969736947261317,
+        "C": 0.22852571932147941
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.0925257812495204,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -35.48883765136779,
+        "e_wo_entrp": -36.841445151367225,
+        "e_0_energy": -36.16514140136751
+      }
+    },
+    {
+      "structure_id": "12_zrc64_T4500_v105_s17_f0010",
+      "kmesh": 7,
+      "target_temperature_K": 4500,
+      "volume_scale": 1.05,
+      "mace_energy_eV": -557.1691284179688,
+      "dft_energies_eV": {
+        "e_fr_energy": -556.06935641,
+        "e_wo_entrp": -555.92971132,
+        "e_0_energy": -555.99953387
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -17.183937624512424,
+        "e_wo_entrp": -19.365892155761344,
+        "e_0_energy": -18.274914812010934
+      },
+      "force_component_RMSE_eV_A": 0.27221160474373657,
+      "force_component_MAE_eV_A": 0.20321588968749996,
+      "force_component_max_abs_eV_A": 1.1244035600000002,
+      "force_vector_max_error_eV_A": 1.632775232031806,
+      "mace_force_component_RMS_eV_A": 2.8556049871009903,
+      "dft_force_component_RMS_eV_A": 2.809463650314384,
+      "force_relative_RMSE": 0.09689095095189275,
+      "stress_6_component_RMSE_GPa": 0.4922941842357097,
+      "stress_component_max_abs_GPa": 0.7343068041335905,
+      "stress_6_component_error_GPa": [
+        0.590111991066145,
+        0.05836494747405041,
+        0.6802777593691758,
+        -0.28132305600824514,
+        0.1461361679019495,
+        0.7343068041335905
+      ],
+      "mace_potential_pressure_GPa": 13.622189202363543,
+      "dft_static_pressure_GPa": 14.065107435,
+      "mace_minus_DFT_pressure_GPa": -0.44291823263645647,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.30975355232625595,
+        "C": 0.22858489087336006
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.0909771874985097,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -35.653240307617295,
+        "e_wo_entrp": -37.02685921386717,
+        "e_0_energy": -36.34004968261628
+      }
+    },
+    {
+      "structure_id": "13_zrc64_T5250_v100_s17_f0080",
+      "kmesh": 6,
+      "target_temperature_K": 5250,
+      "volume_scale": 1.0,
+      "mace_energy_eV": -517.2244873046875,
+      "dft_energies_eV": {
+        "e_fr_energy": -514.34536195,
+        "e_wo_entrp": -514.15434261,
+        "e_0_energy": -514.24985228
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -44.98633366699245,
+        "e_wo_entrp": -47.971010854492846,
+        "e_0_energy": -46.47867226074176
+      },
+      "force_component_RMSE_eV_A": 0.3584088452348351,
+      "force_component_MAE_eV_A": 0.28978680765625,
+      "force_component_max_abs_eV_A": 0.9516386799999994,
+      "force_vector_max_error_eV_A": 1.2425329806193066,
+      "mace_force_component_RMS_eV_A": 2.665989649951573,
+      "dft_force_component_RMS_eV_A": 2.7064393229114354,
+      "force_relative_RMSE": 0.13242818422002495,
+      "stress_6_component_RMSE_GPa": 0.7299925918264892,
+      "stress_component_max_abs_GPa": 1.19219308864308,
+      "stress_6_component_error_GPa": [
+        1.19219308864308,
+        1.1426249081291857,
+        0.33440700361071407,
+        -0.4932085699789791,
+        -0.2729671403332552,
+        -0.20205263219630343
+      ],
+      "mace_potential_pressure_GPa": 25.77898629353901,
+      "dft_static_pressure_GPa": 26.66872796033334,
+      "mace_minus_DFT_pressure_GPa": -0.889741666794329,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.36859771026808397,
+        "C": 0.3479217277927057
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.4923385937493094,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -63.28876463134847,
+        "e_wo_entrp": -65.44099760009914,
+        "e_0_energy": -64.36488119384798
+      }
+    },
+    {
+      "structure_id": "13_zrc64_T5250_v100_s17_f0080",
+      "kmesh": 7,
+      "target_temperature_K": 5250,
+      "volume_scale": 1.0,
+      "mace_energy_eV": -517.2244873046875,
+      "dft_energies_eV": {
+        "e_fr_energy": -514.34571915,
+        "e_wo_entrp": -514.15449422,
+        "e_0_energy": -514.25010669
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -44.98075241699162,
+        "e_wo_entrp": -47.96864194824302,
+        "e_0_energy": -46.47469710449137
+      },
+      "force_component_RMSE_eV_A": 0.3583961154672862,
+      "force_component_MAE_eV_A": 0.28975564098958334,
+      "force_component_max_abs_eV_A": 0.9519478099999992,
+      "force_vector_max_error_eV_A": 1.2424018566555615,
+      "mace_force_component_RMS_eV_A": 2.665989649951573,
+      "dft_force_component_RMS_eV_A": 2.7064963655297096,
+      "force_relative_RMSE": 0.13242068972708254,
+      "stress_6_component_RMSE_GPa": 0.7299781266067721,
+      "stress_component_max_abs_GPa": 1.1921018006430835,
+      "stress_6_component_error_GPa": [
+        1.1921018006430835,
+        1.142691355129184,
+        0.3341281926107129,
+        -0.4933031599789791,
+        -0.27250295533325586,
+        -0.2027575851963035
+      ],
+      "mace_potential_pressure_GPa": 25.77898629353901,
+      "dft_static_pressure_GPa": 26.668626743,
+      "mace_minus_DFT_pressure_GPa": -0.8896404494609911,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.36857304563180987,
+        "C": 0.34792163082765143
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.4939446874997486,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -63.45005510009649,
+        "e_wo_entrp": -65.62960900634884,
+        "e_0_energy": -64.53983197509672
+      }
+    },
+    {
+      "structure_id": "14_zrc64_T5250_v095_s17_f0140",
+      "kmesh": 6,
+      "target_temperature_K": 5250,
+      "volume_scale": 0.95,
+      "mace_energy_eV": -522.94970703125,
+      "dft_energies_eV": {
+        "e_fr_energy": -521.55073593,
+        "e_wo_entrp": -521.39578702,
+        "e_0_energy": -521.47326148
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -21.858923457031665,
+        "e_wo_entrp": -24.280000175782135,
+        "e_0_energy": -23.06946173828095
+      },
+      "force_component_RMSE_eV_A": 0.33215178893966885,
+      "force_component_MAE_eV_A": 0.2648595441666666,
+      "force_component_max_abs_eV_A": 0.9946098700000001,
+      "force_vector_max_error_eV_A": 1.173154289263247,
+      "mace_force_component_RMS_eV_A": 2.6381794206015474,
+      "dft_force_component_RMS_eV_A": 2.5899852985515532,
+      "force_relative_RMSE": 0.12824466190036848,
+      "stress_6_component_RMSE_GPa": 0.692911029756754,
+      "stress_component_max_abs_GPa": 1.2282420475532234,
+      "stress_6_component_error_GPa": [
+        0.25888800262654144,
+        -1.2282420475532234,
+        -1.0812412420635553,
+        0.2825854951301896,
+        0.19239801955351954,
+        0.1385585152362192
+      ],
+      "mace_potential_pressure_GPa": 37.404373077330085,
+      "dft_static_pressure_GPa": 36.720841315,
+      "mace_minus_DFT_pressure_GPa": 0.6835317623300838,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.3726623536230763,
+        "C": 0.2859587242658525
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.2105382812492849,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -40.161354421387685,
+        "e_wo_entrp": -41.74998692138843,
+        "e_0_energy": -40.95567067138717
+      }
+    },
+    {
+      "structure_id": "14_zrc64_T5250_v095_s17_f0140",
+      "kmesh": 7,
+      "target_temperature_K": 5250,
+      "volume_scale": 0.95,
+      "mace_energy_eV": -522.94970703125,
+      "dft_energies_eV": {
+        "e_fr_energy": -521.55077214,
+        "e_wo_entrp": -521.39628527,
+        "e_0_energy": -521.4735287
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -21.858357675780482,
+        "e_wo_entrp": -24.27221501953092,
+        "e_0_energy": -23.06528642578165
+      },
+      "force_component_RMSE_eV_A": 0.3321260323399806,
+      "force_component_MAE_eV_A": 0.26483795286458334,
+      "force_component_max_abs_eV_A": 0.9944053900000001,
+      "force_vector_max_error_eV_A": 1.1728918968318565,
+      "mace_force_component_RMS_eV_A": 2.6381794206015474,
+      "dft_force_component_RMS_eV_A": 2.5900018280485235,
+      "force_relative_RMSE": 0.12823389881165684,
+      "stress_6_component_RMSE_GPa": 0.6931095789876847,
+      "stress_component_max_abs_GPa": 1.2280463905532244,
+      "stress_6_component_error_GPa": [
+        0.2597737426265425,
+        -1.2280463905532244,
+        -1.0819986920635571,
+        0.28278788613018957,
+        0.19226650555351954,
+        0.13845009523621887
+      ],
+      "mace_potential_pressure_GPa": 37.404373077330085,
+      "dft_static_pressure_GPa": 36.720949297333334,
+      "mace_minus_DFT_pressure_GPa": 0.6834237799967511,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.3726338470262906,
+        "C": 0.28593603964205483
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.2069287500011683,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -40.32766035888535,
+        "e_wo_entrp": -41.933182077636744,
+        "e_0_energy": -41.130421296387
+      }
+    },
+    {
+      "structure_id": "15_zrc64_T5250_v105_s17_f0055",
+      "kmesh": 6,
+      "target_temperature_K": 5250,
+      "volume_scale": 1.05,
+      "mace_energy_eV": -528.2211303710938,
+      "dft_energies_eV": {
+        "e_fr_energy": -525.62048712,
+        "e_wo_entrp": -525.43249106,
+        "e_0_energy": -525.52648909
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -40.63505079833973,
+        "e_wo_entrp": -43.57248923584045,
+        "e_0_energy": -42.103770017089204
+      },
+      "force_component_RMSE_eV_A": 0.2994208952177668,
+      "force_component_MAE_eV_A": 0.22942504932291666,
+      "force_component_max_abs_eV_A": 1.32331889,
+      "force_vector_max_error_eV_A": 1.3312071275728672,
+      "mace_force_component_RMS_eV_A": 2.436455830045244,
+      "dft_force_component_RMS_eV_A": 2.4504184296708593,
+      "force_relative_RMSE": 0.12219174145616636,
+      "stress_6_component_RMSE_GPa": 0.510022407462255,
+      "stress_component_max_abs_GPa": 1.0155088795115716,
+      "stress_6_component_error_GPa": [
+        0.5209924445071685,
+        1.0155088795115716,
+        0.40068317587157765,
+        0.025483961024842294,
+        0.29957048362604954,
+        0.0843019022630569
+      ],
+      "mace_potential_pressure_GPa": 22.03930564170323,
+      "dft_static_pressure_GPa": 22.685033808333333,
+      "mace_minus_DFT_pressure_GPa": -0.6457281666301036,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.3298645686572185,
+        "C": 0.2655091548903822
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.4687192187494702,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -58.937481762695754,
+        "e_wo_entrp": -61.04247598144674,
+        "e_0_energy": -59.98997895019542
+      }
+    },
+    {
+      "structure_id": "15_zrc64_T5250_v105_s17_f0055",
+      "kmesh": 7,
+      "target_temperature_K": 5250,
+      "volume_scale": 1.05,
+      "mace_energy_eV": -528.2211303710938,
+      "dft_energies_eV": {
+        "e_fr_energy": -525.62061656,
+        "e_wo_entrp": -525.4326399,
+        "e_0_energy": -525.52662823
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -40.63302829833937,
+        "e_wo_entrp": -43.57016361083943,
+        "e_0_energy": -42.1015959545894
+      },
+      "force_component_RMSE_eV_A": 0.29944489044853334,
+      "force_component_MAE_eV_A": 0.22945301682291666,
+      "force_component_max_abs_eV_A": 1.3233573299999999,
+      "force_vector_max_error_eV_A": 1.3311861765290316,
+      "mace_force_component_RMS_eV_A": 2.436455830045244,
+      "dft_force_component_RMS_eV_A": 2.450440344431845,
+      "force_relative_RMSE": 0.12220044088360049,
+      "stress_6_component_RMSE_GPa": 0.5099033872865965,
+      "stress_component_max_abs_GPa": 1.015303956511577,
+      "stress_6_component_error_GPa": [
+        0.5206444035071733,
+        1.015303956511577,
+        0.4010054888715793,
+        0.025339825024842444,
+        0.29916901762604864,
+        0.0845367212630569
+      ],
+      "mace_potential_pressure_GPa": 22.03930564170323,
+      "dft_static_pressure_GPa": 22.68495692466667,
+      "mace_minus_DFT_pressure_GPa": -0.6456512829634384,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.32988899648292347,
+        "C": 0.2655329260768953
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.4685676562500305,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -59.10233098144424,
+        "e_wo_entrp": -61.231130668945255,
+        "e_0_energy": -60.16673082519475
+      }
+    },
+    {
+      "structure_id": "16_zrc64_T6000_v100_s17_f0115",
+      "kmesh": 6,
+      "target_temperature_K": 6000,
+      "volume_scale": 1.0,
+      "mace_energy_eV": -520.3597412109375,
+      "dft_energies_eV": {
+        "e_fr_energy": -518.67233842,
+        "e_wo_entrp": -518.50468738,
+        "e_0_energy": -518.5885129
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -26.365668608399062,
+        "e_wo_entrp": -28.985216108399214,
+        "e_0_energy": -27.67544235839914
+      },
+      "force_component_RMSE_eV_A": 0.30762484435037324,
+      "force_component_MAE_eV_A": 0.24621019828125001,
+      "force_component_max_abs_eV_A": 1.2780590800000002,
+      "force_vector_max_error_eV_A": 1.3100466543394813,
+      "mace_force_component_RMS_eV_A": 2.678237884549017,
+      "dft_force_component_RMS_eV_A": 2.6651026605279684,
+      "force_relative_RMSE": 0.11542701484130875,
+      "stress_6_component_RMSE_GPa": 0.8208100627597962,
+      "stress_component_max_abs_GPa": 1.5584308917978698,
+      "stress_6_component_error_GPa": [
+        1.0966839712626175,
+        0.266911765149473,
+        -0.5040213763041805,
+        0.24306181747976907,
+        -0.16307633847022807,
+        -1.5584308917978698
+      ],
+      "mace_potential_pressure_GPa": 27.01729489229736,
+      "dft_static_pressure_GPa": 27.303819679,
+      "mace_minus_DFT_pressure_GPa": -0.28652478670263903,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.32601964381944176,
+        "C": 0.2880577747033173
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.3097737500000761,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -44.66809957275508,
+        "e_wo_entrp": -46.455202854005506,
+        "e_0_energy": -45.561651291505356
+      }
+    },
+    {
+      "structure_id": "16_zrc64_T6000_v100_s17_f0115",
+      "kmesh": 7,
+      "target_temperature_K": 6000,
+      "volume_scale": 1.0,
+      "mace_energy_eV": -520.3597412109375,
+      "dft_energies_eV": {
+        "e_fr_energy": -518.67260707,
+        "e_wo_entrp": -518.50456027,
+        "e_0_energy": -518.58858367
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -26.361470952148025,
+        "e_wo_entrp": -28.98720220214912,
+        "e_0_energy": -27.674336577147685
+      },
+      "force_component_RMSE_eV_A": 0.30759925664412385,
+      "force_component_MAE_eV_A": 0.24618104598958335,
+      "force_component_max_abs_eV_A": 1.2779512900000007,
+      "force_vector_max_error_eV_A": 1.3099067164494071,
+      "mace_force_component_RMS_eV_A": 2.678237884549017,
+      "dft_force_component_RMS_eV_A": 2.6651268936446715,
+      "force_relative_RMSE": 0.11541636436810299,
+      "stress_6_component_RMSE_GPa": 0.821196431270263,
+      "stress_component_max_abs_GPa": 1.5591344977978694,
+      "stress_6_component_error_GPa": [
+        1.097323161262615,
+        0.2667196041494684,
+        -0.5043964523041744,
+        0.24273396547976905,
+        -0.16336481747022802,
+        -1.5591344977978694
+      ],
+      "mace_potential_pressure_GPa": 27.01729489229736,
+      "dft_static_pressure_GPa": 27.303843663333335,
+      "mace_minus_DFT_pressure_GPa": -0.2865487710359744,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.32599224152897904,
+        "C": 0.28803413658618127
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.3128656249996595,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -44.830773635252896,
+        "e_wo_entrp": -46.648169260254946,
+        "e_0_energy": -45.73947144775303
+      }
+    },
+    {
+      "structure_id": "17_zrc64_T6000_v095_s17_f0175",
+      "kmesh": 6,
+      "target_temperature_K": 6000,
+      "volume_scale": 0.95,
+      "mace_energy_eV": -517.1835327148438,
+      "dft_energies_eV": {
+        "e_fr_energy": -514.76454282,
+        "e_wo_entrp": -514.58328092,
+        "e_0_energy": -514.67391187
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -37.796717106934,
+        "e_wo_entrp": -40.628934294433705,
+        "e_0_energy": -39.21282570068385
+      },
+      "force_component_RMSE_eV_A": 0.3336606027067289,
+      "force_component_MAE_eV_A": 0.26379268833333336,
+      "force_component_max_abs_eV_A": 0.9741178499999998,
+      "force_vector_max_error_eV_A": 1.0377502912520817,
+      "mace_force_component_RMS_eV_A": 2.57666950703737,
+      "dft_force_component_RMS_eV_A": 2.574798905346517,
+      "force_relative_RMSE": 0.1295870531923443,
+      "stress_6_component_RMSE_GPa": 0.4693409605588087,
+      "stress_component_max_abs_GPa": 0.6797034229058241,
+      "stress_6_component_error_GPa": [
+        0.3699419023424042,
+        -0.10187680971358049,
+        0.6328868879587617,
+        -0.6797034229058241,
+        0.41562680005934594,
+        0.3730436101796494
+      ],
+      "mace_potential_pressure_GPa": 34.768248551137475,
+      "dft_static_pressure_GPa": 35.06856587800001,
+      "mace_minus_DFT_pressure_GPa": -0.3003173268625332,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.32522483791701273,
+        "C": 0.34188828643153013
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.416108593749854,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -56.09914807129002,
+        "e_wo_entrp": -58.09892104004,
+        "e_0_energy": -57.09903463379007
+      }
+    },
+    {
+      "structure_id": "17_zrc64_T6000_v095_s17_f0175",
+      "kmesh": 7,
+      "target_temperature_K": 6000,
+      "volume_scale": 0.95,
+      "mace_energy_eV": -517.1835327148438,
+      "dft_energies_eV": {
+        "e_fr_energy": -514.76412735,
+        "e_wo_entrp": -514.58234027,
+        "e_0_energy": -514.67323381
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -37.80320882568411,
+        "e_wo_entrp": -40.6436319506831,
+        "e_0_energy": -39.22342038818272
+      },
+      "force_component_RMSE_eV_A": 0.3337183276695941,
+      "force_component_MAE_eV_A": 0.26385364250000004,
+      "force_component_max_abs_eV_A": 0.9742488899999999,
+      "force_vector_max_error_eV_A": 1.037975854412061,
+      "mace_force_component_RMS_eV_A": 2.57666950703737,
+      "dft_force_component_RMS_eV_A": 2.574803161854806,
+      "force_relative_RMSE": 0.12960925814196764,
+      "stress_6_component_RMSE_GPa": 0.4696858796962291,
+      "stress_component_max_abs_GPa": 0.6803161759058245,
+      "stress_6_component_error_GPa": [
+        0.36953069034240116,
+        -0.10136695371357973,
+        0.6337736579587627,
+        -0.6803161759058245,
+        0.4159225580593455,
+        0.3732426021796494
+      ],
+      "mace_potential_pressure_GPa": 34.768248551137475,
+      "dft_static_pressure_GPa": 35.068894349333334,
+      "mace_minus_DFT_pressure_GPa": -0.300645798195859,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.3252741331128734,
+        "C": 0.3419540652965685
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.4202115624986078,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -56.27251150878898,
+        "e_wo_entrp": -58.30459900878893,
+        "e_0_energy": -57.288555258788065
+      }
+    },
+    {
+      "structure_id": "18_zrc64_T6000_v105_s17_f0065",
+      "kmesh": 6,
+      "target_temperature_K": 6000,
+      "volume_scale": 1.05,
+      "mace_energy_eV": -521.6491088867188,
+      "dft_energies_eV": {
+        "e_fr_energy": -520.39250161,
+        "e_wo_entrp": -520.19683262,
+        "e_0_energy": -520.29466711
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -19.63448869873119,
+        "e_wo_entrp": -22.691816667480325,
+        "e_0_energy": -21.16315276123082
+      },
+      "force_component_RMSE_eV_A": 0.3155161001880606,
+      "force_component_MAE_eV_A": 0.24586008635416667,
+      "force_component_max_abs_eV_A": 0.9591514399999999,
+      "force_vector_max_error_eV_A": 1.108413626243198,
+      "mace_force_component_RMS_eV_A": 2.753251768237552,
+      "dft_force_component_RMS_eV_A": 2.7737527570437535,
+      "force_relative_RMSE": 0.11375062156741593,
+      "stress_6_component_RMSE_GPa": 0.5339621038787443,
+      "stress_component_max_abs_GPa": 1.0619555936935754,
+      "stress_6_component_error_GPa": [
+        1.0619555936935754,
+        -0.03588010168833833,
+        -0.6240162679683579,
+        -0.1805325960718469,
+        0.23808029471777825,
+        0.32091363001740536
+      ],
+      "mace_potential_pressure_GPa": 21.77119415832104,
+      "dft_static_pressure_GPa": 21.905213899666666,
+      "mace_minus_DFT_pressure_GPa": -0.13401974134562522,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.33760734962854894,
+        "C": 0.2917569132557981
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.5286640624996295,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -37.93691966308721,
+        "e_wo_entrp": -40.161803413086616,
+        "e_0_energy": -39.04936169433704
+      }
+    },
+    {
+      "structure_id": "18_zrc64_T6000_v105_s17_f0065",
+      "kmesh": 7,
+      "target_temperature_K": 6000,
+      "volume_scale": 1.05,
+      "mace_energy_eV": -521.6491088867188,
+      "dft_energies_eV": {
+        "e_fr_energy": -520.39227043,
+        "e_wo_entrp": -520.19601136,
+        "e_0_energy": -520.2941409
+      },
+      "raw_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -19.638100886229637,
+        "e_wo_entrp": -22.70464885497958,
+        "e_0_energy": -21.171374792480435
+      },
+      "force_component_RMSE_eV_A": 0.31551388815964726,
+      "force_component_MAE_eV_A": 0.24586896187499999,
+      "force_component_max_abs_eV_A": 0.95931297,
+      "force_vector_max_error_eV_A": 1.1087419505567218,
+      "mace_force_component_RMS_eV_A": 2.753251768237552,
+      "dft_force_component_RMS_eV_A": 2.773752608077232,
+      "force_relative_RMSE": 0.11374983019064623,
+      "stress_6_component_RMSE_GPa": 0.5342902626645706,
+      "stress_component_max_abs_GPa": 1.0625258146935685,
+      "stress_6_component_error_GPa": [
+        1.0625258146935685,
+        -0.03586826868833626,
+        -0.624724570968354,
+        -0.180296808071847,
+        0.2378971307177773,
+        0.3211947940174049
+      ],
+      "mace_potential_pressure_GPa": 21.77119415832104,
+      "dft_static_pressure_GPa": 21.905171816666666,
+      "mace_minus_DFT_pressure_GPa": -0.13397765834562492,
+      "species_force_component_RMSE_eV_A": {
+        "Zr": 0.3376038821850891,
+        "C": 0.29175614128376676
+      },
+      "DFT_TOTEN_minus_sigma0_meV_atom": -1.5332739062507983,
+      "reference01_aligned_mace_minus_DFT_energy_meV_atom": {
+        "e_fr_energy": -38.10740356933451,
+        "e_wo_entrp": -40.365615913085406,
+        "e_0_energy": -39.23650966308578
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "kmesh": 6,
+      "target_temperature_K": null,
+      "n_structures": 18,
+      "force_component_RMSE_eV_A": 0.2210407022935519,
+      "force_component_max_abs_eV_A": 1.32331889,
+      "stress_6_component_RMSE_GPa": 0.6682324710656888,
+      "stress_component_max_abs_GPa": 1.5969483684710148,
+      "mean_signed_pressure_error_GPa": -0.5725008699789179,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 33.022056900747195,
+        "e_0_energy": 33.60344026095939
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": -23.287234517687377,
+        "e_0_energy": -23.670674283312234
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 63.28876463134847,
+        "e_0_energy": 64.36488119384798
+      }
+    },
+    {
+      "kmesh": 6,
+      "target_temperature_K": 300,
+      "n_structures": 3,
+      "force_component_RMSE_eV_A": 0.031956840235064336,
+      "force_component_max_abs_eV_A": 0.12202332000000005,
+      "stress_6_component_RMSE_GPa": 0.8643534986955854,
+      "stress_component_max_abs_GPa": 1.5969483684710148,
+      "mean_signed_pressure_error_GPa": -1.129407070696257,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 4.784578301418976,
+        "e_0_energy": 4.744064563417291
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": 0.839766581216613,
+        "e_0_energy": 0.8404087687174192
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 6.982548305662917,
+        "e_0_energy": 6.932480336914182
+      }
+    },
+    {
+      "kmesh": 6,
+      "target_temperature_K": 1500,
+      "n_structures": 3,
+      "force_component_RMSE_eV_A": 0.0769239034918613,
+      "force_component_max_abs_eV_A": 0.28813296999999993,
+      "stress_6_component_RMSE_GPa": 0.6689330295739323,
+      "stress_component_max_abs_GPa": 1.4643203491173744,
+      "mean_signed_pressure_error_GPa": -0.752828382431148,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 3.4376761791547543,
+        "e_0_energy": 3.4265294835343134
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": -0.38900867594430605,
+        "e_0_energy": -0.32997539469429665
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 4.9698550244148265,
+        "e_0_energy": 4.897300961914652
+      }
+    },
+    {
+      "kmesh": 6,
+      "target_temperature_K": 3000,
+      "n_structures": 3,
+      "force_component_RMSE_eV_A": 0.1376221081074772,
+      "force_component_max_abs_eV_A": 0.49018039,
+      "stress_6_component_RMSE_GPa": 0.5688627166951504,
+      "stress_component_max_abs_GPa": 1.295939897156349,
+      "mean_signed_pressure_error_GPa": -0.4029955550010082,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 6.386193698064352,
+        "e_0_energy": 6.360504154896281
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": -5.249793743490254,
+        "e_0_energy": -5.211380722657329
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 9.642861823731863,
+        "e_0_energy": 9.635957917481619
+      }
+    },
+    {
+      "kmesh": 6,
+      "target_temperature_K": 4500,
+      "n_structures": 3,
+      "force_component_RMSE_eV_A": 0.23655817309888547,
+      "force_component_max_abs_eV_A": 1.1233347799999995,
+      "stress_6_component_RMSE_GPa": 0.5861770492423903,
+      "stress_component_max_abs_GPa": 1.5067708319974926,
+      "mean_signed_pressure_error_GPa": -0.6255075697433791,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 35.25214056346118,
+        "e_0_energy": 35.6899276911064
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": -34.560448560384906,
+        "e_0_energy": -34.98290553955149
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 42.568962241212205,
+        "e_0_energy": 42.98845130371198
+      }
+    },
+    {
+      "kmesh": 6,
+      "target_temperature_K": 5250,
+      "n_structures": 3,
+      "force_component_RMSE_eV_A": 0.3308748926363756,
+      "force_component_max_abs_eV_A": 1.32331889,
+      "stress_6_component_RMSE_GPa": 0.6514439692953173,
+      "stress_component_max_abs_GPa": 1.2282420475532234,
+      "mean_signed_pressure_error_GPa": -0.28397935703144955,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 55.051578463748086,
+        "e_0_energy": 56.03273586540335
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": -54.12920027181064,
+        "e_0_energy": -55.103510271810194
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 63.28876463134847,
+        "e_0_energy": 64.36488119384798
+      }
+    },
+    {
+      "kmesh": 6,
+      "target_temperature_K": 6000,
+      "n_structures": 3,
+      "force_component_RMSE_eV_A": 0.31912006734043497,
+      "force_component_max_abs_eV_A": 1.2780590800000002,
+      "stress_6_component_RMSE_GPa": 0.6269305184161481,
+      "stress_component_max_abs_GPa": 1.5584308917978698,
+      "mean_signed_pressure_error_GPa": -0.24028728497026583,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 46.83860020428172,
+        "e_0_energy": 47.82264621583463
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": -46.23472243571077,
+        "e_0_energy": -47.236682539877485
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 56.09914807129002,
+        "e_0_energy": 57.09903463379007
+      }
+    },
+    {
+      "kmesh": 7,
+      "target_temperature_K": null,
+      "n_structures": 18,
+      "force_component_RMSE_eV_A": 0.22109914507016815,
+      "force_component_max_abs_eV_A": 1.3233573299999999,
+      "stress_6_component_RMSE_GPa": 0.6683847596981354,
+      "stress_component_max_abs_GPa": 1.6013679034710142,
+      "mean_signed_pressure_error_GPa": -0.5724407327196589,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 33.13926476011818,
+        "e_0_energy": 33.73048036304939
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": -23.411239040255534,
+        "e_0_energy": -23.800485012478074
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 63.45005510009649,
+        "e_0_energy": 64.53983197509672
+      }
+    },
+    {
+      "kmesh": 7,
+      "target_temperature_K": 300,
+      "n_structures": 3,
+      "force_component_RMSE_eV_A": 0.032657528459470814,
+      "force_component_max_abs_eV_A": 0.12526167,
+      "stress_6_component_RMSE_GPa": 0.8656837835582775,
+      "stress_component_max_abs_GPa": 1.6013679034710142,
+      "mean_signed_pressure_error_GPa": -1.1310710609184778,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 4.803577528713677,
+        "e_0_energy": 4.785263549920939
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": 0.8434960603841782,
+        "e_0_energy": 0.8439996020506157
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 7.010737368164044,
+        "e_0_energy": 6.988356118164063
+      }
+    },
+    {
+      "kmesh": 7,
+      "target_temperature_K": 1500,
+      "n_structures": 3,
+      "force_component_RMSE_eV_A": 0.07716276701638118,
+      "force_component_max_abs_eV_A": 0.28689407,
+      "stress_6_component_RMSE_GPa": 0.6681630632877789,
+      "stress_component_max_abs_GPa": 1.4620047171173733,
+      "mean_signed_pressure_error_GPa": -0.7518054235422614,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 3.4361420837956227,
+        "e_0_energy": 3.4316985262293858
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": -0.48183638427682735,
+        "e_0_energy": -0.41578867594379193
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 5.052600493163695,
+        "e_0_energy": 4.9876647119138084
+      }
+    },
+    {
+      "kmesh": 7,
+      "target_temperature_K": 3000,
+      "n_structures": 3,
+      "force_component_RMSE_eV_A": 0.13785951463154034,
+      "force_component_max_abs_eV_A": 0.49082793000000013,
+      "stress_6_component_RMSE_GPa": 0.5683450487912243,
+      "stress_component_max_abs_GPa": 1.2925959151563493,
+      "mean_signed_pressure_error_GPa": -0.4024736924454513,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 6.521241358142008,
+        "e_0_energy": 6.49873915202407
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": -5.410748014322546,
+        "e_0_energy": -5.37384244140604
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 9.816910573729132,
+        "e_0_energy": 9.816976042479553
+      }
+    },
+    {
+      "kmesh": 7,
+      "target_temperature_K": 4500,
+      "n_structures": 3,
+      "force_component_RMSE_eV_A": 0.23656743898679977,
+      "force_component_max_abs_eV_A": 1.1244035600000002,
+      "stress_6_component_RMSE_GPa": 0.5862261504575105,
+      "stress_component_max_abs_GPa": 1.5052086889974916,
+      "mean_signed_pressure_error_GPa": -0.6249474927433839,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 35.41039560825749,
+        "e_0_energy": 35.8607040903348
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": -34.72143418538387,
+        "e_0_energy": -35.15677173746745
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 42.73055270996018,
+        "e_0_energy": 43.16380349121118
+      }
+    },
+    {
+      "kmesh": 7,
+      "target_temperature_K": 5250,
+      "n_structures": 3,
+      "force_component_RMSE_eV_A": 0.33086891631766213,
+      "force_component_max_abs_eV_A": 1.3233573299999999,
+      "stress_6_component_RMSE_GPa": 0.6514779142266102,
+      "stress_component_max_abs_GPa": 1.2280463905532244,
+      "mean_signed_pressure_error_GPa": -0.28395598414255946,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 55.21266524288027,
+        "e_0_energy": 56.20538813311835
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": -54.29334881347537,
+        "e_0_energy": -55.278994698892824
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 63.45005510009649,
+        "e_0_energy": 64.53983197509672
+      }
+    },
+    {
+      "kmesh": 7,
+      "target_temperature_K": 6000,
+      "n_structures": 3,
+      "force_component_RMSE_eV_A": 0.3191312366055834,
+      "force_component_max_abs_eV_A": 1.2779512900000007,
+      "stress_6_component_RMSE_GPa": 0.6272783776217202,
+      "stress_component_max_abs_GPa": 1.5591344977978694,
+      "mean_signed_pressure_error_GPa": -0.24039074252581946,
+      "reference01_aligned_energy_RMSE_meV_atom": {
+        "e_fr_energy": 47.00556003651129,
+        "e_0_energy": 48.0054910140512
+      },
+      "reference01_aligned_energy_mean_error_meV_atom": {
+        "e_fr_energy": -46.403562904458795,
+        "e_0_energy": -47.42151212320896
+      },
+      "reference01_aligned_energy_max_abs_error_meV_atom": {
+        "e_fr_energy": 56.27251150878898,
+        "e_0_energy": 57.288555258788065
+      }
+    }
+  ]
+}
