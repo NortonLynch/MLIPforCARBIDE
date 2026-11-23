@@ -4,7 +4,13 @@
 
 **核心问题：模型何时失效？哪些构型值得标注？修复模型需要多少 DFT 数据？** 当前实际主线为 ZrC + MACE-MH-1（`omat_pbe`），MD 由 ASE 驱动。
 
-## 当前进度 · 2026-10-08
+## 当前研究 · ZrC 固液界面与 MACE 后训练
+
+当近熔点的固相、液相和界面都用同一套 DFT 协议标注时，少量传统势两相轨迹中的构型能否改善 MACE 对三类环境的能量与力预测？新稿把训练构型的来源固定为 Ouyang MEAM 两相 MD，用独立来源评估后训练效果。[文章思路和论证流程](docs/zrc-coexistence-posttraining/manuscript.md)
+
+2026-11-23 已完成三条 256 原子训练侧轨迹的选帧，3200 K 固相、3250 K 界面、3290 K 液相各 4 帧。12 个构型均已送 DFT，每相另有 1 项加密 k 网格复核，共 15 个单点。本版记录截至提交和输入核对。标签验收、后训练与独立评估属于后续阶段。[计算方案](docs/zrc-coexistence-posttraining/protocol.md) · [12 帧清单](docs/zrc-coexistence-posttraining/cohort.csv) · [实际计算输入](docs/zrc-coexistence-posttraining/inputs/README.md)
+
+## 前期工作 · 64 原子 MACE–DFT 校准 · 2026-10-08
 
 **首轮 162/162 组 MD 已数值完成；36/36 项 DFT 已通过审核，18 对 k6/k7 全部满足四项比较预算。后续同类 ZrC64 静态标注采用 600 eV / Gamma 中心 6³ 作为工作基准。** 同 18 帧的 MACE–DFT 对照已完成；这些校准帧不属于独立测试集，6000 K 仍是采样温度上限，尚未认证模型的可靠温度边界。
 
@@ -28,7 +34,7 @@
 - [已完成 DFT 批次](dft/jobs/05_md_kmesh600/README.md)：冻结输入及历史提交、回传规则，无需重复提交。
 - [候选池与选择方案](docs/candidate-selection-20260924.md)：来源隔离、选择规则及实际标注预算。
 
-## 研究流程
+## 前期研究流程
 
 ![项目研究流程（研究设计示意，非结果图）](docs/figures/project-overview-v2.png)
 
@@ -56,7 +62,7 @@
 
 Git 保存代码、输入、配置、选样清单和轻量证据。**从 GitHub 克隆不会获得模型权重、原始 MD/DFT 输出、赝势或完整任务压缩包**；部分重算入口依赖这些本地数据。参见[数据范围与恢复说明](docs/workspace-guide.md)。
 
-历史演示的概念图位于 `docs/figures/briefing-atoms-concept-20260930.png`，用于说明研究构想，不是模拟结果或可靠性证据；最新科学结论以上述 2026-10-08 审核报告为准。
+历史演示的概念图位于 `docs/figures/briefing-atoms-concept-20260930.png`。前期 64 原子校准的测量结果见 2026-10-08 审核报告。
 
 ## 主要文档
 
@@ -65,4 +71,4 @@ Git 保存代码、输入、配置、选样清单和轻量证据。**从 GitHub 
 - [脚本入口与测试](scripts/README.md)、[Windows 环境](docs/windows-environments.md)、[HPC 结果归档](hpc/README.md)
 - [11 项收敛审核](dft/reviews/convergence-2026-09-21.md)、[3 项补测审核](dft/reviews/confirmation-2026-09-21.md)
 
-当前下一步是实现标签验收与导出接口，落实独立验证/测试的预算、清单及可靠性判据，按冻结选样序列开展首批正式标注，再进行同预算、多种子模型适配和物理验证。本地首轮 MD 保持停止；已完成 DFT 批次和 22 号恢复入口仅供追溯。
+前期方案保留了按冻结序列选样的设计。本轮两相研究的下一步是验收 256 原子单点、按相态核对 k 网格，并用通过验收的标签建立预训练基线和后训练对照。[本轮计算方案](docs/zrc-coexistence-posttraining/protocol.md)

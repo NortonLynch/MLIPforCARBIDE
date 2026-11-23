@@ -1,0 +1,6 @@
+# Ouyang et al., Calphad 85 (2024) 102680.
+# Read README.txt: author LAMMPS and QuantumATK versions differ.
+# Include AFTER units metal and creating/reading a box with types 1=Zr, 2=C.
+# Run from this directory or supply the correct potential-file paths.
+pair_style meam
+pair_coeff * * library.meam Zr C ZrC.meam Zr C

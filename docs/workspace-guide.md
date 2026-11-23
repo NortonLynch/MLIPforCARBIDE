@@ -1,5 +1,9 @@
 # 工作区与版本管理说明
 
+256 原子近熔点研究集中在 `docs/zrc-coexistence-posttraining/`。该目录随 Git 分发文章设计、计算协议、选帧表、两相母帧和已提交的 VASP 结构。完整轨迹、集群回执和授权势参数保存在研究工作区。[文章思路](zrc-coexistence-posttraining/manuscript.md) · [计算输入与复用方式](zrc-coexistence-posttraining/inputs/README.md)
+
+## 2026-10-08 前期研究归档
+
 更新：2026-10-08。最新进度统一见[project-status.md](project-status.md)。36/36项DFT通过回传审核，18对k6/k7全部通过既定预算，后续同类ZrC64静态标注采用600 eV / Gamma中心6³工作基准；18帧MACE真实DFT对照已完成。这些校准帧不是独立测试集，尚未认证可靠温度边界。本次整理更新入口与当前/历史状态；原始轨迹、检查点和冻结输入的路径保持不变，避免破坏来源引用。
 
 ## 当前入口与历史记录

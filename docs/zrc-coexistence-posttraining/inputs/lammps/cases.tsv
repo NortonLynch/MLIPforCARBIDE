@@ -1,0 +1,4 @@
+index	role	nx	ny	nz	natoms	T_K	seed
+0	pair	8	2	2	256	3200	43719
+1	pair	8	2	2	256	3250	43719
+2	pair	8	2	2	256	3290	43719

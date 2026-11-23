@@ -1,0 +1,25 @@
+# x normal to the two B1 (100) interfaces. All coordinates in angstrom.
+units metal
+atom_style atomic
+boundary p p p
+read_data parent.data
+include ${potinc}
+neighbor 2.0 bin
+neigh_modify every 1 delay 0 check yes
+timestep 0.0005
+thermo 500
+thermo_style custom step time atoms temp pe pxx pyy pzz lx ly lz
+thermo_modify flush yes lost error
+
+variable seed2 equal ${seed}+19009
+velocity all create ${T} ${seed2} mom yes dist gaussian
+reset_timestep 0
+thermo_style custom step time atoms temp pe etotal pxx pyy pzz lx ly lz
+thermo_modify flush yes lost error
+fix interface all npt temp ${T} ${T} 0.1 x 0.0 0.0 1.0
+dump observation all custom 1000 traj.dump id type x y z ix iy iz
+dump_modify observation sort id
+restart 80000 state.*.restart
+run 240000
+write_restart final.restart
+write_data final.data nocoeff
